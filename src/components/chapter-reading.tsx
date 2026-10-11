@@ -114,15 +114,26 @@ export function ChapterReading({
         <Card className="p-6">
           {story.text ? (
             <>
-              <p
-                className={
-                  storyLang === "hi"
-                    ? "deva text-base leading-[2.1]"
-                    : "text-base leading-[1.9]"
-                }
-              >
-                {story.text}
-              </p>
+              {/* The katha is written in paragraphs; each one is its own block so
+                  a long telling breathes instead of arriving as a wall of text. */}
+              <div className={storyLang === "hi" ? "deva" : ""}>
+                {story.text
+                  .split(/\n{2,}/)
+                  .map((para) => para.trim())
+                  .filter(Boolean)
+                  .map((para, i) => (
+                    <p
+                      key={i}
+                      className={
+                        storyLang === "hi"
+                          ? "mt-4 text-[1.05rem] leading-[2.15] first:mt-0"
+                          : "mt-4 text-[1.02rem] leading-[1.95] first:mt-0"
+                      }
+                    >
+                      {para}
+                    </p>
+                  ))}
+              </div>
               <p className="muted mt-4 border-t pt-3 text-xs" style={{ borderColor: "var(--line)" }}>
                 {STORY_NOTE[storyLang]}
               </p>

@@ -18,6 +18,7 @@ import {
   getChapter, getChapterArth, arthHiChapters,
 } from "@/lib/content";
 import { CHAPTER_STORY_EN, CHAPTER_STORY_HI } from "@/lib/hindi";
+import { getChapters as chaptersForStories } from "@/lib/content";
 
 const docs = getKbDocuments();
 const sourceIds = new Set(getSources().map((s) => s.id));
@@ -283,6 +284,23 @@ describe("Hindi arth (verse-by-verse meaning)", () => {
       const note = getChapterArth(n)!.note;
       expect(note).toMatch(/इस ऐप/);
       expect(note).toMatch(/प्रकाशित|अनुवाद/);
+    }
+  });
+});
+
+describe("chapter stories (कथा)", () => {
+  it("is a full telling, not a summary line, for every chapter", () => {
+    for (const c of chaptersForStories()) {
+      const hi = CHAPTER_STORY_HI[c.number] ?? "";
+      const en = CHAPTER_STORY_EN[c.number] ?? "";
+      const words = (text: string) => text.trim().split(/\s+/).filter(Boolean).length;
+      const paras = (text: string) => text.split(/\n{2,}/).filter((p) => p.trim()).length;
+
+      // Regression guard: chapter 1 was a 60-word one-paragraph summary.
+      expect(words(hi), `hi chapter ${c.number} words`).toBeGreaterThan(300);
+      expect(words(en), `en chapter ${c.number} words`).toBeGreaterThan(300);
+      expect(paras(hi), `hi chapter ${c.number} paragraphs`).toBeGreaterThanOrEqual(6);
+      expect(paras(en), `en chapter ${c.number} paragraphs`).toBeGreaterThanOrEqual(6);
     }
   });
 });
