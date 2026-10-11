@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import { LANGUAGES } from "@/lib/i18n";
 import { GET } from "@/app/api/health/route";
 
 /**
@@ -91,10 +92,16 @@ describe("/api/health", () => {
     expect(total).toBeGreaterThan(0);
   });
 
-  it("declares the five launch languages", async () => {
+  it("declares all 24 languages, with no duplicates", async () => {
     const { body } = await callHealth();
 
-    expect(body.content.languages).toEqual(["en", "hi", "te", "bn", "sa"]);
+    const languages = body.content.languages as string[];
+    expect(languages).toHaveLength(24);
+    expect(new Set(languages).size).toBe(24);
+    expect(languages).toContain("ks");
+    expect(languages).toContain("bho");
+    // The launch list must stay in sync with the registry the UI renders from.
+    expect(languages).toEqual(LANGUAGES.map((l) => l.code));
   });
 
   it("reports Devi Gyan as unconfigured when no provider key is set", async () => {

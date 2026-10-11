@@ -1,0 +1,268 @@
+{
+  "section": "I",
+  "title": "Spiritual Reflection and Daily Life",
+  "intro": "What the tradition says about practice, discipline, fear and daily life — and where this app deliberately stops and points the reader to a person.",
+  "documents": [
+    {
+      "id": "i1-apply-teachings",
+      "section": "I",
+      "slug": "applying-teachings-daily-life",
+      "title": "How can I apply the teachings of Navratri in daily life?",
+      "questions": [
+        "I1"
+      ],
+      "summary": "The nine nights suggest nine small, repeatable acts rather than a mood: keep one fixed time for practice, choose a number you will actually complete, do one act of care for someone you are not obliged to help, and stop at the end of the nine nights knowing what you did — the tradition's own structure is a rhythm, not a resolution.",
+      "body": [
+        "The first practical move is to give the practice a fixed place in the day: a lamp in the morning, a reading before sleep, the day's name said once before leaving the house. The tradition measures practice by repetition rather than by intensity, and nine days is a workable unit to establish one habit.",
+        "The second is to keep the number small. The nine forms themselves model it — each night holds one quality, not nine. A devotee who reads one page each night for nine nights has read a book; a devotee who plans to read a book in one night usually reads nothing.",
+        "The third is to let the practice leave the shrine. In traditional instruction, the sincerity of a vrat is tested in behaviour, not in food: how a person speaks to a household helper, whether a promise made during the nine nights is kept afterwards. This app presents that as the tradition's own test, and does not turn it into a promise of reward."
+      ],
+      "keyPoints": [
+        "Give the practice a fixed time and place.",
+        "Keep the number small enough to complete; the nine forms model one-thing-per-night.",
+        "Let the practice change behaviour, not just the menu.",
+        "No outcome is promised; the practice is its own purpose."
+      ],
+      "tradition": "General devotional instruction, editorial framing; the tradition's own emphasis on steadiness and conduct is what is being reported.",
+      "sources": [
+        {
+          "sourceId": "editorial",
+          "locator": "reflection notes",
+          "note": "Editorial; presented as tradition's test, not as a guarantee."
+        }
+      ],
+      "links": [
+        {
+          "href": "/questions?section=I",
+          "label": "Reflection questions"
+        },
+        {
+          "href": "/plan",
+          "label": "Plan nine days of practice"
+        }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "नवरात्रि की शिक्षाएँ दैनिक जीवन में कैसे उतारें?",
+          "summary": "नौ रातें किसी मनोदशा के बजाय नौ छोटे, दोहराए जा सकने वाले कर्म सुझाती हैं: साधना का एक नियत समय, अपनी सामर्थ्य का छोटा संख्या-लक्ष्य, किसी ऐसे व्यक्ति की एक सेवा जिसके लिए बाध्यता नहीं, और नौवीं रात पर यह जानना कि आपने क्या किया।",
+          "body": [
+            "पहला कदम: दिन में साधना के लिए एक नियत स्थान और समय। परम्परा साधना को तीव्रता से नहीं, पुनरावृत्ति से मापती है, और नौ दिन एक आदत बसाने की व्यावहारिक इकाई है। दूसरा: संख्या छोटी रखिए — नौ रूप स्वयं यही सिखाते हैं, हर रात एक गुण।",
+            "तीसरा: साधना को पूजा-स्थल से बाहर जाने दीजिए। परम्परागत निर्देश में व्रत की सच्चाई भोजन से नहीं, व्यवहार से परखी जाती है। यह ऐप इसे परम्परा की कसौटी के रूप में बताता है, पुरस्कार के वादे के रूप में नहीं।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "i2-discipline",
+      "section": "I",
+      "slug": "what-tradition-says-about-discipline",
+      "title": "What does the tradition say about discipline, devotion and inner strength?",
+      "questions": [
+        "I2"
+      ],
+      "summary": "The tradition's own vocabulary runs through vrata (a rule voluntarily taken), shraddha (trust that holds practice together), tapas (heat, i.e. endurance) and bhakti (devotion, which is not the opposite of effort but what makes effort bearable) — and the many-handed, lion-riding imagery is precisely a picture of strength that is not brittle.",
+      "body": [
+        "Discipline in this vocabulary is not punishment. A vrata is a rule that the practitioner chooses and can therefore keep; the choosing is what makes it a practice rather than a regulation. Shraddha is usually translated 'faith' but behaves more like follow-through: the trust that keeps a practice going before it produces anything to report.",
+        "Tapas means heat — the warmth something generates by being worked. Traditional instruction is content for tapas to be sustained and small rather than spectacular and short, and the second night's Brahmacharini is the icon of exactly that: someone still walking without results.",
+        "Inner strength appears in the imagery as capacity rather than hardness: many arms holding many things, a great cat ridden rather than killed. Where the tradition has a phrase for this, it is rarely 'power over others'. The app reports the tradition's language; it does not add promises about what discipline will produce in a reader's circumstances."
+      ],
+      "keyPoints": [
+        "Vrata = a chosen rule, kept by choice; shraddha = the trust that sustains practice.",
+        "Tapas = endurance generated by working; sustained and small beats short and spectacular.",
+        "Strength in the imagery is capacity, not hardness."
+      ],
+      "tradition": "General devotional understanding across schools; terminology explained rather than asserted.",
+      "sources": [
+        {
+          "sourceId": "editorial",
+          "locator": "reflection notes",
+          "note": "Editorial explanation of traditional terms."
+        }
+      ],
+      "links": [
+        {
+          "href": "/learn/glossary",
+          "label": "Glossary of terms"
+        },
+        {
+          "href": "/questions?section=I",
+          "label": "Reflection questions"
+        }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "परम्परा अनुशासन, भक्ति और आंतरिक शक्ति के बारे में क्या कहती है?",
+          "summary": "परम्परा की शब्दावली है: व्रत (स्वेच्छा से लिया गया नियम), श्रद्धा (जो साधना को थामे रखती है), तपस् (ताप, अर्थात् सहन) और भक्ति (जो श्रम का विरोधी नहीं, उसे सह्य बनाती है); और अनेक भुजा व सिंह पर सवार रूप शक्ति का ऐसा चित्र है जो कठोर नहीं, समर्थ है।",
+          "body": [
+            "इस शब्दावली में अनुशासन दंड नहीं है। व्रत वह नियम है जिसे साधक स्वयं चुनता है — चुनाव ही उसे व्रत बनाता है, नियम-पालन नहीं। तपस् का अर्थ है ताप: जो स्वयं किए जाने से उठता है। परम्परा तपस् को छोटा और निरंतर रखने का निर्देश देती है, भड़कीले और थोड़े समय का नहीं।",
+            "भीतरी शक्ति चित्रों में क्षमता के रूप में दिखती है, कठोरता के रूप में नहीं: अनेक भुजाएँ जो अनेक वस्तुएँ थामे हैं, और वह बड़ी बिल्ली जिसे मारा नहीं, सवारी बनाया गया। यह ऐप परम्परा की भाषा बताता है; पाठक की परिस्थिति पर उसके फल का दावा नहीं जोड़ता।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "i3-fear",
+      "section": "I",
+      "slug": "fear-and-difficulty",
+      "title": "How does the tradition address fear, difficulty and uncertainty?",
+      "questions": [
+        "I3",
+        "I4"
+      ],
+      "summary": "The Devi Mahatmya's resolution of fear is not that danger disappears but that the gods hand over what they have and something comes of it: the collected radiance becomes the goddess, the weapons are surrendered to her, and the battle is fought by her — the tradition's pattern for difficulty is handing over what you cannot carry, not being told you have no reason to be afraid.",
+      "body": [
+        "Kalaratri is the form that answers this question most directly: she is the seventh night, she is genuinely frightening, and she is invoked anyway. In devotional writing she is the point at which what cannot be kept — including an illusion of safety — is taken away, and that is presented as a service rather than a punishment.",
+        "The Devi Mahatmya's own response to the gods' incapacity is instructive: it does not tell them they were wrong to be powerless. It collects what is left. The story's recurring move is that nothing in the text shames anyone for being at the end of their resources.",
+        "Two limits this app keeps. It does not promise that devotion prevents difficulty, and it does not treat distress as a spiritual failure. If a reader is suffering — grief, fear, sleeplessness — the app's position is that prayer and a doctor or counsellor are not alternatives to each other, and no app should tell them otherwise."
+      ],
+      "keyPoints": [
+        "Kalaratri is invoked and is frightening; fear is not denied in the tradition.",
+        "The Mahatmya's pattern is handing over what cannot be carried, not being told fear is unreasonable.",
+        "No promise that devotion prevents difficulty; no spiritualising of distress.",
+        "Prayer and professional help are not alternatives to each other."
+      ],
+      "tradition": "Interpretive and devotional; the app's boundary is explicit and stated on the page.",
+      "sources": [
+        {
+          "sourceId": "durga700",
+          "locator": "Devi Mahatmya 1.75–90, 7.15–37",
+          "note": "The gods' powerlessness; the Kalaratri description."
+        },
+        {
+          "sourceId": "editorial",
+          "locator": "reflection notes",
+          "note": "Editorial limits, stated plainly."
+        }
+      ],
+      "links": [
+        {
+          "href": "/navadurga/kalaratri",
+          "label": "Kalaratri in the knowledge library"
+        },
+        {
+          "href": "/report-error",
+          "label": "Report a concern with this page"
+        }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "परम्परा भय, कठिनाई और अनिश्चितता पर क्या कहती है?",
+          "summary": "देवी महात्म्य में भय का समाधान यह नहीं कि संकट टल जाता है, बल्कि यह कि देवता जो है वह सौंप देते हैं और उससे कुछ बनता है: एकत्र तेज देवी बन जाता है, अस्त्र उन्हें सौंपे जाते हैं, और युद्ध वे लड़ती हैं — कठिनाई का परम्परागत उत्तर है 'जो स्वयं नहीं उठता, वह सौंप दो', न कि 'डरो मत'।",
+          "body": [
+            "कालरात्रि इस प्रश्न का सबसे सीधा उत्तर हैं: वे सातवीं रात हैं, वे वास्तव में भयावह हैं, और फिर भी आह्वान उन्हीं का होता है। भक्ति-साहित्य में वे वह बिंदु हैं जहाँ वह भी जाता है जो रखा नहीं जा सकता — और यह सेवा माना जाता है, दंड नहीं।",
+            "दो सीमाएँ यह ऐप स्पष्ट रखता है: भक्ति कठिनाई नहीं रोकती — यह वादा कहीं नहीं है; और मन की व्यथा को 'आध्यात्मिक कमी' नहीं कहा जाता। दुःख, भय या नींद की समस्या हो तो प्रार्थना और चिकित्सक या परामर्शदाता एक-दूसरे के विकल्प नहीं हैं।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "i4-consistency",
+      "section": "I",
+      "slug": "consistency-and-repetition",
+      "title": "How can I stay consistent with spiritual practice during and after Navratri?",
+      "questions": [
+        "I4",
+        "I2"
+      ],
+      "summary": "By designing for the tenth day: choose a practice small enough that it survives the end of the festival, attach it to an existing daily event so it does not need memory, decide in advance what a missed day means (the tradition's own answer is that a broken rule is resumed, not abandoned), and expect the practice to become boring before it becomes steady.",
+      "body": [
+        "The most common failure of Navratri practice is scale. Nine days of an hour a day ends abruptly because it was built for nine days. Traditional guidance is closer to the opposite: for a practice intended to last, begin with something that takes two minutes, and keep it when nothing is happening.",
+        "Attach the practice to something that already occurs — the first cup of tea, the moment before leaving the house — so that what triggers it is not a decision. Repetition is what makes a practice not depend on mood.",
+        "On missed days, the tradition's vocabulary is revealing: the rule is resumed, not abandoned. Most traditional instructions treat a lapse as requiring the resumption of the vow rather than a restart of it — and this app's journey tracker is deliberately non-punitive for the same reason. Nothing is lost by a missed day, and no streak is a measure of devotion."
+      ],
+      "keyPoints": [
+        "Choose a practice that survives the tenth day.",
+        "Attach it to an existing daily event so memory is not required.",
+        "A missed day is resumed, not restarted; the tracker has no streak pressure.",
+        "Expect boredom before steadiness."
+      ],
+      "tradition": "General devotional guidance, editorial; consistent with the tradition's own emphasis on resumption.",
+      "sources": [
+        {
+          "sourceId": "editorial",
+          "locator": "reflection notes",
+          "note": "Editorial; the non-punitive design of the app's tracker is stated."
+        }
+      ],
+      "links": [
+        {
+          "href": "/saved",
+          "label": "My learning journey"
+        },
+        {
+          "href": "/plan",
+          "label": "Nine-day practice plan"
+        }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "नवरात्रि के दौरान और बाद में साधना में निरंतरता कैसे रखें?",
+          "summary": "दसवें दिन के लिए योजना बनाकर: इतनी छोटी साधना चुनिए जो उत्सव के बाद भी टिके, उसे दिन की किसी पहले से होने वाली घटना से जोड़िए, पहले से तय कीजिए कि एक दिन छूट जाने का क्या अर्थ है (परम्परा कहती है नियम फिर से उठाया जाता है, छोड़ा नहीं जाता), और यह मानिए कि साधना स्थिर होने से पहले नीरस होगी।",
+          "body": [
+            "नवरात्रि साधना की सबसे सामान्य विफलता माप है: दिन में एक घंटा, नौ दिन के लिए बना होने से नौवें दिन ही रुक जाता है। परम्परागत निर्देश लगभग विपरीत है — जो साधना लंबी चले, उसे दो मिनट से आरम्भ कीजिए।",
+            "छूटे दिनों पर परम्परा की भाषा बहुत बताती है: व्रत को फिर से उठाया जाता है, नया आरम्भ नहीं किया जाता। इसी कारण इस ऐप का यात्रा-अभिलेख दंडात्मक नहीं है — एक दिन छूटने से कुछ नष्ट नहीं होता, और कोई 'शृंखला' भक्ति का माप नहीं है।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "i5-consult-authority",
+      "section": "I",
+      "slug": "when-to-consult-a-teacher",
+      "title": "When should I seek guidance from a teacher rather than from a website?",
+      "questions": [
+        "I5"
+      ],
+      "summary": "For anything that concerns your specific situation — a vow to take, a family rite, a question about your own conduct, or a decision the tradition treats as a matter of lineage — a website should not be the authority, and this app says so explicitly: it offers educational context and points to a tradition-specific teacher, priest or community for personal religious guidance.",
+      "body": [
+        "There is a clear line between knowing about the tradition and being authorised to decide for a person inside it. This app does the first: it holds texts, records traditions and explains vocabulary. It does not do the second, and will not — an app that answered 'should I take this vow' would be inventing an authority it does not have.",
+        "The clearest cases for approaching a person: taking a formal vow or an extended recitational discipline; a household rite at a life event (initiation, marriage, naming, last rites); a dispute about what is permitted in your family's practice; anything touching caste, community or local temple rules; and any question where a wrong ritual act would cause harm or distress to your family or community.",
+        "Where to find someone: the temple you actually attend, the family tradition you come from, a scholar at a local institution, or a lineage teacher who keeps the practice in question. The app's role ends with saying so clearly — which is a feature, not a limitation of the content."
+      ],
+      "keyPoints": [
+        "The app explains the tradition; it does not authorise decisions inside it.",
+        "Vows, life-cycle rites, local rules and family disputes need a person.",
+        "Traditional teachers, family traditions and local temples are the right sources.",
+        "The app states this rather than guessing at personal guidance."
+      ],
+      "tradition": "The app's own boundary, stated to protect readers from an authority it does not have.",
+      "sources": [
+        {
+          "sourceId": "editorial",
+          "locator": "guidance boundary",
+          "note": "Editorial policy, also stated on /about and enforced in the AI guide's behaviour."
+        }
+      ],
+      "links": [
+        {
+          "href": "/about",
+          "label": "Editorial approach and AI limits"
+        },
+        {
+          "href": "/questions?section=J",
+          "label": "Personal exploration questions"
+        }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "किसी वेबसाइट के बजाय गुरु या परम्परा-ज्ञाता से मार्गदर्शन कब लेना चाहिए?",
+          "summary": "जो आपकी व्यक्तिगत स्थिति से जुड़ा हो — संकल्प, पारिवारिक संस्कार, अपने आचरण का प्रश्न, या परम्परा-विशेष का निर्णय — उसका अधिकार किसी वेबसाइट के पास नहीं है, और यह ऐप यह बात स्पष्ट लिखता है: वह शिक्षात्मक संदर्भ देता है और व्यक्तिगत धार्मिक मार्गदर्शन के लिए परम्परा-विशेष के गुरु, पुरोहित या समाज की ओर भेजता है।",
+          "body": [
+            "परम्परा को जानने और उसके भीतर किसी व्यक्ति के लिए निर्णय देने के अधिकार में स्पष्ट भेद है। यह ऐप पहला काम करता है: पाठ रखता है, परम्पराएँ दर्ज करता है, शब्दावली समझाता है। दूसरा नहीं करता, और नहीं करेगा।",
+            "व्यक्ति से पूछने के स्पष्ट अवसर: विधिवत संकल्प या दीर्घ जप-अनुष्ठान; जीवन-घटना का घरेलू संस्कार; 'हमारे परिवार की परम्परा में क्या उचित है' जैसा प्रश्न; जाति, समाज या स्थानीय मंदिर के नियम; और वे प्रश्न जहाँ ग़लत कर्म से परिवार या समाज को कष्ट हो सकता है।"
+          ]
+        }
+      }
+    }
+  ]
+}

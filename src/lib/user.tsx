@@ -11,9 +11,10 @@
  */
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
 import type {
-  Bookmark, ItineraryStop, JournalEntry, ReviewVerdict, UserSettings, UserState,
+  Bookmark, ItineraryStop, JournalEntry, RecentVisit, ReviewVerdict, UserSettings, UserState,
 } from "@/lib/types";
 import { DEFAULT_SETTINGS } from "@/lib/types";
+import { getLanguage } from "@/lib/i18n";
 
 const KEY = "navratri.state.v1";
 
@@ -27,6 +28,9 @@ const EMPTY: UserState = {
   favourites: { peethas: [], temples: [] },
   itinerary: [],
   reviewVerdicts: {},
+  recent: [],
+  guideFeedback: {},
+  journeySteps: [],
 };
 
 function load(): UserState {
@@ -47,6 +51,12 @@ function load(): UserState {
         parsed.reviewVerdicts && typeof parsed.reviewVerdicts === "object"
           ? parsed.reviewVerdicts
           : {},
+      recent: Array.isArray(parsed.recent) ? parsed.recent.slice(0, 60) : [],
+      guideFeedback:
+        parsed.guideFeedback && typeof parsed.guideFeedback === "object"
+          ? parsed.guideFeedback
+          : {},
+      journeySteps: Array.isArray(parsed.journeySteps) ? parsed.journeySteps : [],
     };
   } catch {
     return EMPTY;
@@ -76,6 +86,11 @@ interface Ctx {
   moveItineraryStop: (id: string, direction: -1 | 1) => void;
   /** Record a review verdict. Latest verdict for a record wins. */
   setReviewVerdict: (v: ReviewVerdict) => void;
+  /** Record a page view for the learning journey. Newest first, capped. */
+  recordVisit: (v: Omit<RecentVisit, "at">) => void;
+  clearRecent: () => void;
+  setGuideFeedback: (id: string, verdict: "helpful" | "not-helpful") => void;
+  toggleJourneyStep: (id: string) => void;
   clearReviewVerdict: (recordId: string) => void;
   resetAll: () => void;
   exportState: () => string;
@@ -224,6 +239,33 @@ export function UserProvider({ children }: { children: React.ReactNode }) {
     });
   }, []);
 
+  /** Record a page view for the learning journey. Newest first, capped at 60. */
+  const recordVisit = useCallback((v: Omit<RecentVisit, "at">) => {
+    setState((s) => {
+      if (s.recent[0]?.href === v.href) return s; // already newest: no churn
+      const next: RecentVisit = { ...v, at: Date.now() };
+      return {
+        ...s,
+        recent: [next, ...s.recent.filter((r) => r.href !== v.href)].slice(0, 60),
+      };
+    });
+  }, []);
+
+  const clearRecent = useCallback(() => setState((s) => ({ ...s, recent: [] })), []);
+
+  const setGuideFeedback = useCallback((id: string, verdict: "helpful" | "not-helpful") => {
+    setState((s) => ({ ...s, guideFeedback: { ...s.guideFeedback, [id]: verdict } }));
+  }, []);
+
+  const toggleJourneyStep = useCallback((id: string) => {
+    setState((s) => ({
+      ...s,
+      journeySteps: s.journeySteps.some((x) => x.id === id)
+        ? s.journeySteps.filter((x) => x.id !== id)
+        : [...s.journeySteps, { id, at: Date.now() }],
+    }));
+  }, []);
+
   const resetAll = useCallback(() => setState(EMPTY), []);
   const exportState = useCallback(() => JSON.stringify(state, null, 2), [state]);
 
@@ -232,11 +274,13 @@ export function UserProvider({ children }: { children: React.ReactNode }) {
     setVerseRead, logRecitation, addJournal, removeJournal, recordQuiz,
     toggleFavourite, isFavourite, setItinerary, toggleItineraryStop,
     isInItinerary, moveItineraryStop, setReviewVerdict, clearReviewVerdict,
+    recordVisit, clearRecent, setGuideFeedback, toggleJourneyStep,
     resetAll, exportState,
   }), [state, hydrated, setSettings, toggleBookmark, isBookmarked, setChapterProgress,
        setVerseRead, logRecitation, addJournal, removeJournal, recordQuiz,
        toggleFavourite, isFavourite, setItinerary, toggleItineraryStop,
        isInItinerary, moveItineraryStop, setReviewVerdict, clearReviewVerdict,
+       recordVisit, clearRecent, setGuideFeedback, toggleJourneyStep,
        resetAll, exportState]);
 
   return <UserContext.Provider value={value}>{children}</UserContext.Provider>;
@@ -267,6 +311,14 @@ export function useApplySettings() {
     root.style.setProperty("--text-scale", String(s.textScale));
     root.style.setProperty("--verse-scale", String(s.verseScale));
     root.style.setProperty("--verse-line", String(s.verseLine));
-    root.lang = s.language === "sa" ? "sa" : s.language;
+    // Language, direction and script font are applied to the root element so
+    // that Urdu, Sindhi and Kashmiri lay out right-to-left everywhere at once,
+    // without a single component needing to know about direction.
+    const def = getLanguage(s.language);
+    root.lang = def.code;
+    root.dir = def.dir;
+    root.dataset.script = def.script;
+    root.style.setProperty("--script-font", def.fontStack);
+    root.style.setProperty("--script-line", String(def.scriptGroup === "indic" ? 1.85 : 1.7));
   }, [hydrated, s]);
 }

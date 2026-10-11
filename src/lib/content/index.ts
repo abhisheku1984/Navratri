@@ -16,7 +16,8 @@
  * for.
  */
 import type {
-  KnowledgeCollection, KnowledgeTopic, MantraCollection, MantraItem,
+  KnowledgeCollection, KnowledgeTopic, KbDocument, KbSection, LaunchQuestion,
+  MantraCollection, MantraItem,
   NavadurgaCollection, NavadurgaForm, PeethaCollection, Peetha,
   ScriptureAnga, ScriptureChapter, ScriptureManifest, StoryCollection, Story,
   TempleCollection, Temple, TranslationChapter,
@@ -72,6 +73,18 @@ import glossaryJson from "@/content/glossary.json";
 import quizJson from "@/content/quiz.json";
 import locationsJson from "@/content/locations.json";
 import sourcesJson from "@/content/sources.json";
+
+import kbA from "@/content/kb/a-discover.json";
+import kbB from "@/content/kb/b-nine-forms.json";
+import kbC from "@/content/kb/c-navratri.json";
+import kbD from "@/content/kb/d-puja.json";
+import kbE from "@/content/kb/e-mantras.json";
+import kbF from "@/content/kb/f-fasting.json";
+import kbG from "@/content/kb/g-stories.json";
+import kbH from "@/content/kb/h-regional.json";
+import kbI from "@/content/kb/i-reflection.json";
+import kbJ from "@/content/kb/j-personalized.json";
+import questionsJson from "@/content/questions.json";
 
 /* ---------------------------------------------------------------- scripture */
 
@@ -337,4 +350,48 @@ export function getSources(): SourceRecord[] {
 
 export function getTranslationManifest(): TranslationManifest | null {
   return trManifestJson as TranslationManifest;
+}
+
+/* --------------------------------------------------------- knowledge base (KB) */
+
+/**
+ * The curated knowledge base: section-wise, source-tagged documents written to
+ * answer the 50 launch questions, with per-language translations where they
+ * have been reviewed.
+ *
+ * This is the corpus the AI guide retrieves from. Every document names its
+ * sources by id, and every id is checked against content/sources.json by
+ * `tests/kb.test.ts`, so a citation can never point at a source that does not
+ * exist in this app.
+ */
+const KB_FILES: KbSection[] = [
+  kbA as KbSection, kbB as KbSection, kbC as KbSection, kbD as KbSection,
+  kbE as KbSection, kbF as KbSection, kbG as KbSection, kbH as KbSection,
+  kbI as KbSection, kbJ as KbSection,
+];
+
+export function getKbSections(): KbSection[] {
+  return KB_FILES;
+}
+
+export function getKbDocuments(): KbDocument[] {
+  return KB_FILES.flatMap((s) => s.documents);
+}
+
+export function getKbDocument(slug: string): KbDocument | null {
+  return getKbDocuments().find((d) => d.slug === slug) ?? null;
+}
+
+export function getKbSection(letter: string): KbSection | null {
+  return KB_FILES.find((s) => s.section === letter.toUpperCase()) ?? null;
+}
+
+/* ------------------------------------------------- 50 launch questions */
+
+export function getLaunchQuestionMatrix(): LaunchQuestion[] {
+  return questionsJson.questions as LaunchQuestion[];
+}
+
+export function getLaunchQuestionSections(): { letter: string; title: string; intro: string }[] {
+  return questionsJson.sections;
 }

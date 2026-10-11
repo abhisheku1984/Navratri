@@ -1,0 +1,213 @@
+{
+  "section": "F",
+  "title": "Fasting, Food and Well-being",
+  "intro": "What vrat is, what people actually eat, who should not fast without advice, and how a household handles different choices at one table.",
+  "documents": [
+    {
+      "id": "f1-vrat",
+      "section": "F",
+      "slug": "what-is-navratri-vrat",
+      "title": "What is Navratri vrat, and why do people observe it?",
+      "questions": [
+        "F1"
+      ],
+      "summary": "Vrat is a voluntary, time-bound discipline of eating and conduct observed during the nine nights — most commonly one meal a day of permitted foods, no grains or onions and garlic, and a quieter routine; people keep it as a discipline of attention, not as a transaction for a reward.",
+      "body": [
+        "The word vrat carries the sense of a vow: a rule voluntarily taken for a stated period. In Navratri the rules vary by family and region, but the common shape is: grains set aside, a limited menu of permitted foods, often one main meal, and additional restraint in speech or routine. Many households keep only a partial vrat; many keep none and still observe the nine nights fully.",
+        "The reason people give for keeping it is usually about attention rather than diet: when what you eat is simplified and fixed, the day has a shape, and the practice is felt rather than remembered. Traditions also speak of vrat as purifying, which is a devotional claim rather than a physiological one, and this app presents it that way.",
+        "Vrat is never a measure of devotion, and this app will not present it as one. Equally, it is not a weight-loss method and should not be used as one: the permitted foods here are starches and fats in most regional lists, and anyone treating the nine nights as a diet is likely to be disappointed and possibly unwell."
+      ],
+      "keyPoints": [
+        "Vrat = a voluntary vow with eating and conduct rules for the nine nights.",
+        "Rules vary by region and family; partial vrat is normal.",
+        "Kept as a discipline of attention; not a measure of devotion and not a diet."
+      ],
+      "tradition": "Pan-Indian household practice with strongly regional menus.",
+      "sources": [
+        {
+          "sourceId": "editorial",
+          "locator": "fasting guide",
+          "note": "Editorial; health caveats stated, no medical advice given."
+        }
+      ],
+      "links": [
+        {
+          "href": "/puja/fasting",
+          "label": "Fasting and health guide"
+        },
+        {
+          "href": "/questions?section=F",
+          "label": "More questions on vrat"
+        }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "नवरात्रि व्रत क्या है, और लोग इसे क्यों रखते हैं?",
+          "summary": "व्रत नौ रातों के लिए स्वेच्छा से लिया गया आहार और आचरण का नियम है — प्रायः दिन में एक भोजन, अनाज तथा प्याज़-लहसुन का त्याग, और शांत दिनचर्या; इसे फल की लेन-देन नहीं, ध्यान का अनुशासन माना जाता है।",
+          "body": [
+            "नियम परिवार और क्षेत्र के अनुसार भिन्न हैं, पर सामान्य आकार यही है: अनाज छोड़ना, सीमित स्वीकार्य व्यंजन, प्रायः एक मुख्य भोजन, और वाणी अथवा दिनचर्या में संयम। बहुत से घर आंशिक व्रत रखते हैं; बहुत से कोई व्रत नहीं रखते और फिर भी नौ रातें पूरी श्रद्धा से मनाते हैं।",
+            "यह ऐप व्रत को भक्ति का माप कभी नहीं बनाता, और वज़न घटाने का साधन भी नहीं मानता: अधिकांश क्षेत्रीय सूचियों में व्रत के व्यंजन स्टार्च और वसा पर आधारित हैं।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "f2-fasting-food",
+      "section": "F",
+      "slug": "regional-fasting-food",
+      "title": "What are common regional food traditions during Navratri fasting?",
+      "questions": [
+        "F2"
+      ],
+      "summary": "The vrat menu changes completely from region to region: in the north, kuttu (buckwheat) and singhara flour, sabudana, potato, curd and makhana; in Maharashtra, sabudana khichdi and upvas thalipeeth; in Gujarat, samo and rajgira; in the south the nine days are often non-fasting and centred on the kolu, with sundal and sweet prasadam served to visitors.",
+      "body": [
+        "Northern India: kuttu and singhara flour for rotis and puris, sabudana khichdi or khichdi-style dishes, potatoes in several forms, curd, makhana, peanuts, and rock salt rather than ordinary salt. The ninth night's prasad is often puri, halwa and kala chana.",
+        "Western India: in Gujarat and Maharashtra, samo (barnyard millet) and rajgira (amaranth) instead of wheat and rice, sabudana in several dishes, and a strong association with the sweet-and-salt pairing in a vrat thali. Gujarat's nine nights also carry the public dancing tradition, and refreshments around garba are part of the same menu.",
+        "Southern India: in Tamil, Telugu and Kannada practice the nine days are more often a festival of display and music than of food restriction — sundal (boiled pulses with coconut) is offered daily, and the tenth day or Ayudha Puja carries the festival food. Kerala's days centre on Saraswati, Vidyarambham and a vegetarian prasadam rather than vrat.",
+        "The app lists these offal-free vrat dishes with their regions and states clearly that where a family's own menu differs, the family's practice is what matters."
+      ],
+      "keyPoints": [
+        "Vrat food is a regional cuisine, not a single diet.",
+        "North and west India: buckwheat, amaranth, sabudana, potato, curd, makhana.",
+        "South India: often not a fast at all — sundal, kolu and prasadam.",
+        "A family's own menu takes precedence over any general list."
+      ],
+      "tradition": "Regional; presented as a survey rather than a prescription.",
+      "sources": [
+        {
+          "sourceId": "editorial",
+          "locator": "fasting guide",
+          "note": "Editorial survey of regional practice."
+        }
+      ],
+      "links": [
+        {
+          "href": "/puja/fasting",
+          "label": "Fasting guide with regional menus"
+        },
+        {
+          "href": "/questions?section=H",
+          "label": "Regional traditions"
+        }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "नवरात्रि व्रत में क्षेत्रीय भोजन की परम्पराएँ क्या हैं?",
+          "summary": "व्रत का भोजन हर क्षेत्र में भिन्न है: उत्तर में कुट्टू और सिंघाड़े का आटा, साबूदाना, आलू, दही और मखाना; महाराष्ट्र में साबूदाना खिचड़ी; गुजरात में सामो और राजगिरा; दक्षिण में नौ दिन प्रायः व्रत नहीं, बल्कि कोलू और सुंदल-प्रसादम के दिन होते हैं।",
+          "body": [
+            "उत्तर भारत: कुट्टू और सिंघाड़े की रोटी व पूरी, साबूदाना, आलू, दही, मखाना, मूँगफली, और सेंधा नमक। नवमी का प्रसाद प्रायः पूरी, हलवा और काला चना।",
+            "पश्चिम भारत: गुजरात और महाराष्ट्र में गेहूँ-चावल की जगह सामो और राजगिरा, साबूदाना के अनेक व्यंजन, और व्रत थाली की मीठा-नमकीन जोड़ी। दक्षिण भारत में नौ दिन अधिकतर प्रदर्शन और संगीत के उत्सव हैं — रोज़ सुंदल अर्पित होता है। जहाँ परिवार की सूची भिन्न है, वही उस परिवार के लिए सही है।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "f3-who-should-not-fast",
+      "section": "F",
+      "slug": "fasting-not-for-everyone",
+      "title": "Are fasting practices the same for everyone?",
+      "questions": [
+        "F3",
+        "F4"
+      ],
+      "summary": "No. Vrat rules are traditionally adapted by age, health, pregnancy, menstruation and medication, and every tradition that keeps these practices also has provisions for not keeping them; the app gives the general rules and says plainly that a doctor's advice comes before any vrat rule.",
+      "body": [
+        "Traditional practice already anticipates exceptions. Children and the very old are commonly not expected to fast; pregnant and breastfeeding women are exempted or given a modified rule; people who are ill are not expected to fast; and household practice frequently reduces the vrat to one meal, or to avoiding grains only, when a full fast would be unwise.",
+        "This app will not provide medical advice, and it will not present fasting as safe for everyone. Anyone who is pregnant, breastfeeding, managing diabetes, taking medication that requires food, recovering from illness, or underweight should talk to a doctor before fasting, and should treat the answer as decisive over any rule on these pages.",
+        "What is offered instead is a set of non-fasting observances that keep the nine nights meaningful: reciting or listening to the day's text, offering a flower, keeping a quieter schedule, or eating simply without restriction. None of these is a lesser practice in any tradition that this app has consulted."
+      ],
+      "keyPoints": [
+        "Vrat rules are traditionally adapted by age and health.",
+        "No medical advice is given here; a doctor's guidance outranks any rule on this site.",
+        "Non-fasting observances are complete forms of participation."
+      ],
+      "tradition": "Household practice across regions; exemptions vary but exist everywhere.",
+      "sources": [
+        {
+          "sourceId": "editorial",
+          "locator": "health note",
+          "note": "Editorial; explicit boundary against medical advice."
+        }
+      ],
+      "links": [
+        {
+          "href": "/puja/fasting",
+          "label": "Fasting and health guide"
+        },
+        {
+          "href": "/questions?section=F",
+          "label": "Questions about fasting and family"
+        }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "क्या व्रत के नियम सबके लिए एक जैसे हैं?",
+          "summary": "नहीं — परम्परा स्वयं आयु, स्वास्थ्य, गर्भावस्था, मासिक धर्म और औषधि के अनुसार छूट देती है; यह ऐप चिकित्सकीय सलाह नहीं देता और व्रत को सबके लिए सुरक्षित नहीं बताता।",
+          "body": [
+            "परम्परागत व्यवहार पहले से अपवाद मानता है: बच्चों और वृद्धों से व्रत की अपेक्षा प्रायः नहीं होती; गर्भवती और स्तनपान कराने वाली महिलाओं को छूट या संशोधित नियम; रोगी से व्रत नहीं; और घर की परम्परा अक्सर व्रत को एक भोजन या केवल अनाज-त्याग तक सीमित कर देती है।",
+            "जो गर्भवती हैं, स्तनपान कराती हैं, मधुमेह की देखभाल कर रही हैं, ऐसी औषधि लेती हैं जिसके साथ भोजन आवश्यक है, या जिनका स्वास्थ्य ठीक नहीं — वे व्रत से पहले चिकित्सक से बात करें, और उस सलाह को इन पन्नों के किसी नियम से ऊपर मानें। व्रत न रखने के पूर्ण विकल्प भी यहाँ दिए गए हैं।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "f4-family-different-choices",
+      "section": "F",
+      "slug": "families-with-different-choices",
+      "title": "How can families celebrate Navratri while respecting different dietary choices?",
+      "questions": [
+        "F4",
+        "F5",
+        "F3"
+      ],
+      "summary": "By separating the devotional act from the menu: the lamp, the reading and the offerings do not depend on what any individual eats, so a household can keep one practice and several diets by cooking the vrat meal as an option rather than a requirement, and by letting children and guests take part in the non-dietary parts.",
+      "body": [
+        "Households that manage this well usually do the same few things. They decide together, before the first night, what each person is doing — fasting fully, partially, or not at all — and then stop revisiting it daily. They keep at least one vrat dish available but not compulsory. They put the observance where everyone can share it: the lamp, the aarti, the day's story, Kanya Puja where that is the family's tradition.",
+        "For households with mixed religious traditions, the same principle holds with one addition: nothing in this app's guides requires a person of another tradition to fast, and the guides say so. Taking part in a lamp-lighting or listening to the narration is not the same act as taking a vow.",
+        "Where relatives disagree about the right way to keep the festival, that disagreement is usually a disagreement between two acceptable traditions — which is exactly what this app records rather than resolves."
+      ],
+      "keyPoints": [
+        "Agree the plan before day one; then let it stand.",
+        "The devotional acts are independent of the menu.",
+        "No one is required to fast in another tradition's rite.",
+        "Disagreements are usually between valid traditions, not errors."
+      ],
+      "tradition": "Practical household guidance, editorial; no single tradition is presented as normative.",
+      "sources": [
+        {
+          "sourceId": "editorial",
+          "locator": "participation guide",
+          "note": "Editorial; deliberately non-prescriptive."
+        }
+      ],
+      "links": [
+        {
+          "href": "/puja",
+          "label": "Puja and ritual guides"
+        },
+        {
+          "href": "/questions?section=F",
+          "label": "Family and fasting questions"
+        }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "भिन्न आहार-विकल्पों के साथ परिवार नवरात्रि कैसे मना सकता है?",
+          "summary": "भक्ति के कर्म को भोजन-सूची से अलग रखकर: दीप, पाठ और अर्पण किसी व्यक्ति के भोजन पर निर्भर नहीं, इसलिए घर एक ही आराधना रखकर कई आहार-रीतियाँ निभा सकता है — व्रत-भोजन को अनिवार्य नहीं, विकल्प बनाकर।",
+          "body": [
+            "जो घर यह अच्छी तरह निभाते हैं, वे पहली रात से पहले तय कर लेते हैं कि कौन क्या करेगा — पूरा व्रत, आंशिक, या कोई नहीं — और फिर हर दिन उस पर बहस नहीं करते। व्रत का एक व्यंजन उपलब्ध रहता है, अनिवार्य नहीं।",
+            "मिश्रित परम्पराओं वाले घरों के लिए: इस ऐप की किसी मार्गदर्शिका में किसी अन्य परम्परा के व्यक्ति से व्रत की अपेक्षा नहीं है, और यह बात वहाँ स्पष्ट लिखी है। दीप जलाना या वाचन सुनना संकल्प लेने जैसा कर्म नहीं है।"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -7,6 +7,8 @@
  * touching the verse it hangs off.
  */
 
+import type { LangCode } from "@/lib/i18n";
+
 export type VerificationStatus =
   | "verified"
   | "verified-with-caveats"
@@ -273,6 +275,84 @@ export interface TempleCollection extends Collection {
   temples: Temple[];
   lastVerified: string | null;
 }
+/* ------------------------------------------------------- knowledge base (KB) */
+
+/**
+ * Review state of a KB document.
+ *
+ * `in-house-editorial` is the honest default: written and checked inside the
+ * project, not reviewed by an external scholar. The AI guide reports this
+ * state in its citations, so a reader always knows which kind of claim they
+ * are looking at.
+ */
+export type KbReviewState = "in-house-editorial" | "reviewed" | "draft";
+
+export interface KbSourceRef {
+  /** Must match an id in content/sources.json. Enforced by tests. */
+  sourceId: string;
+  locator: string;
+  note?: string;
+}
+
+export interface KbLink {
+  href: string;
+  label: string;
+}
+
+/**
+ * A translation of a KB document.
+ *
+ * Partial by design: a document may have a translated title and summary while
+ * the body is still pending review. The UI then shows the translated heading
+ * with the English body and says which part is untranslated, rather than
+ * silently mixing or silently falling back.
+ */
+export interface KbTranslation {
+  title?: string;
+  summary?: string;
+  body?: string[];
+}
+
+export interface KbDocument {
+  id: string;
+  /** Question-explorer section A–J. */
+  section: string;
+  slug: string;
+  title: string;
+  /** Question ids from the 50-question matrix that this document answers. */
+  questions: string[];
+  /** One-paragraph answer, written to stand alone. */
+  summary: string;
+  body: string[];
+  keyPoints: string[];
+  tradition: string;
+  sources: KbSourceRef[];
+  links: KbLink[];
+  review: KbReviewState;
+  updated: string;
+  translations?: Record<string, KbTranslation>;
+}
+
+export interface KbSection {
+  section: string;
+  title: string;
+  intro: string;
+  documents: KbDocument[];
+}
+
+/** One of the 50 launch questions, mapped to the content that answers it. */
+export interface LaunchQuestion {
+  id: string;
+  section: string;
+  text: string;
+  /** KB document slug that answers it, when one exists. */
+  doc?: string;
+  /** Fallback destination when there is no KB document (a page or the guide). */
+  href?: string;
+  /** A refined phrasing to send to the AI guide. */
+  ask: string;
+}
+
 export interface KnowledgeCollection extends Collection { topics: KnowledgeTopic[] }
 export interface MantraCollection extends Collection { items: MantraItem[] }
 export interface StoryCollection extends Collection { stories: Story[] }
@@ -319,7 +399,12 @@ export type ScriptMode = "devanagari" | "iast" | "both";
 export type ThemeMode = "light" | "dark" | "system";
 
 export interface UserSettings {
-  language: "en" | "hi" | "te" | "bn" | "sa";
+  /**
+   * Interface language. Widened from five languages to all 24 in the
+   * multilingual upgrade; `LangCode` is the union exported by `@/lib/i18n`,
+   * which validates the registry at test time.
+   */
+  language: LangCode;
   locationId: string;
   theme: ThemeMode;
   contrast: "normal" | "high";
@@ -330,12 +415,35 @@ export interface UserSettings {
   script: ScriptMode;
   lowData: boolean;
   audioRate: number;
+  /**
+   * Preferred narration voice, by the engine's own voice name. Empty string
+   * means "pick the best match for the selected language", which is the right
+   * default: a pinned voice name does not exist on another device.
+   */
+  audioVoice: string;
+  /** 0–1. Applied to narration where the engine supports it. */
+  audioVolume: number;
+  /** Show sentence-level captions under the narration player. */
+  captions: boolean;
+  /** Open the transcript panel as soon as a narration starts. */
+  transcriptOpen: boolean;
+  /**
+   * When true the opening experience is skipped even on a first visit. The
+   * intro is never shown twice regardless — this is for readers who want it
+   * gone immediately.
+   */
+  skipIntro: boolean;
   firstRunDone: boolean;
   /** Enables the service worker and offline pinning. Off by default. */
   offline: boolean;
 }
 
 export const DEFAULT_SETTINGS: UserSettings = {
+  audioVoice: "",
+  audioVolume: 1,
+  captions: true,
+  transcriptOpen: false,
+  skipIntro: false,
   language: "en",
   locationId: "delhi",
   theme: "system",
@@ -421,4 +529,20 @@ export interface UserState {
   itinerary: ItineraryStop[];
   /** Review verdicts keyed by record id. Latest verdict wins. */
   reviewVerdicts: Record<string, ReviewVerdict>;
+  /**
+   * Recently opened pages, newest first. Powers "My learning journey".
+   * Local only, capped, and clearable — see the privacy section of Settings.
+   */
+  recent: RecentVisit[];
+  /** Ratings on AI guide answers. Local only; nothing is sent anywhere. */
+  guideFeedback: Record<string, "helpful" | "not-helpful">;
+  /** Completed learning-journey steps, keyed by step id. */
+  journeySteps: { id: string; at: number }[];
+}
+
+export interface RecentVisit {
+  href: string;
+  title: string;
+  kind: string;
+  at: number;
 }

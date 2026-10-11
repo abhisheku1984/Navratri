@@ -1,0 +1,138 @@
+{
+  "id": "opening-blessing",
+  "kind": "devotional-blessing",
+  "sourceLanguage": "hi",
+  "sourceText": "मेरी कृपा समस्त संसार पर बनी रहे। हर घर में सुख, हर हृदय में शांति और हर जीवन में समृद्धि हो। समस्त सृष्टि का कल्याण हो। जय माता दी!",
+  "sourceNote": "The Hindi wording supplied by the project owner as the reference text for the opening blessing. It is the source from which the other languages here are translated; it is not a quotation from any scripture, and no scriptural status is claimed for it.",
+  "presentation": {
+    "framing": "devotional-narration",
+    "disclosure": "This is a devotional blessing written for this app's opening, spoken in the storyteller's voice. It is not a scriptural quotation and the app makes no claim that the Goddess speaks through it, or through any recording here.",
+    "notAutoplay": "The blessing never plays by itself. It starts only when you press Play, so nothing is spoken at you before you choose it."
+  },
+  "translations": {
+    "as": {
+      "text": "মোৰ কৃপা গোটেই সংসাৰত থাকি যাওক। প্ৰতিটো ঘৰত সুখ, প্ৰতিটো হৃদয়ত শান্তি আৰু প্ৰতিটো জীৱনত সমৃদ্ধি হওক। গোটেই সৃষ্টিৰ কল্যাণ হওক। জয় মাতা দি!",
+      "status": "authored",
+      "note": "Assamese rendering of the Hindi source. Devotional register retained."
+    },
+    "bn": {
+      "text": "আমার কৃপা সমগ্র সংসারে বজায় থাকুক। প্রতিটি ঘরে সুখ, প্রতিটি হৃদয়ে শান্তি আর প্রতিটি জীবনে সমৃদ্ধি আসুক। সমগ্র সৃষ্টির কল্যাণ হোক। জয় মাতা দি!",
+      "status": "authored",
+      "note": "Bengali rendering, using the plain devotional register of Bengali আয়তী-vandana rather than literary prose."
+    },
+    "bho": {
+      "text": "हमार कृपा पूरा संसार पर बनल रहे। हर घर में सुख, हर दिल में शांति आ हर जिनगी में समृद्धि होखे। पूरा सृष्टि के कल्याण होखे। जय माता दी!",
+      "status": "authored",
+      "note": "Bhojpuri rendering in the spoken register of the Bhojpuri belt."
+    },
+    "brx": {
+      "text": "आंनि दया गासैबो जगतआव थायोब्ला। गासैबो नोआव सुख, गासैबो मोनआव जौलाय आ गासैबो गामिआव समृद्धि जायोब्ला। गासैबो सृष्टिनि मोजां जायोब्ला। जय माता दी!",
+      "status": "draft",
+      "note": "Bodo draft. Not reviewed by a Bodo speaker: treat the wording as provisional and prefer the Hindi or English text until it is checked."
+    },
+    "doi": {
+      "text": "मेरी कृपा सारे संसार उप्पर बणी रौह्ं। हर घर च सुख, हर दिल च शांति ते हर जीवन च समृद्धि होवे। सारी सृष्टि दा भला होवे। जय माता दी!",
+      "status": "draft",
+      "note": "Dogri draft, provisional pending a Dogri reader."
+    },
+    "en": {
+      "text": "May grace remain over the whole world. May every home hold happiness, every heart hold peace, and every life hold plenty. May all creation fare well. Jai Mata Di!",
+      "status": "authored",
+      "note": "English rendering of the Hindi source. 'Kripa' is rendered as grace; the Hindi is given alongside it everywhere it appears."
+    },
+    "gu": {
+      "text": "મારી કૃપા સમગ્ર સંસાર પર બની રહે. દરેક ઘરમાં સુખ, દરેક હૃદયમાં શાંતિ અને દરેક જીવનમાં સમૃદ્ધિ થાય. સમસ્ત સૃષ્ટિનું કલ્યાણ થાય. જય માતા દી!",
+      "status": "authored",
+      "note": "Gujarati rendering in the register used by garba and aarti singing."
+    },
+    "hi": {
+      "text": "मेरी कृपा समस्त संसार पर बनी रहे। हर घर में सुख, हर हृदय में शांति और हर जीवन में समृद्धि हो। समस्त सृष्टि का कल्याण हो। जय माता दी!",
+      "status": "source",
+      "note": "The reference text. Other languages are translated from this."
+    },
+    "kn": {
+      "text": "ನನ್ನ ಕೃಪೆ ಇಡೀ ಜಗತ್ತಿನ ಮೇಲೆ ಇರಲಿ. ಪ್ರತಿ ಮನೆಯಲ್ಲಿ ಸುಖ, ಪ್ರತಿ ಹೃದಯದಲ್ಲಿ ಶಾಂತಿ, ಪ್ರತಿ ಬಾಳಿನಲ್ಲಿ ಸಮೃದ್ಧಿ ಇರಲಿ. ಸಮಸ್ತ ಸೃಷ್ಟಿಗೆ ಕ್ಷೇಮವಾಗಲಿ. ಜಯ ಮಾತಾ ದಿ!",
+      "status": "authored",
+      "note": "Kannada rendering."
+    },
+    "ks": {
+      "text": "میٚہنٛز کِرپا سارِس دنیاہس پیٹھ ٲسِتھ۔ ہر گھرَس منز خوشی، ہر دِلَس منز سکون تہ ہر زِندگی منز خوشحالی ٲسِتھ۔ سارِس خلقَس منز بہتری ٲسِتھ۔ جے ماتا دی!",
+      "status": "draft",
+      "note": "Kashmiri draft in Perso-Arabic. Provisional until a Kashmiri reader checks the orthography."
+    },
+    "kok": {
+      "text": "म्हजी कृपा आख्ख्या संसारार उरूं. दर एका घरांत सुख, दर एका काळजांत शांत आनी दर एका जिवितांत समृद्धी आसूं. आख्ख्या सृश्टीचें कल्याण जावं. जय माता दी!",
+      "status": "draft",
+      "note": "Konkani draft, provisional pending review."
+    },
+    "mai": {
+      "text": "हमर कृपा समस्त संसार पर बनल रहौ। प्रत्येक घर में सुख, प्रत्येक हृदय में शांति आ प्रत्येक जीवन में समृद्धि हौ। समस्त सृष्टिक कल्याण हौ। जय माता दी!",
+      "status": "draft",
+      "note": "Maithili draft, provisional pending review."
+    },
+    "ml": {
+      "text": "എന്റെ കൃപ മുഴുവൻ ലോകത്തിനും മേൽ നിലനിൽക്കട്ടെ. ഓരോ വീട്ടിലും സുഖം, ഓരോ ഹൃദയത്തിലും സമാധാനം, ഓരോ ജീവിതത്തിലും സമൃദ്ധി ഉണ്ടാകട്ടെ. സർവ സൃഷ്ടിക്കും ക്ഷേമം ഉണ്ടാകട്ടെ. ജയ് മാതാ ദി!",
+      "status": "authored",
+      "note": "Malayalam rendering."
+    },
+    "mni": {
+      "text": "ঐগী কৃপা পুংলৈ মপুং ফানা ওইরসনু। ৱারী খুদেরবদা হকশেল, ৱারী নুংঙাইবদা শান্তি অমসুং ৱারী পুন্সিবদা হেন্না ফবা ওইরসনু। লৈবাক খুন্নাই ওইরসনু। জয় মাতা দী!",
+      "status": "draft",
+      "note": "Meitei draft in Bengali script. Provisional."
+    },
+    "mr": {
+      "text": "माझी कृपा सर्व संसारावर राहो. प्रत्येक घरात सुख, प्रत्येक हृदयात शांती आणि प्रत्येक जीवनात समृद्धी राहो. संपूर्ण सृष्टीचे कल्याण होवो. जय माता दी!",
+      "status": "authored",
+      "note": "Marathi rendering, using the आरती/भजन register."
+    },
+    "ne": {
+      "text": "मेरो कृपा समस्त संसारमा रहिरहोस्। हरेक घरमा सुख, हरेक हृदयमा शान्ति र हरेक जीवनमा समृद्धि होस्। समस्त सृष्टिको कल्याण होस्। जय माता दी!",
+      "status": "authored",
+      "note": "Nepali rendering, matching the Dashain blessing register."
+    },
+    "or": {
+      "text": "ମୋର କୃପା ସମସ୍ତ ସଂସାର ଉପରେ ରହିଥାଉ। ପ୍ରତ୍ୟେକ ଘରେ ସୁଖ, ପ୍ରତ୍ୟେକ ହୃଦୟରେ ଶାନ୍ତି ଓ ପ୍ରତ୍ୟେକ ଜୀବନରେ ସମୃଦ୍ଧି ହେଉ। ସମସ୍ତ ସୃଷ୍ଟିର କଲ୍ୟାଣ ହେଉ। ଜୟ ମାତା ଦି!",
+      "status": "authored",
+      "note": "Odia rendering."
+    },
+    "pa": {
+      "text": "ਮੇਰੀ ਕਿਰਪਾ ਸਾਰੇ ਸੰਸਾਰ ਉੱਤੇ ਬਣੀ ਰਹੇ। ਹਰ ਘਰ ਵਿੱਚ ਸੁਖ, ਹਰ ਦਿਲ ਵਿੱਚ ਸ਼ਾਂਤੀ ਤੇ ਹਰ ਜੀਵਨ ਵਿੱਚ ਸਮ੍ਰਿਧੀ ਹੋਵੇ। ਸਾਰੀ ਸ੍ਰਿਸ਼ਟੀ ਦਾ ਭਲਾ ਹੋਵੇ। ਜੈ ਮਾਤਾ ਦੀ!",
+      "status": "authored",
+      "note": "Punjabi rendering in Gurmukhi."
+    },
+    "sa": {
+      "text": "मम कृपा समस्ते संसारे तिष्ठतु। प्रत्येकस्मिन् गृहे सुखम्, प्रत्येकस्मिन् हृदये शान्तिः, प्रत्येकस्मिन् जीवने समृद्धिः अस्तु। समस्तस्य सृष्टेः कल्याणम् अस्तु। जय माता दी!",
+      "status": "authored",
+      "note": "Sanskrit rendering written for this app — classical in form, but an app blessing, not a quotation from any text, and labelled as such wherever it appears."
+    },
+    "sat": {
+      "text": "ᱤᱧᱟᱜ ᱫᱟᱭᱟ ᱥᱟᱱᱟᱢ ᱫᱩᱱᱤᱭᱟᱹ ᱨᱮ ᱛᱟᱦᱮᱸᱱ ᱢᱮ। ᱥᱟᱱᱟᱢ ᱚᱲᱟᱜ ᱨᱮ ᱥᱩᱠᱷ, ᱥᱟᱱᱟᱢ ᱛᱤᱸᱜᱩᱲ ᱨᱮ ᱥᱟᱱᱛᱤ ᱟᱨ ᱥᱟᱱᱟᱢ ᱡᱤᱭᱚᱱ ᱨᱮ ᱥᱚᱢᱨᱤᱫᱷᱤ ᱛᱟᱦᱮᱸᱱ ᱢᱮ। ᱡᱚᱛᱚ ᱥᱤᱨᱡᱚᱱ ᱨᱮᱱᱟᱜ ᱵᱷᱟᱹᱞᱟᱹᱭ ᱦᱩᱭᱩᱜ ᱢᱮ। ᱡᱚᱭ ᱢᱟᱛᱟ ᱫᱤ!",
+      "status": "draft",
+      "note": "Santali draft in Ol Chiki. Provisional: written to be checked, not to be trusted yet."
+    },
+    "sd": {
+      "text": "منهنجي مهر سڄي جهان تي قائم رهي. هر گهر ۾ سک، هر دل ۾ سڪون ۽ هر زندگي ۾ خوشحالي هجي. سڄي سرشتي جو ڀلو ٿئي. جي ماتا دي!",
+      "status": "authored",
+      "note": "Sindhi rendering in Perso-Arabic with Sindhi-specific letters."
+    },
+    "ta": {
+      "text": "என் அருள் எல்லா உலகத்தின் மேலும் நிலைத்திருக்கட்டும். ஒவ்வொரு வீட்டிலும் சுகம், ஒவ்வொரு இதயத்திலும் அமைதி, ஒவ்வொரு வாழ்விலும் செழிப்பு இருக்கட்டும். எல்லா உயிர்களுக்கும் நன்மை உண்டாகட்டும். ஜெய் மாதா தி!",
+      "status": "authored",
+      "note": "Tamil rendering."
+    },
+    "te": {
+      "text": "నా కృప సర్వలోకాలపై నిలిచి ఉండుగాక. ప్రతి ఇంట సుఖం, ప్రతి హృదయంలో శాంతి, ప్రతి జీవితంలో సమృద్ధి ఉండుగాక. సమస్త సృష్టికి క్షేమం కలుగుగాక. జయ్ మాతా ది!",
+      "status": "authored",
+      "note": "Telugu rendering."
+    },
+    "ur": {
+      "text": "میری کرم سارے جہان پر قائم رہے۔ ہر گھر میں خوشی، ہر دل میں سکون اور ہر زندگی میں فراخی ہو۔ ساری کائنات کا بھلا ہو۔ جے ماتا دی!",
+      "status": "authored",
+      "note": "Urdu rendering in Perso-Arabic with Urdu punctuation."
+    }
+  },
+  "audio": {
+    "commercialRecording": null,
+    "audioNote": "No recorded blessing ships with this app. Pressing Play narrates the text with the device's own speech voice in the selected language, and the control says so. A recorded human voiceover can be attached by adding a licensed file and its licence here — see docs/AUDIO.md."
+  }
+}

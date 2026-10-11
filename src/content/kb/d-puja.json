@@ -1,0 +1,200 @@
+{
+  "section": "D",
+  "title": "Puja and Daily Rituals",
+  "intro": "What a beginning household can actually do, what the traditional items are, and how to take part respectfully when you cannot do everything.",
+  "documents": [
+    {
+      "id": "d1-beginner-puja",
+      "section": "D",
+      "slug": "beginner-home-puja",
+      "title": "How can a beginner prepare a simple Navratri puja at home?",
+      "questions": ["D1"],
+      "summary": "A complete, minimal home puja needs only a clean place, a lamp, water, a flower and attention: light the lamp, offer water, offer the flower, say the day's name and the Navarna mantra, and sit for a few minutes; everything beyond that is addition, not requirement.",
+      "body": [
+        "Set a small clean space — a shelf, a corner of a room, a low table. A lamp (an oil diya or a candle if there is no oil), a glass of clean water, a single flower or a few grains of rice, and something to sit on. That is the whole material list in its smallest form.",
+        "Then: light the lamp and let it stand. Offer the water — pour a small quantity or simply place it. Offer the flower. Say the name of that night's form, and the Navarna mantra (oṃ aiṃ hrīṃ klīṃ cāmuṇḍāyai vicce) if it is known to you, nine times or as many as you can do without counting becoming the point. Sit quietly for however long you have. Blow the lamp out at the end, or let it burn down.",
+        "This is not a reduced version of a 'real' puja that requires a priest, a specific vessel or a particular cloth. The app's guides give the traditional fuller sequence as well, and label which parts are customary rather than required. Nothing in this app instructs anyone to fast, to spend money, or to perform a rite whose meaning they do not know."
+      ],
+      "keyPoints": [
+        "Minimum materials: lamp, water, flower, a place to sit.",
+        "Say the night's form and the Navarna mantra, then sit quietly.",
+        "The fuller traditional sequence is offered separately and labelled as customary."
+      ],
+      "tradition": "Household practice, common across North India; household traditions differ and the family's own practice comes first.",
+      "sources": [
+        { "sourceId": "editorial", "locator": "puja guides", "note": "Editorial, beginner-level; marked as such." },
+        { "sourceId": "durga700", "locator": "Devi Kavacham, Navarna mantra", "note": "The Navarna mantra as imported in the auxiliary recitations." }
+      ],
+      "links": [
+        { "href": "/puja/daily-puja", "label": "Daily puja guide" },
+        { "href": "/puja", "label": "All puja and ritual guides" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "शुरुआती व्यक्ति घर पर सरल नवरात्रि पूजा कैसे करे?",
+          "summary": "एक पूर्ण, न्यूनतम घरेलू पूजा के लिए केवल स्वच्छ स्थान, दीप, जल, पुष्प और ध्यान चाहिए: दीप जलाइए, जल अर्पित कीजिए, पुष्प चढ़ाइए, उस दिन की देवी का नाम और नवार्ण मन्त्र कहिए, और कुछ क्षण शांत बैठिए।",
+          "body": [
+            "छोटा, स्वच्छ स्थान चुनिए — कोई ताक, कमरे का कोना या नीची मेज़। एक दीप, स्वच्छ जल का पात्र, एक पुष्प या कुछ चावल के दाने, और बैठने का स्थान। न्यूनतम रूप में सामग्री इतनी ही है।",
+            "यह उस 'असली' पूजा का घटा हुआ रूप नहीं है जिसके लिए पुरोहित, विशेष पात्र या विशेष वस्त्र चाहिए। यह ऐप पूरी परम्परागत विधि भी देता है और स्पष्ट लिखता है कि कौन-सा भाग प्रचलित है और कौन-सा अनिवार्य। कोई भी विधि किसी को व्रत करने, धन व्यय करने या बिना अर्थ जाने कोई कर्म करने का निर्देश नहीं देती।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "d2-ghatasthapana-items",
+      "section": "D",
+      "slug": "ghatasthapana-items",
+      "title": "What items are traditionally used in Ghatasthapana?",
+      "questions": ["D2"],
+      "summary": "Traditionally: a clean copper, brass or earthen pot; water; barley or wheat seeds with a little soil; a coconut; mango or betel leaves; a red or yellow cloth; kumkum, turmeric and rice; flowers; and a lamp — with regional variations in almost every item.",
+      "body": [
+        "The core is the pot and what goes into it: water, a layer of clean soil, and barley or wheat seed spread on the soil. Mango leaves are commonly placed at the mouth of the pot, the coconut sits on top, and a cloth — red or yellow in most traditions — is tied or draped around it. A lamp stands beside it, and kumkum, turmeric and rice are used in the invocation.",
+        "Almost every item has regional substitutes. In parts of Maharashtra, javara (barley) is standard and a mix of seven grains is used in some households; in Gujarat the pot is often placed near the household shrine with a separate place for the garbo lamp; in South Indian observance, the corresponding setup is the kolu with the kalash in front of it rather than the same object.",
+        "Materials, like the rite itself, are not a test. Clean water and clean soil are the substance; the metals and cloth are custom."
+      ],
+      "keyPoints": [
+        "Pot, water, soil, barley or wheat seed, coconut, leaves, cloth, kumkum/turmeric/rice, lamp.",
+        "Regional substitutions are normal and expected.",
+        "Nothing in the list requires expense beyond what a household already has."
+      ],
+      "tradition": "Common northern and western description; regional lists differ, and both are given in the ritual guide.",
+      "sources": [
+        { "sourceId": "editorial", "locator": "puja guides", "note": "Editorial list, drawn from common practice and labelled as such." }
+      ],
+      "links": [
+        { "href": "/puja/ghatasthapana", "label": "Ghatasthapana guide" },
+        { "href": "/questions?section=D", "label": "More ritual questions" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "घटस्थापना में परम्परागत रूप से कौन-सी सामग्री प्रयुक्त होती है?",
+          "summary": "परम्परागत रूप से: स्वच्छ ताम्र, पीतल या मिट्टी का कलश; जल; जौ या गेहूँ के बीज और थोड़ी मिट्टी; नारियल; आम या पान के पत्ते; लाल या पीला वस्त्र; कुमकुम, हल्दी और चावल; पुष्प; और दीप — जिनमें प्रायः प्रत्येक वस्तु का क्षेत्रीय विकल्प है।",
+          "body": [
+            "केंद्र में कलश और उसकी सामग्री है: जल, स्वच्छ मिट्टी की परत, और उस पर जौ या गेहूँ के बीज। आम के पत्ते कलश के मुख पर, ऊपर नारियल, और सामान्यतः लाल या पीला वस्त्र लपेटा जाता है। पास में दीप रखा जाता है।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "d3-diya",
+      "section": "D",
+      "slug": "diya-in-puja",
+      "title": "How is a diya traditionally used during puja?",
+      "questions": ["D3"],
+      "summary": "The diya is lit at the start and stands as the presence of light for the duration of the sitting; it is used for the aarti at the end, moved in a clockwise circle before the deity or the pot, and left to burn or extinguished after — and the practical rules are about safety and steadiness, not about quantity of oil.",
+      "body": [
+        "A traditional lamp is a small earthen bowl with a cotton wick and a plant oil — mustard, sesame or ghee. It is lit before the offerings and stays lit while the devotee sits, so the light is continuous through the practice rather than produced for a moment and removed.",
+        "For aarti the lamp (or a five-wick lamp, or a plate with a lamp on it) is moved in a clockwise circle in front of the deity, the kalash or the picture. Many households sing a specific aarti text while doing this; the text used in this app's library is imported from an identified source, and where a household has a different version, the household's version is the right one for that household.",
+        "Two practical notes the traditions themselves carry: keep the lamp where it cannot be knocked over by a child or a tail, and do not leave an unattended flame burning. Nothing is gained by burning oil faster."
+      ],
+      "keyPoints": [
+        "Cotton wick and plant oil or ghee in a small earthen or metal bowl.",
+        "Lit at the start and kept alight through the sitting; moved clockwise in aarti.",
+        "Safety and steadiness are the practical rules; the quantity of oil carries no merit."
+      ],
+      "tradition": "General household practice; specifics of the aarti text vary by family, language and region.",
+      "sources": [
+        { "sourceId": "editorial", "locator": "ritual guides", "note": "Editorial; no spiritual merit is attached to material quantity." },
+        { "sourceId": "durga700", "locator": "auxiliary recitations", "note": "Aarti and stotra texts imported with named sources." }
+      ],
+      "links": [
+        { "href": "/puja/daily-puja", "label": "Daily puja, step by step" },
+        { "href": "/mantras", "label": "Mantra and aarti library" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "पूजा में दीप का परम्परागत उपयोग कैसे होता है?",
+          "summary": "दीप आरम्भ में जलाया जाता है और बैठक के दौरान जलता रहता है; अंत में आरती के लिए देवी या कलश के सम्मुख दक्षिणावर्त घुमाया जाता है; व्यावहारिक नियम सुरक्षा और स्थिरता के हैं, तेल की मात्रा के नहीं।",
+          "body": [
+            "परम्परागत दीप मिट्टी का छोटा पात्र, रुई की बत्ती और वनस्पति तेल या घी से बनता है। यह अर्पण से पहले जलाया जाता है और साधना के दौरान जलता रहता है, ताकि प्रकाश निरंतर हो।",
+            "आरती में दीप या पाँच-बत्ती दीप को देवी, कलश या चित्र के सम्मुख दक्षिणावर्त घुमाया जाता है। दो व्यावहारिक बातें परम्परा स्वयं कहती है: दीप ऐसी जगह रखिए जहाँ बच्चा या पालतू उसे गिरा न सके, और जलता दीप अकेला न छोड़िए। तेल अधिक जलाने से कुछ अर्जित नहीं होता।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "d4-offerings",
+      "section": "D",
+      "slug": "flowers-incense-kumkum",
+      "title": "What is the significance of flowers, incense, kumkum and offerings?",
+      "questions": ["D4"],
+      "summary": "The traditional offerings address the senses in order — sight (lamp), touch and cleanliness (water), smell (incense and flowers), taste (bhog), and sound (bell and recitation) — and the common explanation of their meaning is that they occupy the senses with the practice instead of leaving them to wander.",
+      "body": [
+        "Each item in the standard list corresponds to something a person can perceive: the lamp to sight, water to touch and cleansing, incense and flowers to smell, the offered food to taste, the bell and the recitation to hearing. Whether the devotee is understood as honouring a guest or as training attention, the structure is the same: five doors, all of them turned one way.",
+        "Kumkum and turmeric are traditional and regional: in most northern and western households, red kumkum is offered and taken back as prasad on the forehead; in many eastern households, sindoor and alta dominate; in parts of the south, turmeric and kumkum both. Where a household has a convention, that convention is the one to follow.",
+        "Food offerings — bhog — are usually something cooked in the house and offered before anyone eats, with the specific item varying by night and region: jaggery and ghee on the second night, malpua on the third, curd-rice on the sixth, puri and halwa on the eighth, in the common northern list. Nothing about an offering is measured, and a fruit or a spoonful of rice is a legitimate bhog."
+      ],
+      "keyPoints": [
+        "Offerings engage the five senses in a fixed order.",
+        "Kumkum and turmeric conventions differ by region.",
+        "Bhog is whatever the house has cooked; quantity and cost carry no weight."
+      ],
+      "tradition": "Common northern listing; regional lists differ and are given alongside.",
+      "sources": [
+        { "sourceId": "editorial", "locator": "ritual guides", "note": "Editorial; the sense-by-sense reading is interpretive and is labelled." },
+        { "sourceId": "navadurga-stotram", "locator": "per-form offerings", "note": "Offering and colour associations for each night." }
+      ],
+      "links": [
+        { "href": "/navadurga", "label": "Each night's colour and offering" },
+        { "href": "/puja/fasting", "label": "Fasting and food" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "पुष्प, धूप, कुमकुम और अर्पण का क्या महत्व है?",
+          "summary": "परम्परागत अर्पण इंद्रियों को क्रम से सम्बोधित करते हैं — दृष्टि (दीप), स्पर्श और स्वच्छता (जल), गंध (धूप और पुष्प), रस (भोग) और शब्द (घण्ट और पाठ) — और उनका अर्थ इंद्रियों को साधना में लगाना माना जाता है।",
+          "body": [
+            "कुमकुम और हल्दी की परम्परा क्षेत्रीय है: उत्तर और पश्चिम में लाल कुमकुम, पूर्व में सिन्दूर और अलता, दक्षिण के कई भागों में हल्दी और कुमकुम दोनों। जहाँ परिवार की अपनी रीति है, वही उस परिवार के लिए सही है।",
+            "भोग सामान्यतः घर में बना वही होता है जो सबसे पहले देवी को अर्पित कर के बाद में खाया जाता है; मात्रा का कोई माप नहीं है, और एक फल या एक चम्मच चावल भी पूरा भोग है।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "d5-partial-participation",
+      "section": "D",
+      "slug": "participating-respectfully",
+      "title": "How can someone participate respectfully when they cannot perform every ritual?",
+      "questions": ["D5", "F5", "F4"],
+      "summary": "By doing the part they can do knowingly, and by not performing a rite whose meaning or rules they do not understand — attendance, listening, offering a single flower, or simply sitting with the narration all count as participation in most household traditions, and no tradition obliges anyone to fast or to spend.",
+      "body": [
+        "Most household practice is not an all-or-nothing ritual. Lighting the lamp is one act. Listening to the recitation is another. Offering a flower, sitting for ten minutes with the narration in one's own language, or attending the ninth-night Kanya Puja at a neighbour's house are all recognised ways of taking part, and none of them requires fasting.",
+        "What is worth avoiding: performing a rite in a way that its own practitioners would recognise as disrespectful — for example, treating the Chandi path or a vrat as a performance, or entering a shrine area while in a state the local tradition considers unclean. When in doubt, ask someone who keeps that practice; that is not a failure of knowledge, it is ordinary courtesy.",
+        "On fasting specifically: no one is obliged, and this app will not present fasting as a measure of devotion. If a reader wants to fast, the fasting guide notes who should not without medical advice — including pregnant or breastfeeding people, diabetics, and anyone on medication — and offers non-fasting forms of participation."
+      ],
+      "keyPoints": [
+        "Partial participation is normal and recognised in household practice.",
+        "Listening, one flower, or attendance all count.",
+        "Fasting is never obligatory, and has health caveats.",
+        "Ask a practitioner of that specific tradition when unsure — the app does not claim to be that authority."
+      ],
+      "tradition": "Pan-Indian household practice; the app deliberately does not rank forms of participation.",
+      "sources": [
+        { "sourceId": "editorial", "locator": "participation guide", "note": "Editorial; health caveats stated plainly, no medical advice given." }
+      ],
+      "links": [
+        { "href": "/puja/fasting", "label": "Fasting, food and well-being" },
+        { "href": "/questions?section=F", "label": "Questions about vrat and food" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "जो हर विधि नहीं कर सकते वे श्रद्धापूर्वक कैसे भाग लें?",
+          "summary": "जो भाग वे जानते हुए कर सकते हैं वही कीजिए, और जिस विधि का अर्थ या नियम न पता हो उसे न कीजिए — दीप जलाना, पाठ सुनना, एक पुष्प अर्पित करना, या अपनी भाषा में वाचन के साथ कुछ क्षण बैठना भी भागीदारी है; व्रत किसी पर अनिवार्य नहीं।",
+          "body": [
+            "अधिकांश घरेलू पूजा सब-या-कुछ-नहीं का क्रम नहीं है। दीप जलाना एक कर्म है, पाठ सुनना दूसरा, पड़ोस की कन्या पूजा में सम्मिलित होना तीसरा — और इनमें किसी के लिए व्रत आवश्यक नहीं।",
+            "व्रत विषय पर स्पष्ट: कोई बाध्य नहीं है, और यह ऐप व्रत को भक्ति का माप नहीं मानता। जो व्रत रखना चाहें, उनके लिए मार्गदर्शिका उन लोगों का उल्लेख करती है जिन्हें चिकित्सकीय सलाह के बिना व्रत नहीं रखना चाहिए — गर्भवती या स्तनपान कराने वाली महिलाएँ, मधुमेह रोगी, और जो औषधि लेते हैं।"
+          ]
+        }
+      }
+    }
+  ]
+}

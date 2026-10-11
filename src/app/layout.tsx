@@ -3,6 +3,7 @@ import "./globals.css";
 import { Shell } from "@/components/shell";
 import { UserProvider } from "@/lib/user";
 import { OfflineProvider } from "@/components/offline";
+import { introForms, getBlessing } from "@/lib/intro-data";
 
 export const metadata: Metadata = {
   title: {
@@ -10,9 +11,9 @@ export const metadata: Metadata = {
     template: "%s · Navratri",
   },
   description:
-    "A digital library and pilgrimage companion for Maa Durga: the complete Durga Saptashati, " +
-    "the nine Navadurga forms, the Shakti Peethas, and the Navratri calendar — computed for your " +
-    "own location.",
+    "A multilingual spiritual library for Maa Durga and the nine Navadurga forms: the complete " +
+    "Durga Saptashati, puja and mantra guides, the traditions of Navratri in 24 languages, " +
+    "matching-language narration, and a source-grounded AI guide.",
   applicationName: "Navratri — The Divine Shakti",
   keywords: [
     "Navratri", "Durga Saptashati", "Devi Mahatmya", "Navadurga", "Shakti Peetha",
@@ -50,12 +51,29 @@ export const viewport: Viewport = {
  * the build must not depend on a font CDN it cannot reach.
  */
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  // The intro's nine forms and the opening blessing are read on the server and
+  // passed down, so that only the two small JSON files those need travel to the
+  // browser rather than the whole corpus. The language of the blessing shown is
+  // chosen on the client, from the reader's stored preference.
+  const forms = introForms();
+  const blessing = getBlessing("en");
+
   return (
-    <html lang="en" suppressHydrationWarning data-theme="light" data-motion="full">
+    <html lang="en" dir="ltr" suppressHydrationWarning data-theme="light" data-motion="full">
       <body>
         <UserProvider>
           <OfflineProvider>
-            <Shell>{children}</Shell>
+            <Shell
+              introFormList={forms}
+              introBlessing={{
+                text: blessing.translation.text,
+                status: blessing.translation.status,
+                disclosure: blessing.disclosure,
+                notAutoplay: blessing.notAutoplay,
+              }}
+            >
+              {children}
+            </Shell>
           </OfflineProvider>
         </UserProvider>
       </body>

@@ -1,0 +1,204 @@
+{
+  "section": "G",
+  "title": "Stories, Symbols and Sacred Texts",
+  "intro": "The Mahishasura narrative as the Devi Mahatmya actually tells it, what the iconography encodes, and which texts this app draws on.",
+  "documents": [
+    {
+      "id": "g1-mahishasura",
+      "section": "G",
+      "slug": "durga-and-mahishasura",
+      "title": "What is the traditional story of Maa Durga defeating Mahishasura?",
+      "questions": ["G1"],
+      "summary": "As the Devi Mahatmya tells it in its third chapter (Markandeya Purana chapter 83): Mahishasura, a buffalo-asura with a boon that no man or god could kill him, drove the gods from heaven; the collected radiance and anger of the gods formed a woman with many arms, the gods gave her their weapons, and after a battle in which he repeatedly changed form she pinned him with her foot and killed him.",
+      "body": [
+        "The narrative's opening is political rather than theological: the gods have lost. The Devi Mahatmya's first chapter has Madhu and Kaitabha; the second and third turn to Mahishasura, whose boon meant that no male being could kill him. The goddess is not summoned from outside — she is what the gods' radiance becomes when they are pressed to the last of their resources.",
+        "The battle itself is specific in the text. She rides into the fight, the gods hand over their own weapons — trident, discus, mace, sword, noose — and Mahishasura shifts between buffalo and other forms and sends armies at her. Late in the fight he taunts her about relying on others' weapons; the reply in the text is that she is one and holds all these powers, that the powers are hers. Then, as a buffalo, he is pinned by her foot and killed.",
+        "The epilogue matters for the ritual year: the gods praise her, and the chapter names her. The app's imported edition carries the colophon and the verse numbering, and the reader can open chapter 3 beside the English prose of the same passages."
+      ],
+      "keyPoints": [
+        "Devi Mahatmya 2–3 = Markandeya Purana 82–83 in the imported edition.",
+        "Mahishasura's boon excluded death by any male being.",
+        "The gods' weapons are given to her; the text has her answer the taunt about borrowed weapons.",
+        "The buffalo form is killed after a fight with several transformations."
+      ],
+      "tradition": "The Mahatmya's own narrative, in the app's imported Sanskrit edition with Pargiter's 1904 English prose.",
+      "sources": [
+        { "sourceId": "durga700", "locator": "Devi Mahatmya 2–3", "note": "Sanskrit text as imported; Markandeya Purana chapters 82–83 per the edition's own mapping." },
+        { "sourceId": "pargiter-1904", "locator": "chapters 2–3", "note": "English prose, public domain (1904)." }
+      ],
+      "links": [
+        { "href": "/scripture/3", "label": "Chapter 3, Sanskrit with IAST" },
+        { "href": "/maa-durga/mahishasura-mardini", "label": "Mahishasura-Mardini in the knowledge library" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "माँ दुर्गा द्वारा महिषासुर के वध की परम्परागत कथा क्या है?",
+          "summary": "देवी महात्म्य के तीसरे अध्याय के अनुसार: महिषासुर, जिसे वरदान था कि कोई पुरुष या देव उसे मार नहीं सकता, देवताओं को स्वर्ग से बाहर कर देता है; देवताओं का एकत्र तेज और क्रोध एक अनेक-भुजा स्त्री-रूप बनता है, देवता उसे अपने अस्त्र देते हैं, और घोर युद्ध के बाद वह उसे अपने चरण से दबाकर मारती हैं।",
+          "body": [
+            "कथा का आरम्भ ईश्वरीय नहीं, राजनीतिक है: देवता हार चुके हैं। देवी महात्म्य का पहला अध्याय मधु-कैटभ का है; दूसरा और तीसरा महिषासुर का। देवी बाहर से नहीं बुलाई जातीं — वे देवताओं का तेज हैं, जो उनके पास सब खोकर भी कुछ शेष रहने पर एक रूप ले लेता है।",
+            "युद्ध के विवरण विशिष्ट हैं: देवता अपने-अपने अस्त्र — त्रिशूल, चक्र, गदा, खड्ग, पाश — उन्हें सौंपते हैं; महिषासुर रूप बदलता है और सेनाएँ भेजता है। अंत में वह किसी अन्य के अस्त्रों पर निर्भर होने का ताना देता है, और उत्तर यह है कि वे शक्तियाँ मूलतः उसी की हैं। फिर महिष रूप में वह उनके चरण तले मारा जाता है।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "g2-arms-attributes",
+      "section": "G",
+      "slug": "durga-many-arms",
+      "title": "What do Maa Durga's many arms and attributes symbolize?",
+      "questions": ["G2", "G4", "G3"],
+      "summary": "The many arms are the iconographic form of the Devi Mahatmya's central claim — that the gods' scattered powers belong to her — so the weapons in her hands (trident, discus, mace, sword, bow, noose, bell, thunderbolt) are the powers of every deity, held together by one being; the lion or tiger is her vehicle, and each object has a traditional meaning recorded alongside it.",
+      "body": [
+        "The Devi Mahatmya's gods hand over their own weapons because they cannot wield them effectively. In the iconography those weapons stay in her hands permanently: the trident (Shiva), the discus (Vishnu), the thunderbolt (Indra), the conch, the noose, the bow and arrow (Vayu and Surya), the sword and the bell. She is shown with ten or eight or eighteen arms depending on the tradition, and the number follows the set of weapons that tradition assigns her.",
+        "The lion or tiger is her mount (vahana) and, in the Mahishasura narrative, the animal on which she enters battle. In the seventh chapter's account of Kalaratri she is again lion-mounted. The vehicle is read as the untamed force she is able to ride rather than subdue by killing — in several commentaries that is the point of the image.",
+        "Each object also carries a devotional reading: the trident as the three gunas, the noose as attachment that must be bound, the bell as warning, the discus as the wheel of time. These readings come from devotional commentary rather than from the text itself, and the app labels them as commentary wherever it shows them."
+      ],
+      "keyPoints": [
+        "The weapons are the gods' own powers, handed to her in the text.",
+        "Arm count varies by tradition with the weapon set.",
+        "Lion or tiger is her vahana and her mount in battle.",
+        "Object-by-object meanings are devotional commentary, labelled as such."
+      ],
+      "tradition": "Iconography follows the Devi Mahatmya narrative plus devotional commentary on it.",
+      "sources": [
+        { "sourceId": "durga700", "locator": "Devi Mahatmya 2.44–60", "note": "The gods' weapons given to the Goddess." },
+        { "sourceId": "editorial", "locator": "iconography notes", "note": "Commentarial readings, marked." }
+      ],
+      "links": [
+        { "href": "/maa-durga", "label": "Maa Durga knowledge library" },
+        { "href": "/questions?section=G", "label": "Symbolism questions" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "माँ दुर्गा की अनेक भुजाएँ और आयुध किसके प्रतीक हैं?",
+          "summary": "अनेक भुजाएँ देवी महात्म्य के केंद्रीय कथन का मूर्त रूप हैं — देवताओं की बिखरी शक्तियाँ उन्हीं की हैं — इसलिए उनके हाथों के अस्त्र (त्रिशूल, चक्र, गदा, खड्ग, धनुष, पाश, घण्ट, वज्र) प्रत्येक देवता की शक्ति हैं, जो एक ही सत्ता में संधित हैं; सिंह या व्याघ्र उनका वाहन है।",
+          "body": [
+            "देवी महात्म्य में देवता अपने अस्त्र इसलिए सौंपते हैं क्योंकि वे स्वयं उनका प्रभावी उपयोग नहीं कर पाते। चित्रण में वे अस्त्र स्थायी रूप से उनके हाथों में रहते हैं: त्रिशूल (शिव), चक्र (विष्णु), वज्र (इन्द्र), शंख, पाश, धनुष-बाण, खड्ग और घण्ट। परम्परा के अनुसार दस, आठ या अठारह भुजाएँ दिखाई जाती हैं, और संख्या उसी परम्परा के अस्त्र-समूह से बनती है।",
+            "प्रत्येक वस्तु की भक्ति-व्याख्या भी है: त्रिशूल तीन गुण, पाश आसक्ति, घण्ट चेतावनी, चक्र काल-चक्र। ये पाठ से नहीं, टीका-साहित्य से आती हैं — और ऐप जहाँ इन्हें दिखाता है, वहाँ 'व्याख्या' लिखकर दिखाता है।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "g3-lion-tiger",
+      "section": "G",
+      "slug": "lion-and-tiger",
+      "title": "Why is the lion or tiger associated with Maa Durga?",
+      "questions": ["G3", "G2"],
+      "summary": "Because the Devi Mahatmya mounts her on a lion when she rides into battle, and later describes Kalaratri on the same vehicle; the association has stayed in the iconography as one of the few constants across traditions, with the tiger appearing in regions where the tiger is the local great cat.",
+      "body": [
+        "The lion appears in the story as her vehicle at the point of action: she rides out to face Mahishasura's army on it. In this app's imported edition the descriptions in chapters 2 and 3 place her on the lion repeatedly, and the seventh chapter places Kalaratri on it as well.",
+        "Regionally, the mount shifts with the local animal: in Bengal, Odisha and parts of Assam the image is often a lion; in regions where the tiger is the dominant predator the same image is carved or painted with a tiger, and some traditions name the tiger explicitly. Where a temple's own image shows a tiger, that image is not a mistake — it is the local form.",
+        "Devotional readings of the vehicle are consistent: the great cat is a force that cannot be tamed by argument, and she rides it. The image carries both power and control, which is why it survives in almost every depiction of her."
+      ],
+      "keyPoints": [
+        "She rides a lion into battle in the Mahatmya narrative; Kalaratri likewise.",
+        "Tiger appears where the tiger is the local great cat; not an error.",
+        "The image carries both power and the ability to ride it."
+      ],
+      "tradition": "Iconography per region; the app records which form a given depiction uses.",
+      "sources": [
+        { "sourceId": "durga700", "locator": "Devi Mahatmya 2–3, 7", "note": "The lion as vehicle in the battle accounts." }
+      ],
+      "links": [
+        { "href": "/navadurga/chandraghanta", "label": "Chandraghanta, lion-mounted" },
+        { "href": "/navadurga/kalaratri", "label": "Kalaratri" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "माँ दुर्गा के साथ सिंह या व्याघ्र क्यों जुड़ा है?",
+          "summary": "क्योंकि देवी महात्म्य में वे युद्ध के लिए सिंह पर आरूढ़ होकर जाती हैं, और सातवें अध्याय में कालरात्रि भी उसी वाहन पर वर्णित हैं; यह संबंध परम्पराओं में सर्वाधिक स्थिर चिह्नों में से एक है, और जहाँ स्थानीय बड़ी बिल्ली व्याघ्र है वहाँ व्याघ्र दिखाया जाता है।",
+          "body": [
+            "कथा में सिंह कर्म के क्षण पर प्रकट होता है: वे महिषासुर की सेना का सामना करने उसी पर चलती हैं। क्षेत्रीय रूप से वाहन स्थानीय पशु के अनुसार बदलता है — जहाँ व्याघ्र प्रमुख है वहाँ वही गढ़ा या चित्रित होता है; वह भूल नहीं, वह स्थानीय रूप है। भक्ति-व्याख्या एक-सी है: बड़ी बिल्ली वह शक्ति है जिसे तर्क से वश नहीं किया जा सकता, और वे उस पर सवार हैं — चित्र में शक्ति और संयम दोनों हैं।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "g4-weapons-meanings",
+      "section": "G",
+      "slug": "weapons-and-objects",
+      "title": "What is the significance of the weapons and objects shown in traditional depictions?",
+      "questions": ["G4", "G2"],
+      "summary": "Each object in a traditional depiction is an attribution borrowed from a particular deity — trident from Shiva, discus from Vishnu, thunderbolt from Indra, bow and arrow from Vayu and Surya, noose and sword as her own instruments in the battle narrative — and devotional commentary adds a symbolic meaning for each, which the app always labels as commentary rather than text.",
+      "body": [
+        "The list is stable across depictions, with variations: trishula (trident), chakra (discus), gada (mace), shankha (conch), vajra (thunderbolt), dhanush and bana (bow and arrow), pasha (noose), asi (sword), ghanta (bell), and in some traditions a mirror, a goad or an axe. Which of them appear depends on how many arms that tradition gives her.",
+        "The narrative meaning is concrete: the gods gave her what they had, and the weapons are the record of that gift. The symbolic layer is commentarial and varies: the trident is often the three gunas in balance, the discus the wheel of time, the noose attachment, the sword the cutting of what must be cut, the bell the announcement of the fight.",
+        "The app shows the object, the deity it came from, and the commentarial reading as three separate fields, so a reader can tell what is in the text from what is in the commentary. Where two commentarial traditions read an object differently, both are listed."
+      ],
+      "keyPoints": [
+        "Objects come from specific deities in the narrative.",
+        "Symbolic readings are commentary, shown separately from the text.",
+        "Arm count determines which objects appear.",
+        "Competing commentarial readings are both listed."
+      ],
+      "tradition": "Pan-Indian iconography with regional variation; commentary recorded per tradition.",
+      "sources": [
+        { "sourceId": "durga700", "locator": "Devi Mahatmya 2.44–60, 3.10–25", "note": "The giving of the weapons and their use in battle." },
+        { "sourceId": "editorial", "locator": "object-by-object commentary", "note": "Labelled commentary; multiple readings kept." }
+      ],
+      "links": [
+        { "href": "/maa-durga", "label": "Symbolism pages" },
+        { "href": "/questions?section=G", "label": "More symbolism questions" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "परम्परागत चित्रणों में दिखाए अस्त्रों और वस्तुओं का क्या अर्थ है?",
+          "summary": "प्रत्येक वस्तु किसी देवता से ली गई उपाधि है — शिव से त्रिशूल, विष्णु से चक्र, इन्द्र से वज्र, वायु और सूर्य से धनुष-बाण, और पाश तथा खड्ग युद्ध-कथा में उनके स्वयं के अस्त्र; भक्ति-टीकाएँ प्रत्येक के लिए प्रतीकात्मक अर्थ जोड़ती हैं, जिन्हें ऐप सदैव 'व्याख्या' के रूप में दिखाता है।",
+          "body": [
+            "सूची प्रायः स्थिर है: त्रिशूल, चक्र, गदा, शंख, वज्र, धनुष-बाण, पाश, खड्ग, घण्ट, और कहीं दर्पण या अंकुश। संख्या उस परम्परा पर निर्भर है जो भुजाओं की संख्या निर्धारित करती है।",
+            "ऐप प्रत्येक वस्तु के तीन अलग क्षेत्र दिखाता है: वस्तु, वह देवता जिससे वह आई, और टीका का अर्थ — जिससे पाठ का और व्याख्या का भेद स्पष्ट रहे। जहाँ दो टीकाएँ भिन्न पढ़ती हैं, दोनों दर्ज होती हैं।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "g5-which-texts",
+      "section": "G",
+      "slug": "texts-about-durga",
+      "title": "Which traditional texts and sources discuss Maa Durga, and how can I explore them?",
+      "questions": ["G5", "A5", "B5"],
+      "summary": "The two texts this app holds verified are the Devi Mahatmya (Durga Saptashati), thirteen chapters of the Markandeya Purana in the imported Sanskrit edition with Pargiter's 1904 English prose, and the Navadurga Stotram compilation with the Devi Kavacham and other auxiliary recitations; everything else — Devi Bhagavata, Chandi-related later works, the Durga Chalisa — is named with its genre and, where no verified text is held, marked as not held.",
+      "body": [
+        "What is held and verified here: the complete Devi Mahatmya — thirteen chapters, 700 traditional verses, checked by `npm run verify:scripture` against the source's own colophon — with the six auxiliary recitations (Devi Kavacham, Argala, Kilaka, Devi Suktam, Aparadha Kshamapana, Chandika Dhyana), the Navadurga Stotram's nine dhyana verses, and F. Eden Pargiter's 1904 English translation of the Devi Mahatmya as chapter-level prose.",
+        "Named but not reproduced: the Devi Bhagavata Purana (a major Shakta text, twelve skandhas, with differing critical editions), the Mahabhagavata Purana, and the Durga Chalisa (devotional, forty verses, printed in many editions). The app lists these with their genre and states plainly that no verified text of them is held here, rather than quoting a remembered version.",
+        "How to explore: the scripture reader shows each chapter in Devanagari and IAST with its colophon and the edition's own verse numbers; every chapter page names its source and links to the sources page; and the AI guide will answer only from these verified texts and the app's labelled editorial content, citing what it used."
+      ],
+      "keyPoints": [
+        "Verified and held: Devi Mahatmya (13 chapters, 700 verses) + 6 auxiliary recitations + Navadurga Stotram dhyanas + Pargiter 1904 English.",
+        "Named but not held: Devi Bhagavata, Mahabhagavata, Durga Chalisa, later Chandi literature.",
+        "No text is quoted from memory; each claim points at where it came from."
+      ],
+      "tradition": "The app's source policy, stated on /sources and enforced by tests on the corpus.",
+      "sources": [
+        { "sourceId": "durga700", "locator": "entire corpus", "note": "Imported, verified by script." },
+        { "sourceId": "pargiter-1904", "locator": "chapters 1–13", "note": "English prose; chapter 13 marked as a truncated witness." },
+        { "sourceId": "navadurga-stotram", "locator": "nine dhyana verses", "note": "Transcribed from the cited compilation." }
+      ],
+      "links": [
+        { "href": "/scripture", "label": "Read the Saptashati" },
+        { "href": "/sources", "label": "Sources and verification status" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "माँ दुर्गा पर कौन-से परम्परागत ग्रंथ हैं, और उन्हें कैसे देखें?",
+          "summary": "इस ऐप में दो ग्रंथ सत्यापित रूप से उपलब्ध हैं: सम्पूर्ण देवी महात्म्य (दुर्गा सप्तशती) — मार्कण्डेय पुराण के तेरह अध्याय, मूल संस्कृत के साथ और पार्जिटर (1904) का अंग्रेज़ी गद्य — तथा नवदुर्गा स्तोत्र का संग्रह देवी कवच आदि अंग-पाठों सहित; शेष ग्रंथ नाम के साथ दर्ज हैं और स्पष्ट लिखा है कि उनका सत्यापित पाठ यहाँ नहीं है।",
+          "body": [
+            "जो उपलब्ध और सत्यापित है: तेरह अध्याय, 700 पारम्परिक श्लोक — जिनकी गणना `npm run verify:scripture` स्रोत के अपने पुष्पिका-श्लोक से मिलाकर जाँचती है — छह अंग-पाठ, नवदुर्गा स्तोत्र के नौ ध्यान-श्लोक, और पार्जिटर का 1904 का अंग्रेज़ी अनुवाद।",
+            "जो केवल नाम से दर्ज है, उद्धृत नहीं: देवी भागवत पुराण, महाभागवत पुराण, और दुर्गा चालीसा। ऐप इन्हें विधा के नाम के साथ सूचीबद्ध करता है और स्पष्ट कहता है कि इनका सत्यापित पाठ यहाँ नहीं है — स्मृति से कोई श्लोक नहीं गढ़ा जाता।"
+          ]
+        }
+      }
+    }
+  ]
+}

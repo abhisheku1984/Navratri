@@ -11,13 +11,13 @@
  * db/schema.sql), and this module defines the interface it must satisfy.
  */
 import {
-  getAngas, getChapters, getGlossaryTerms, getKnowledgeTopics, getMantras,
-  getNavadurgaForms, getPeethas, getQuizzes, getStories, getTemples,
+  getAngas, getChapters, getGlossaryTerms, getKbDocuments, getKnowledgeTopics,
+  getMantras, getNavadurgaForms, getPeethas, getQuizzes, getStories, getTemples,
 } from "@/lib/content";
 
 export type SearchKind =
   | "chapter" | "verse" | "anga" | "navadurga" | "peetha" | "temple"
-  | "mantra" | "story" | "topic" | "glossary" | "festival";
+  | "mantra" | "story" | "topic" | "glossary" | "festival" | "kb";
 
 export interface SearchHit {
   kind: SearchKind;
@@ -66,6 +66,18 @@ function excerptFrom(text: string, q: string, width = 150): string {
 
 /** Relative weight of a body match against a field match. */
 const BODY_WEIGHT = 0.35;
+
+/**
+ * Kinds whose own page is the canonical home of a name.
+ *
+ * When a query is the entity's name — "Kalaratri", "Kamakhya", "chapter 8" —
+ * that entity's page leads, ahead of a curated article that merely discusses
+ * it. Without this, the knowledge base (which is longer and mentions every
+ * name several times) outranks the profile it is describing.
+ */
+const ENTITY_KINDS = new Set<SearchKind>([
+  "chapter", "anga", "navadurga", "peetha", "temple", "mantra", "story",
+]);
 
 /**
  * Diacritic folding, restricted to the Latin combining-marks block.
@@ -246,6 +258,24 @@ export function buildIndex(): Doc[] {
     });
   }
 
+  for (const d of getKbDocuments()) {
+    // Index every translated variant too: the KB is what answers a Hindi or
+    // Tamil question, so a query typed in those languages must reach it.
+    const translated = Object.entries(d.translations ?? {})
+      .map(([code, t]) =>
+        `${code} ${t.title ?? ""} ${t.summary ?? ""} ${(t.body ?? []).join(" ")}`)
+      .join(" ");
+    docs.push({
+      kind: "kb", id: d.slug, title: d.title,
+      sub: `Section ${d.section} · knowledge base`,
+      href: `/kb/${d.slug}`,
+      fields: [
+        `${d.title} ${d.questions.join(" ")} ${d.keyPoints.join(" ")} ${d.tradition}`,
+      ],
+      body: `${d.summary} ${d.body.join(" ")} ${translated}`,
+    });
+  }
+
   for (const g of getGlossaryTerms()) {
     docs.push({
       kind: "glossary", id: g.id, title: g.english,
@@ -312,6 +342,10 @@ function scoreDoc(doc: Doc, foldedQuery: string, tokens: string[]): number {
       else if (loose.includes(looseFold(t))) score += 9 * BODY_WEIGHT;
       else score += stemScore(bl, t) * BODY_WEIGHT;
     }
+  }
+
+  if (ENTITY_KINDS.has(doc.kind) && fold(doc.fields[0] ?? "").includes(foldedQuery)) {
+    score += 25;
   }
 
   const title = fold(doc.title);

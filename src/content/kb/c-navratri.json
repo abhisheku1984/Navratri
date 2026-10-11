@@ -1,0 +1,205 @@
+{
+  "section": "C",
+  "title": "Navratri and Its Traditions",
+  "intro": "Why the festival exists, how the two Navratris differ, what the ghatasthapana actually establishes, and why the customs change so much from state to state.",
+  "documents": [
+    {
+      "id": "c1-why-navratri",
+      "section": "C",
+      "slug": "why-navratri-is-celebrated",
+      "title": "Why is Navratri celebrated?",
+      "questions": ["C1"],
+      "summary": "Navratri marks nine nights of worship of the Goddess in her fierce and protective form, set in the lunar calendar twice a year; in northern and western tradition it culminates in Vijayadashami on the tenth day, and in Bengal it is kept as Durga Puja, which is the same nine-night observance in a distinctly different ritual shape.",
+      "body": [
+        "The festival's scriptural anchor is the Devi Mahatmya narrative: the Goddess invoked by the gods when they are powerless, and the battles against Madhu and Kaitabha, Mahishasura and Shumbha–Nishumbha that follow. The nine nights are the period over which the tradition tells and sings that narrative, and the tenth day celebrates its completion.",
+        "The seasonal layer matters just as much. Navratri sits at the turning of the seasons — Chaitra Navratri in spring (March–April) and Sharad Navratri in autumn (September–October). Both are computed, not fixed: the dates move with the lunar month, which is why the app computes them for the reader's city rather than printing them.",
+        "A third layer is social. In Gujarat the nine nights are the year's largest public dance; in Bengal they are the year's largest public art festival; in Karnataka they are Dasara, with the Mysuru observances; in Tamil practice they are Kolu, with a display of dolls and the Saraswati observance on the ninth. All are the same nine nights, kept differently."
+      ],
+      "keyPoints": [
+        "Scripturally anchored in the Devi Mahatmya narrative.",
+        "Two Navratris a year: Chaitra (spring) and Sharad (autumn), both lunar.",
+        "Regional observance takes very different ritual shapes."
+      ],
+      "tradition": "Pan-Indian; the app names regional differences rather than presenting one as the standard.",
+      "sources": [
+        { "sourceId": "durga700", "locator": "Devi Mahatmya, 13 chapters", "note": "The narrative the festival tells." },
+        { "sourceId": "panchang-engine", "locator": "Navratri date computation", "note": "How this app computes Chaitra and Sharad Navratri for a given city." }
+      ],
+      "links": [
+        { "href": "/calendar", "label": "Computed dates for your city" },
+        { "href": "/navratri", "label": "Full Navratri guide" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "नवरात्रि क्यों मनाई जाती है?",
+          "summary": "नवरात्रि वर्ष में दो बार चंद्र पंचांग के अनुसार देवी की आराधना की नौ रातें हैं; उत्तर-पश्चिमी परम्परा में दसवें दिन विजयादशमी होती है, और बंगाल में यही नौ रातें दुर्गा पूजा के रूप में मनाई जाती हैं।",
+          "body": [
+            "उत्सव का शास्त्रीय आधार देवी महात्म्य की कथा है: जब देवता निःशक्त हो जाते हैं तब देवी का आह्वान, और मधु-कैटभ, महिषासुर तथा शुम्भ-निशुम्भ के साथ युद्ध। इन नौ रातों में यही कथा कही और गाई जाती है।",
+            "मौसम की परत भी उतनी ही महत्वपूर्ण है: चैत्र नवरात्रि वसंत में और शारदीय नवरात्रि शरद में — दोनों चंद्र मास के अनुसार चलती हैं, इसलिए तिथियाँ बदलती हैं और इस ऐप में आपके शहर के लिए गणना की जाती हैं।",
+            "तीसरी परत सामाजिक है: गुजरात में ये नौ रातें वर्ष का सबसे बड़ा सार्वजनिक नृत्य हैं, बंगाल में सबसे बड़ा कला-उत्सव, कर्नाटक में दसरा, और तमिल परम्परा में कोलू। सब वही नौ रातें हैं, भिन्न रूपों में।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "c2-chaitra-sharad",
+      "section": "C",
+      "slug": "chaitra-vs-sharad-navratri",
+      "title": "What is the difference between Chaitra Navratri and Sharad Navratri?",
+      "questions": ["C2"],
+      "summary": "They are the same nine-night observance in two seasons: Chaitra Navratri falls in spring, beginning the day after the new moon of Chaitra, and Sharad Navratri falls in autumn, beginning the day after the new moon of Ashvin; in most of India Sharad Navratri is the larger public festival, and in Bengal it is Durga Puja.",
+      "body": [
+        "Chaitra Navratri is the spring observance, and tradition places its conclusion on Rama Navami — the ninth day is therefore also kept as the birth of Rama in many households. Its tone is quieter and more domestic in most regions.",
+        "Sharad Navratri is the autumn observance, ending in Vijayadashami — Dasara in Karnataka, Dussehra in the north, and the final day of Durga Puja in Bengal. It is the larger festival publicly, with the ghatasthapana or kalash rite on day one and Kanya Puja or its regional equivalent on days eight or nine.",
+        "Both are computed from the lunar calendar, so both move every year relative to the Gregorian calendar. This app computes both for the selected city and shows the method and its limits, rather than printing a date that might silently be a year stale."
+      ],
+      "keyPoints": [
+        "Chaitra = spring; Sharad = autumn.",
+        "Chaitra's ninth day is also Rama Navami in many traditions.",
+        "Sharad is generally the larger public festival.",
+        "Both are lunar, so both must be computed rather than fixed."
+      ],
+      "tradition": "Pan-Indian; the relative prominence of the two differs by region and family.",
+      "sources": [
+        { "sourceId": "panchang-engine", "locator": "both Navratris", "note": "The app computes both and labels the method's precision limits." },
+        { "sourceId": "editorial", "locator": "seasonal and regional notes", "note": "Editorial." }
+      ],
+      "links": [
+        { "href": "/calendar", "label": "Chaitra and Sharad dates, computed" },
+        { "href": "/navratri", "label": "Navratri guide" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "चैत्र नवरात्रि और शारदीय नवरात्रि में क्या अंतर है?",
+          "summary": "दोनों एक ही नौ-रात्रि आराधना हैं, दो ऋतुओं में: चैत्र नवरात्रि वसंत में और शारदीय नवरात्रि शरद में; भारत के अधिकांश भागों में शारदीय नवरात्रि बड़ा सार्वजनिक उत्सव है, और बंगाल में वही दुर्गा पूजा है।",
+          "body": [
+            "चैत्र नवरात्रि वसंत की है, और परम्परा इसका समापन रामनवमी पर रखती है। अधिकांश क्षेत्रों में इसका स्वर शांत और घरेलू है।",
+            "शारदीय नवरात्रि शरद की है, जो विजयादशमी पर पूर्ण होती है — कर्नाटक में दसरा, उत्तर में दशहरा, बंगाल में दुर्गा पूजा का अंतिम दिन। दोनों चंद्र पंचांग से गणना होती हैं, इसलिए दोनों की तिथियाँ हर वर्ष बदलती हैं — और यह ऐप उन्हें आपके चुने शहर के लिए गणना करता है।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "c3-nine-nights-ten-days",
+      "section": "C",
+      "slug": "nine-nights-ten-days",
+      "title": "Why are nine nights and ten days significant in some traditions?",
+      "questions": ["C3"],
+      "summary": "The nine nights are the period of worship; the tenth day is Vijayadashami — the day of the completion of the narrative the nine nights told. Some regions count ten days of visible festival; the counting follows the lunar day boundaries, which is why the number of civil dates a festival occupies varies by city and year.",
+      "body": [
+        "Nine nights, then a tenth day. In the Devi Mahatmya's arc the battles end and the gods praise the Goddess; Vijayadashami is the day that ending is observed. In Bengal's Durga Puja the ten-day count is explicit: the goddess's arrival, the six days of पूजा that follow, and the departure on Dashami.",
+        "The tenth day also has an older, separate set of associations — victory and the crossing of boundaries, observed in different regions as the day for beginning study, for the Mysuru Dasara procession, for the burning of effigies of Ravan, or for Visarjan.",
+        "Where the count is confusing it is usually a lunar-boundary question: a tithi begins and ends at different civil times in different places, so the same observance can land on two different dates in two cities. This app computes the tithi at local sunrise for the selected city and says that it has done so."
+      ],
+      "keyPoints": [
+        "Nine nights of worship; the tenth day observes the narrative's completion.",
+        "The tenth day has older, regionally distinct associations as well.",
+        "Date differences between cities are usually lunar-boundary effects, not errors."
+      ],
+      "tradition": "Pan-Indian with strong regional variation in the tenth day's meaning.",
+      "sources": [
+        { "sourceId": "durga700", "locator": "Devi Mahatmya 13 (colophon)", "note": "The praise and the close of the narrative." },
+        { "sourceId": "panchang-engine", "locator": "tithi evaluation at sunrise", "note": "The app's stated method and limits." }
+      ],
+      "links": [
+        { "href": "/calendar", "label": "Festival calendar" },
+        { "href": "/navratri/day-by-day", "label": "Day-by-day guide" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "कुछ परम्पराओं में नौ रातें और दस दिन का क्या महत्व है?",
+          "summary": "नौ रातें आराधना का समय हैं; दसवाँ दिन विजयादशमी है — उस कथा की पूर्णता का दिन जो नौ रातों में सुनाई गई।",
+          "body": [
+            "देवी महात्म्य के क्रम में युद्ध समाप्त होते हैं और देवता देवी की स्तुति करते हैं; विजयादशमी उसी समापन का दिन है। बंगाल की दुर्गा पूजा में दस दिनों की गणना स्पष्ट है।",
+            "जहाँ तिथियों का भ्रम होता है वह प्रायः चंद्र-तिथि की सीमा का प्रश्न है: तिथि अलग-अलग स्थानों पर अलग समय पर आरम्भ और समाप्त होती है। यह ऐप चुने गए शहर के सूर्योदय पर तिथि की गणना करता है और यह बात लिखकर दिखाता है।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "c4-ghatasthapana",
+      "section": "C",
+      "slug": "ghatasthapana-meaning",
+      "title": "What is the spiritual meaning of Ghatasthapana or Kalash Sthapana?",
+      "questions": ["C4"],
+      "summary": "Ghatasthapana is the rite that opens Navratri: a pot, usually with water, mango or barley sprouts, and a coconut, is established and invoked as the seat of the Goddess for the nine nights; the sprouts growing over the nine days are read as the visible form of the worship's persistence.",
+      "body": [
+        "The word means the establishing (sthapana) of the pot (ghata). The pot is filled with water, sometimes with a layer of soil and barley or wheat seeds above the water, and sealed with a coconut; the whole is invoked and thereafter treated as the Goddess's presence in the house for nine nights. It is a seat, not a symbol of a seat.",
+        "The barley sprouts — javara in Marathi, jowar or kanjak elsewhere — are the part of the rite that people watch. They grow because they were watered, which is exactly the image the tradition wants: nine days of attention, and something visible comes of it that was not there at the start.",
+        "The rite is performed on the first day at an auspicious moment, which in practice means within a stated part of the day; the app's calendar states the method by which the first day was computed and warns that a neighbouring city can differ by a day near a boundary."
+      ],
+      "keyPoints": [
+        "Establishes the pot as the Goddess's seat for nine nights.",
+        "Barley or wheat sprouts are grown across the nine days.",
+        "Performed on day one at a stated auspicious window.",
+        "Sprouts are read as visible evidence of sustained attention — not as an omen of material gain."
+      ],
+      "tradition": "Common across northern, western and central India with local variations in what is placed in the pot.",
+      "sources": [
+        { "sourceId": "editorial", "locator": "puja guides", "note": "The app's own ritual guides, labelled editorial." },
+        { "sourceId": "panchang-engine", "locator": "first-day computation", "note": "How the day is computed and its precision limits." }
+      ],
+      "links": [
+        { "href": "/puja/ghatasthapana", "label": "Step-by-step ghatasthapana guide" },
+        { "href": "/puja", "label": "All puja guides" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "घटस्थापना या कलश स्थापना का आध्यात्मिक अर्थ क्या है?",
+          "summary": "घटस्थापना नवरात्रि का आरम्भिक संस्कार है: जल, जौ के अंकुर और नारियल सहित कलश की स्थापना और उसमें देवी का आह्वान; नौ दिनों में उगने वाले अंकुर आराधना की निरंतरता का दृश्य रूप हैं।",
+          "body": [
+            "शब्द का अर्थ है घट की स्थापना। कलश में जल भरा जाता है, उसके ऊपर मिट्टी की परत में जौ या गेहूँ के बीज डाले जाते हैं, और नारियल रखकर उसका आह्वान किया जाता है; फिर नौ रातों तक वह घर में देवी की उपस्थिति माना जाता है।",
+            "जवारा — जो लोग नौ दिन देखते हैं, वह यही है: अंकुर इसलिए उगते हैं क्योंकि उन्हें जल दिया गया। परम्परा का यही चित्र है — नौ दिन का ध्यान, और उससे कुछ दिखाई देने लगता है जो आरम्भ में नहीं था।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "c5-regional-variation",
+      "section": "C",
+      "slug": "why-customs-vary",
+      "title": "Why do Navratri celebrations and customs vary across Indian regions?",
+      "questions": ["C5", "H4"],
+      "summary": "Because for most of its history the festival has been a local observance carried by families, temples and villages, each with its own reckoning, its own preferred forms and its own agricultural calendar; the nine-night frame is shared, the content of each night is not.",
+      "body": [
+        "The shared part is the frame: nine nights, the Goddess, a culminating tenth day. Everything inside the frame is local. Which Devi is on which night, which colour, which bhog, whether the ninth night is Rama's birth, Saraswati's observance or Ayudha Puja, whether the celebration is a public procession or a private fast — all of it is decided by the community that keeps it.",
+        "There is also a practical reason: the festival sits on the agricultural year. In Gujarat the harvest and the dancing go together; in Punjab and Haryana the same days mark the wheat cycle; in Kerala the days are Vidyarambham — the first letters written by a child — because education and Saraswati belong to the same turning of the year.",
+        "This app's rule is to record a difference rather than resolve it. Where two traditions disagree about a night's form or a rite's sequence, both are shown and labelled with the region or the source they come from."
+      ],
+      "keyPoints": [
+        "The frame is shared; the content of each night is local.",
+        "Agricultural and educational cycles shape regional customs.",
+        "Where traditions disagree, both readings are recorded."
+      ],
+      "tradition": "This document is about variation itself; it deliberately does not present one tradition as the standard.",
+      "sources": [
+        { "sourceId": "editorial", "locator": "regional survey", "note": "Editorial; regional claims are kept general and checkable." },
+        { "sourceId": "peetha-traditions", "locator": "regional enumerations", "note": "Precedent for recording disagreements rather than resolving them." }
+      ],
+      "links": [
+        { "href": "/navratri", "label": "Regional traditions" },
+        { "href": "/questions?section=H", "label": "Questions about regional celebrations" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "भारत के विभिन्न क्षेत्रों में नवरात्रि के रीति-रिवाज भिन्न क्यों हैं?",
+          "summary": "क्योंकि यह उत्सव सदियों तक स्थानीय रूप से परिवारों, मंदिरों और गाँवों द्वारा मनाया गया — नौ रातों का ढाँचा साझा है, प्रत्येक रात की सामग्री नहीं।",
+          "body": [
+            "साझा हिस्सा ढाँचा है: नौ रातें, देवी, और दसवें दिन का समापन। ढाँचे के भीतर सब स्थानीय है — किस रात कौन देवी, कौन रंग, कौन भोग, नवमी रामनवमी है या सरस्वती पूजा या आयुध पूजा।",
+            "इस ऐप का नियम है: भिन्नता को मिटाना नहीं, दर्ज करना। जहाँ दो परम्पराएँ किसी रात के रूप या किसी विधि के क्रम पर भिन्न हैं, दोनों दिखाई जाती हैं और उनके क्षेत्र अथवा स्रोत के नाम के साथ लिखी जाती हैं।"
+          ]
+        }
+      }
+    }
+  ]
+}

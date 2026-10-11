@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { answer, retrieve } from "@/lib/devi-gyan";
+import { isLanguageCode } from "@/lib/i18n";
 
 export const runtime = "nodejs";
 
@@ -32,7 +33,10 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "Please keep the question under 600 characters." }, { status: 400 });
   }
 
-  const result = await answer(question);
+  const rawLang = (body as { lang?: unknown }).lang;
+  const lang = typeof rawLang === "string" && isLanguageCode(rawLang) ? rawLang : "en";
+
+  const result = await answer(question, lang);
   return NextResponse.json(result);
 }
 

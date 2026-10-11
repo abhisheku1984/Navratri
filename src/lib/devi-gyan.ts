@@ -17,7 +17,8 @@
  * nothing confident, the function returns `refused: true` and the UI says so.
  */
 import { search, type SearchHit } from "@/lib/search";
-import { getChapters, getPeethas, getNavadurgaForms } from "@/lib/content";
+import { getLanguage, isLanguageCode } from "@/lib/i18n";
+import { getChapters, getKbDocument, getPeethas, getNavadurgaForms } from "@/lib/content";
 
 export interface CitationRef {
   title: string;
@@ -118,6 +119,16 @@ export function retrieve(question: string, limit = 8): RetrievedPassage[] {
     } else if (h.kind === "story") {
       verification = "retelling — see the source note";
       locator = "Stories";
+    } else if (h.kind === "kb") {
+      const doc = getKbDocument(h.id);
+      if (doc) {
+        text = `${doc.summary}\n\n${doc.keyPoints.join(" ")}`;
+        const sources = doc.sources.map((s) => `${s.sourceId} (${s.locator})`).join("; ");
+        locator = `Knowledge base, section ${doc.section} · sources: ${sources}`;
+        verification = doc.review === "reviewed"
+          ? "reviewed"
+          : "editorial, in-house review";
+      }
     }
 
     out.push({
@@ -129,7 +140,8 @@ export function retrieve(question: string, limit = 8): RetrievedPassage[] {
   return out;
 }
 
-export async function answer(question: string): Promise<DeviGyanAnswer> {
+export async function answer(question: string, lang = "en"): Promise<DeviGyanAnswer> {
+  const language = isLanguageCode(lang) ? getLanguage(lang) : getLanguage("en");
   const q = question.trim();
   const disclaimers = [
     "This assistant retrieves from this app's own content and cites it. It does not have access " +
@@ -212,7 +224,9 @@ export async function answer(question: string): Promise<DeviGyanAnswer> {
     "what a commentator has added. Where the passages disagree, present both and say they disagree.",
     "Never promise blessings, cures, prosperity or supernatural results. Never rank one sect",
     "above another. If a question needs a qualified scholar or local priest, say so.",
-    "Answer in the language the user asked in.",
+    `Answer in ${language.native} (${language.bcp47}). The question may have been asked in a`,
+    "different language: answer in the language requested, and if a quotation must stay in its",
+    "original script, give it in the original followed by that language's rendering.",
   ].join(" ");
 
   const context = passages

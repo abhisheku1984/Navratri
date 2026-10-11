@@ -1,0 +1,205 @@
+{
+  "section": "J",
+  "title": "Personalized Exploration",
+  "intro": "Ways into the tradition that fit where a reader actually is — with the app's boundary stated plainly: it will not tell you what your practice should be.",
+  "documents": [
+    {
+      "id": "j1-where-to-begin",
+      "section": "J",
+      "slug": "where-to-begin",
+      "title": "I am new to Navratri — where should I begin?",
+      "questions": ["J1"],
+      "summary": "Begin with the shortest complete loop: read one form's page, listen to it in your own language, light one lamp on one night, and ask the guide one question. In this app that loop is: the nine forms page → any form → Listen to this page → the puja guide's minimum form → ask the AI guide.",
+      "body": [
+        "The order matters less than finishing one loop. A reader who reads all nine forms but never sits with one has learned a list. A reader who reads one form, hears it in their own language and lights a lamp on one night has kept a night of Navratri, which is what the festival is made of.",
+        "Concretely: open Explore Navadurga, pick the form for today's night if the festival is running (or day one if it is not), read the page, press Listen. If the puja guide's minimum list is more than you want at first, light one lamp and say the day's name. Then ask the guide the question you actually have — it will tell you when it does not know.",
+        "For readers who are not Hindu, the same loop works and one note is added: the app's guides do not require a non-Hindu reader to make a vow or a declaration; taking part as a guest — a lamp, a reading, listening — is what most practitioners would call respectful participation, and the chapters on the Devi Mahatmya can simply be read as the literature they are."
+      ],
+      "keyPoints": [
+        "One complete loop beats a complete list.",
+        "Read one form → listen → light one lamp → ask one question.",
+        "Non-Hindu readers are not asked to make vows or declarations."
+      ],
+      "tradition": "Editorial guidance, written to be usable from any starting point; no tradition is presumed.",
+      "sources": [
+        { "sourceId": "editorial", "locator": "start-here guide", "note": "Editorial; the app's own onboarding path." }
+      ],
+      "links": [
+        { "href": "/navadurga", "label": "Explore the nine forms" },
+        { "href": "/guide", "label": "Ask the AI guide" },
+        { "href": "/plan", "label": "Nine-day plan" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "मैं नवरात्रि में नया/नई हूँ — आरम्भ कहाँ से करूँ?",
+          "summary": "सबसे छोटे पूर्ण चक्र से आरम्भ कीजिए: एक रूप का पन्ना पढ़िए, उसे अपनी भाषा में सुनिए, एक रात एक दीप जलाइए, और गाइड से एक प्रश्न पूछिए। इस ऐप में यही क्रम है: नौ रूप → कोई एक रूप → 'यह पन्ना सुनें' → पूजा मार्गदर्शिका का न्यूनतम रूप → ए आई गाइड से प्रश्न।",
+          "body": [
+            "क्रम से अधिक महत्वपूर्ण है एक चक्र पूरा करना। जो पाठक नौ रूप पढ़कर एक के साथ भी नहीं बैठा, उसने सूची सीखी। जो एक रूप पढ़ता है, उसे अपनी भाषा में सुनता है और एक रात दीप जलाता है, उसने नवरात्रि की एक रात की है।",
+            "जो हिन्दू नहीं हैं, उनके लिए वही चक्र काम करता है, बस एक बात जुड़ती है: इस ऐप की मार्गदर्शिकाएँ किसी अ-हिन्दू पाठक से संकल्प या घोषणा की अपेक्षा नहीं करतीं; अतिथि के रूप में दीप जलाना, सुनना, पढ़ना — अधिकांश साधक इसे श्रद्धापूर्ण भागीदारी मानेंगे।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "j2-which-form",
+      "section": "J",
+      "slug": "which-form-to-start-with",
+      "title": "Which form of Navadurga should I connect with first, and why?",
+      "questions": ["J2"],
+      "summary": "The tradition does not assign forms by personality and this app will not pretend to; the honest answer is that you start with the night you are actually in — day one's Shailaputri if the festival has begun — or with the form whose story answers the question you are currently carrying, and you read it rather than being assigned it.",
+      "body": [
+        "There is a widespread idea that a form can be matched to a person — Kalaratri for the fearless, Kushmanda for the creative — and it appears in a great deal of popular material. It is not a traditional classification with a fixed rule or a text behind it, and the app therefore does not present it as one. What the tradition has is devotional writing that reads each form for a quality, which is a different thing.",
+        "Two honest options. First, keep the calendar's order: if Navratri is running, today's form is the one, and reading it on its night is the practice. Second, if you are starting outside the festival, read the nine forms' summaries and choose the one whose question is your question — the app's summaries state each form's central quality so the choice is a reading, not a guess.",
+        "What this app will not do: give a reading based on a name, birth date or a quiz, or tell you that some form 'has chosen you'. If the question is a personal religious decision, the app's own rule applies — ask a teacher, not an app."
+      ],
+      "keyPoints": [
+        "No traditional system assigns forms to personalities; the app does not invent one.",
+        "Inside the festival, today's night's form is the natural starting point.",
+        "Outside it, read the nine summaries and choose by the question you carry.",
+        "No quizzes, no 'has chosen you' readings, no astrological matching."
+      ],
+      "tradition": "Editorial; the difference between devotional readings of a form and a personality-matching system is stated explicitly.",
+      "sources": [
+        { "sourceId": "editorial", "locator": "start-here guide", "note": "Editorial boundary; no invented matching system." },
+        { "sourceId": "navadurga-stotram", "locator": "dhyana verses", "note": "Each form's phrasing in the source's own words." }
+      ],
+      "links": [
+        { "href": "/navadurga", "label": "Compare the nine forms" },
+        { "href": "/questions?section=J", "label": "More personal exploration questions" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "मैं पहले किस नवदुर्गा रूप से जुड़ूँ, और क्यों?",
+          "summary": "परम्परा व्यक्तित्व के आधार पर रूप नहीं बाँटती और यह ऐप वैसा दिखावा नहीं करेगा; ईमानदार उत्तर यह है — जिस रात में आप हैं उसी से आरम्भ कीजिए, या उस रूप से जिसकी कथा आपके वर्तमान प्रश्न का उत्तर देती है, और उसे पढ़िए — सौंपा हुआ न मानिए।",
+          "body": [
+            "यह धारणा प्रचलित है कि किसी व्यक्ति के लिए कोई रूप 'तय' है — निडर के लिए कालरात्रि, सृजनशील के लिए कूष्माण्डा — पर यह किसी शास्त्रीय नियम या ग्रंथ पर आधारित वर्गीकरण नहीं है, इसलिए ऐप इसे परम्परा के रूप में नहीं बताता। परम्परा में जो है वह भक्ति-साहित्य है, जो प्रत्येक रूप को एक गुण के लिए पढ़ता है — यह भिन्न बात है।",
+            "दो ईमानदार रास्ते: यदि नवरात्रि चल रही है तो आज की रात का रूप ही पहला है; और यदि उत्सव नहीं चल रहा, तो नौ रूपों के सारांश पढ़कर वह चुनिए जिसका प्रश्न आपका प्रश्न है। जो यह ऐप कभी नहीं करेगा: नाम, जन्म-तिथि या प्रश्नोत्तरी से 'रूप निर्धारण' करना, या यह कहना कि कोई रूप 'आपको चुन चुका है'।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "j3-meaningful-first-time",
+      "section": "J",
+      "slug": "first-navratri-meaningful",
+      "title": "How can I make my first Navratri meaningful if I have little time or I am not very religious?",
+      "questions": ["J3", "J4"],
+      "summary": "By choosing one thing and keeping it for nine days — three minutes of listening in your own language each night is a complete practice — and by dropping the idea that a meaningful Navratri requires the full ritual, a fast, or a religious self-description.",
+      "body": [
+        "The festival has room for the small version. Nine nights, three minutes each: open the day's form, listen to it, and be done. Nine nights, one question each: ask the guide what you actually wonder about. Nine nights, one sentence each: read the day's summary aloud to someone in the house.",
+        "Being 'not very religious' is not a disqualification. The chapters of the Devi Mahatmya are literature that can be read as literature; the nine forms are a tradition that can be known before it is practised. This app's pages are written to be usable by a curious reader with no practice at all, and the narration exists precisely so that the material can be received rather than performed.",
+        "What this app will not do is sell the festival as a wellbeing product. There is no promise of calm, prosperity or healing attached to these pages; there is a tradition, presented as accurately as the app can manage, and an invitation to spend nine small amounts of attention on it."
+      ],
+      "keyPoints": [
+        "One small thing kept for nine days is a complete practice.",
+        "No fast, full ritual or religious self-description is required.",
+        "The material can be read as literature or as devotional text.",
+        "No wellbeing or prosperity promises are attached."
+      ],
+      "tradition": "Editorial invitation; the app states what it does not promise.",
+      "sources": [
+        { "sourceId": "editorial", "locator": "start-here guide", "note": "Editorial." }
+      ],
+      "links": [
+        { "href": "/listen", "label": "Listen to the day's form" },
+        { "href": "/questions", "label": "Question explorer" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "यदि समय कम है या मैं अधिक धार्मिक नहीं हूँ, तो पहली नवरात्रि अर्थपूर्ण कैसे बनाऊँ?",
+          "summary": "एक बात चुनकर नौ दिन निभाकर — रात में तीन मिनट अपनी भाषा में सुनना ही एक पूर्ण साधना है — और यह मानकर कि अर्थपूर्ण नवरात्रि के लिए पूरी विधि, व्रत या धार्मिक पहचान आवश्यक नहीं।",
+          "body": [
+            "इस उत्सव में छोटा रूप भी पूरा रूप है: नौ रात, तीन-तीन मिनट — आज का रूप खोलिए, सुनिए, समाप्त। नौ रात, एक-एक प्रश्न — गाइड से वही पूछिए जो वास्तव में जानना है।",
+            "'अधिक धार्मिक नहीं' होना कोई बाधा नहीं है। देवी महात्म्य के अध्याय साहित्य हैं और साहित्य की तरह पढ़े जा सकते हैं; नौ रूप एक परम्परा हैं जिसे अभ्यास से पहले जाना जा सकता है। इस ऐप का वाचन इसी लिए है कि सामग्री 'करनी' न पड़े, 'लेनी' पड़े — और यह ऐप उत्सव को किसी स्वास्थ्य-उत्पाद की तरह नहीं बेचता।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "j4-family-and-children",
+      "section": "J",
+      "slug": "involving-family-and-children",
+      "title": "How can I involve my family, including children, in a meaningful way?",
+      "questions": ["J4", "J5", "F4"],
+      "summary": "Children take part in the parts that have something to do — lighting the lamp, growing and watering the barley sprouts, arranging the kolu or the display, learning one line of the day's text — and the festival is traditionally taught by participation rather than by explanation.",
+      "body": [
+        "The nine nights are unusually child-friendly as festivals go, because several parts of the traditional practice are physical and daily: watering the sprouts and watching them grow, lighting the lamp, putting out the flower, and for the display traditions, setting up and keeping the arrangement. These are tasks a child can own rather than watch.",
+        "For the content, give one line rather than a lecture: each of the nine forms has a one-sentence summary on its page, and saying the day's name together is enough to make the night memorable. Narration in the family's language, played while the sprouts are watered, does the teaching without a class.",
+        "Where families differ in observance — one parent fasting and one not, grandparents keeping a fuller practice, teenagers unpersuaded — the app's guides treat the differences as normal and provide a shared part that everybody can do: the lamp, the day's story, and a meal that includes a vrat option rather than requiring it."
+      ],
+      "keyPoints": [
+        "Give children the physical tasks: lamp, sprouts, flower, display.",
+        "One line a day teaches without lecturing.",
+        "Narration in the household's language does most of the work.",
+        "Differences in observance are normal; keep a shared part."
+      ],
+      "tradition": "Household practice across regions; the app does not prescribe family structure or roles.",
+      "sources": [
+        { "sourceId": "editorial", "locator": "family guide", "note": "Editorial; non-prescriptive about who may do what." }
+      ],
+      "links": [
+        { "href": "/puja/ghatasthapana", "label": "Growing the sprouts" },
+        { "href": "/plan", "label": "Family nine-day plan" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "परिवार, विशेषकर बच्चों को अर्थपूर्ण ढंग से कैसे सम्मिलित करूँ?",
+          "summary": "बच्चे उन भागों में जुड़ते हैं जिनमें करने को कुछ होता है — दीप जलाना, जौ के अंकुर को जल देना, सजावट (कोलू) लगाना, दिन के पाठ की एक पंक्ति सीखना — और यह उत्सव परम्परागत रूप से समझाने से नहीं, साथ करने से सिखाया जाता है।",
+          "body": [
+            "नवरात्रि उत्सवों में असामान्य रूप से बच्चों-अनुकूल है, क्योंकि इसके कई हिस्से शारीरिक और दैनिक हैं: अंकुर को जल देना और उन्हें बढ़ते देखना, दीप जलाना, पुष्प रखना, और सजावट सँभालना। ये ऐसे काम हैं जो बच्चा 'अपने' मान सकता है।",
+            "सामग्री के लिए उपदेश की जगह एक पंक्ति दीजिए: प्रत्येक रूप के पन्ने पर एक वाक्य का सार है, और दिन का नाम साथ कहना ही रात को स्मरणीय बना देता है। परिवार की भाषा में वाचन, अंकुर को जल देते समय चलाया गया, बिना कक्षा के सिखा देता है। जहाँ घर के लोगों की रीतियाँ भिन्न हैं, वहाँ ऐप उन्हें सामान्य मानता है और सबके लिए एक साझा हिस्सा रखता है।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "j5-going-deeper",
+      "section": "J",
+      "slug": "going-deeper-over-time",
+      "title": "How can I explore Navadurga and Durga worship more deeply over time?",
+      "questions": ["J5", "J1", "I5"],
+      "summary": "Deepen in this order: the nine forms' pages, then the Devi Mahatmya's narrative chapters, then the auxiliary recitations, then the questions the texts raise about themselves — and keep a record of what you read, because the tradition's material is a corpus to revisit rather than a course to finish.",
+      "body": [
+        "A workable sequence: one Navratri season on the nine forms alone, reading one page a night; a second season on the Devi Mahatmya's story, chapters 1 to 13 in order, with the English prose alongside for a first pass; a third on the recitations, beginning with the Devi Kavacham and Argala Stotram; and thereafter whatever the corpus itself sends you towards — a chapter that disagrees with a summary, a form you skipped, a regional account that does not match the northern one.",
+        "Two habits that make it stick: read a chapter beside something that describes the same passage in a different register, and keep the record. This app's saved articles and recents exist for the second — the journey is user-controlled, deletable, and stores nothing on a server.",
+        "Where to be careful as you go deeper: printed and online material on Shakti tradition is enormous and uneven, and popular reprints sometimes attribute verses to texts that do not contain them. The app's rule for itself — never quote a passage it cannot point at in its own corpus — is also a reasonable reading habit for whatever else a reader picks up."
+      ],
+      "keyPoints": [
+        "A possible sequence: forms → narrative → recitations → questions the texts raise.",
+        "Compare a chapter with a different register of the same passage.",
+        "Keep a controllable record; this app's journey data is local and deletable.",
+        "Point at the passage or do not quote it — a good rule for any Shakti material you read."
+      ],
+      "tradition": "Editorial study path; the app's source policy applied as a reading habit.",
+      "sources": [
+        { "sourceId": "durga700", "locator": "13 chapters + 6 angas", "note": "The corpus the path uses." },
+        { "sourceId": "editorial", "locator": "study path", "note": "Editorial." }
+      ],
+      "links": [
+        { "href": "/scripture", "label": "Start with chapter 1" },
+        { "href": "/saved", "label": "Your saved pages and recents" },
+        { "href": "/sources", "label": "What is verified here and what is not" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "समय के साथ नवदुर्गा और दुर्गा-उपासना में गहराई तक कैसे जाऊँ?",
+          "summary": "इस क्रम से गहराइए: नौ रूपों के पन्ने, फिर देवी महात्म्य की कथा-अध्याय, फिर अंग-पाठ, और फिर वे प्रश्न जो ग्रंथ स्वयं उठाते हैं — और जो पढ़ा उसका अभिलेख रखिए, क्योंकि यह परम्परा का संग्रह है, पूरा कर लेने का पाठ्यक्रम नहीं।",
+          "body": [
+            "व्यावहारिक क्रम: पहला सीज़न केवल नौ रूपों का — रात में एक पन्ना; दूसरा देवी महात्म्य की कथा का — अध्याय 1 से 13 क्रम से; तीसरा अंग-पाठों का — देवी कवच और अर्गला स्तोत्र से आरम्भ; और उसके बाद वह, जहाँ संग्रह स्वयं भेजे।",
+            "दो आदतें इसे टिकाती हैं: किसी अध्याय को उसी प्रसंग के भिन्न निबंध-रूप के साथ पढ़ना, और अभिलेख रखना। इस ऐप के सहेजे पन्ने और हाल की यात्रा इसी काम के हैं — वे उपयोगकर्ता के नियंत्रण में हैं, हटाए जा सकते हैं, और किसी सर्वर पर नहीं जाते।"
+          ]
+        }
+      }
+    }
+  ]
+}

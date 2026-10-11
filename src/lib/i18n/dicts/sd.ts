@@ -1,0 +1,142 @@
+/**
+ * سنڌي — partial interface translation (Perso-Arabic, right-to-left).
+ *
+ * Sindhi keeps its own alphabet (ٻ ڀ ٿ ٽ ٺ ڃ ڇ ڏ ڊ ڌ ڍ ڙ ڪ ڳ ڱ ڻ ڃ), and the
+ * diacritics that distinguish Sindhi letters from Arabic ones are used here
+ * correctly rather than dropped. Sindhi devotional life is closely tied to
+ * Jhulelal and to Shakti shrines at Hinglaj; Navratri vocabulary follows the
+ * shared north-western devotional register.
+ */
+import type { Dict } from "./en";
+
+export const sd: Dict = {
+  "app.name": "نوراتري",
+  "app.subtitle": "الاهي شڪتي",
+  "app.tagline": "ماءُ درگا کي سڃاڻو. پاڪ ڪتاب ڳوليو. شڪتي جو تجربو ڪريو.",
+  "app.enter": "اندر اچو",
+  "app.jaiMataDi": "جي ماتا دي",
+  "app.skipIntro": "تمهيد ڇڏيو",
+
+  "nav.home": "مک صفحو",
+  "nav.navadurga": "نودرگا جو نظارو",
+  "nav.navratri": "نوراتري جو تعارف",
+  "nav.puja": "پوڄا ۽ ريت",
+  "nav.mantras": "منتر ۽ آرتي",
+  "nav.stories": "ڪهاڻيون ۽ علم",
+  "nav.listen": "ٻڌڻ جو مجموعو",
+  "nav.guide": "اي آئي راهنما کان پڇو",
+  "nav.questions": "سوالن جي ڳولا",
+  "nav.journey": "منهنجو سفر",
+  "nav.about": "تعارف ۽ ذريعا",
+  "nav.settings": "سيٽنگون ۽ رسائي",
+  "nav.search": "ڳوليو",
+  "nav.saved": "محفوظ ٿيل",
+  "nav.more": "وڌيڪ",
+  "nav.menu": "فهرست",
+  "nav.language": "ٻولي",
+  "nav.chooseLanguage": "پنهنجي ٻولي چونڊيو",
+
+  "action.read": "پڙهو",
+  "action.readArticle": "مضمون پڙهو",
+  "action.listen": "ٻڌو",
+  "action.listenPage": "هي صفحو ٻڌو",
+  "action.listenStory": "سڄي ڪهاڻي ٻڌو",
+  "action.pause": "روڪيو",
+  "action.stop": "بند ڪريو",
+  "action.replay": "ٻيهر هلايو",
+  "action.speed": "رفتار",
+  "action.volume": "آواز",
+  "action.transcript": "لکت",
+  "action.captions": "ذيلي عنوان",
+  "action.voice": "آواز",
+  "action.back": "واپس",
+  "action.next": "اڳتي",
+  "action.close": "بند ڪريو",
+  "action.save": "محفوظ ڪريو",
+  "action.saved": "محفوظ ٿي ويو",
+  "action.delete": "ڊاهيو",
+  "action.search": "ڳوليو",
+  "action.askGuide": "راهنما کان پڇو",
+
+  "home.heroTitle": "جي ماتا دي.",
+  "home.heroSub": "الاهي شڪتي جي دنيا ۾ ڀلي ڪري آيا.",
+  "home.heroBody": "ماءُ درگا جا نوَ روپ، مڪمل درگا سپتشتي، پوڄا جا طريقا، منتر ۽ نوراتري جون ريتون — پنهنجي ٻولي ۾ پڙهو ۽ ٻڌو.",
+  "home.valueNavadurga": "نودرگا جو نظارو",
+  "home.valueNavadurgaNote": "نوَ روپ، هڪ هڪ ڪري، هر هڪ جي ڪهاڻي سان.",
+  "home.valueListen": "ٻڌو ۽ سکو",
+  "home.valueListenNote": "هر مضمون توهان جي چونڊيل ٻولي ۾ پڙهيو وڃي ٿو.",
+  "home.valueGuide": "اي آئي راهنما",
+  "home.valueGuideNote": "انهيءَ مجموعي مان، ذريعن سان جواب.",
+  "home.valueDaily": "روزاني علم",
+  "home.valueDailyNote": "اڄ جو روپ، اڄ جو منتر، اڄ جي سوچ.",
+  "home.valueRituals": "ريتون سکو",
+  "home.valueRitualsNote": "گهٽ اسٿاپن، روزاني پوڄا، نذرانو، روزو.",
+  "home.today": "اڄ",
+  "home.todaysForm": "اڄ جو روپ",
+  "home.mantraOfDay": "اڄ جو منتر",
+  "home.langHint": "۲۴ ٻولين ۾ پڙهو ۽ ٻڌو",
+
+  "intro.title": "نودرگا",
+  "intro.subtitle": "هڪ روشنيءَ جي چوڌاري نوَ روپ",
+  "intro.skip": "تمهيد ڇڏيو",
+  "intro.begin": "شروع ڪريو",
+
+  "nd.title": "نودرگا جا نوَ روپ",
+  "nd.day": "ڏينهن",
+  "nd.meaning": "نالي جو مطلب",
+  "nd.story": "ڪهاڻي",
+  "nd.symbolism": "علامت",
+  "nd.mantra": "منتر",
+  "nd.offering": "روايتي نذرانو",
+
+  "q.title": "سوالن جي ڳولا",
+  "q.searchPlaceholder": "سوالن ۾ ڳوليو…",
+  "q.openArticle": "جواب پڙهو",
+  "q.toGuide": "راهنما کان پڇو",
+  "q.section": "حصو",
+
+  "guide.title": "نودرگا اي آئي راهنما",
+  "guide.placeholder": "پنهنجي ٻولي ۾ سوال لکو…",
+  "guide.send": "موڪليو",
+  "guide.sources": "ذريعا",
+  "guide.feedbackHelpful": "ڪارآمد",
+  "guide.feedbackNot": "ڪارآمد نه",
+  "guide.noAnswer": "هن مجموعي ۾ اها ڄاڻ جواب ڏيڻ لاءِ ڪافي ناهي.",
+  "action.listenAnswer": "هي جواب ٻڌو",
+
+  "audio.title": "ٻڌڻ",
+  "audio.noVoice": "هن مشين تي {language} جو آواز ناهي.",
+  "audio.transcriptLang": "لکت ({language})",
+
+  "lib.title": "ٻڌڻ ۽ ڀڳتي پاٺ",
+  "lib.filterLanguage": "ٻولي",
+  "lib.rights": "حق",
+
+  "j.title": "منهنجو سکڻ جو سفر",
+  "j.saved": "محفوظ مضمون",
+  "j.recent": "تازو ڏٺو",
+  "j.deleteAll": "منهنجو سڄو ڊيٽا ڊاهيو",
+
+  "set.title": "سيٽنگون ۽ رسائي",
+  "set.language": "ٻولي",
+  "set.audio": "آواز",
+  "set.motionReduced": "هلچل گهٽايو",
+  "set.textSize": "اکرن جو ماپ",
+  "set.voiceAuto": "پاڻمرادو (ٻوليءَ لاءِ سٺو)",
+
+  "status.translationTitle": "ترجمي جي حالت",
+  "status.available": "دستياب",
+  "status.unavailable": "هن ٻولي ۾ اڃا ناهي",
+
+  "common.read": "پڙهو",
+  "common.listen": "ٻڌو",
+  "common.source": "ذريعو",
+  "common.sources": "ذريعا",
+  "common.loading": "لوڊ ٿي رهيو آهي…",
+  "common.close": "بند ڪريو",
+  "common.all": "سڀ",
+  "common.no": "نه",
+
+  "err.title": "ڪجهه غلط ٿي ويو",
+  "err.notFound": "اهو صفحو ناهي",
+};

@@ -1,0 +1,201 @@
+{
+  "section": "E",
+  "title": "Mantras, Aarti and Sacred Sound",
+  "intro": "What a mantra is, how the genres differ, how a beginner can approach recitation, and what to do if you would rather listen than recite.",
+  "documents": [
+    {
+      "id": "e1-what-is-mantra",
+      "section": "E",
+      "slug": "what-is-a-mantra",
+      "title": "What is a mantra, and why do devotees recite mantras?",
+      "questions": ["E1", "E3"],
+      "summary": "A mantra is a short, fixed sound-form — a word or a few syllables — recited or repeated as a practice, not a prayer with a request in it; devotees recite because repetition is the technique: the text stays the same so that what changes is the person reciting.",
+      "body": [
+        "The word is usually explained as manas (mind) + tra (protecting, or a tool): that which protects the mind, or the mind's instrument. In practice a mantra is fixed text — the wording does not vary with the occasion, and that fixity is the point. A prayer asks; a mantra repeats.",
+        "The Navarna mantra, oṃ aiṃ hrīṃ klīṃ cāmuṇḍāyai vicce, is the mantra associated with the Devi Mahatmya and used across Navratri; it appears in the app's imported auxiliary recitations. The Devi Kavacham is likewise a fixed recitation of protective verses.",
+        "Why repeat? The traditional answers are different from school to school, but they agree that repetition trains attention and steadiness, that the sound matters as sound as well as meaning, and that a practice has to be small enough to be repeated. Where a tradition ascribes world-changing power to a mantra, that claim is that tradition's claim; this app reports it and does not promise outcomes from reciting."
+      ],
+      "keyPoints": [
+        "A mantra is fixed text recited as practice, not a request.",
+        "The Navarna mantra is the one associated with the Saptashati and Navratri.",
+        "Repetition is the technique; traditions differ on what it produces."
+      ],
+      "tradition": "Pan-Indian; how a mantra is treated depends on the school (Vedantic, Tantric, devotional).",
+      "sources": [
+        { "sourceId": "durga700", "locator": "Devi Kavacham, Navarna mantra", "note": "Both texts as imported in the supplemental recitations." },
+        { "sourceId": "editorial", "locator": "mantra library", "note": "Editorial explanation; meaning and transliteration shown separately from the original text." }
+      ],
+      "links": [
+        { "href": "/mantras", "label": "Mantra and aarti library" },
+        { "href": "/mantras/navarna-mantra", "label": "Navarna mantra, with pronunciation notes" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "मन्त्र क्या है, और भक्त मन्त्रों का जाप क्यों करते हैं?",
+          "summary": "मन्त्र एक छोटा, नियत ध्वनि-रूप है — शब्द या कुछ बीज-अक्षर — जिसे साधना के रूप में जपा जाता है, कोई याचना नहीं; भक्त जप इसलिए करते हैं क्योंकि जप ही विधि है — पाठ वही रहता है, बदलता है जपने वाला।",
+          "body": [
+            "शब्द को प्रायः मनस् + त्र के रूप में समझाया जाता है — जो मन की रक्षा करता है, या मन का उपकरण। व्यवहार में मन्त्र नियत पाठ है: उसके शब्द अवसर के अनुसार नहीं बदलते, और यही नियतता मर्म है।",
+            "नवार्ण मन्त्र — ॐ ऐं ह्रीं क्लीं चामुण्डायै विच्चे — देवी महात्म्य से जुड़ा मन्त्र है और नवरात्रि में प्रयुक्त होता है। जहाँ कोई परम्परा मन्त्र-जप से लोक-परिवर्तन का दावा करती है, वह उस परम्परा का दावा है; यह ऐप उसे बताता है, उससे फल की गारंटी नहीं देता।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "e2-genres",
+      "section": "E",
+      "slug": "mantra-stotra-chalisa-aarti",
+      "title": "What is the difference between a mantra, stotra, chalisa and aarti?",
+      "questions": ["E2", "E4"],
+      "summary": "A mantra is a short fixed syllable-form repeated; a stotra is a longer hymn of praise with many verses; a chalisa is a devotional poem of forty verses in a regional language written in praise of a deity; an aarti is a short song sung while a lamp is waved, marking the close of a puja.",
+      "body": [
+        "Mantra: short, repeatable, often of syllables rather than sentences — the Navarna mantra is five words. Stotra: a hymn, longer, metrical, with a narrative or descriptive flow — the Devi Kavacham and the Argala Stotram are stotras, and both are imported in this app with their sources named.",
+        "Chalisa: literally forty (chalis) verses, in a regional language rather than Sanskrit, structured to be memorised and sung by anyone. The Durga Chalisa is the best-known example in this family and is one of the most widely recited devotional texts in north India; the app lists it with its genre, its traditional attribution and a note that the framing story is devotional tradition rather than a historical claim.",
+        "Aarti: not a genre of recitation so much as an act — a short song accompanying the lamp, done at the close of a sitting. There are many aartis, differing by deity and region, and households use their own."
+      ],
+      "keyPoints": [
+        "Mantra: short and repeated. Stotra: a longer hymn. Chalisa: forty verses in a regional language. Aarti: a lamp-song that closes a puja.",
+        "The Durga Chalisa's traditional attribution is devotional rather than historical.",
+        "Household aarti texts vary; a family's own version takes precedence."
+      ],
+      "tradition": "Pan-Indian; the Chalisa is a devotional, popular tradition rather than a scriptural one.",
+      "sources": [
+        { "sourceId": "durga700", "locator": "Devi Kavacham, Argala Stotram", "note": "Example stotras, imported with attributions." },
+        { "sourceId": "editorial", "locator": "mantra library", "note": "Genre notes and the Chalisa's attribution, labelled." }
+      ],
+      "links": [
+        { "href": "/mantras", "label": "Mantra and aarti library" },
+        { "href": "/scripture/angas/argala-stotram", "label": "Argala Stotram" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "मन्त्र, स्तोत्र, चालीसा और आरती में क्या अंतर है?",
+          "summary": "मन्त्र छोटा और नियत जप-रूप है; स्तोत्र अनेक श्लोकों की स्तुति है; चालीसा क्षेत्रीय भाषा में चालीस पदों का भक्ति-काव्य है; आरती वह छोटा गीत है जो दीप घुमाते हुए गाया जाता है और पूजा का समापन करता है।",
+          "body": [
+            "मन्त्र: छोटा, जपने योग्य, प्रायः वाक्य नहीं बीजाक्षर — नवार्ण मन्त्र पाँच शब्दों का है। स्तोत्र: लंबी, छंदोबद्ध स्तुति — देवी कवच और अर्गला स्तोत्र इसी कोटि के हैं, और यह ऐप दोनों के स्रोत के नाम के साथ देता है।",
+            "चालीसा: बोलचाल की भाषा में चालीस पद, स्मरण और गायन के लिए बने। दुर्गा चालीसा इस परिवार की सर्वाधिक प्रचलित रचना है; इसका पारंपरिक श्रेय भक्ति-परम्परा का है, ऐतिहासिक प्रमाण नहीं — और यह ऐप यही बात स्पष्ट लिखता है। आरती कोई विधा नहीं, कर्म है: दीप के साथ गाया जाने वाला गीत।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "e3-recitation-beginner",
+      "section": "E",
+      "slug": "ending-recitation-safely",
+      "title": "How should a beginner approach the recitation of a Durga mantra?",
+      "questions": ["E3", "E1"],
+      "summary": "Small, regular and correct matters more than long and occasional: a beginner should learn the sound of the mantra from a clear source, recite a small fixed number (nine, eleven or twenty-one), keep it at a steady time each day, and stop before the practice becomes a strain — and should not attempt a formal vrat-recitational discipline without a teacher.",
+      "body": [
+        "Start with pronunciation. The Navarna mantra's words carry the syllables aim, hrīm, klīm — sounds that do not exist in English. The mantra library shows Devanagari, a transliteration and an explanation separately, which is the honest ordering: the original text is the mantra, the transliteration is help reading it, and the explanation is commentary.",
+        "Then choose a number you will actually complete: nine repetitions take under a minute, and nine daily is a real practice. Steadiness beats quantity, and the tradition says so more often than popular summaries do.",
+        "What this app advises against: beginning a formal purascharana or an extended Chandi vow without guidance. Those disciplines have rules about food, timing and conduct that vary by lineage, and getting them from an app would be a strange way to start. Ask a teacher who keeps the practice. If nobody is available, nine repetitions of the Navarna mantra daily is complete in itself."
+      ],
+      "keyPoints": [
+        "Learn the sound first; original text, transliteration and meaning are shown separately.",
+        "Choose a small number you will complete daily.",
+        "Formal extended disciplines need a lineage teacher; the app says so rather than improvising."
+      ],
+      "tradition": "Household and temple practice; lineage rules differ and are not generalised here.",
+      "sources": [
+        { "sourceId": "durga700", "locator": "Navarna mantra", "note": "The mantra text as imported." },
+        { "sourceId": "editorial", "locator": "practice note", "note": "Editorial guidance; explicitly defers to a teacher for formal disciplines." }
+      ],
+      "links": [
+        { "href": "/mantras", "label": "Mantra library with pronunciation notes" },
+        { "href": "/questions?section=E", "label": "More mantra questions" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "एक नया साधक दुर्गा मन्त्र के जप को कैसे आरम्भ करे?",
+          "summary": "थोड़ा, नियमित और शुद्ध — अधिक और कभी-कभी से बेहतर है: पहले उच्चारण सीखिए, फिर नौ, ग्यारह या इक्कीस जैसी छोटी नियत संख्या लीजिए, नियत समय पर कीजिए, और थकान से पहले रुकिए।",
+          "body": [
+            "उच्चारण से आरम्भ कीजिए। नवार्ण मन्त्र में ऐं, ह्रीं, क्लीं जैसे स्वर हैं जो अंग्रेज़ी में नहीं हैं। मन्त्र-संग्रह मूल देवनागरी, लिप्यंतरण और अर्थ अलग-अलग दिखाता है — यही ईमानदार क्रम है: मन्त्र मूल पाठ है, लिप्यंतरण पढ़ने की सहायता, और अर्थ व्याख्या।",
+            "और जिसकी यह ऐप सलाह नहीं देता: किसी गुरु के बिना विधिवत पुरश्चरण या लंबे चण्डी-संकल्प का आरम्भ। उन विधियों के नियम आहार, समय और आचरण के बारे में हैं जो परम्परा के अनुसार भिन्न हैं।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "e4-durga-chalisa",
+      "section": "E",
+      "slug": "durga-chalisa-significance",
+      "title": "What is the significance of the Durga Chalisa in devotional practice?",
+      "questions": ["E4", "E2"],
+      "summary": "The Durga Chalisa is a forty-verse devotional poem in Awadhi-Hindi, traditionally attributed to Tulsidas, recited across north India because it is memorisable, singable and accessible to people who do not read Sanskrit; it is a devotional composition, not a scriptural text.",
+      "body": [
+        "The Chalisa's strength is its form: forty short verses in a language people speak, with a refrain, easy to memorise and to sing together. It brought the Devi narrative into a register anyone could carry, in the same way the Hanuman Chalisa did for its subject.",
+        "Traditional attribution assigns it to Tulsidas; the dating and authorship are matters of devotional tradition rather than documented history, and this app says so rather than stating it as fact. Many printed editions circulate widely — the well-known Gita Press editions among them — and household texts differ in minor wording.",
+        "In Navratri practice the Chalisa is typically recited as a unit, often on one of the nine days or daily, and frequently after the aarti. Its inclusion in this app is as a listed devotional text with its genre, its attribution and a note on how texts differ between printings; where a full text is not reproduced, that is because the edition's rights were not cleared for republication, and the app says that instead of silently omitting it."
+      ],
+      "keyPoints": [
+        "Forty verses in Awadhi-Hindi with a refrain; memorisable and singable.",
+        "Traditional attribution to Tulsidas; not a documented historical fact and labelled as tradition.",
+        "A devotional text, not scripture, and printed versions vary.",
+        "Reproduction depends on rights clearance; the app states this rather than implying availability."
+      ],
+      "tradition": "North Indian devotional tradition, popular across Hindi-speaking regions and beyond.",
+      "sources": [
+        { "sourceId": "editorial", "locator": "mantra library entry", "note": "Genre, attribution and rights position recorded; no text reproduced without a cleared edition." }
+      ],
+      "links": [
+        { "href": "/mantras", "label": "Mantra and aarti library" },
+        { "href": "/sources", "label": "Sources and rights policy" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "भक्ति-साधना में दुर्गा चालीसा का क्या महत्व है?",
+          "summary": "दुर्गा चालीसा अवधी-हिन्दी में चालीस पदों की भक्ति-रचना है, परम्परा से तुलसीदास को श्रेय, जो उत्तर भारत में इसलिए व्यापक है क्योंकि वह स्मरणीय, गेय और संस्कृत न पढ़ने वालों के लिए भी सुलभ है; यह शास्त्र नहीं, भक्ति-रचना है।",
+          "body": [
+            "चालीसा की शक्ति उसका रूप है: बोलचाल की भाषा में चालीस छोटे पद, टेक के साथ — स्मरण करने और साथ गाने में सरल। इसने देवी-कथा को उस भाषा में पहुँचाया जो हर कोई साथ ले चल सके।",
+            "पारंपरिक श्रेय तुलसीदास को है; तिथि और रचनाकार भक्ति-परम्परा का विषय हैं, प्रमाणित इतिहास नहीं — और यह ऐप यही लिखता है। जहाँ पूरा पाठ यहाँ नहीं दिया गया, वहाँ उस संस्करण के पुनःप्रकाशन अधिकार स्पष्ट नहीं थे, और ऐप यह बात लिखकर बताता है।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "e5-listening-instead",
+      "section": "E",
+      "slug": "listen-instead-of-reciting",
+      "title": "Can I listen to a mantra if I cannot recite it myself?",
+      "questions": ["E5"],
+      "summary": "Yes — listening is a recognised practice, and in this app every text that is offered for listening is narrated in the language you selected, with the original text on screen; where no voice exists for a language, the app says so and shows the text instead of reading it in the wrong language.",
+      "body": [
+        "Listening to a recitation is a long-established practice: many people first meet a stotra by hearing it. What listening cannot do is substitute for a text you cannot check, so this app always shows the original alongside any narration, and marks clearly whether you are hearing your device speak the text or a configured speech service.",
+        "Three limits are stated rather than hidden. First: no recorded human recitation ships with this app, because recordings are performances with rights holders, and none granted permission. Second: the Sanskrit text of the Saptashati is chanted in a metre and with a melody that a speech engine does not produce; device narration reads it as speech, and the app labels it as such rather than implying a reciter. Third: where the device has no voice for the selected language, narration is offered in a labelled related voice or not at all."
+      ],
+      "keyPoints": [
+        "Listening is a real practice, with the original text always on screen.",
+        "No human recitation ships; device speech is labelled as device speech.",
+        "Sanskrit is spoken, not chanted, by device voices — and this is stated.",
+        "No voice for the language means no narration, not the wrong accent."
+      ],
+      "tradition": "Pan-Indian practice; the app's audio policy is stated on /sources and in Settings.",
+      "sources": [
+        { "sourceId": "editorial", "locator": "audio policy", "note": "The app's own rights and narration policy." }
+      ],
+      "links": [
+        { "href": "/listen", "label": "Listening library" },
+        { "href": "/settings", "label": "Voice availability per language" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "यदि मैं स्वयं जप न कर सकूँ तो मन्त्र सुन सकता/सकती हूँ?",
+          "summary": "हाँ — श्रवण एक मान्य साधना है; इस ऐप में जो भी पाठ सुनने के लिए दिया गया है वह आपकी चुनी भाषा में वाचित होता है और मूल पाठ साथ दिखाया जाता है; जिस भाषा का स्वर नहीं है, वहाँ ऐप यह बताकर पाठ दिखाता है, ग़लत भाषा में नहीं पढ़ता।",
+          "body": [
+            "तीन सीमाएँ स्पष्ट लिखी गई हैं। पहली: इस ऐप के साथ कोई मानव-रिकॉर्डिंग नहीं आती, क्योंकि रिकॉर्डिंग कलाकार का अधिकार है और किसी ने अनुमति नहीं दी। दूसरी: सप्तशती का संस्कृत पाठ छंद और ध्वनि-लय में गाया जाता है, जो भाषण-यंत्र नहीं कर सकता; यंत्र वाचन को 'यंत्र वाचन' ही कहकर दिखाया जाता है।",
+            "तीसरी: जिस भाषा का स्वर यंत्र में नहीं है, वहाँ वाचन या तो नामित संबंधित स्वर में दिया जाता है — और वह नाम लिखा जाता है — या दिया ही नहीं जाता। किसी भाषा का पाठ किसी अन्य भाषा के उच्चारण में पढ़कर 'मिलान' नहीं दिखाया जाता।"
+          ]
+        }
+      }
+    }
+  ]
+}

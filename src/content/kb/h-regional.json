@@ -1,0 +1,204 @@
+{
+  "section": "H",
+  "title": "Regional Celebrations",
+  "intro": "What the same nine nights are called and done in Bengal, Gujarat, Karnataka, Tamil Nadu, Kerala, Punjab, Maharashtra, Odisha, Assam and Nepal.",
+  "documents": [
+    {
+      "id": "h1-west-bengal",
+      "section": "H",
+      "slug": "durga-puja-bengal",
+      "title": "How is Durga Puja celebrated in West Bengal?",
+      "questions": ["H1"],
+      "summary": "In West Bengal and across Bengali communities the nine nights are Durga Puja — the largest annual public festival of the region — with the goddess's arrival on Shashti, public marquee installations (pandals) and neighbourhood committees competing on artistry, morning and evening puja services, drums, smoke, and Visarjan on Dashami.",
+      "body": [
+        "The festival's shape in Bengal is around the arrival and departure of the goddess and her family — Durga with Lakshmi, Saraswati, Ganesha and Kartikeya, and the two demons — an image group made of clay, installed on Shashti, worshipped until Navami, and immersed on Dashami. The kumari puja on Ashtami and the sandhi puja at the junction of Ashtami and Navami are the ritual heart of the public days.",
+        "Culturally, the pandal has become the thing: temporary structures built by neighbourhood committees that thousands of people walk through, in recent decades often with a theme and a message. Dhak (drums), shiuli flowers, the smell of incense, and the dhunuchi dance are the sensory signature.",
+        "This app records the Bengali sequence as its own tradition with its own vocabulary and does not fold it into the northern nine-night-by-form structure. Some Bengali practice does honour the Navadurga forms; that is one strand of Bengali practice among several."
+      ],
+      "keyPoints": [
+        "Durga Puja in Bengal: installation on Shashti, Visarjan on Dashami.",
+        "Kumari puja on Ashtami, sandhi puja at the Ashtami–Navami junction.",
+        "The public pandal and the drumming are the festival's modern cultural centre.",
+        "The Bengali sequence is recorded as a distinct tradition, not as a variant of the northern one."
+      ],
+      "tradition": "Bengali; also followed by Bengali communities in other states and abroad.",
+      "sources": [
+        { "sourceId": "editorial", "locator": "regional survey", "note": "Editorial; Bengali-specific terms used deliberately." },
+        { "sourceId": "durga700", "locator": "Devi Mahatmya", "note": "The text recited across Bengali Durga Puja." }
+      ],
+      "links": [
+        { "href": "/calendar", "label": "Bengali festival dates for your city" },
+        { "href": "/questions?section=H", "label": "Regional celebration questions" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "पश्चिम बंगाल में दुर्गा पूजा कैसे मनाई जाती है?",
+          "summary": "पश्चिम बंगाल में ये नौ रातें दुर्गा पूजा हैं — क्षेत्र का सबसे बड़ा सार्वजनिक उत्सव — जिसमें षष्ठी को देवी का आगमन, पंडाल, कुमारी पूजा, संधि पूजा, ढाक, धुनुची नृत्य और दशमी को विसर्जन होता है।",
+          "body": [
+            "देवी माँ लक्ष्मी, सरस्वती, गणेश, कार्तिकेय और दो असुरों सहित मिट्टी की मूर्तियों में षष्ठी को स्थापित की जाती हैं, नवमी तक पूजी जाती हैं, और दशमी को विसर्जित होती हैं। अष्टमी की कुमारी पूजा और अष्टमी-नवमी की संधि पूजा सार्वजनिक दिनों का अनुष्ठानिक केंद्र हैं।",
+            "सांस्कृतिक रूप से पंडाल मुख्य आकर्षण बन गया है: मोहल्ला समितियाँ अस्थायी भव्य संरचनाएँ बनाती हैं जिनमें हज़ारों लोग घूमते हैं। ढाक, शिउली के फूल, धूप की गंध और धुनुची नृत्य इसकी इंद्रिय-पहचान हैं। यह ऐप बंगाली क्रम को उसकी अपनी शब्दावली में दर्ज करता है।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "h2-gujarat",
+      "section": "H",
+      "slug": "navratri-gujarat",
+      "title": "Why is Navratri celebrated with garba and dandiya in Gujarat?",
+      "questions": ["H2"],
+      "summary": "In Gujarat the nine nights are the year's largest public dance: garba — a circle dance around a lamp or an image — and dandiya raas with sticks, danced by entire neighbourhoods until late, with the circular form read as the cycle of time around the still centre.",
+      "body": [
+        "The garba is danced in a circle, typically around a lamp or an image in the centre, and that geometry is understood devotionally: the centre stays still and everything moves around it. Dandiya raas, danced with sticks, is associated especially with the Dandiya nights and with the playful Krishna tradition in the same region; in Navratri both are danced, often in sequence, and the ninth night or nearby nights draw the largest crowds.",
+        "The dances are also how the festival is public and young: attendance is not a ritual obligation and the nights are social as much as devotional, with dress and music organised by neighbourhood associations and temple committees.",
+        "For readers outside Gujarat, this app describes both forms with their names and does not claim any other region's observance requires them. Where a Gujarati household also keeps the vrat and the ghatasthapana, all of it is the same festival."
+      ],
+      "keyPoints": [
+        "Garba is danced in a circle around a still centre; dandiya raas uses sticks.",
+        "Both are the public, social face of the nine nights in Gujarat.",
+        "The rituals (ghatasthapana, vrat) continue alongside the dancing."
+      ],
+      "tradition": "Gujarati; also widely adopted by diaspora communities.",
+      "sources": [
+        { "sourceId": "editorial", "locator": "regional survey", "note": "Editorial; dance forms described with their names." }
+      ],
+      "links": [
+        { "href": "/navratri", "label": "Navratri regional traditions" },
+        { "href": "/questions?section=H", "label": "Regional questions" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "गुजरात में नवरात्रि गरबा और डांडिया के साथ क्यों मनाई जाती है?",
+          "summary": "गुजरात में ये नौ रातें वर्ष का सबसे बड़ा सार्वजनिक नृत्य हैं: गरबा — दीप या प्रतिमा के चारों ओर वृत्ताकार नृत्य — और डांडिया रास; वृत्त की ज्यामिति को समय-चक्र और स्थिर केंद्र का प्रतीक माना जाता है।",
+          "body": [
+            "गरबा प्रायः बीच में रखे दीप या प्रतिमा के चारों ओर नृत्य किया जाता है; केंद्र स्थिर रहता है और सब उसके चारों ओर घूमता है। डांडिया रास डंडों के साथ नृत्य है, जिसका संबंध इसी क्षेत्र की कृष्ण-परम्परा से भी है। नवरात्रि में दोनों नाचे जाते हैं।",
+            "ये नृत्य ही इस उत्सव को सार्वजनिक और युवा बनाते हैं: उपस्थिति धार्मिक अनिवार्यता नहीं है, और रातें सामाजिक भी हैं। जहाँ गुजराती परिवार व्रत और घटस्थापना भी रखता है, वह सब एक ही उत्सव है।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "h3-karnataka",
+      "section": "H",
+      "slug": "dasara-karnataka",
+      "title": "How is Navratri celebrated as Dasara in Karnataka?",
+      "questions": ["H3", "C3"],
+      "summary": "In Karnataka the nine nights are Dasara — Mahanavami and Vijayadashami its peak — with the Mysuru observance the best known: the royal palace illuminated for ten nights, the Chamundi Hill temple holding the goddess's procession, the state's Jamboo Savari procession on Vijayadashami, and household observances with the kolu display and Saraswati puja on the ninth day.",
+      "body": [
+        "Mysuru's Dasara is a public institution: the palace is lit each night, the state festival begins with a formal observance, and the Vijayadashami procession with the idol of Chamundeshwari carried in a golden howdah is the state's largest annual event. Chamundi Hill's temple makes the goddess the explicit centre of the observance rather than a symbol of it.",
+        "Homes across Karnataka keep the nine nights with the kolu — a stepped arrangement of dolls and images, which in Kannada practice is the display around which visitors are received and songs are sung. The ninth day is Saraswati puja, and books, tools and instruments are placed before her; the tenth day, Ayudha puja honours implements and vehicles.",
+        "The naming matters: the app lists this observance as Dasara with its own vocabulary rather than as 'Navratri, Kannada version', because that is what the tradition calls itself."
+      ],
+      "keyPoints": [
+        "Dasara in Karnataka; the Mysuru observance is the state's largest annual event.",
+        "Chamundeshwari is the goddess whose procession closes the ten days.",
+        "Kolu display at home; Saraswati puja on the ninth; Ayudha puja on the tenth.",
+        "Called Dasara, because that is the tradition's own name for it."
+      ],
+      "tradition": "Kannada; Mysuru's public observance plus widespread household practice.",
+      "sources": [
+        { "sourceId": "editorial", "locator": "regional survey", "note": "Editorial; local names kept." }
+      ],
+      "links": [
+        { "href": "/calendar", "label": "Dates for your city" },
+        { "href": "/questions?section=H", "label": "Regional questions" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "कर्नाटक में नवरात्रि दसरा के रूप में कैसे मनाई जाती है?",
+          "summary": "कर्नाटक में ये नौ रातें दसरा हैं — महानवमी और विजयादशमी चरम — जिनमें मैसूर का महल-प्रकाश, चामुण्डेश्वरी की सवारी, और घरों में कोलू तथा नवमी को सरस्वती पूजा प्रमुख हैं।",
+          "body": [
+            "मैसूर का दसरा सार्वजनिक संस्था है: महल हर रात प्रकाशित होता है, और विजयादशमी की सवारी राज्य का सबसे बड़ा वार्षिक आयोजन है। चामुण्डी हिल का मंदिर देवी को आराधना का केंद्र बनाता है।",
+            "घरों में कोलू सजाया जाता है, नवमी को सरस्वती पूजा होती है — पुस्तकें, औज़ार और वाद्य उनके सम्मुख रखे जाते हैं — और दशमी को आयुध पूजा। यह ऐप इसे 'दसरा' नाम से दर्ज करता है, क्योंकि परम्परा स्वयं इसे यही कहती है।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "h4-tamil-kolu",
+      "section": "H",
+      "slug": "tamil-nadu-golu",
+      "title": "What are the distinctive features of Navratri celebrations in Tamil Nadu?",
+      "questions": ["H4", "C5", "H3"],
+      "summary": "In Tamil Nadu the nine nights are kept with the golu — a stepped display of dolls, figures and scenes in the home, with daily visits between households and singing — and with Saraswati puja on the ninth day; the tenth day, Vijayadashami, is traditionally when children begin learning and, in Kerala's parallel practice, when the first letters are written.",
+      "body": [
+        "The golu (kolu) is a stepped arrangement of nine steps, traditionally representing the nine nights, covered with cloth and set with dolls — deities, temple figures, animals, whole miniature scenes — that families add to over years. Neighbours and relatives visit each evening, are given sundal and other prasadam, and sing; the display is a social institution as much as a devotional one.",
+        "The ninth day is Saraswati puja: books, musical instruments and tools are placed before the display, and study is set aside for the day — the puja that also gives Kerala its Vidyarambham. The tenth day's Ayudha puja honours vehicles and implements.",
+        "Where the nine Navadurga forms do not map cleanly onto the Tamil observances, this app says so rather than forcing the mapping: Tamil practice maintains the nine nights, with its own forms of worship and its own centre of gravity in the household display."
+      ],
+      "keyPoints": [
+        "Golu: nine steps, dolls and scenes, daily neighbourly visits with sundal.",
+        "Saraswati puja on the ninth day; study set aside.",
+        "Ayudha puja and Vijayadashami on the tenth; learning begins.",
+        "The app does not force the northern per-night form mapping onto this tradition."
+      ],
+      "tradition": "Tamil; parallel practice in Kerala (Vidyarambham) and in Kannada households.",
+      "sources": [
+        { "sourceId": "editorial", "locator": "regional survey", "note": "Editorial; local names kept and mapping limits stated." }
+      ],
+      "links": [
+        { "href": "/navratri", "label": "Navratri regional traditions" },
+        { "href": "/questions?section=H", "label": "Regional questions" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "तमिलनाडु में नवरात्रि की विशिष्ट परम्पराएँ क्या हैं?",
+          "summary": "तमिलनाडु में नौ रातें गोलू के साथ मनाई जाती हैं — घर में नौ सीढ़ियों पर गुड़िया, देव-प्रतिमाएँ और दृश्यों का प्रदर्शन — साथ में प्रतिदिन पड़ोसियों का आगमन, सुंदल का प्रसाद और गायन; नवमी को सरस्वती पूजा और दशमी को अभ्यास-आरम्भ।",
+          "body": [
+            "गोलू नौ सीढ़ियों की सजावट है, जिस पर कपड़ा बिछाकर गुड़िया, देव-चित्र और छोटे दृश्य रखे जाते हैं — परिवार इन्हें वर्षों में जोड़ता जाता है। संध्या को पड़ोसी और संबंधी आते हैं, सुंदल का प्रसाद मिलता है, और गीत गए जाते हैं।",
+            "नवमी को सरस्वती पूजा में पुस्तकें, वाद्य और औज़ार देवी के सम्मुख रखे जाते हैं और अध्ययन एक दिन के लिए विराम लेता है; दशमी को आयुध पूजा और विद्यारम्भ। जहाँ उत्तरी 'एक रात एक रूप' की सूची तमिल परम्परा पर ठीक से लागू नहीं होती, वहाँ यह ऐप ज़बरदस्ती नहीं करता।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "h5-kerala-punjab-nepal",
+      "section": "H",
+      "slug": "other-regions",
+      "title": "How are the nine nights observed in Kerala, Punjab, Maharashtra, Odisha, Assam and Nepal?",
+      "questions": ["H5", "H1", "H2"],
+      "summary": "Kerala places the days around Saraswati, Vidyarambham and Puja Vayppu rather than a fast; Punjab and Haryana observe the same days around the wheat cycle and popular Devi worship; Maharashtra keeps ghatasthapana with javara and the Koli and Bhil community observances; Odisha, Assam and Nepal each keep the nights with their own names, processions and murti traditions — Nepal's Dashain being the year's largest Hindu festival.",
+      "body": [
+        "Kerala: the last three days are Puja Vayppu, when books and tools are placed for the goddess, with Saraswati puja on Navami and Vidyarambham on Vijayadashami, the day a child writes their first letters. Fasts are not the centre; the school and the workshop are.",
+        "Punjab and Haryana: the nine nights coincide with the wheat sowing cycle, and the observance is popular rather than scriptural in its detail — overnight jagarans, pavitras (sacred threads), and Devi readings in homes and local temples. In the Punjab hills, the same days are tied to the seasonal transhumance and to local Devi shrines.",
+        "Maharashtra: ghatasthapana with javara (barley sprouts) is standard, the ninth day is observed as Ghatasthapana's culmination and the tenth as Dasara; the Koli community's Devi worship and the Bhil and Warli communities' observances each have their own forms, which this app records under their own names rather than as variants of a single norm.",
+        "Odisha and Assam: Odisha's observance is closely tied to the Shakti Peethas and to the local chandi traditions; Assam's is tied to Kamakhya and to the Ambuvaci observance in the monsoon, and the autumnal Durga Puja there shares much with Bengal while keeping its own ritual sequence.",
+        "Nepal: Dashain (Bada Dashain) is the largest festival of the year — Ghatasthapana on day one with jamara grown in the home, Fulpati on the seventh, Maha Ashtami and Maha Navami, and Vijaya Dashami on the tenth, when elders give tika and jamara. The Nepali sequence is fully its own and this app lists it as such."
+      ],
+      "keyPoints": [
+        "Kerala: Books, tools and Vidyarambham rather than fasting.",
+        "Punjab/Haryana: popular Devi observance around the wheat cycle.",
+        "Maharashtra: javara and Dasara; distinct community traditions kept distinct.",
+        "Odisha and Assam: region-specific Shakta centres and sequences.",
+        "Nepal: Dashain, with Ghatasthapana, jamara, tika — the year's largest festival."
+      ],
+      "tradition": "Each named region recorded in its own terms; the app does not select a normative observance.",
+      "sources": [
+        { "sourceId": "editorial", "locator": "regional survey", "note": "Editorial; general statements only, no invented local detail." }
+      ],
+      "links": [
+        { "href": "/navratri", "label": "Full Navratri guide" },
+        { "href": "/shakti-peethas", "label": "Shakti Peethas by region" }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "केरल, पंजाब, महाराष्ट्र, ओडिशा, असम और नेपाल में नौ रातें कैसे मनाई जाती हैं?",
+          "summary": "केरल में दिन सरस्वती, पूजा वैप्पु और विद्यारम्भ के आसपास हैं, व्रत केंद्र में नहीं; पंजाब-हरियाणा में गेहूँ के चक्र और लोकप्रिय देवी-आराधना के साथ; महाराष्ट्र में जवारा सहित घटस्थापना और दसरा; ओडिशा-असम में क्षेत्र-विशेष शाक्त केंद्र; और नेपाल में दशैं वर्ष का सबसे बड़ा उत्सव है।",
+          "body": [
+            "नेपाल में घटस्थापना से जमारा उगाना आरम्भ होता है, सातवें दिन फूलपाती, अष्टमी और नवमी महापूजा, और दशमी को बड़ों से टीका और जमारा। यह क्रम पूर्णतः अपना है और ऐप इसे इसी रूप में दर्ज करता है। केरल में घर-आँगन से अधिक पुस्तक, औज़ार और पहला अक्षर केंद्र में हैं।"
+          ]
+        }
+      }
+    }
+  ]
+}

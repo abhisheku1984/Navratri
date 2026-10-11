@@ -1,0 +1,293 @@
+{
+  "section": "A",
+  "title": "Discover Navadurga",
+  "intro": "Who the nine forms are, why there are nine, and how the nine relate to the wider Shakta understanding of the Goddess.",
+  "documents": [
+    {
+      "id": "a1-nine-forms",
+      "section": "A",
+      "slug": "nine-forms-of-navadurga",
+      "title": "Who are the nine forms of Navadurga?",
+      "questions": [
+        "A1"
+      ],
+      "summary": "The nine forms are the nine names of the Goddess worshipped in sequence across the nine nights of Navratri: Shailaputri, Brahmacharini, Chandraghanta, Kushmanda, Skandamata, Katyayani, Kalaratri, Mahagauri and Siddhidatri.",
+      "body": [
+        "The nine names are given in a fixed order in the Devi Kavacham, a recitation that belongs to the ancillary texts of the Devi Mahatmya: Shailaputri, Brahmacharini, Chandraghanta, Kushmanda, Skandamata, Katyayani, Kalaratri, Mahagauri, Siddhidatri. The Kavacham names them; the Navadurga Stotram gives a dhyana verse for each, describing how she is shown and what she holds.",
+        "The tradition worships them one to a night, so the sequence is also a calendar. Day one is Shailaputri, day nine is Siddhidatri, and the tenth day — Vijayadashami — closes the festival. In the app, each form has its own page with its story, iconography, the mantra used for it and the narration in the chosen language.",
+        "Two honest qualifications. First, the list is stable in northern India but the *order* is not universal: some traditions assign Kalaratri to the seventh night and Mahagauri to the eighth, others describe the eighth differently. Second, the forms are not nine separate goddesses. In Shakta understanding they are nine faces of one Shakti, named for what each night is asking of the devotee."
+      ],
+      "keyPoints": [
+        "Names are recorded in the Devi Kavacham, which the app imports as an auxiliary recitation.",
+        "Each form has a dhyana verse in the Navadurga Stotram.",
+        "One form per night; the ninth night ends the sequence.",
+        "Nine faces of one Shakti, not nine separate deities."
+      ],
+      "tradition": "Common to most North Indian and Nepali practice. Southern and eastern Navratri calendars keep the nine nights but emphasise different forms (Kolu in Tamil practice, Durga Puja in Bengali practice).",
+      "sources": [
+        {
+          "sourceId": "durga700",
+          "locator": "Devi Kavacham 3–5 (auxiliary recitation in the imported edition)",
+          "note": "Names of the nine forms in order, from the app's imported edition of the Kavacham."
+        },
+        {
+          "sourceId": "navadurga-stotram",
+          "locator": "nine dhyana shlokas",
+          "note": "Iconography and attributes for each form."
+        }
+      ],
+      "links": [
+        {
+          "href": "/navadurga",
+          "label": "All nine forms, in order"
+        },
+        {
+          "href": "/scripture/angas/devi-kavacham",
+          "label": "Devi Kavacham, imported text"
+        }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "नवदुर्गा के नौ रूप कौन हैं?",
+          "summary": "नौ रूप नवरात्रि की नौ रातों में क्रम से पूजे जाने वाले देवी के नौ नाम हैं: शैलपुत्री, ब्रह्मचारिणी, चन्द्रघण्टा, कूष्माण्डा, स्कन्दमाता, कात्यायनी, कालरात्रि, महागौरी और सिद्धिदात्री।",
+          "body": [
+            "ये नौ नाम देवी कवच में क्रमबद्ध रूप से दिए गए हैं, और नवदुर्गा स्तोत्र में प्रत्येक रूप का ध्यान-श्लोक है जिसमें उसका स्वरूप वर्णित है। परम्परा इनकी पूजा एक रात एक रूप के रूप में करती है, इसलिए यह क्रम एक पंचांग भी है।",
+            "दो स्पष्ट बातें। पहली, उत्तर भारत में यह सूची स्थिर है पर क्रम सर्वत्र एक-सा नहीं — कहीं कालरात्रि सातवीं रात की देवी हैं, कहीं आठवीं। दूसरी, ये नौ अलग-अलग देवियाँ नहीं हैं; शाक्त दृष्टि में ये एक ही शक्ति के नौ मुख हैं, और प्रत्येक नाम बताता है कि वह रात साधक से क्या माँगती है।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "a2-why-nine",
+      "section": "A",
+      "slug": "why-nine-forms",
+      "title": "Why are nine forms worshipped during Navratri?",
+      "questions": [
+        "A2"
+      ],
+      "summary": "Because the festival is nine nights long, and the tradition gives each night a form, a colour, an offering and a mantra so that the nine nights are a structured sequence rather than nine identical days.",
+      "body": [
+        "The straightforward reason is calendrical: Navratri is nine nights, so the tradition fills nine nights with nine names, one per night. That is what makes the sequence teachable — a devotee knows what tonight is for before the lamp is lit.",
+        "A second, older layer of explanation runs through the number itself. In the Shakta and Tantric material that sits behind the festival, three is the number of the gunas — sattva, rajas and tamas — and three times three is nine. Read that way, the nine nights walk through the qualities that make up experience and end in Siddhidatri, the giver of attainment. This is an interpretation, and it is presented here as one: the texts name the nine forms, and they do not themselves explain the number in a single sentence.",
+        "What varies by region is which form belongs to which night and what is offered on it. What does not vary is the shape: nine nights, nine forms, ending in the tenth-day observance of Vijayadashami."
+      ],
+      "keyPoints": [
+        "The primary reason is the nine-night calendar itself.",
+        "A gunas-based reading (3 × 3) is a traditional interpretation, not a quotation.",
+        "Night-to-form mapping and offerings vary regionally."
+      ],
+      "tradition": "Interpretive material, labelled as such. No scriptural sentence is quoted here, because none in the imported corpus defines the number nine in one line.",
+      "sources": [
+        {
+          "sourceId": "editorial",
+          "locator": "knowledge library",
+          "note": "Editorial synthesis written for this app; interpretive claims are marked."
+        },
+        {
+          "sourceId": "navadurga-stotram",
+          "locator": "per-form dhyana verses",
+          "note": "The nine names and their descriptions."
+        }
+      ],
+      "links": [
+        {
+          "href": "/navratri",
+          "label": "Navratri guide: the nine nights"
+        },
+        {
+          "href": "/questions?section=A",
+          "label": "More questions in this section"
+        }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "नवरात्रि में नौ रूपों की पूजा क्यों होती है?",
+          "summary": "क्योंकि उत्सव नौ रातों का है, और परम्परा प्रत्येक रात को एक रूप, एक रंग, एक अर्पण और एक मन्त्र देती है — ताकि नौ रातें एक क्रम बनें, नौ समान दिन नहीं।",
+          "body": [
+            "सीधा कारण पंचांग का है: नवरात्रि नौ रातों की है, इसलिए परम्परा नौ रातों को नौ नामों से भरती है। यही इसे सीखने योग्य बनाता है — दीप जलाने से पहले साधक जान जाता है कि आज की रात किसके लिए है।",
+            "दूसरी परत संख्या में है। शाक्त-तान्त्रिक पृष्ठभूमि में तीन गुण हैं — सत्त्व, रजस्, तमस् — और तीन गुणा तीन नौ। इस दृष्टि से नौ रातें उन गुणों से होकर गुज़रती हैं और सिद्धिदात्री पर पूर्ण होती हैं। यह एक व्याख्या है, और यहाँ व्याख्या के रूप में ही दी गई है।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "a3-significance-each",
+      "section": "A",
+      "slug": "significance-of-each-form",
+      "title": "What is the significance of each Navadurga form?",
+      "questions": [
+        "A3",
+        "B5"
+      ],
+      "summary": "Each form names one quality or movement in the practice: rootedness (Shailaputri), discipline (Brahmacharini), courage (Chandraghanta), creative fullness (Kushmanda), nurture (Skandamata), resolve (Katyayani), the clearing of what is dark (Kalaratri), return to purity (Mahagauri) and completion (Siddhidatri).",
+      "body": [
+        "Day one, Shailaputri: the mountain's daughter, steady, carrying a trident and a lotus, riding the bull. Rootedness before anything is built.",
+        "Day two, Brahmacharini: the one who walks in discipline, holding a rosary and a water pot. Practice that has not yet produced results, and continues anyway.",
+        "Day three, Chandraghanta: the crescent bell on her brow, ten arms, ready for battle. Courage — specifically the courage that rings out a warning first.",
+        "Day four, Kushmanda: the smile that is said to have brought the world into being, seated on a lion, eight arms. Creative fullness; abundance that is not yet spent.",
+        "Day five, Skandamata: the mother of Skanda, with the child on her lap. Nurture and the patience of care.",
+        "Day six, Katyayani: daughter of the sage Katyayana, the warrior form created from the anger of the gods. Resolve, and the point where practice becomes decisive.",
+        "Day seven, Kalaratri: the dark night, lion-mounted, unornamented, terrifying and asked for anyway. The clearing of what cannot be kept — including fear.",
+        "Day eight, Mahagauri: the one who is radiantly fair, sometimes described as having come out of the dark purified. Return to purity after the difficult night.",
+        "Day nine, Siddhidatri: the giver of attainments, the completion of the sequence. What was undertaken is finished, and what is given is a capacity, not a reward.",
+        "This reading — one quality per night — is an interpretation current in devotional writing and in guided practice. It is useful because it is teachable, and it is labelled here so that nobody mistakes it for a verse."
+      ],
+      "keyPoints": [
+        "Each night carries one central quality in the common devotional reading.",
+        "Days 1–9 map to rootedness → discipline → courage → fullness → nurture → resolve → clearing → purity → completion.",
+        "The quality-per-night reading is interpretive; the names and iconography are traditional."
+      ],
+      "tradition": "Common North Indian devotional reading. Southern and eastern calendars emphasise different forms on the same nights.",
+      "sources": [
+        {
+          "sourceId": "navadurga-stotram",
+          "locator": "dhyana verses 1–9",
+          "note": "Iconography, posture, weapons and mount for each form."
+        },
+        {
+          "sourceId": "editorial",
+          "locator": "quality reading",
+          "note": "Editorial interpretation, labelled as interpretation."
+        }
+      ],
+      "links": [
+        {
+          "href": "/navadurga",
+          "label": "Read each form in full"
+        },
+        {
+          "href": "/navadurga/kalaratri",
+          "label": "Kalaratri, the seventh night"
+        }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "प्रत्येक नवदुर्गा रूप का महत्व क्या है?",
+          "summary": "प्रत्येक रूप साधना के एक गुण या एक चरण को नाम देता है: स्थिरता (शैलपुत्री), अनुशासन (ब्रह्मचारिणी), साहस (चन्द्रघण्टा), सृजन-पूर्णता (कूष्माण्डा), पालन (स्कन्दमाता), संकल्प (कात्यायनी), अंधकार का नाश (कालरात्रि), पवित्रता की वापसी (महागौरी) और पूर्णता (सिद्धिदात्री)।",
+          "body": [
+            "पहली रात शैलपुत्री — पर्वत की पुत्री, त्रिशूल और कमल धारण किए, वृषभ पर आरूढ़। कुछ भी बनाने से पहले की स्थिरता। दूसरी रात ब्रह्मचारिणी — अनुशासन में चलने वाली, जपमाला और कमण्डलु लिए; वह साधना जो फल मिलने से पहले भी रुकती नहीं। तीसरी रात चन्द्रघण्टा — माथे पर अर्धचन्द्र-घण्ट, दस भुजाएँ, पहले चेतावनी देने वाला साहस।",
+            "आगे: कूष्माण्डा — सृष्टि लाने वाली मुस्कान, सिंह पर आसीन, आठ भुजाएँ; स्कन्दमाता — गोद में स्कन्द लिए, पालन और धैर्य; कात्यायनी — ऋषि कात्यायन की पुत्री, संकल्प का रूप; कालरात्रि — काली रात, जिसमें वह भी जाता है जो रखा नहीं जा सकता; महागौरी — अंधकार से निकली निर्मलता; सिद्धिदात्री — सिद्धियों की दात्री, क्रम की पूर्णता।",
+            "यह 'एक रात, एक गुण' पाठ भक्ति-साहित्य और निर्देशित अभ्यास में प्रचलित व्याख्या है — इसलिए यहाँ इसे व्याख्या कहकर दिया गया है, श्लोक कहकर नहीं।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "a4-qualities-of-life",
+      "section": "A",
+      "slug": "forms-and-life",
+      "title": "How are the nine forms connected to different qualities and aspects of life?",
+      "questions": [
+        "A4"
+      ],
+      "summary": "The nine forms are read as a map of inner movement rather than a set of promises about outcomes: they name capacities — steadiness, discipline, courage, generosity, care, resolve, honesty about what is dark, clarity, and completion — and traditional commentary links each to a part of life without guaranteeing results.",
+      "body": [
+        "A devotee who reads the nine forms as a life-sequence usually reads them this way: rootedness first (you must stand somewhere), then practice (discipline that is dull before it is fruitful), then courage (the warning bell), then the fullness that can be shared, then care for what is younger or weaker, then the resolve that actually decides, then the night where what is false is removed, then clarity, then completion.",
+        "What this app will not do is turn that into a promise. Nothing in the nine names guarantees a child, a job, a cure or prosperity, and no honest reading of the tradition says it does. The forms describe what the devotee is doing; the results are not the app's to promise.",
+        "Different traditions map the nine forms to different areas of life. Where the app reports such a mapping it says which tradition it came from, and where two traditions map the same night differently, both are shown."
+      ],
+      "keyPoints": [
+        "The nine forms are read as capacities, not as guarantees.",
+        "Mappings differ between traditions and are labelled with their source.",
+        "The app does not promise health, wealth or any outcome."
+      ],
+      "tradition": "Interpretive; multiple traditions, differences preserved.",
+      "sources": [
+        {
+          "sourceId": "editorial",
+          "locator": "interpretation, labelled",
+          "note": "Editorial; no scriptural claim is made for the life-mapping."
+        }
+      ],
+      "links": [
+        {
+          "href": "/questions?section=I",
+          "label": "Reflection questions on the same theme"
+        },
+        {
+          "href": "/about",
+          "label": "Editorial approach"
+        }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "नौ रूप जीवन के गुणों और पक्षों से कैसे जुड़े हैं?",
+          "summary": "नौ रूपों को भीतरी यात्रा के नक़्शे की तरह पढ़ा जाता है — वे क्षमताओं के नाम हैं, न कि फल की गारंटी; और मनगढ़ंत वादे इस ऐप में कभी नहीं किए जाएँगे।",
+          "body": [
+            "जो साधक नौ रूपों को जीवन-क्रम की तरह पढ़ते हैं, वे प्रायः यों पढ़ते हैं: पहले स्थिरता, फिर साधना, फिर साहस, फिर वह पूर्णता जो बाँटी जा सके, फिर देखभाल, फिर निर्णायक संकल्प, फिर वह रात जिसमें असत्य हटता है, फिर निर्मलता, फिर पूर्णता।",
+            "इस ऐप का काम इसे वादे में बदलना नहीं है। नौ नामों में संतान, नौकरी, रोग-मुक्ति या समृद्धि की गारंटी कहीं नहीं है, और परम्परा का ईमानदार पाठ भी यह नहीं कहता।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "a5-durga-parvati-kali",
+      "section": "A",
+      "slug": "durga-parvati-kali-navadurga",
+      "title": "What is the difference between Maa Durga, Maa Parvati, Maa Kali and the nine Navadurga forms?",
+      "questions": [
+        "A5"
+      ],
+      "summary": "In Shakta theology these are names of one Shakti in different relationships and moods rather than four separate goddesses: Durga is the warrior who is invoked, Parvati is the consort and mother, Kali is the fierce form who destroys what must end, and the nine Navadurga forms are the names given to nine nights of one year's worship.",
+      "body": [
+        "The Devi Mahatmya calls its central figure Chandika and describes her as the radiance gathered from all the gods when they had no strength left. The same text is called the Durga Saptashati, and 'Durga' — usually read as the one for whom difficulty is difficult, or the fort that cannot be taken — becomes the name by which the Goddess is invoked in Navratri.",
+        "Parvati belongs to the Puranic family narrative: daughter of the mountain, wife of Shiva, mother of Ganesha and Kartikeya. Devotional practice often treats Parvati and Durga as one Goddess in two roles — the householder and the protector — and this identification is old and widespread.",
+        "Kali is the fierceness that appears in the same texts in the battle with Raktabija, and in the Devi Mahatmya it is she who emerges when Durga's brow darkens. In Bengali, Assamese and Odia practice Kali and Durga are closely linked; in Bengali theology the two are discussed as differing apparently but not in essence.",
+        "The Navadurga names — Shailaputri and the rest — are not four extra goddesses: they are nine nights of invocation, each with an iconography of its own, drawn from the same Shakti. Where traditions discuss these relationships differently, the difference is the point, and this app shows both readings rather than picking a winner."
+      ],
+      "keyPoints": [
+        "One Shakti, several names and relationships — not a set of rival goddesses.",
+        "Durga's name is the one invoked in Navratri; the Saptashati's own name for its heroine is Chandika.",
+        "Kali appears in the Devi Mahatmya in the Raktabija episode and is closely linked to Durga in eastern practice.",
+        "Navadurga names belong to the nine nights of worship."
+      ],
+      "tradition": "Shakta theology; regional emphasis differs strongly between Bengal, Assam, Odisha, Kerala and the north.",
+      "sources": [
+        {
+          "sourceId": "durga700",
+          "locator": "Devi Mahatmya 1.50–90; 8.60–70",
+          "note": "The gathering of the gods' radiance; the emergence of Kali in the Raktabija battle."
+        },
+        {
+          "sourceId": "pargiter-1904",
+          "locator": "chapters 1 and 8",
+          "note": "English prose of the same passages."
+        }
+      ],
+      "links": [
+        {
+          "href": "/scripture/1",
+          "label": "Devi Mahatmya chapter 1"
+        },
+        {
+          "href": "/scripture/8",
+          "label": "Chapter 8 — Raktabija"
+        },
+        {
+          "href": "/maa-durga",
+          "label": "Maa Durga knowledge library"
+        }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "माँ दुर्गा, माँ पार्वती, माँ काली और नवदुर्गा के नौ रूपों में क्या अंतर है?",
+          "summary": "शाक्त दृष्टि में ये चार अलग देवियाँ नहीं, एक ही शक्ति के भिन्न नाम और भिन्न संबंध हैं: दुर्गा आह्वान की जाने वाली योद्धा हैं, पार्वती गृहस्थ और माता, काली वह उग्र रूप हैं जो जो समाप्त होना चाहिए उसे समाप्त करती हैं, और नवदुर्गा के नौ नाम एक वर्ष की नौ रातों की आराधना के नाम हैं।",
+          "body": [
+            "देवी महात्म्य अपनी केंद्रीय देवी को चण्डिका कहता है और बताता है कि वह देवताओं के तेज से एक रूप में एकत्र हुई। काली उसी ग्रंथ में रक्तबीज-युद्ध में प्रकट होती हैं।",
+            "नवदुर्गा के नाम — शैलपुत्री आदि — चार अतिरिक्त देवियाँ नहीं हैं: ये उसी शक्ति की नौ रातों की आराधना के नाम हैं, प्रत्येक का अपना स्वरूप और ध्यान-श्लोक। जहाँ परम्पराएँ इन संबंधों पर भिन्न मत रखती हैं, वह भिन्नता मिटाई नहीं, दोनों रूपों में दिखाई जाती है।"
+          ]
+        }
+      }
+    }
+  ]
+}

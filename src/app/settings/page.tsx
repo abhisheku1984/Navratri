@@ -1,13 +1,46 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useUser } from "@/lib/user";
 import { useOffline } from "@/components/offline";
 import { getLocations } from "@/lib/content";
-import { coverage, LANGUAGES, type LangCode } from "@/lib/i18n";
+import {
+  languageSummaries, getLanguage, t, REVIEW_STATE,
+  type LangCode,
+} from "@/lib/i18n";
+import { blessingCoverage } from "@/lib/intro-data";
+import { languageContentCoverage } from "@/lib/content-coverage";
+import { LanguageSelector } from "@/components/language-selector";
+import { ReplayIntroButton } from "@/components/intro";
+import { narrationMatrix, type VoiceLike } from "@/lib/audio/tts";
 import type { ScriptMode, ThemeMode } from "@/lib/types";
 import { Card, Notice, PageHeader, SectionHeading } from "@/components/ui";
+
+/** Font stack for a language code, from the registry (never a guess). */
+const FONT = (code: string) => getLanguage(code).fontStack;
+
+/** A small labelled progress bar. Percentages are counts, not estimates. */
+function Score({ label, pct }: { label: string; pct: number }) {
+  const clamped = Math.max(0, Math.min(100, pct));
+  return (
+    <div>
+      <div className="flex justify-between text-[0.68rem]">
+        <span className="muted">{label}</span>
+        <span className="muted">{c1(clamped)}%</span>
+      </div>
+      <div className="mt-0.5 h-1.5 w-full overflow-hidden rounded-full"
+           style={{ background: "var(--surface-3)" }}>
+        <div className="h-full rounded-full"
+             style={{ width: `${clamped}%`, background: "var(--gold)" }} />
+      </div>
+    </div>
+  );
+}
+
+function c1(n: number): string {
+  return Number.isInteger(n) ? String(n) : n.toFixed(1);
+}
 
 export default function SettingsPage() {
   const { state, setSettings, resetAll, hydrated } = useUser();
@@ -15,6 +48,29 @@ export default function SettingsPage() {
   const locations = getLocations();
   const [confirmClear, setConfirmClear] = useState(false);
   const s = state.settings;
+  const [voices, setVoices] = useState<VoiceLike[]>([]);
+
+  useEffect(() => {
+    if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
+    const synth = window.speechSynthesis;
+    const load = () => setVoices(synth.getVoices() as unknown as VoiceLike[]);
+    load();
+    synth.addEventListener?.("voiceschanged", load);
+    return () => synth.removeEventListener?.("voiceschanged", load);
+  }, []);
+
+  const content = languageContentCoverage();
+  const contentPctByLang: Record<string, number> = {};
+  for (const [code, c] of Object.entries(content.coverage)) {
+    contentPctByLang[code] = c.pct;
+  }
+  const summaries = languageSummaries(contentPctByLang);
+  const summary = summaries.find((l) => l.code === s.language);
+  const narration = narrationMatrix(voices);
+  const bc = blessingCoverage();
+  const blessingState =
+    `${bc.total} languages — ${bc.authored} authored, ${bc.draft} awaiting native review`;
+  const t2 = (lang: LangCode, key: string) => t(lang, key);
 
   return (
     <>
@@ -25,36 +81,81 @@ export default function SettingsPage() {
 
       {/* -------------------------------------------------------- language */}
       <section className="mt-8" aria-labelledby="lang">
-        <SectionHeading eyebrow="Language" title="Interface language"
-                        sub="The interface chrome is translated. The scripture is not: the Sanskrit is the source text and the only complete translation in this build is English (Pargiter, 1904). That asymmetry is stated rather than hidden behind a switch that pretends otherwise." />
+        <SectionHeading
+          eyebrow={t2(s.language, "nav.language")}
+          title="24 languages, and exactly what is translated"
+          sub="Two numbers are shown for every language: how much of the interface is translated, and how many of the library's articles exist in that language. Neither is estimated. Strings that have no translation fall back to English, are counted as fallbacks, and the article header tells you when it has happened."
+        />
         <h2 id="lang" className="sr-only">Interface language</h2>
 
+        <Card className="mb-4 p-5">
+          <LanguageSelector variant="dialog" />
+        </Card>
+
+        {summary && (
+          <Card className="mb-4 p-5">
+            <p className="text-sm font-semibold">
+              Current language: <span style={{ fontFamily: summary.fontStack }}>{summary.native}</span>{" "}
+              <span className="muted">({summary.label}, {summary.code})</span>
+            </p>
+            <ul className="muted mt-2 space-y-1 text-xs leading-relaxed">
+              <li>
+                Interface: {summary.coverage.translated} of {summary.coverage.total} strings
+                ({summary.coverage.pct}%) — status {summary.status}
+              </li>
+              <li>
+                Articles: {content.coverage[summary.code]?.translated ?? 0} of {content.total} documents
+                ({(summary.contentPct).toFixed(0)}%)
+              </li>
+              <li>
+                Opening blessing: {blessingState} — {summary.code === "hi" ? "source text" : "translation"}
+              </li>
+              <li>
+                Script: {summary.script}, direction {summary.dir.toUpperCase()} ·{" "}
+                <span style={{ fontFamily: summary.fontStack }}>{summary.sample}</span>
+              </li>
+              <li>
+                Review state: {REVIEW_STATE[summary.code] === "reviewed" ? "reviewed by a reader of the language" : "not yet reviewed by a native reader"}
+              </li>
+            </ul>
+          </Card>
+        )}
+
         <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {LANGUAGES.map((l) => {
-            const cov = coverage(l.code);
+          {summaries.map((l) => {
             const chosen = s.language === l.code;
             return (
               <li key={l.code}>
-                <Card className="flex h-full flex-col p-5">
-                  <div className="mb-2 flex items-center justify-between gap-2">
-                    <p className="deva display text-lg font-semibold">{l.native}</p>
-                    <span className="chip">{l.label}</span>
+                <Card className="flex h-full flex-col p-4">
+                  <div className="mb-1 flex items-center justify-between gap-2">
+                    <p className="display text-lg font-semibold" style={{ fontFamily: l.fontStack }} dir={l.dir}>
+                      {l.native}
+                    </p>
+                    <span className="chip shrink-0" dir="ltr">{l.code} · {l.dir.toUpperCase()}</span>
                   </div>
-                  <p className="muted text-xs">Scripture: {l.scripture}</p>
-                  <div className="mt-3 h-1.5 overflow-hidden rounded-full"
-                       style={{ background: "var(--surface-3)" }}>
-                    <div className="h-full rounded-full"
-                         style={{
-                           width: `${cov.pct}%`,
-                           background: cov.pct === 100 ? "#2f855a" : "var(--gold)",
-                         }} />
+                  <p className="muted text-xs">{l.label}</p>
+
+                  <div className="mt-3 space-y-1.5">
+                    <Score label="Interface" pct={l.coverage.pct} />
+                    <Score label="Articles" pct={l.contentPct} />
                   </div>
-                  <p className="muted mt-2 text-xs">
-                    {cov.translated} of {cov.total} interface strings
-                    {cov.pct < 100 && " — English fills the gaps"}
+
+                  <p className="muted mt-2 text-[0.68rem] leading-relaxed">
+                    {l.status === "complete"
+                      ? "Interface complete."
+                      : l.status === "substantial"
+                        ? "Substantial interface coverage; remaining strings show in English."
+                        : l.status === "partial"
+                          ? "Partial interface coverage; untranslated strings show in English."
+                          : l.status === "minimal"
+                            ? "Minimal coverage: navigation and key controls only, all verified."
+                            : "No interface translation yet; the app runs in English."}
+                    {" "}
+                    {l.review === "reviewed" ? "Reviewed." : "Awaiting native review."}
                   </p>
+
                   <button
-                    className={`btn mt-4 ${chosen ? "btn-primary" : "btn-ghost"}`}
+                    className={`btn mt-3 ${chosen ? "btn-primary" : "btn-ghost"}`}
                     aria-pressed={chosen}
                     onClick={() => setSettings({ language: l.code as LangCode })}
                   >
@@ -67,11 +168,88 @@ export default function SettingsPage() {
         </ul>
 
         <p className="muted mt-3 text-sm leading-relaxed">
-          Launch languages are Hindi, English and Sanskrit (with transliteration), plus Telugu and
-          Bengali at partial coverage. The data model carries a language code on every translatable
-          field, so Tamil, Kannada, Marathi, Gujarati, Malayalam, Odia, Punjabi and Assamese need a
-          translation file, not a redesign.
+          Scripts are rendered from the font list recorded per language; where a listed font is
+          absent the browser falls back to its own, and nothing is hidden. Urdu, Sindhi and
+          Kashmiri switch the whole layout to right-to-left. No sacred text is machine-translated:
+          mantras and verses carry named human sources or they are not shown as translated at all.
         </p>
+      </section>
+
+      {/* ----------------------------------------------------------- audio */}
+      <section className="mt-10" aria-labelledby="audio">
+        <SectionHeading
+          eyebrow="Audio"
+          title="Narration, voice by voice"
+          sub="Narration follows the language you selected. Where the device has no voice for that language, the app says so and leaves the text as text rather than reading it in the wrong accent. No recorded recitation ships with this app — recitation recordings belong to their performers."
+        />
+        <h2 id="audio" className="sr-only">Narration</h2>
+        <Card className="p-6">
+          <div className="space-y-4">
+            <label className="flex items-start gap-3">
+              <input type="checkbox" checked={s.captions}
+                     onChange={(e) => setSettings({ captions: e.target.checked })} />
+              <span>
+                <span className="block text-sm font-semibold">Show captions while narrating</span>
+                <span className="muted block text-xs">
+                  Displays the sentence being spoken under the player. Sentence-level, because that
+                  is the only timing a browser speech engine actually reports.
+                </span>
+              </span>
+            </label>
+
+            <label className="flex items-start gap-3">
+              <input type="checkbox" checked={s.transcriptOpen}
+                     onChange={(e) => setSettings({ transcriptOpen: e.target.checked })} />
+              <span>
+                <span className="block text-sm font-semibold">Open transcripts by default</span>
+                <span className="muted block text-xs">
+                  Every narration player shows its full transcript, with clickable lines that seek.
+                </span>
+              </span>
+            </label>
+
+            <label className="flex items-start gap-3">
+              <input type="checkbox" checked={s.skipIntro}
+                     onChange={(e) => setSettings({ skipIntro: e.target.checked })} />
+              <span>
+                <span className="block text-sm font-semibold">Skip the opening experience</span>
+                <span className="muted block text-xs">
+                  The opening never plays twice on its own, whatever this is set to.
+                </span>
+              </span>
+            </label>
+
+            <div className="border-t pt-4" style={{ borderColor: "var(--line)" }}>
+              <p className="mb-2 text-sm font-semibold">Voice availability on this device</p>
+              <ul className="grid gap-1.5 text-xs sm:grid-cols-2 lg:grid-cols-3">
+                {narration.map((n) => (
+                  <li key={n.code} className="flex items-baseline gap-2">
+                    <span aria-hidden="true"
+                          style={{ color: n.mode === "native" ? "#2f855a" : n.mode === "substitute" ? "var(--gold)" : "var(--crimson, #9b2c2c)" }}>
+                      {n.mode === "native" ? "●" : n.mode === "substitute" ? "◐" : "○"}
+                    </span>
+                    <span style={{ fontFamily: FONT(n.code) }}>{n.native}</span>
+                    <span className="muted">
+                      {n.mode === "native" ? "voice ready"
+                        : n.mode === "substitute" ? `read with a ${n.substitutedWith} voice`
+                        : "no voice — text only"}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+              <p className="muted mt-2 text-[0.7rem] leading-relaxed">
+                ● native &nbsp; ◐ a related voice is used and labelled &nbsp; ○ nothing suitable: text
+                only. This list is read from your device, so it changes with the device, and it is
+                never reported as better than it is.
+              </p>
+            </div>
+
+            <div className="flex flex-wrap items-center gap-2 border-t pt-4" style={{ borderColor: "var(--line)" }}>
+              <ReplayIntroButton className="btn btn-ghost" />
+              <Link href="/listen" className="btn btn-ghost">Open the listening library</Link>
+            </div>
+          </div>
+        </Card>
       </section>
 
       {/* --------------------------------------------------------- reading */}

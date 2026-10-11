@@ -1,0 +1,330 @@
+{
+  "collectionId": "launch-questions",
+  "title": "Question Explorer",
+  "intro": "Fifty questions in ten sections — the launch set for this app. Every question opens the curated article that answers it, and every article can be listened to in the selected language or followed up with the AI guide.",
+  "editorialNote": "Each question is mapped to a knowledge-base document and, where useful, to a refined phrasing that retrieves better from the guide. Questions that need a person rather than an app (vows, family rites, personal religious decisions) point to the app's guidance boundary instead of pretending to decide for the reader.",
+  "sections": [
+    { "letter": "A", "title": "Discover Navadurga", "intro": "Who the nine forms are, why nine, and how Durga, Parvati and Kali relate." },
+    { "letter": "B", "title": "The Nine Divine Forms", "intro": "One section of questions per form, from Shailaputri to Siddhidatri." },
+    { "letter": "C", "title": "Navratri and Its Traditions", "intro": "Why the festival exists, the two Navratris, the ten-day count and ghatasthapana." },
+    { "letter": "D", "title": "Puja and Daily Rituals", "intro": "What a beginner can actually do, and which items and offerings are customary." },
+    { "letter": "E", "title": "Mantras, Aarti and Sacred Sound", "intro": "Mantra, stotra, chalisa and aarti — what they are and how to approach them." },
+    { "letter": "F", "title": "Fasting, Food and Well-being", "intro": "Vrat, regional vrat food, health caveats and families who choose differently." },
+    { "letter": "G", "title": "Stories, Symbols and Sacred Texts", "intro": "The Mahishasura narrative, the iconography, and which texts this app holds." },
+    { "letter": "H", "title": "Regional Celebrations", "intro": "Durga Puja, garba, Dasara, golu, and the observances across India and Nepal." },
+    { "letter": "I", "title": "Spiritual Reflection and Daily Life", "intro": "Practice, discipline, fear and the limits of what an app should answer." },
+    { "letter": "J", "title": "Personalized Exploration", "intro": "Where to begin, what to read first, and how to go deeper over time." }
+  ],
+  "questions": [
+    {
+      "id": "A1", "section": "A",
+      "text": "Who are the nine forms of Navadurga?",
+      "doc": "nine-forms-of-navadurga",
+      "ask": "Who are the nine forms of Navadurga and where are the nine names recorded?"
+    },
+    {
+      "id": "A2", "section": "A",
+      "text": "Why are nine forms worshipped during Navratri?",
+      "doc": "why-nine-forms",
+      "ask": "Why are there nine forms of Navadurga rather than another number?"
+    },
+    {
+      "id": "A3", "section": "A",
+      "text": "What is the significance of each Navadurga form?",
+      "doc": "significance-of-each-form",
+      "ask": "What does each of the nine forms stand for, one by one?"
+    },
+    {
+      "id": "A4", "section": "A",
+      "text": "How are the nine forms connected to different qualities and aspects of life?",
+      "doc": "forms-and-life",
+      "ask": "How is the sequence of nine forms read as a map of qualities in life?"
+    },
+    {
+      "id": "A5", "section": "A",
+      "text": "What is the difference between Maa Durga, Maa Parvati, Maa Kali and the nine Navadurga forms?",
+      "doc": "durga-parvati-kali-navadurga",
+      "ask": "How are Durga, Parvati, Kali and the Navadurga forms related to each other?"
+    },
+
+    {
+      "id": "B1", "section": "B",
+      "text": "Who is Maa Shailaputri, and what does she symbolize?",
+      "doc": "shailaputri",
+      "ask": "Tell me about Maa Shailaputri, the first night of Navratri."
+    },
+    {
+      "id": "B2", "section": "B",
+      "text": "What is the spiritual significance of Maa Brahmacharini?",
+      "doc": "brahmacharini",
+      "ask": "What does Maa Brahmacharini signify for practice and discipline?"
+    },
+    {
+      "id": "B3", "section": "B",
+      "text": "Why is Maa Chandraghanta associated with courage and protection?",
+      "doc": "chandraghanta",
+      "ask": "Why is Maa Chandraghanta shown with a bell-shaped crescent and many arms?"
+    },
+    {
+      "id": "B4", "section": "B",
+      "text": "What does Maa Kushmanda symbolize in traditional accounts of creation?",
+      "doc": "kushmanda",
+      "ask": "What is the traditional account of creation connected with Maa Kushmanda?"
+    },
+    {
+      "id": "B5", "section": "B",
+      "text": "What are the stories and symbolism of Skandamata, Katyayani, Kalaratri, Mahagauri and Siddhidatri?",
+      "doc": "skandamata-to-siddhidatri",
+      "ask": "Describe the last five Navadurga forms and what each one stands for."
+    },
+
+    {
+      "id": "C1", "section": "C",
+      "text": "Why is Navratri celebrated?",
+      "doc": "why-navratri-is-celebrated",
+      "ask": "Why is Navratri celebrated, and what is its scriptural anchor?"
+    },
+    {
+      "id": "C2", "section": "C",
+      "text": "What is the difference between Chaitra Navratri and Sharad Navratri?",
+      "doc": "chaitra-vs-sharad-navratri",
+      "ask": "Explain the difference between the spring and autumn Navratri."
+    },
+    {
+      "id": "C3", "section": "C",
+      "text": "Why are nine nights and ten days significant in some traditions?",
+      "doc": "nine-nights-ten-days",
+      "ask": "Why do some traditions count nine nights and ten days, and what is the tenth day?"
+    },
+    {
+      "id": "C4", "section": "C",
+      "text": "What is the spiritual meaning of Ghatasthapana or Kalash Sthapana?",
+      "doc": "ghatasthapana-meaning",
+      "ask": "What is the meaning of ghatasthapana and the barley sprouts?"
+    },
+    {
+      "id": "C5", "section": "C",
+      "text": "Why do Navratri celebrations and customs vary across Indian regions?",
+      "doc": "why-customs-vary",
+      "ask": "Why do Navratri customs differ between regions of India?"
+    },
+
+    {
+      "id": "D1", "section": "D",
+      "text": "How can a beginner prepare a simple Navratri puja at home?",
+      "doc": "beginner-home-puja",
+      "ask": "Give the simplest complete Navratri puja someone can do at home."
+    },
+    {
+      "id": "D2", "section": "D",
+      "text": "What items are traditionally used in Ghatasthapana?",
+      "doc": "ghatasthapana-items",
+      "ask": "List the traditional items used for ghatasthapana."
+    },
+    {
+      "id": "D3", "section": "D",
+      "text": "How is a diya traditionally used during puja?",
+      "doc": "diya-in-puja",
+      "ask": "How is a diya used during puja and aarti?"
+    },
+    {
+      "id": "D4", "section": "D",
+      "text": "What is the significance of flowers, incense, kumkum and offerings?",
+      "doc": "flowers-incense-kumkum",
+      "ask": "What do flowers, incense, kumkum and bhog mean in Navratri puja?"
+    },
+    {
+      "id": "D5", "section": "D",
+      "text": "How can someone participate respectfully when they cannot perform every ritual?",
+      "doc": "participating-respectfully",
+      "ask": "How can I take part respectfully without doing every ritual?"
+    },
+
+    {
+      "id": "E1", "section": "E",
+      "text": "What is a mantra, and why do devotees recite mantras?",
+      "doc": "what-is-a-mantra",
+      "ask": "What is a mantra and why is it recited rather than read?"
+    },
+    {
+      "id": "E2", "section": "E",
+      "text": "What is the difference between a mantra, stotra, chalisa and aarti?",
+      "doc": "mantra-stotra-chalisa-aarti",
+      "ask": "Explain the difference between mantra, stotra, chalisa and aarti."
+    },
+    {
+      "id": "E3", "section": "E",
+      "text": "How should a beginner approach the recitation of a Durga mantra?",
+      "doc": "ending-recitation-safely",
+      "ask": "How should a beginner start reciting a Durga mantra safely?"
+    },
+    {
+      "id": "E4", "section": "E",
+      "text": "What is the significance of the Durga Chalisa in devotional practice?",
+      "doc": "durga-chalisa-significance",
+      "ask": "What is the Durga Chalisa and how is it used in practice?"
+    },
+    {
+      "id": "E5", "section": "E",
+      "text": "Can I listen to a mantra if I cannot recite it myself?",
+      "doc": "listen-instead-of-reciting",
+      "ask": "Can I listen to a mantra instead of reciting it, and what are the limits?"
+    },
+
+    {
+      "id": "F1", "section": "F",
+      "text": "What is Navratri vrat, and why do people observe it?",
+      "doc": "what-is-navratri-vrat",
+      "ask": "What is Navratri vrat and what does it involve?"
+    },
+    {
+      "id": "F2", "section": "F",
+      "text": "What are common regional food traditions during Navratri fasting?",
+      "doc": "regional-fasting-food",
+      "ask": "What do people eat during Navratri vrat in different regions?"
+    },
+    {
+      "id": "F3", "section": "F",
+      "text": "Are fasting practices the same for everyone?",
+      "doc": "fasting-not-for-everyone",
+      "ask": "Who should not fast during Navratri, and what are the exceptions?"
+    },
+    {
+      "id": "F4", "section": "F",
+      "text": "How can families celebrate Navratri while respecting different dietary choices?",
+      "doc": "families-with-different-choices",
+      "ask": "How does a household keep Navratri when family members eat differently?"
+    },
+    {
+      "id": "F5", "section": "F",
+      "text": "Can children and guests take part in a fast they are not observing?",
+      "doc": "participating-respectfully",
+      "ask": "How can children and guests take part in Navratri without fasting?"
+    },
+
+    {
+      "id": "G1", "section": "G",
+      "text": "What is the traditional story of Maa Durga defeating Mahishasura?",
+      "doc": "durga-and-mahishasura",
+      "ask": "Tell the story of Mahishasura's defeat as the Devi Mahatmya tells it."
+    },
+    {
+      "id": "G2", "section": "G",
+      "text": "What do Maa Durga's many arms and attributes symbolize?",
+      "doc": "durga-many-arms",
+      "ask": "Why is Maa Durga shown with many arms, and where do the weapons come from?"
+    },
+    {
+      "id": "G3", "section": "G",
+      "text": "Why is the lion or tiger associated with Maa Durga?",
+      "doc": "lion-and-tiger",
+      "ask": "Why does Maa Durga ride a lion or a tiger?"
+    },
+    {
+      "id": "G4", "section": "G",
+      "text": "What is the significance of the weapons and objects shown in traditional depictions?",
+      "doc": "weapons-and-objects",
+      "ask": "What do the trident, discus, noose and bell in Durga's hands mean?"
+    },
+    {
+      "id": "G5", "section": "G",
+      "text": "Which traditional texts and sources discuss Maa Durga, and how can I explore them?",
+      "doc": "texts-about-durga",
+      "ask": "Which texts about Maa Durga does this app hold, and which does it not?"
+    },
+
+    {
+      "id": "H1", "section": "H",
+      "text": "How is Durga Puja celebrated in West Bengal?",
+      "doc": "durga-puja-bengal",
+      "ask": "Describe Durga Puja in West Bengal, its days and its rites."
+    },
+    {
+      "id": "H2", "section": "H",
+      "text": "Why is Navratri celebrated with garba and dandiya in Gujarat?",
+      "doc": "navratri-gujarat",
+      "ask": "What are garba and dandiya, and why are they part of Navratri in Gujarat?"
+    },
+    {
+      "id": "H3", "section": "H",
+      "text": "How is Navratri celebrated as Dasara in Karnataka?",
+      "doc": "dasara-karnataka",
+      "ask": "What is Dasara in Karnataka, and what happens in Mysuru?"
+    },
+    {
+      "id": "H4", "section": "H",
+      "text": "What are the distinctive features of Navratri celebrations in Tamil Nadu?",
+      "doc": "tamil-nadu-golu",
+      "ask": "What is golu, and how are the nine nights kept in Tamil Nadu?"
+    },
+    {
+      "id": "H5", "section": "H",
+      "text": "How are the nine nights observed in Kerala, Punjab, Maharashtra, Odisha, Assam and Nepal?",
+      "doc": "other-regions",
+      "ask": "How does Nepal keep Dashain, and how do Kerala and Punjab keep the nine nights?"
+    },
+
+    {
+      "id": "I1", "section": "I",
+      "text": "How can I apply the teachings of Navratri in daily life?",
+      "doc": "applying-teachings-daily-life",
+      "ask": "How can I put Navratri's teachings into ordinary daily life?"
+    },
+    {
+      "id": "I2", "section": "I",
+      "text": "What does the tradition say about discipline, devotion and inner strength?",
+      "doc": "what-tradition-says-about-discipline",
+      "ask": "What do vrata, shraddha and tapas mean in practice?"
+    },
+    {
+      "id": "I3", "section": "I",
+      "text": "How does the tradition address fear, difficulty and uncertainty?",
+      "doc": "fear-and-difficulty",
+      "ask": "What does the Devi Mahatmya say about fear and powerlessness?"
+    },
+    {
+      "id": "I4", "section": "I",
+      "text": "How can I stay consistent with spiritual practice during and after Navratri?",
+      "doc": "consistency-and-repetition",
+      "ask": "How do I keep a practice going after the ninth night?"
+    },
+    {
+      "id": "I5", "section": "I",
+      "text": "When should I seek guidance from a teacher rather than from a website?",
+      "doc": "when-to-consult-a-teacher",
+      "ask": "When should I ask a teacher instead of an app?",
+      "href": "/about"
+    },
+
+    {
+      "id": "J1", "section": "J",
+      "text": "I am new to Navratri — where should I begin?",
+      "doc": "where-to-begin",
+      "ask": "I am new to Navratri. What is the best place to start?"
+    },
+    {
+      "id": "J2", "section": "J",
+      "text": "Which form of Navadurga should I connect with first, and why?",
+      "doc": "which-form-to-start-with",
+      "ask": "Which form of Navadurga should I start with?"
+    },
+    {
+      "id": "J3", "section": "J",
+      "text": "How can I make my first Navratri meaningful if I have little time or I am not very religious?",
+      "doc": "first-navratri-meaningful",
+      "ask": "How can I keep Navratri meaningfully with very little time?"
+    },
+    {
+      "id": "J4", "section": "J",
+      "text": "How can I involve my family, including children, in a meaningful way?",
+      "doc": "involving-family-and-children",
+      "ask": "How can I involve children and family in Navratri?"
+    },
+    {
+      "id": "J5", "section": "J",
+      "text": "How can I explore Navadurga and Durga worship more deeply over time?",
+      "doc": "going-deeper-over-time",
+      "ask": "What is a good long-term path for studying Durga worship?"
+    }
+  ]
+}
