@@ -4,6 +4,8 @@ import { computeNavratri, currentNavratriDay, formatInTimezone, panchangForDay, 
 import { DEFAULT_SETTINGS } from "@/lib/types";
 import { Card, Chip, SectionHeading, Stat } from "@/components/ui";
 import { Mandala, Diya, Lotus, MotesStatic, OrnamentRule, Trident } from "@/components/ornament";
+import { CinematicArt } from "@/components/art";
+import { ART } from "@/lib/art";
 
 export const metadata = { title: "Home" };
 
@@ -64,6 +66,7 @@ export default function HomePage() {
         </div>
         <MotesStatic count={12} />
 
+        <div className="relative grid items-center gap-10 lg:grid-cols-[minmax(0,1fr)_26rem]">
         <div className="relative px-6 py-12 sm:px-10 sm:py-16">
           <p className="mb-3 text-[0.7rem] font-semibold uppercase tracking-[0.3em]"
              style={{ color: "#e8c86a" }}>
@@ -99,6 +102,15 @@ export default function HomePage() {
             <Diya className="h-10 w-14" />
             <Lotus className="h-6 w-14" stroke="#c9a227" opacity={0.7} />
           </div>
+        </div>
+
+        <div className="relative hidden px-2 pb-10 pr-8 lg:block">
+          <CinematicArt
+            src={ART.hero}
+            eager
+            alt="Goddess Durga as Mahishasura-Mardini, radiant upon her lion in a candle-lit temple"
+          />
+        </div>
         </div>
       </section>
 

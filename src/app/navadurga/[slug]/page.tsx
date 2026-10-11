@@ -6,6 +6,8 @@ import {
 } from "@/components/ui";
 import { Mandala, Trident } from "@/components/ornament";
 import { AudioPlayer, BookmarkButton } from "@/components/interactive";
+import { CinematicArt } from "@/components/art";
+import { navadurgaArt } from "@/lib/art";
 
 // The full set of slugs is known at build time. Pinning dynamicParams off
 // means an unknown slug 404s immediately instead of being rendered on demand
@@ -34,6 +36,7 @@ export default async function NavadurgaDetail(
   const prev = all.find((x) => x.day === f.day - 1);
   const next = all.find((x) => x.day === f.day + 1);
   const href = `/navadurga/${f.slug}`;
+  const art = navadurgaArt(f.slug);
 
   return (
     <>
@@ -51,6 +54,14 @@ export default async function NavadurgaDetail(
         </div>
         <p className="muted mt-3 text-lg">{f.meaning}</p>
       </PageHeader>
+
+      {art && (
+        <CinematicArt
+          src={art}
+          alt={`${f.nameTransliterated}, day ${f.day} of Navadurga, in a cinematic devotional rendering`}
+          className="mb-8"
+        />
+      )}
 
       <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_20rem]">
         <div className="min-w-0">

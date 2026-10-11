@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { getKnowledgeCollection, getKnowledgeTopics } from "@/lib/content";
 import { PageHeader, SectionHeading, SampleBadge } from "@/components/ui";
+import { CinematicArt } from "@/components/art";
+import { ART } from "@/lib/art";
 
 export const metadata = { title: "Maa Durga — Knowledge Library" };
 
@@ -12,6 +14,11 @@ export default function KnowledgeIndex() {
       <PageHeader eyebrow="Knowledge" title={col.title} sub={col.intro}>
         <SampleBadge />
       </PageHeader>
+      <CinematicArt
+        src={ART.maaDurga}
+        alt="Maa Durga, radiant and serene, in a cinematic devotional rendering"
+        className="mb-10"
+      />
       <ul className="grid gap-4 md:grid-cols-2">
         {topics.map((t) => (
           <li key={t.slug}>
