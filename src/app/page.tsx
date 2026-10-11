@@ -104,7 +104,7 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="relative hidden px-2 pb-10 pr-8 lg:block">
+        <div className="relative mb-8 px-2 lg:mb-0 lg:pr-8">
           <CinematicArt
             src={ART.hero}
             eager

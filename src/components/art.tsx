@@ -33,8 +33,11 @@ export function CinematicArt({
   const { state, hydrated } = useUser();
   const lowData = state.settings.lowData;
 
-  if (!hydrated || lowData) {
-    // No image: keep layout calm with an ornament placeholder.
+  // The image renders immediately — including in the server HTML — so a
+  // cinematic page shows its artwork without waiting on client JS. Only an
+  // explicit low-data choice (read after mount, so there is no hydration
+  // mismatch) swaps it for the ornament placeholder.
+  if (hydrated && lowData) {
     return (
       <figure
         className={`cinematic flex items-center justify-center ${className}`}
