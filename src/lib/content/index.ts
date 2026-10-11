@@ -47,6 +47,9 @@ import angaKshamapana from "@/content/scripture/angas/aparadha-kshamapana.json";
 import angaDhyana from "@/content/scripture/angas/chandika-dhyana.json";
 
 import arthHi01 from "@/content/scripture/arth-hi/01.json";
+import arthHi02 from "@/content/scripture/arth-hi/02.json";
+import arthHi03 from "@/content/scripture/arth-hi/03.json";
+import arthHi04 from "@/content/scripture/arth-hi/04.json";
 import trManifestJson from "@/content/scripture/translations/en-pargiter-1904/manifest.json";
 import tr01 from "@/content/scripture/translations/en-pargiter-1904/01.json";
 import tr02 from "@/content/scripture/translations/en-pargiter-1904/02.json";
@@ -129,6 +132,9 @@ export interface ChapterArth {
 
 const ARTH_HI: Record<number, ChapterArth> = {
   1: arthHi01 as unknown as ChapterArth,
+  2: arthHi02 as unknown as ChapterArth,
+  3: arthHi03 as unknown as ChapterArth,
+  4: arthHi04 as unknown as ChapterArth,
 };
 
 export function getChapterArth(number: number): ChapterArth | null {
