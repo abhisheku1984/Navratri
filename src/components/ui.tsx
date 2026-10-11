@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 import { Mandala } from "./ornament";
 import type { VerificationStatus } from "@/lib/types";
+import { speakerHindi } from "@/lib/hindi";
 
 /**
  * OrnamentRule lives with the other ornaments but is used alongside Card and
@@ -194,7 +195,11 @@ export function VerseBlock({
       {label && (
         <figcaption className="muted mb-2 flex flex-wrap items-center gap-2 font-mono text-xs tracking-wide">
           <span>{label}</span>
-          {speaker && <span className="not-italic">· {speaker}</span>}
+          {speakerHindi(speaker) && (
+            <span className="deva not-italic" style={{ color: "var(--accent)" }}>
+              · {speakerHindi(speaker)!.deva} <span className="muted">— {speakerHindi(speaker)!.hindi}</span>
+            </span>
+          )}
           {typeof padas === "number" && padas > 0 && <span>· {padas} pada{padas === 1 ? "" : "s"}</span>}
           {range && <span>· spans more than one verse</span>}
         </figcaption>

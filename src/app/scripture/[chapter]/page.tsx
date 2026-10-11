@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getChapter, getChapters, getManifestEntry, getTranslation } from "@/lib/content";
+import { CHAPTER_STORY_HI, HINDI_RENDERING_NOTE } from "@/lib/hindi";
 import {
   Breadcrumbs, Card, Chip, DefinitionList, EmptyState, ErrorState, OrnamentRule,
   PageHeader, SectionHeading, VerseBlock,
@@ -166,6 +167,19 @@ export default async function ChapterPage(
                     <p key={i} className="leading-[1.9]">{p}</p>
                   ))}
                 </div>
+              </Card>
+            </section>
+          )}
+
+          {CHAPTER_STORY_HI[n] && (
+            <section aria-labelledby="story-hi" className="mt-8">
+              <SectionHeading eyebrow="कथा" title={`अध्याय ${n} की कथा`} />
+              <h2 id="story-hi" className="sr-only">Chapter {n} story in Hindi</h2>
+              <Card className="p-6">
+                <p className="deva text-base leading-[2.1]">{CHAPTER_STORY_HI[n]}</p>
+                <p className="muted mt-4 border-t pt-3 text-xs" style={{ borderColor: "var(--line)" }}>
+                  {HINDI_RENDERING_NOTE}
+                </p>
               </Card>
             </section>
           )}
