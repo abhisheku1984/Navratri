@@ -8,7 +8,7 @@ import {
 } from "@/components/ui";
 import { Mandala } from "@/components/ornament";
 import { BookmarkButton, ReadingProgress, VerseAnchor } from "@/components/interactive";
-import { ReaderControls, TranslationNotice, VerseJump } from "@/components/reader";
+import { ReaderControls, VerseJump } from "@/components/reader";
 import { OfflinePinButton } from "@/components/offline";
 import { ReadAloudButton } from "@/components/speech";
 
@@ -154,14 +154,6 @@ export default async function ChapterPage(
               )}
 
               <Card className="mb-4 p-6">
-                {w && (
-                  <p className="muted mb-4 text-xs">
-                    {w.translator} · {w.work} · {w.copyrightStatus}. Digital copy:{" "}
-                    {w.digitalCopy}
-                    {w.ocrUncorrected && ", OCR uncorrected"}
-                    {w.verseAlignment === null && " · no verse-level alignment is offered"}
-                  </p>
-                )}
                 <div className="space-y-4">
                   {translation.paragraphs.map((p, i) => (
                     <p key={i} className="leading-[1.9]">{p}</p>
@@ -181,8 +173,6 @@ export default async function ChapterPage(
             <EmptyState title="No English text for this chapter"
                         body="The witness is too damaged to import. The Sanskrit is complete." />
           )}
-
-          <TranslationNotice />
 
           {/* cross references */}
           <section className="mt-8" aria-labelledby="xref">

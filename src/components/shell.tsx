@@ -278,6 +278,20 @@ export function Shell({ children }: { children: React.ReactNode }) {
           </Link>
           <GlobalSearch lang={lang} onNavigate={() => setNavOpen(false)} />
           <OfflineStatusChip />
+          <label className="hidden shrink-0 items-center gap-1.5 sm:flex" htmlFor="ui-lang">
+            <span className="muted text-[0.65rem] uppercase tracking-[0.14em]">भाषा</span>
+            <select
+              id="ui-lang"
+              value={state.settings.language}
+              onChange={(e) => setSettings({ language: e.target.value as LangCode })}
+              className="rounded-full border px-2 py-1 text-xs outline-none"
+              style={{ borderColor: "var(--line-strong)", background: "var(--surface-2)", color: "var(--ink)" }}
+            >
+              {LANGUAGES.map((l) => (
+                <option key={l.code} value={l.code}>{l.native}</option>
+              ))}
+            </select>
+          </label>
           <button
             className="btn btn-ghost hidden shrink-0 !px-3 !py-1.5 text-xs lg:inline-flex"
             onClick={() => setSettings({

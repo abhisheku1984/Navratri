@@ -3,39 +3,22 @@
 /**
  * Chapter story with a language selector.
  *
- * Picking a language swaps both the story text and the read-aloud voice to that
- * language. The choice is remembered on the device. The first (server) render is
- * English; the stored preference is applied after mount so there is never a
- * hydration mismatch.
+ * The story language is the app language (Settings / header "भाषा" control), so a
+ * single choice switches the interface, the story text and the read-aloud voice
+ * together. The inline picker offers the two languages that have a story
+ * rendering (English / हिन्दी) and sets the same app-language setting.
  */
 
-import { useEffect, useState } from "react";
 import { chapterStory, STORY_LANGUAGES, STORY_NOTE, type StoryLang } from "@/lib/hindi";
+import type { LangCode } from "@/lib/i18n";
+import { useUser } from "@/lib/user";
 import { ReadAloudButton } from "./speech";
 import { Card } from "./ui";
 
-const KEY = "navratri.storyLang";
-
 export function ChapterStory({ n }: { n: number }) {
-  const [lang, setLang] = useState<StoryLang>("en");
-
-  useEffect(() => {
-    try {
-      const saved = window.localStorage.getItem(KEY);
-      if (saved === "hi" || saved === "en") setLang(saved);
-    } catch {
-      /* private mode etc. */
-    }
-  }, []);
-
-  const choose = (l: StoryLang) => {
-    setLang(l);
-    try {
-      window.localStorage.setItem(KEY, l);
-    } catch {
-      /* ignore */
-    }
-  };
+  const { state, setSettings } = useUser();
+  const lang: StoryLang = state.settings.language === "hi" ? "hi" : "en";
+  const choose = (l: StoryLang) => setSettings({ language: l as LangCode });
 
   const story = chapterStory(lang, n);
   if (!story.text) return null;
