@@ -14,8 +14,9 @@ import { describe, expect, it } from "vitest";
 import {
   getAngas, getChapters, getKbDocument, getKbDocuments, getKbSections,
   getKnowledgeTopics, getLaunchQuestionMatrix, getLaunchQuestionSections,
-  getMantras, getNavadurgaForms, getPujaGuides, getSources,
+  getMantras, getNavadurgaForms, getPujaGuides, getSources, getStories,
 } from "@/lib/content";
+import { CHAPTER_STORY_EN, CHAPTER_STORY_HI } from "@/lib/hindi";
 
 const docs = getKbDocuments();
 const sourceIds = new Set(getSources().map((s) => s.id));
@@ -195,5 +196,55 @@ describe("50-question launch matrix", () => {
       expect(doc, `${q.id} → ${q.doc}`).toBeTruthy();
       expect(doc?.questions.includes(q.id), `${q.id} not listed on ${q.doc}`).toBe(true);
     }
+  });
+});
+
+describe("language coverage of the reading experience", () => {
+  it("has a knowledge-base article slug for every Navadurga form", () => {
+    // FormStory() looks a form up by its own slug: if one is missing, the
+    // form's page silently loses its selected-language story.
+    const missing = getNavadurgaForms()
+      .map((f) => f.slug)
+      .filter((slug) => !KB.has(slug));
+    expect(missing).toEqual([]);
+  });
+
+  it("gives every form article a Hindi rendering with a translated body", () => {
+    for (const f of getNavadurgaForms()) {
+      const doc = getKbDocument(f.slug);
+      expect(doc, f.slug).toBeTruthy();
+      const hi = doc?.translations?.hi;
+      expect(hi?.body?.length ?? 0, `${f.slug} hi body`).toBeGreaterThan(0);
+      expect(hi?.title?.length ?? 0, `${f.slug} hi title`).toBeGreaterThan(2);
+    }
+  });
+
+  it("has a chapter narrative for all thirteen chapters, in Hindi and English", () => {
+    for (const c of getChapters()) {
+      expect(CHAPTER_STORY_HI[c.number]?.length ?? 0, `hi chapter ${c.number}`)
+        .toBeGreaterThan(80);
+      expect(CHAPTER_STORY_EN[c.number]?.length ?? 0, `en chapter ${c.number}`)
+        .toBeGreaterThan(80);
+    }
+  });
+
+  it("pairs a Hindi story rendering with an English one, story by story", () => {
+    for (const s of getStories()) {
+      expect(s.short.length, s.slug).toBeGreaterThan(50);
+      expect(s.long.length, s.slug).toBeGreaterThan(200);
+      const hasHi = Boolean(s.shortHi) || Boolean(s.longHi);
+      if (hasHi) {
+        // A half-translated story would render a mixed-language page.
+        expect(s.shortHi?.length ?? 0, `${s.slug} shortHi`).toBeGreaterThan(50);
+        expect(s.longHi?.length ?? 0, `${s.slug} longHi`).toBeGreaterThan(200);
+      }
+    }
+  });
+
+  it("holds a Hindi rendering for every story that the reader can reach today", () => {
+    const withoutHi = getStories()
+      .filter((s) => !(s.shortHi && s.longHi))
+      .map((s) => s.slug);
+    expect(withoutHi).toEqual([]);
   });
 });

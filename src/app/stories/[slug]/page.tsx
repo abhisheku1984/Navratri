@@ -6,7 +6,7 @@ import {
 } from "@/components/ui";
 import { Lotus, Mandala } from "@/components/ornament";
 import { BookmarkButton } from "@/components/interactive";
-import { ReadAloudButton } from "@/components/speech";
+import { StoryReader } from "@/components/story-reader";
 
 // The full set of slugs is known at build time. Pinning dynamicParams off
 // means an unknown slug 404s immediately instead of being rendered on demand
@@ -33,7 +33,6 @@ export default async function StoryDetail(
   if (!s) notFound();
   const href = `/stories/${s.slug}`;
   const related = getStories().filter((x) => x.slug !== s.slug && x.age === s.age).slice(0, 3);
-  const paragraphs = s.long.split(/\n{2,}/).filter(Boolean);
 
   return (
     <>
@@ -45,12 +44,13 @@ export default async function StoryDetail(
           <Chip>{s.minutes} min</Chip>
           <Chip>Retelling</Chip>
           <BookmarkButton kind="story" ref_={s.slug} label={s.title} href={href} />
-          <ReadAloudButton text={[s.short, ...paragraphs].join(" ")} lang="en" label="this story" />
         </div>
       </PageHeader>
 
+
+
       <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_18rem]">
-        <article className="min-w-0">
+        <div className="min-w-0">
           <div className="relative mb-8 overflow-hidden rounded-2xl border p-8 text-center"
                style={{ borderColor: "var(--line)", background: "var(--surface-3)" }}>
             <Mandala className="absolute -right-16 -top-16 h-56 w-56 opacity-10"
@@ -60,16 +60,7 @@ export default async function StoryDetail(
             <p className="muted relative mt-1 text-sm">{s.title}</p>
           </div>
 
-          <Card className="mb-8 p-6">
-            <p className="muted mb-2 text-[0.68rem] uppercase tracking-[0.14em]">The short version</p>
-            <p className="leading-[1.9]">{s.short}</p>
-          </Card>
-
-          <div className="space-y-5">
-            {paragraphs.map((p, i) => (
-              <p key={i} className="text-[1.06rem] leading-[1.95]">{p}</p>
-            ))}
-          </div>
+          <StoryReader story={s} className="mb-8" />
 
           <OrnamentRule className="my-10" />
 
@@ -113,7 +104,7 @@ export default async function StoryDetail(
               </Card>
             </section>
           )}
-        </article>
+        </div>
 
         <aside className="space-y-4 lg:sticky lg:top-24 lg:self-start">
           <Card className="p-5">

@@ -6,6 +6,7 @@ import {
   SectionHeading, TextLink, VerificationBadge,
 } from "@/components/ui";
 import { BookmarkButton } from "@/components/interactive";
+import { ContentAvailability } from "@/components/content-language";
 
 // The full set of slugs is known at build time. Pinning dynamicParams off
 // means an unknown slug 404s immediately instead of being rendered on demand
@@ -47,6 +48,18 @@ export default async function TopicPage(
           <BookmarkButton kind="topic" ref_={t.slug} label={t.title} href={href} />
         </div>
       </PageHeader>
+
+      {/* Names the language this page is actually in, and what exists in others. */}
+      <ContentAvailability
+        className="mb-8"
+        available={["en"]}
+        rendering="en"
+        what="this topic's article"
+        altNotes={[
+          { lang: "hi", text: "हिन्दी में उपलब्ध: नौ रूपों की कथाएँ, अध्याय-कथाएँ और सामान्य प्रश्नों के लेख।", href: "/kb" },
+        ]}
+      />
+
 
       <Notice tone="caution" title="How to read this page">
         Each section separates what a scripture states, what a regional tradition holds, and what a

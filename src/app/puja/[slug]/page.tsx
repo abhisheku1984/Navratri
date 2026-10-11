@@ -6,6 +6,7 @@ import {
 } from "@/components/ui";
 import { Diya, Mandala } from "@/components/ornament";
 import { BookmarkButton } from "@/components/interactive";
+import { ContentAvailability } from "@/components/content-language";
 
 // The full set of slugs is known at build time. Pinning dynamicParams off
 // means an unknown slug 404s immediately instead of being rendered on demand
@@ -49,6 +50,18 @@ export default async function PujaDetail(
         <BookmarkButton kind="topic" ref_={g.slug} label={g.title} href={href} />
         <p className="muted mt-3 text-lg">{g.summary}</p>
       </PageHeader>
+
+      {/* Names the language this page is actually in, and what exists in others. */}
+      <ContentAvailability
+        className="mb-8"
+        available={["en"]}
+        rendering="en"
+        what="this ritual guide"
+        altNotes={[
+          { lang: "hi", text: "हिन्दी में उपलब्ध: नौ रूपों की कथाएँ, अध्याय-कथाएँ और सामान्य प्रश्नों के लेख।", href: "/kb" },
+        ]}
+      />
+
 
       <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_19rem]">
         <div className="min-w-0">

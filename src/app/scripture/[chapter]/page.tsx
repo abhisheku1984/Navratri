@@ -1,10 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getChapter, getChapters, getManifestEntry, getTranslation } from "@/lib/content";
-import { ChapterStory } from "@/components/story";
+import { ChapterReading, ChapterVersesAudio } from "@/components/chapter-reading";
 import {
-  Breadcrumbs, Card, Chip, DefinitionList, EmptyState, ErrorState, OrnamentRule,
-  PageHeader, SectionHeading, VerseBlock,
+  Breadcrumbs, Card, Chip, DefinitionList, OrnamentRule, PageHeader, VerseBlock,
 } from "@/components/ui";
 import { Mandala } from "@/components/ornament";
 import { BookmarkButton, ReadingProgress, VerseAnchor } from "@/components/interactive";
@@ -105,6 +104,13 @@ export default async function ChapterPage(
 
           <section aria-label={`Verses of chapter ${n}`}>
             <h2 className="sr-only">Verses</h2>
+
+            <ChapterVersesAudio
+              n={n}
+              className="mb-6"
+              verses={ch.verses.map((v) => ({ label: v.label, devanagari: v.devanagari }))}
+            />
+
             <ol id="verse-list" className="space-y-5">
               {ch.verses.map((v) => (
                 <li key={v.label}>
@@ -132,47 +138,16 @@ export default async function ChapterPage(
 
           <OrnamentRule className="my-8" />
 
-          {translation && (
-            <section aria-labelledby="translation">
-              <SectionHeading eyebrow="Translation" title={`Chapter ${n} in English`} />
-              <h2 id="translation" className="sr-only">English translation</h2>
-
-              {partial && (
-                <ErrorState title="This chapter's English translation is incomplete">
-                  <p>
-                    The OCR witness for this canto is truncated, so only{" "}
-                    {translation.paragraphs.length} paragraph
-                    {translation.paragraphs.length === 1 ? "" : "s"} survived. The Sanskrit above is
-                    complete. Rather than generate the missing prose, the app says plainly that it
-                    is missing.
-                  </p>
-                  <p className="mt-2">
-                    A complete public-domain translation of this canto exists in other editions and
-                    is a documented import — see the source registry.
-                  </p>
-                </ErrorState>
-              )}
-
-              <Card className="mb-4 p-6">
-                <div className="space-y-4">
-                  {translation.paragraphs.map((p, i) => (
-                    <p key={i} className="leading-[1.9]">{p}</p>
-                  ))}
-                </div>
-              </Card>
-            </section>
-          )}
-
-          <section aria-labelledby="story" className="mt-8">
-            <SectionHeading eyebrow="कथा · Story" title={`अध्याय ${n} की कथा`} />
-            <h2 id="story" className="sr-only">Chapter {n} story</h2>
-            <ChapterStory n={n} />
-          </section>
-
-          {translation && partial && translation.paragraphs.length === 0 && (
-            <EmptyState title="No English text for this chapter"
-                        body="The witness is too damaged to import. The Sanskrit is complete." />
-          )}
+          {/*
+            Story first, then the English witness, then the availability line.
+            The order and the labels come from ChapterReading, which is a client
+            component because the selected language only exists in the browser.
+          */}
+          <ChapterReading
+            n={n}
+            paragraphs={translation?.paragraphs ?? []}
+            partial={Boolean(partial)}
+          />
 
           {/* cross references */}
           <section className="mt-8" aria-labelledby="xref">

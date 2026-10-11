@@ -243,7 +243,16 @@ export interface Story {
   minutes: number;
   short: string;
   long: string;
+  /**
+   * Contemporary Hindi renderings written for this app — original compositions
+   * derived from the same narrative as the English retelling, not copies of any
+   * published edition. Optional so a story can exist before its Hindi rendering
+   * does; the UI states which languages a story is actually available in.
+   */
+  shortHi?: string;
+  longHi?: string;
   moral: string;
+  moralHi?: string;
   sourceNote: string;
   illustrationHints: string[];
 }

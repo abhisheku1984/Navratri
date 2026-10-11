@@ -8,7 +8,9 @@
       "section": "B",
       "slug": "shailaputri",
       "title": "Who is Maa Shailaputri, and what does she symbolize?",
-      "questions": ["B1"],
+      "questions": [
+        "B1"
+      ],
       "summary": "Shailaputri — 'daughter of the mountain' — is the first night's form: Parvati as the child of Himavat, shown calm on a bull with a trident and a lotus; she is read as rootedness and steadiness at the start of a practice.",
       "body": [
         "The dhyana verse describes her with a crescent moon in her crown, riding the bull, holding the trident in one hand and the lotus in the other. She is not shown in battle. The trident carries the three gunas in balance; the lotus grows out of mud and is not muddied by it; the bull is steadiness and, in the Puranic narrative, the link to Shiva.",
@@ -22,12 +24,26 @@
       ],
       "tradition": "Common North Indian reading, following the Navadurga Stotram's first dhyana verse.",
       "sources": [
-        { "sourceId": "navadurga-stotram", "locator": "dhyana verse 1", "note": "'vande vāñchitalābhāya candrārdhakṛtaśekharām…'" },
-        { "sourceId": "editorial", "locator": "symbolism", "note": "Interpretive; trident/gunas and lotus/detachment readings are editorial." }
+        {
+          "sourceId": "navadurga-stotram",
+          "locator": "dhyana verse 1",
+          "note": "'vande vāñchitalābhāya candrārdhakṛtaśekharām…'"
+        },
+        {
+          "sourceId": "editorial",
+          "locator": "symbolism",
+          "note": "Interpretive; trident/gunas and lotus/detachment readings are editorial."
+        }
       ],
       "links": [
-        { "href": "/navadurga/shailaputri", "label": "Full profile: Maa Shailaputri" },
-        { "href": "/shakti-peethas", "label": "The Shakti Peetha geography" }
+        {
+          "href": "/navadurga/shailaputri",
+          "label": "Full profile: Maa Shailaputri"
+        },
+        {
+          "href": "/shakti-peethas",
+          "label": "The Shakti Peetha geography"
+        }
       ],
       "review": "in-house-editorial",
       "updated": "2026-10-11",
@@ -47,7 +63,9 @@
       "section": "B",
       "slug": "brahmacharini",
       "title": "What is the spiritual significance of Maa Brahmacharini?",
-      "questions": ["B2"],
+      "questions": [
+        "B2"
+      ],
       "summary": "Brahmacharini — 'she who moves in brahma-practice' — is the second night's form, shown walking with a rosary and a water pot, barefoot; she is read as discipline: practice continued while it is still producing nothing visible.",
       "body": [
         "The dhyana verse gives her a rosary (akshamala) in one hand and a kamandalu — the mendicant's water pot — in the other. She is described as walking rather than seated, and as shining with the effort of austerity. Where Shailaputri stands, Brahmacharini walks.",
@@ -61,12 +79,26 @@
       ],
       "tradition": "Common North Indian reading; the Parvati-austerity narrative is Puranic.",
       "sources": [
-        { "sourceId": "navadurga-stotram", "locator": "dhyana verse 2", "note": "Rosary and water pot; the walking posture." },
-        { "sourceId": "editorial", "locator": "caution note", "note": "Editorial framing; no outcome is promised." }
+        {
+          "sourceId": "navadurga-stotram",
+          "locator": "dhyana verse 2",
+          "note": "Rosary and water pot; the walking posture."
+        },
+        {
+          "sourceId": "editorial",
+          "locator": "caution note",
+          "note": "Editorial framing; no outcome is promised."
+        }
       ],
       "links": [
-        { "href": "/navadurga/brahmacharini", "label": "Full profile: Maa Brahmacharini" },
-        { "href": "/questions?section=I", "label": "Questions on practice and discipline" }
+        {
+          "href": "/navadurga/brahmacharini",
+          "label": "Full profile: Maa Brahmacharini"
+        },
+        {
+          "href": "/questions?section=I",
+          "label": "Questions on practice and discipline"
+        }
       ],
       "review": "in-house-editorial",
       "updated": "2026-10-11",
@@ -86,7 +118,9 @@
       "section": "B",
       "slug": "chandraghanta",
       "title": "Why is Maa Chandraghanta associated with courage and protection?",
-      "questions": ["B3"],
+      "questions": [
+        "B3"
+      ],
       "summary": "Chandraghanta — 'the one with the bell-shaped crescent' — is the third night's form, golden-bodied, ten-armed, riding a lion or tiger, with the crescent worn on the brow as a bell; the bell is read as warning and protection, and the form is the first in the sequence that is armed and ready.",
       "body": [
         "Her name comes from the half-moon worn on the forehead in the shape of a bell. The dhyana verse describes her as golden, with ten arms holding weapons and a trident, riding a lion or a tiger, and as both fierce and protective.",
@@ -100,12 +134,26 @@
       ],
       "tradition": "Common North Indian reading; descriptions follow the third dhyana verse.",
       "sources": [
-        { "sourceId": "navadurga-stotram", "locator": "dhyana verse 3", "note": "Golden form, ten arms, bell-shaped crescent." },
-        { "sourceId": "editorial", "locator": "bell symbolism", "note": "Interpretation, marked as such." }
+        {
+          "sourceId": "navadurga-stotram",
+          "locator": "dhyana verse 3",
+          "note": "Golden form, ten arms, bell-shaped crescent."
+        },
+        {
+          "sourceId": "editorial",
+          "locator": "bell symbolism",
+          "note": "Interpretation, marked as such."
+        }
       ],
       "links": [
-        { "href": "/navadurga/chandraghanta", "label": "Full profile: Maa Chandraghanta" },
-        { "href": "/questions?section=I", "label": "Courage and discipline in daily life" }
+        {
+          "href": "/navadurga/chandraghanta",
+          "label": "Full profile: Maa Chandraghanta"
+        },
+        {
+          "href": "/questions?section=I",
+          "label": "Courage and discipline in daily life"
+        }
       ],
       "review": "in-house-editorial",
       "updated": "2026-10-11",
@@ -125,7 +173,9 @@
       "section": "B",
       "slug": "kushmanda",
       "title": "What does Maa Kushmanda symbolize in traditional accounts of creation?",
-      "questions": ["B4"],
+      "questions": [
+        "B4"
+      ],
       "summary": "Kushmanda — traditionally read as 'the one whose subtle smile brought forth the cosmic egg' — is the fourth night's form, seated on a lion, eight-armed, radiant as the sun, and associated in traditional accounts with the first act of creation: the smile that set the world going.",
       "body": [
         "The name is usually explained in devotional writing as a compound of ku (little), ushma (warmth or energy) and anda (the egg) — the warmth that brought forth the egg. The dhyana verse places her on a lion with eight arms holding a lotus, a discus, a mace, a bow, arrows and a water pot, and describes her as shining like the sun.",
@@ -139,12 +189,26 @@
       ],
       "tradition": "Traditional devotional account; differences between Puranic tellings are not flattened.",
       "sources": [
-        { "sourceId": "navadurga-stotram", "locator": "dhyana verse 4", "note": "Eight arms, lotus, discus, mace, bow, arrows, water pot." },
-        { "sourceId": "editorial", "locator": "creation reading", "note": "Labelled as a traditional account; no verse is invented." }
+        {
+          "sourceId": "navadurga-stotram",
+          "locator": "dhyana verse 4",
+          "note": "Eight arms, lotus, discus, mace, bow, arrows, water pot."
+        },
+        {
+          "sourceId": "editorial",
+          "locator": "creation reading",
+          "note": "Labelled as a traditional account; no verse is invented."
+        }
       ],
       "links": [
-        { "href": "/navadurga/kushmanda", "label": "Full profile: Maa Kushmanda" },
-        { "href": "/questions?section=G", "label": "Symbols and sacred texts" }
+        {
+          "href": "/navadurga/kushmanda",
+          "label": "Full profile: Maa Kushmanda"
+        },
+        {
+          "href": "/questions?section=G",
+          "label": "Symbols and sacred texts"
+        }
       ],
       "review": "in-house-editorial",
       "updated": "2026-10-11",
@@ -164,7 +228,10 @@
       "section": "B",
       "slug": "skandamata-to-siddhidatri",
       "title": "What are the stories and symbolism of Skandamata, Katyayani, Kalaratri, Mahagauri and Siddhidatri?",
-      "questions": ["B5", "A3"],
+      "questions": [
+        "B5",
+        "A3"
+      ],
       "summary": "The last five nights move from nurture to resolve, to the dark night, to clarity, to completion: Skandamata (mother of Skanda) is depicted with her child, Katyayani is the warrior born of the gods' anger, Kalaratri is the unornamented dark form, Mahagauri the radiant form that follows her, and Siddhidatri the giver of attainments who closes the sequence.",
       "body": [
         "Skandamata, day five: mother of Skanda (Kartikeya), shown with the child on her lap, four-armed, seated on a lion. The tradition reads her as nurture — and, significantly, as a mother who is also a warrior; the two are not separated in her iconography.",
@@ -181,15 +248,38 @@
       ],
       "tradition": "Common North Indian reading, following the Navadurga Stotram's fifth to ninth dhyana verses and the Devi Mahatmya's battle chapters.",
       "sources": [
-        { "sourceId": "navadurga-stotram", "locator": "dhyana verses 5–9", "note": "Iconography for each of the five forms." },
-        { "sourceId": "durga700", "locator": "Devi Mahatmya 8.33–63", "note": "The Raktabija battle in which Kali appears." }
+        {
+          "sourceId": "navadurga-stotram",
+          "locator": "dhyana verses 5–9",
+          "note": "Iconography for each of the five forms."
+        },
+        {
+          "sourceId": "durga700",
+          "locator": "Devi Mahatmya 8.33–63",
+          "note": "The Raktabija battle in which Kali appears."
+        }
       ],
       "links": [
-        { "href": "/navadurga/skandamata", "label": "Skandamata" },
-        { "href": "/navadurga/katyayani", "label": "Katyayani" },
-        { "href": "/navadurga/kalaratri", "label": "Kalaratri" },
-        { "href": "/navadurga/mahagauri", "label": "Mahagauri" },
-        { "href": "/navadurga/siddhidatri", "label": "Siddhidatri" }
+        {
+          "href": "/navadurga/skandamata",
+          "label": "Skandamata"
+        },
+        {
+          "href": "/navadurga/katyayani",
+          "label": "Katyayani"
+        },
+        {
+          "href": "/navadurga/kalaratri",
+          "label": "Kalaratri"
+        },
+        {
+          "href": "/navadurga/mahagauri",
+          "label": "Mahagauri"
+        },
+        {
+          "href": "/navadurga/siddhidatri",
+          "label": "Siddhidatri"
+        }
       ],
       "review": "in-house-editorial",
       "updated": "2026-10-11",
@@ -200,6 +290,300 @@
           "body": [
             "पाँचवीं रात स्कन्दमाता — स्कन्द को गोद में लिए, सिंह पर आसीन; पालन और योद्धृत्व एक साथ। छठी रात कात्यायनी — देवताओं के एकत्र क्रोध से जन्मी, ऋषि कात्यायन के नाम से जानी गई; देवी महात्म्य का मुख्य युद्ध इन्हीं के रूप में लड़ा जाता है, इसलिए छठी रात निर्णय की रात मानी जाती है।",
             "सातवीं रात कालरात्रि — बिना आभूषण, खुले केश, सिंह पर आरूढ़, ज्वाला-श्वास। देवी महात्म्य के रक्तबीज प्रसंग में काली वह रक्त पीती हैं जो अन्यथा और असुर पैदा करता — यही इस रात का कथा-मूल है। आठवीं रात महागौरी — अंधकार के बाद की निर्मल दीप्ति। नौवीं रात सिद्धिदात्री — आठ सिद्धियों से घिरी, क्रम की पूर्णता।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "skandamata",
+      "section": "B",
+      "slug": "skandamata",
+      "title": "Who is Maa Skandamata?",
+      "questions": [
+        "B5"
+      ],
+      "summary": "Skandamata is the fifth night's form — the mother of Skanda (Kartikeya) — shown with the child on her lap, four-armed, riding a lion, and read as nurture that is not softness: she is a warrior who is also carrying a child.",
+      "body": [
+        "The dhyana verse gives her the child on her lap, four arms, a lotus, and the lion as her mount. Her face is described as peaceful, which distinguishes her from the battle forms around her in the sequence.",
+        "The narrative belongs to the Puranic family: Skanda is the son of Shiva and Parvati, and the commander of the gods' army against Tarakasura. That double identity — mother and the mother of a general — is what the tradition reads in her image; the same hands that hold the child hold a weapon.",
+        "In devotional writing the fifth night is read as the point where care and strength stop being opposites. The lion under her is the same lion the third and seventh nights ride; nothing about her is defanged."
+      ],
+      "keyPoints": [
+        "Child on her lap, four arms, lotus, lion mount.",
+        "Mother of Skanda, the gods' commander in the Tarakasura narrative.",
+        "Read as nurture that is not weakness — the two are shown together, not balanced against each other."
+      ],
+      "tradition": "Common North Indian reading, following the fifth dhyana verse of the Navadurga Stotram; the Skanda narrative is Puranic.",
+      "sources": [
+        {
+          "sourceId": "navadurga-stotram",
+          "locator": "dhyana verse 5",
+          "note": "Child on the lap; lion mount; four arms."
+        },
+        {
+          "sourceId": "editorial",
+          "locator": "nurture-and-strength reading",
+          "note": "Interpretation, labelled as interpretation."
+        }
+      ],
+      "links": [
+        {
+          "href": "/navadurga/skandamata",
+          "label": "Full profile: Maa Skandamata"
+        },
+        {
+          "href": "/kb/skandamata-to-siddhidatri",
+          "label": "All five later forms compared"
+        }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "माँ स्कन्दमाता कौन हैं?",
+          "summary": "स्कन्दमाता पाँचवीं रात का रूप हैं — स्कन्द (कार्तिकेय) की माता — गोद में बालक लिए, चार भुजाओं वाली, सिंह पर आरूढ़; इन्हें ऐसा पालन माना जाता है जो दुर्बलता नहीं है: वे योद्धा भी हैं और माँ भी।",
+          "body": [
+            "ध्यान-श्लोक में उनकी गोद में बालक, चार भुजाएँ, कमल और सिंह वाहन हैं। उनका मुख शांत वर्णित है, जो उन्हें उनके आसपास के युद्ध-रूपों से अलग करता है।",
+            "कथा पौराणिक कुल की है: स्कन्द शिव-पार्वती के पुत्र और तारकासुर के विरुद्ध देवताओं की सेना के सेनापति हैं। माता और सेनापति की माता — यही दोहरी पहचान उनके चित्र में पढ़ी जाती है; जिन हाथों में बालक है, उन्हीं में शस्त्र भी।",
+            "भक्ति-साहित्य में पाँचवीं रात वह बिंदु मानी जाती है जहाँ देखभाल और बल एक-दूसरे के विरोधी नहीं रहते। उनके नीचे का सिंह वही है जिस पर तीसरी और सातवीं रात की देवियाँ आरूढ़ हैं; उनमें कुछ भी 'नरम' नहीं किया गया।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "katyayani",
+      "section": "B",
+      "slug": "katyayani",
+      "title": "Who is Maa Katyayani, and why is she the sixth night's form?",
+      "questions": [
+        "B5"
+      ],
+      "summary": "Katyayani is the warrior form born from the collected anger of the gods in answer to Mahishasura, named for the sage Katyayana whose ritual invocation the gods used; she is the form in which the Devi Mahatmya's central battle is fought.",
+      "body": [
+        "The name comes from the sage Katyayana: the tradition holds that the gods, having decided to invoke the Goddess, used his ritual formula, and she is therefore invoked as Katyayani. Her iconography in the dhyana verse is mounted, armed and golden — the form in which the Mahishasura battle is joined.",
+        "The Devi Mahatmya's third chapter has the gods give their own weapons to her, and Katyayani is the name under which that gift becomes effective. Devotional commentary treats the sixth night as the point of decision: the nights before it prepare, the nights after it act and resolve.",
+        "In Bengal, Katyayani is one of the forms honoured in Durga Puja's own sequence, and her worship is particularly associated with unmarried girls' prayers for a worthy partner in some traditions — a regional devotional custom that this app records as a custom, without making it a guarantee."
+      ],
+      "keyPoints": [
+        "Named for the sage Katyayana; born of the gods' collected anger against Mahishasura.",
+        "The Devi Mahatmya's central battle is fought in this form.",
+        "Read as the sixth night's resolve; a regional custom associates her with a specific vow."
+      ],
+      "tradition": "Common North Indian reading, following the sixth dhyana verse; the battle is Devi Mahatmya chapter 3 (Markandeya Purana 83 in this edition).",
+      "sources": [
+        {
+          "sourceId": "navadurga-stotram",
+          "locator": "dhyana verse 6",
+          "note": "Armed and mounted form."
+        },
+        {
+          "sourceId": "durga700",
+          "locator": "Devi Mahatmya, chapter 3",
+          "note": "The Mahishasura battle, in which the gods' weapons are given to her."
+        },
+        {
+          "sourceId": "editorial",
+          "locator": "custom, labelled",
+          "note": "Regional devotional custom recorded as custom, with no promise attached."
+        }
+      ],
+      "links": [
+        {
+          "href": "/navadurga/katyayani",
+          "label": "Full profile: Maa Katyayani"
+        },
+        {
+          "href": "/scripture/3",
+          "label": "Chapter 3 — the battle in Sanskrit"
+        }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "माँ कात्यायनी कौन हैं, और वे छठी रात का रूप क्यों हैं?",
+          "summary": "कात्यायनी वह योद्धा-रूप हैं जो महिषासुर के उत्तर में देवताओं के एकत्र क्रोध से प्रकट हुआ, और ऋषि कात्यायन के नाम से जाना गया जिनके मन्त्र से देवताओं ने आह्वान किया; देवी महात्म्य का मुख्य युद्ध इन्हीं के रूप में लड़ा जाता है।",
+          "body": [
+            "नाम ऋषि कात्यायन से आया है: परम्परा मानती है कि देवताओं ने आह्वान के लिए उनके ही मन्त्र का प्रयोग किया, इसलिए देवी कात्यायनी कहलाईं। ध्यान-श्लोक में उनका रूप सवार, शस्त्र-सज्जित और स्वर्ण वर्ण है — महिषासुर-युद्ध इन्हीं के रूप में लड़ा जाता है।",
+            "देवी महात्म्य के तीसरे अध्याय में देवता अपने-अपने अस्त्र उन्हें सौंपते हैं, और कात्यायनी वह नाम है जिसके अधीन वह दान प्रभावी होता है। भक्ति-व्याख्या छठी रात को निर्णय का बिंदु मानती है: पहले की रातें तैयारी, बाद की रातें कर्म और समापन।",
+            "बंगाल में कात्यायनी दुर्गा पूजा के अपने क्रम में पूजित रूपों में से हैं, और कहीं-कहीं अविवाहित कन्याओं की कामना से जुड़ी आराधना प्रचलित है — यह ऐप इसे 'प्रचलित रीति' के रूप में दर्ज करता है, किसी गारंटी के रूप में नहीं।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kalaratri",
+      "section": "B",
+      "slug": "kalaratri",
+      "title": "Who is Maa Kalaratri, and why is she the seventh night's form?",
+      "questions": [
+        "B5"
+      ],
+      "summary": "Kalaratri is the seventh night's form: dark as night, hair loose, lion-mounted, exhaling flame, unornamented and deliberately frightening; she is the form of the sequence in which what cannot be kept is taken away, and the tradition invokes her anyway.",
+      "body": [
+        "The dhyana verse describes her as dark like a storm cloud, four-armed, with a sword and a thunderbolt, hair unbound, riding a lion. She is the only form in the nine that a reader is not invited to find reassuring, which is the point: the tradition does not present the path as unbroken calm.",
+        "Her narrative root is in the Devi Mahatmya's chapter 8, the Raktabija battle: the demon's blood produced a new demon from every drop, and Kali — emerging in that episode — drank the blood so the multiplication stopped. Chapter 7's account of the goddess's own terrifying aspects lies behind her iconography.",
+        "In devotional writing she is read as the honest night: what is false, including a false sense of safety, is removed, and the removal is not gentle. This app states that reading as a reading. What it does not do is treat fear, grief or distress as something a devotee has failed to conquer — the reflection pages say plainly that prayer and professional help are not alternatives to each other."
+      ],
+      "keyPoints": [
+        "Dark, unornamented, unbound-haired, lion-mounted — the frightening form of the nine.",
+        "Narrative root: the Raktabija episode in Devi Mahatmya chapter 8.",
+        "Read as the removal of what cannot be kept; not a claim that devotion prevents difficulty."
+      ],
+      "tradition": "Common North Indian reading, following the seventh dhyana verse; the Raktabija episode is Devi Mahatmya chapter 8 (Markandeya Purana 88 in this edition).",
+      "sources": [
+        {
+          "sourceId": "navadurga-stotram",
+          "locator": "dhyana verse 7",
+          "note": "Appearance, weapons and mount."
+        },
+        {
+          "sourceId": "durga700",
+          "locator": "Devi Mahatmya, chapters 7 and 8",
+          "note": "The goddess's fierce aspects; the Raktabija battle."
+        },
+        {
+          "sourceId": "editorial",
+          "locator": "reflection boundary",
+          "note": "Editorial limit: distress is not spiritual failure."
+        }
+      ],
+      "links": [
+        {
+          "href": "/navadurga/kalaratri",
+          "label": "Full profile: Maa Kalaratri"
+        },
+        {
+          "href": "/scripture/8",
+          "label": "Chapter 8 — Raktabija"
+        },
+        {
+          "href": "/kb/fear-and-difficulty",
+          "label": "Fear, difficulty and uncertainty"
+        }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "माँ कालरात्रि कौन हैं, और वे सातवीं रात का रूप क्यों हैं?",
+          "summary": "कालरात्रि सातवीं रात का रूप हैं: रात के समान काली, खुले केश, सिंह पर आरूढ़, ज्वाला-श्वास, बिना आभूषण और जानबूझकर भयावह; यह वह रूप है जिसमें वह हटता है जो रखा नहीं जा सकता — और परम्परा फिर भी उन्हीं का आह्वान करती है।",
+          "body": [
+            "ध्यान-श्लोक में वे मेघ के समान श्याम, चार भुजाओं वाली, खड्ग और वज्र धारिणी, खुले केशों वाली और सिंह पर आरूढ़ वर्णित हैं। नौ रूपों में ये अकेला रूप है जिसे आश्वस्त करने वाला नहीं कहा जा सकता — और यही मर्म है: परम्परा मार्ग को निरंतर शांति के रूप में प्रस्तुत नहीं करती।",
+            "इनका कथा-मूल देवी महात्म्य के आठवें अध्याय का रक्तबीज प्रसंग है: दैत्य के रक्त की प्रत्येक बूँद से नया दैत्य जन्म लेता था, और उस प्रसंग में प्रकट काली ने वह रक्त पी लिया जिससे वृद्धि रुक गई। सातवें अध्याय का देवी के भयंकर स्वरूपों का वर्णन इनके चित्रण का आधार है।",
+            "भक्ति-साहित्य में इन्हें 'ईमानदार रात' माना जाता है: जो असत्य है — झूठा सुरक्षा-बोध सहित — वह हट जाता है, और वह हटाना कोमल नहीं होता। यह ऐप इसे व्याख्या कहकर देता है। जो यह ऐप नहीं करता: भय, शोक या व्यथा को भक्त का पराजय मानना — चिंतन-पृष्ठ स्पष्ट कहते हैं कि प्रार्थना और चिकित्सकीय सहायता एक-दूसरे के विकल्प नहीं हैं।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mahagauri",
+      "section": "B",
+      "slug": "mahagauri",
+      "title": "Who is Maa Mahagauri, and why is she the eighth night's form?",
+      "questions": [
+        "B5"
+      ],
+      "summary": "Mahagauri is the eighth night's form: radiantly fair, four-armed, bull-mounted, holding a trident and a rosary; the tradition places her immediately after Kalaratri on purpose — clarity that follows the difficult night rather than replacing it.",
+      "body": [
+        "The dhyana verse describes her as luminous as the moon and the conch, wearing white, riding the bull, with the trident and the rosary in her hands. The contrast with the seventh night is the whole content of the eighth: the same sequence, after the dark night, returns to light.",
+        "Devotional tradition associates the eighth night with the end of a period of restraint and with the Kanya Puja or its regional equivalent, in which young girls are honoured as the goddess's presence — a rite observed in different ways and on different days across north and western India.",
+        "Read honestly, she is not a promise that a difficult period was worth it. She is the image the tradition chose for what comes after difficulty: not a reward, but a return of light and a return to ordinary duties."
+      ],
+      "keyPoints": [
+        "Radiantly fair, white-clad, bull-mounted, trident and rosary.",
+        "Placed deliberately after Kalaratri: light that follows the dark night.",
+        "Associated with the eighth night's Kanya Puja and its regional equivalents."
+      ],
+      "tradition": "Common North Indian reading, following the eighth dhyana verse. Kanya Puja is observed on the eighth or ninth night depending on region and family.",
+      "sources": [
+        {
+          "sourceId": "navadurga-stotram",
+          "locator": "dhyana verse 8",
+          "note": "White-clad, bull-mounted, trident and rosary."
+        },
+        {
+          "sourceId": "editorial",
+          "locator": "sequence reading",
+          "note": "Interpretation of the placement, labelled."
+        }
+      ],
+      "links": [
+        {
+          "href": "/navadurga/mahagauri",
+          "label": "Full profile: Maa Mahagauri"
+        },
+        {
+          "href": "/kb/skandamata-to-siddhidatri",
+          "label": "The last five forms together"
+        }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "माँ महागौरी कौन हैं, और वे आठवीं रात का रूप क्यों हैं?",
+          "summary": "महागौरी आठवीं रात का रूप हैं: निर्मल गौर वर्ण, चार भुजाएँ, वृषभ पर आरूढ़, त्रिशूल और जपमाला धारिणी; परम्परा ने उन्हें कालरात्रि के ठीक बाद जानबूझकर रखा है — कठिन रात के बाद आने वाली निर्मलता, उसकी भरपाई नहीं।",
+          "body": [
+            "ध्यान-श्लोक में वे चन्द्र और शंख के समान दीप्त, श्वेत वस्त्र धारिणी, वृषभ पर आरूढ़, हाथों में त्रिशूल और जपमाला लिए वर्णित हैं। सातवीं रात से यही विरोध आठवीं रात की पूरी सामग्री है: उसी क्रम में, काली रात के बाद, प्रकाश की वापसी।",
+            "परम्परा आठवीं रात को संयम की अवधि के अंत और कन्या पूजा के साथ जोड़ती है, जिसमें कन्याओं को देवी की उपस्थिति मानकर सम्मान दिया जाता है — यह रीति उत्तर और पश्चिम भारत में भिन्न रूपों में, भिन्न दिनों पर होती है।",
+            "ईमानदारी से पढ़ें तो वे यह वादा नहीं हैं कि कठिन समय 'फलदायी सिद्ध हुआ'। वे उस चित्र हैं जो परम्परा ने कठिनाई के बाद के लिए चुना: पुरस्कार नहीं, बल्कि प्रकाश की वापसी और रोज़ के कर्तव्यों की ओर लौटना।"
+          ]
+        }
+      }
+    },
+    {
+      "id": "siddhidatri",
+      "section": "B",
+      "slug": "siddhidatri",
+      "title": "Who is Maa Siddhidatri, and what does the ninth night close?",
+      "questions": [
+        "B5"
+      ],
+      "summary": "Siddhidatri is the ninth and final form — the giver of attainments, seated on a lotus or a lion and surrounded by the eight siddhis — and she closes the sequence: the ninth night is thanksgiving rather than petition.",
+      "body": [
+        "The dhyana verse seats her on a lotus, sometimes with a lion as well, four-armed, surrounded by the siddhis and by devas, gandharvas and sages. 'Siddhi' in this vocabulary means a capacity attained through practice, and 'datri' the one who gives it; the name is therefore about completion, not about gifts in general.",
+        "The tradition treats the final night as the end of what was undertaken. In devotional writing this is why the ninth night is read as thanksgiving: the practice is finished, and the devotee's attention moves from asking to acknowledging. In practical observance the ninth or tenth day carries Kanya Puja, Ayudha Puja, Saraswati Puja or Vidyarambham, depending on the region.",
+        "This app does not read 'siddhi' as a promise of worldly results. What is given, in the tradition's own language, is a capacity — and the pages that describe the nine nights keep saying so rather than turning the festival into a promise of prosperity."
+      ],
+      "keyPoints": [
+        "Lotus-seated, surrounded by the eight siddhis: the closing form.",
+        "Siddhi = capacity attained through practice; datri = the giver.",
+        "The ninth night is read as thanksgiving; the tenth day varies by region (Kanya Puja, Ayudha Puja, Saraswati Puja, Vidyarambham)."
+      ],
+      "tradition": "Common North Indian reading, following the ninth dhyana verse; tenth-day observances vary by region and are recorded separately.",
+      "sources": [
+        {
+          "sourceId": "navadurga-stotram",
+          "locator": "dhyana verse 9",
+          "note": "Lotus seat; the siddhis around her."
+        },
+        {
+          "sourceId": "editorial",
+          "locator": "no-outcome-promised policy",
+          "note": "Editorial: siddhi is not presented as a promise of worldly results."
+        }
+      ],
+      "links": [
+        {
+          "href": "/navadurga/siddhidatri",
+          "label": "Full profile: Maa Siddhidatri"
+        },
+        {
+          "href": "/navratri/day-by-day",
+          "label": "The nine nights, day by day"
+        }
+      ],
+      "review": "in-house-editorial",
+      "updated": "2026-10-11",
+      "translations": {
+        "hi": {
+          "title": "माँ सिद्धिदात्री कौन हैं, और नौवीं रात क्या पूर्ण करती है?",
+          "summary": "सिद्धिदात्री नौवें और अंतिम रूप हैं — सिद्धियों की दात्री, कमल या सिंह पर आसीन, आठ सिद्धियों से घिरी — और वे क्रम को पूर्ण करती हैं: नौवीं रात याचना नहीं, कृतज्ञता की रात मानी जाती है।",
+          "body": [
+            "ध्यान-श्लोक में वे कमल पर आसीन, कहीं सिंह सहित, चार भुजाओं वाली, सिद्धियों तथा देव-गन्धर्व-ऋषियों से घिरी वर्णित हैं। इस शब्दावली में 'सिद्धि' का अर्थ साधना से प्राप्त क्षमता है, और 'दात्री' उसकी देने वाली; इसलिए नाम पूर्णता का है, सामान्य उपहारों का नहीं।",
+            "परम्परा अंतिम रात को इस बात का समापन मानती है जो आरम्भ किया गया था — इसीलिए नौवीं रात कृतज्ञता की पढ़ी जाती है: साधना पूरी हुई, और ध्यान माँगने से स्वीकार करने की ओर मुड़ता है। व्यवहार में नौवें या दसवें दिन क्षेत्र के अनुसार कन्या पूजा, आयुध पूजा, सरस्वती पूजा या विद्यारम्भ होता है।",
+            "यह ऐप 'सिद्धि' को सांसारिक फल का वादा नहीं मानता। परम्परा की अपनी भाषा में जो दिया जाता है वह क्षमता है — और नौ रातों का वर्णन करने वाले पृष्ठ यही बात दोहराते रहते हैं, उत्सव को समृद्धि का वचन बनाने के बजाय।"
           ]
         }
       }

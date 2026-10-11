@@ -6,6 +6,7 @@ import {
 } from "@/components/ui";
 import { Mandala, OmMark } from "@/components/ornament";
 import { AudioPlayer, BookmarkButton } from "@/components/interactive";
+import { ContentAvailability } from "@/components/content-language";
 
 const STATUS_LABEL: Record<string, string> = {
   verified: "Verified against the imported edition",
@@ -65,6 +66,18 @@ export default async function MantraDetail(
         </div>
         <p className="muted mt-2 text-sm">{m.attribution}</p>
       </PageHeader>
+
+      {/* Names the language this page is actually in, and what exists in others. */}
+      <ContentAvailability
+        className="mb-8"
+        available={["en"]}
+        rendering="en"
+        what="this entry"
+        altNotes={[
+          { lang: "hi", text: "हिन्दी में उपलब्ध: नौ रूपों की कथाएँ, अध्याय-कथाएँ और सामान्य प्रश्नों के लेख।", href: "/kb" },
+        ]}
+      />
+
 
       <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_19rem]">
         <div className="min-w-0">

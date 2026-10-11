@@ -7,6 +7,7 @@ import {
 import { Mandala, Trident } from "@/components/ornament";
 import { AudioPlayer, BookmarkButton } from "@/components/interactive";
 import { CinematicArt } from "@/components/art";
+import { FormStory } from "@/components/form-story";
 import { navadurgaArt } from "@/lib/art";
 
 // The full set of slugs is known at build time. Pinning dynamicParams off
@@ -62,6 +63,10 @@ export default async function NavadurgaDetail(
           className="mb-8"
         />
       )}
+
+      {/* The form's story in the reader's own language, with narration, before
+          the longer English reference material below. */}
+      <FormStory slug={f.slug} className="mb-9" />
 
       <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_20rem]">
         <div className="min-w-0">
