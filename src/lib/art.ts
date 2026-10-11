@@ -36,5 +36,33 @@ export function navadurgaArt(slug: string): string | null {
   return NAVADURGA_ART[slug] ?? null;
 }
 
+/**
+ * Per-section artwork so pages do not all repeat the same image. Each top-level
+ * section is paired with a distinct rendering from the set we created; unknown
+ * sections fall back to the hero. Navadurga profiles override this with their
+ * own form (see `navadurgaArt`).
+ */
+export const SECTION_ART: Record<string, string> = {
+  "": ART.hero,
+  "maa-durga": ART.hero,
+  navadurga: ART.hero,
+  scripture: NAVADURGA_ART.siddhidatri,
+  temples: NAVADURGA_ART.katyayani,
+  "shakti-peethas": NAVADURGA_ART.kalaratri,
+  calendar: NAVADURGA_ART.chandraghanta,
+  puja: NAVADURGA_ART.shailaputri,
+  mantras: NAVADURGA_ART.brahmacharini,
+  stories: NAVADURGA_ART.kushmanda,
+  learn: NAVADURGA_ART.mahagauri,
+  "devi-gyan": NAVADURGA_ART.mahagauri,
+  saved: NAVADURGA_ART.skandamata,
+};
+
+/** Resolve the artwork for a pathname's top-level section. */
+export function sectionArt(pathname: string): string {
+  const seg = pathname.split("/").filter(Boolean)[0] ?? "";
+  return SECTION_ART[seg] ?? ART.hero;
+}
+
 /** The honest caption shown with every rendering. */
 export const ART_CAPTION = "Contemporary digital rendering";

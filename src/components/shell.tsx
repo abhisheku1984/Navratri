@@ -9,7 +9,7 @@ import { Mandala, Diya, OmMark, MotesStatic } from "./ornament";
 import { OfflineStatusChip } from "./offline";
 import { CinematicBackdrop } from "./backdrop";
 import { CinematicArt } from "./art";
-import { ART } from "@/lib/art";
+import { sectionArt } from "@/lib/art";
 import { routeTheme, themeVars } from "@/lib/theme";
 
 const BOTTOM = [
@@ -340,7 +340,7 @@ export function Shell({ children }: { children: React.ReactNode }) {
               created Devi imagery as a cinematic banner at the top. */}
           {!hasOwnArt && (
             <CinematicArt
-              src={ART.hero}
+              src={sectionArt(pathname)}
               alt="Maa Durga, the Divine Shakti, in a cinematic devotional rendering"
               className="mb-8"
             />

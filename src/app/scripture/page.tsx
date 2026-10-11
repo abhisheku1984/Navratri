@@ -3,7 +3,7 @@ import { getAngas, getScriptureManifest, getTranslations } from "@/lib/content";
 import {
   Card, Chip, Notice, OrnamentRule, PageHeader, SectionHeading, Stat, VerificationBadge,
 } from "@/components/ui";
-import { Mandala, OmMark } from "@/components/ornament";
+import { Diya, Mandala, OmMark } from "@/components/ornament";
 
 export const metadata = { title: "Durga Saptashati" };
 
@@ -130,6 +130,31 @@ export default function ScriptureIndex() {
         })}
       </section>
 
+      {/* Gita-Press-style recitation order: grouped Devanagari, two columns. */}
+      <section className="mt-10" aria-labelledby="patha-krama">
+        <SectionHeading eyebrow="पाठ-क्रम" title="The recitation order"
+                        sub="As printed in a pocket recitation edition: the preliminary stotras, the thirteen chapters, and the closing recitations." />
+        <h2 id="patha-krama" className="sr-only">Recitation order</h2>
+
+        <PathaGroup heading="॥ पाठ से पूर्व ॥" first>
+          {angas.filter((a) => a.kind === "purvanga").map((a) => (
+            <PathaItem key={a.slug} href={`/scripture/angas/${a.slug}`} label={a.titleSanskrit} />
+          ))}
+        </PathaGroup>
+
+        <PathaGroup heading="॥ दुर्गा सप्तशती (गुप्त नवरात्रि) ॥">
+          {manifest.chapters.map((ch) => (
+            <PathaItem key={ch.id} href={`/scripture/${ch.number}`} label={ch.titleSanskrit} />
+          ))}
+        </PathaGroup>
+
+        <PathaGroup heading="॥ पाठ के पश्चात् ॥">
+          {angas.filter((a) => a.kind === "uttaranga").map((a) => (
+            <PathaItem key={a.slug} href={`/scripture/angas/${a.slug}`} label={a.titleSanskrit} />
+          ))}
+        </PathaGroup>
+      </section>
+
       <OrnamentRule className="my-10" />
 
       {/* angas */}
@@ -182,5 +207,38 @@ export default function ScriptureIndex() {
         </Card>
       </div>
     </>
+  );
+}
+
+/* Gita-Press-style grouped Devanagari index ------------------------------ */
+
+function PathaGroup({ heading, first, children }: {
+  heading: string;
+  first?: boolean;
+  children: React.ReactNode;
+}) {
+  return (
+    <div className={first ? "pt-2" : "mt-6 border-t border-dashed pt-6"}
+         style={{ borderColor: "var(--line-strong)" }}>
+      <h3 className="deva mb-4 text-center text-base font-semibold tracking-wide"
+          style={{ color: "var(--accent)" }}>
+        {heading}
+      </h3>
+      <ul className="grid gap-x-10 gap-y-2.5 sm:grid-cols-2">{children}</ul>
+    </div>
+  );
+}
+
+function PathaItem({ href, label }: { href: string; label: string }) {
+  return (
+    <li>
+      <Link href={href} className="group flex items-center gap-2.5 py-0.5">
+        <Diya className="h-4 w-6 shrink-0 opacity-70 transition-opacity group-hover:opacity-100" />
+        <span className="deva text-sm font-medium leading-snug group-hover:underline"
+              style={{ color: "var(--accent)" }}>
+          {label}
+        </span>
+      </Link>
+    </li>
   );
 }
