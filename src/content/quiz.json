@@ -1,0 +1,249 @@
+{
+  "collectionId": "quiz",
+  "title": "Quizzes and Flashcards",
+  "intro": "Self-checks. Progress here measures reading, not merit — nothing in this app implies that spiritual worth can be scored.",
+  "editorialNote": "Editorial content authored for this app. It has not been through independent scholarly review. See the Content Verification page.",
+  "quizzes": [
+    {
+      "id": "quiz-navadurga",
+      "title": "Navadurga quiz",
+      "topic": "The nine forms",
+      "questions": [
+        {
+          "q": "Which form is worshipped on the first day of Navratri?",
+          "options": [
+            "Shailaputri",
+            "Brahmacharini",
+            "Chandraghanta",
+            "Kushmanda"
+          ],
+          "answer": 0,
+          "why": "Pratipada is Shailaputri, daughter of the mountain."
+        },
+        {
+          "q": "Which form carries a japa mala and a kamandalu?",
+          "options": [
+            "Skandamata",
+            "Brahmacharini",
+            "Siddhidatri",
+            "Mahagauri"
+          ],
+          "answer": 1,
+          "why": "The beads and water pot are the equipment of a student of the spirit — Brahmacharini."
+        },
+        {
+          "q": "Which form holds the infant Skanda on her lap?",
+          "options": [
+            "Katyayani",
+            "Kalaratri",
+            "Skandamata",
+            "Kushmanda"
+          ],
+          "answer": 2,
+          "why": "Skandamata, mother of Skanda."
+        },
+        {
+          "q": "Which of the nine is dark-complexioned and rides a donkey?",
+          "options": [
+            "Chandraghanta",
+            "Kalaratri",
+            "Mahagauri",
+            "Katyayani"
+          ],
+          "answer": 1,
+          "why": "Kalaratri, on the seventh day."
+        },
+        {
+          "q": "Where does the list of nine names appear?",
+          "options": [
+            "The Rig Veda",
+            "The Devi Kavacham, verses 3–5",
+            "The Bhagavad Gita",
+            "The Valmiki Ramayana"
+          ],
+          "answer": 1,
+          "why": "Devi Kavacham verses 3–5 name all nine and state they were declared by Brahma."
+        },
+        {
+          "q": "Which form is associated with the cosmic egg and creative warmth?",
+          "options": [
+            "Kushmanda",
+            "Shailaputri",
+            "Siddhidatri",
+            "Chandraghanta"
+          ],
+          "answer": 0,
+          "why": "Kushmanda, on the fourth day."
+        }
+      ]
+    },
+    {
+      "id": "quiz-saptashati",
+      "title": "Durga Saptashati quiz",
+      "topic": "The thirteen chapters",
+      "questions": [
+        {
+          "q": "How many chapters does the Durga Saptashati have?",
+          "options": [
+            "9",
+            "11",
+            "13",
+            "18"
+          ],
+          "answer": 2,
+          "why": "Thirteen, in three charitras."
+        },
+        {
+          "q": "Which chapter is the Madhu-Kaitabha narrative?",
+          "options": [
+            "1",
+            "2",
+            "5",
+            "8"
+          ],
+          "answer": 0,
+          "why": "Chapter 1, the whole of the Prathama Charitra."
+        },
+        {
+          "q": "In which chapter does Kali arise to kill Chanda and Munda?",
+          "options": [
+            "3",
+            "6",
+            "7",
+            "10"
+          ],
+          "answer": 2,
+          "why": "Chapter 7. From that episode she is called Chamunda."
+        },
+        {
+          "q": "Which chapter contains the Raktabija episode?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "11"
+          ],
+          "answer": 1,
+          "why": "Chapter 8, raktabIjavadhaH."
+        },
+        {
+          "q": "The 'Ya Devi Sarvabhuteshu' hymn appears in which chapter?",
+          "options": [
+            "4",
+            "5",
+            "11",
+            "12"
+          ],
+          "answer": 1,
+          "why": "Chapter 5, in the dialogue with the messengers."
+        },
+        {
+          "q": "Which chapter is the Narayani Stuti?",
+          "options": [
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "answer": 1,
+          "why": "Chapter 11."
+        },
+        {
+          "q": "What is the traditional verse count of the text?",
+          "options": [
+            "579",
+            "656",
+            "700",
+            "1000"
+          ],
+          "answer": 2,
+          "why": "700, as the source's own colophon states. Our import reconciles to exactly 700."
+        },
+        {
+          "q": "Who receives boons in the final chapter?",
+          "options": [
+            "Indra and Agni",
+            "Suratha and Samadhi",
+            "Markandeya and his disciple",
+            "Shiva and Brahma"
+          ],
+          "answer": 1,
+          "why": "Chapter 13 closes the frame story with boons to the king and the merchant."
+        }
+      ]
+    },
+    {
+      "id": "quiz-peethas",
+      "title": "Shakti Peetha quiz",
+      "topic": "The sacred seats",
+      "questions": [
+        {
+          "q": "According to tradition, how do the Shakti Peethas come to exist?",
+          "options": [
+            "They were built by kings",
+            "Parts of Sati's body fell at those places",
+            "They mark sites of great battles",
+            "They are places the Goddess chose in a dream"
+          ],
+          "answer": 1,
+          "why": "The Daksha-yajna narrative. It is Puranic, not part of the Devi Mahatmya."
+        },
+        {
+          "q": "How many Shakti Peethas are there?",
+          "options": [
+            "51, always",
+            "52, always",
+            "It depends on the list — 18, 51, 52, 64 and 108 are all attested",
+            "There is no traditional number"
+          ],
+          "answer": 2,
+          "why": "The enumerations disagree, and the disagreement is old."
+        },
+        {
+          "q": "Which of these is in Nepal?",
+          "options": [
+            "Kamakhya",
+            "Guheshwari",
+            "Kalighat",
+            "Tarapith"
+          ],
+          "answer": 1,
+          "why": "Guheshwari, beside Pashupatinath in Kathmandu."
+        },
+        {
+          "q": "Kamakhya is on which hill?",
+          "options": [
+            "Nilachal",
+            "Girnar",
+            "Arasur",
+            "Trikuta"
+          ],
+          "answer": 0,
+          "why": "Nilachal hill, Guwahati."
+        },
+        {
+          "q": "What is worshipped at Jwala Devi?",
+          "options": [
+            "A stone image",
+            "A copper mask",
+            "Natural flames from the rock",
+            "A silver yantra"
+          ],
+          "answer": 2,
+          "why": "The sanctum has no image; the flames are the object of worship."
+        },
+        {
+          "q": "Is every famous Devi temple a Shakti Peetha?",
+          "options": [
+            "Yes",
+            "No — the two categories are different and should not be conflated",
+            "Only in South India",
+            "Only if it is older than 1000 years"
+          ],
+          "answer": 1,
+          "why": "Meenakshi, Chamundeshwari and Dhakeshwari are great Devi temples and are not universally enumerated as Peethas."
+        }
+      ]
+    }
+  ]
+}

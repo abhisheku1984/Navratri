@@ -1,0 +1,354 @@
+{
+  "id": "ch-10",
+  "number": 10,
+  "slug": "shumbha-vadha",
+  "charitra": "uttama",
+  "charitraLabel": "Uttama Charitra",
+  "presidingDeity": "Mahasaraswati",
+  "titleSanskrit": "शुम्भवधो नाम दशमोऽध्यायः",
+  "titleItrans": "shumbhavadho nAma dashamo.adhyAyaH",
+  "titleIast": "śumbhavadho nāma daśamo'dhyāyaḥ",
+  "titleEnglishEditorial": "Slaying of Shumbha",
+  "markandeyaPuranaChapter": 90,
+  "verseUnitCount": 32,
+  "traditionalVerseCount": 32,
+  "colophonItrans": null,
+  "colophonDevanagari": null,
+  "svastiItrans": "|| svasti shrImArkaNDeyapurANe sAvarNike manvantare",
+  "svastiDevanagari": "॥ स्वस्ति श्रीमार्कण्डेयपुराणे सावर्णिके मन्वन्तरे",
+  "viniyoga": {
+    "iTrans": null,
+    "devanagari": null
+  },
+  "dhyana": {
+    "iTrans": "OM uttaptahemaruchirAM ravichandravahninetrAM dhanushsharayutA~NkushapAshashUlam |\nramyairbhujaishcha dadhatIM shivashaktirUpAM\nkAmeshvarIM hRRidi bhajAmi dhRRitendulekhAm ||",
+    "devanagari": "ॐ उत्तप्तहेमरुचिरां रविचन्द्रवह्निनेत्रां धनुश्शरयुताङ्कुशपाशशूलम् ।\nरम्यैर्भुजैश्च दधतीं शिवशक्तिरूपां\nकामेश्वरीं हृदि भजामि धृतेन्दुलेखाम् ॥"
+  },
+  "invocation": {
+    "iTrans": null,
+    "devanagari": null
+  },
+  "sourceRef": "durga700",
+  "verses": [
+    {
+      "n": 1,
+      "nEnd": 1,
+      "label": "10.1",
+      "speaker": "R^iShiruvAcha",
+      "iTrans": "OM R^iShiruvAcha",
+      "devanagari": "ॐ ऋषिरुवाच",
+      "iast": "oṃ ṛṣiruvāca",
+      "padas": 1
+    },
+    {
+      "n": 2,
+      "nEnd": 2,
+      "label": "10.2",
+      "speaker": null,
+      "iTrans": "nishumbhaM nihataM dR^iShTvA bhrAtaraM prANasammitam |\nhanyamAnaM balaM chaiva shumbhaH kruddho.abravIdvachaH",
+      "devanagari": "निशुम्भं निहतं दृष्ट्वा भ्रातरं प्राणसम्मितम् ।\nहन्यमानं बलं चैव शुम्भः क्रुद्धोऽब्रवीद्वचः",
+      "iast": "niśumbhaṃ nihataṃ dṛṣṭvā bhrātaraṃ prāṇasammitam |\nhanyamānaṃ balaṃ caiva śumbhaḥ kruddho'bravīdvacaḥ",
+      "padas": 2
+    },
+    {
+      "n": 3,
+      "nEnd": 3,
+      "label": "10.3",
+      "speaker": null,
+      "iTrans": "balAvalepaduShTe tvaM mA durge garvamAvaha |\nanyAsAM balamAshritya yuddhyase chAtimAninI",
+      "devanagari": "बलावलेपदुष्टे त्वं मा दुर्गे गर्वमावह ।\nअन्यासां बलमाश्रित्य युद्ध्यसे चातिमानिनी",
+      "iast": "balāvalepaduṣṭe tvaṃ mā durge garvamāvaha |\nanyāsāṃ balamāśritya yuddhyase cātimāninī",
+      "padas": 2
+    },
+    {
+      "n": 4,
+      "nEnd": 4,
+      "label": "10.4",
+      "speaker": "devyuvAcha",
+      "iTrans": "devyuvAcha",
+      "devanagari": "देव्युवाच",
+      "iast": "devyuvāca",
+      "padas": 1
+    },
+    {
+      "n": 5,
+      "nEnd": 5,
+      "label": "10.5",
+      "speaker": null,
+      "iTrans": "ekaivAhaM jagatyatra dvitIyA kA mamAparA |\npashyaitA duShTa mayyeva vishantyo madvibhUtayaH",
+      "devanagari": "एकैवाहं जगत्यत्र द्वितीया का ममापरा ।\nपश्यैता दुष्ट मय्येव विशन्त्यो मद्विभूतयः",
+      "iast": "ekaivāhaṃ jagatyatra dvitīyā kā mamāparā |\npaśyaitā duṣṭa mayyeva viśantyo madvibhūtayaḥ",
+      "padas": 2
+    },
+    {
+      "n": 6,
+      "nEnd": 6,
+      "label": "10.6",
+      "speaker": null,
+      "iTrans": "tataH samastAstA devyo brahmANIpramukhA layam |\ntasyA devyAstanau jagmurekaivAsIttadAmbikA",
+      "devanagari": "ततः समस्तास्ता देव्यो ब्रह्माणीप्रमुखा लयम् ।\nतस्या देव्यास्तनौ जग्मुरेकैवासीत्तदाम्बिका",
+      "iast": "tataḥ samastāstā devyo brahmāṇīpramukhā layam |\ntasyā devyāstanau jagmurekaivāsīttadāmbikā",
+      "padas": 2
+    },
+    {
+      "n": 7,
+      "nEnd": 7,
+      "label": "10.7",
+      "speaker": "devyuvAcha",
+      "iTrans": "devyuvAcha",
+      "devanagari": "देव्युवाच",
+      "iast": "devyuvāca",
+      "padas": 1
+    },
+    {
+      "n": 8,
+      "nEnd": 8,
+      "label": "10.8",
+      "speaker": null,
+      "iTrans": "ahaM vibhUtyA bahubhiriha rUpairyadAsthitA |\ntatsaMhR^itaM mayaikaiva tiShThAmyAjau sthiro bhava",
+      "devanagari": "अहं विभूत्या बहुभिरिह रूपैर्यदास्थिता ।\nतत्संहृतं मयैकैव तिष्ठाम्याजौ स्थिरो भव",
+      "iast": "ahaṃ vibhūtyā bahubhiriha rūpairyadāsthitā |\ntatsaṃhṛtaṃ mayaikaiva tiṣṭhāmyājau sthiro bhava",
+      "padas": 2
+    },
+    {
+      "n": 9,
+      "nEnd": 9,
+      "label": "10.9",
+      "speaker": "R^iShiruvAcha",
+      "iTrans": "R^iShiruvAcha",
+      "devanagari": "ऋषिरुवाच",
+      "iast": "ṛṣiruvāca",
+      "padas": 1
+    },
+    {
+      "n": 10,
+      "nEnd": 10,
+      "label": "10.10",
+      "speaker": null,
+      "iTrans": "tataH pravavR^ite yuddhaM devyAH shumbhasya chobhayoH |\npashyatAM sarvadevAnAmasurANAM cha dAruNam",
+      "devanagari": "ततः प्रववृते युद्धं देव्याः शुम्भस्य चोभयोः ।\nपश्यतां सर्वदेवानामसुराणां च दारुणम्",
+      "iast": "tataḥ pravavṛte yuddhaṃ devyāḥ śumbhasya cobhayoḥ |\npaśyatāṃ sarvadevānāmasurāṇāṃ ca dāruṇam",
+      "padas": 2
+    },
+    {
+      "n": 11,
+      "nEnd": 11,
+      "label": "10.11",
+      "speaker": null,
+      "iTrans": "sharavarShaiH shitaiH shastraistathA chAstraiH sudAruNaiH |\ntayoryuddhamabhUdbhUyaH sarvalokabhaya~Nkaram",
+      "devanagari": "शरवर्षैः शितैः शस्त्रैस्तथा चास्त्रैः सुदारुणैः ।\nतयोर्युद्धमभूद्भूयः सर्वलोकभयङ्करम्",
+      "iast": "śaravarṣaiḥ śitaiḥ śastraistathā cāstraiḥ sudāruṇaiḥ |\ntayoryuddhamabhūdbhūyaḥ sarvalokabhayaṅkaram",
+      "padas": 2
+    },
+    {
+      "n": 12,
+      "nEnd": 12,
+      "label": "10.12",
+      "speaker": null,
+      "iTrans": "divyAnyastrANi shatasho mumuche yAnyathAmbikA |\nbabha~nja tAni daityendrastatpratIghAtakartR^ibhiH",
+      "devanagari": "दिव्यान्यस्त्राणि शतशो मुमुचे यान्यथाम्बिका ।\nबभञ्ज तानि दैत्येन्द्रस्तत्प्रतीघातकर्तृभिः",
+      "iast": "divyānyastrāṇi śataśo mumuce yānyathāmbikā |\nbabhañja tāni daityendrastatpratīghātakartṛbhiḥ",
+      "padas": 2
+    },
+    {
+      "n": 13,
+      "nEnd": 13,
+      "label": "10.13",
+      "speaker": null,
+      "iTrans": "muktAni tena chAstrANi divyAni parameshvarI |\nbabha~nja lIlayaivograhu~NkArochchAraNAdibhiH",
+      "devanagari": "मुक्तानि तेन चास्त्राणि दिव्यानि परमेश्वरी ।\nबभञ्ज लीलयैवोग्रहुङ्कारोच्चारणादिभिः",
+      "iast": "muktāni tena cāstrāṇi divyāni parameśvarī |\nbabhañja līlayaivograhuṅkāroccāraṇādibhiḥ",
+      "padas": 2
+    },
+    {
+      "n": 14,
+      "nEnd": 14,
+      "label": "10.14",
+      "speaker": null,
+      "iTrans": "tataH sharashatairdevImAchChAdayata so.asuraH |\nsApi tatkupitA devI dhanushchichCheda cheShubhiH",
+      "devanagari": "ततः शरशतैर्देवीमाच्छादयत सोऽसुरः ।\nसापि तत्कुपिता देवी धनुश्चिच्छेद चेषुभिः",
+      "iast": "tataḥ śaraśatairdevīmācchādayata so'suraḥ |\nsāpi tatkupitā devī dhanuściccheda ceṣubhiḥ",
+      "padas": 2
+    },
+    {
+      "n": 15,
+      "nEnd": 15,
+      "label": "10.15",
+      "speaker": null,
+      "iTrans": "Chinne dhanuShi daityendrastathA shaktimathAdade |\nchichCheda devI chakreNa tAmapyasya kare sthitAm",
+      "devanagari": "छिन्ने धनुषि दैत्येन्द्रस्तथा शक्तिमथाददे ।\nचिच्छेद देवी चक्रेण तामप्यस्य करे स्थिताम्",
+      "iast": "chinne dhanuṣi daityendrastathā śaktimathādade |\nciccheda devī cakreṇa tāmapyasya kare sthitām",
+      "padas": 2
+    },
+    {
+      "n": 16,
+      "nEnd": 16,
+      "label": "10.16",
+      "speaker": null,
+      "iTrans": "tataH khaDgamupAdAya shatachandraM cha bhAnumat |\nabhyadhA vata tAM devIM daityAnAmadhipeshvaraH",
+      "devanagari": "ततः खड्गमुपादाय शतचन्द्रं च भानुमत् ।\nअभ्यधा वत तां देवीं दैत्यानामधिपेश्वरः",
+      "iast": "tataḥ khaḍgamupādāya śatacandraṃ ca bhānumat |\nabhyadhā vata tāṃ devīṃ daityānāmadhipeśvaraḥ",
+      "padas": 2
+    },
+    {
+      "n": 17,
+      "nEnd": 17,
+      "label": "10.17",
+      "speaker": null,
+      "iTrans": "tasyApatata evAshu khaDgaM chichCheda chaNDikA |\ndhanurmuktaiH shitairbANaishcharma chArkakarAmalam |\nashvAMshcha pAtayAmAsa rathaM sArathinA saha",
+      "devanagari": "तस्यापतत एवाशु खड्गं चिच्छेद चण्डिका ।\nधनुर्मुक्तैः शितैर्बाणैश्चर्म चार्ककरामलम् ।\nअश्वांश्च पातयामास रथं सारथिना सह",
+      "iast": "tasyāpatata evāśu khaḍgaṃ ciccheda caṇḍikā |\ndhanurmuktaiḥ śitairbāṇaiścarma cārkakarāmalam |\naśvāṃśca pātayāmāsa rathaṃ sārathinā saha",
+      "padas": 3
+    },
+    {
+      "n": 18,
+      "nEnd": 18,
+      "label": "10.18",
+      "speaker": null,
+      "iTrans": "hatAshvaH sa tadA daityashChinnadhanvA visArathiH |\njagrAha mudgaraM ghoramambikAnidhanodyataH",
+      "devanagari": "हताश्वः स तदा दैत्यश्छिन्नधन्वा विसारथिः ।\nजग्राह मुद्गरं घोरमम्बिकानिधनोद्यतः",
+      "iast": "hatāśvaḥ sa tadā daityaśchinnadhanvā visārathiḥ |\njagrāha mudgaraṃ ghoramambikānidhanodyataḥ",
+      "padas": 2
+    },
+    {
+      "n": 19,
+      "nEnd": 19,
+      "label": "10.19",
+      "speaker": null,
+      "iTrans": "chichChedApatatastasya mudgaraM nishitaiH sharaiH |\ntathApi so.abhyadhAvattAM muShTimudyamya vegavAn",
+      "devanagari": "चिच्छेदापततस्तस्य मुद्गरं निशितैः शरैः ।\nतथापि सोऽभ्यधावत्तां मुष्टिमुद्यम्य वेगवान्",
+      "iast": "cicchedāpatatastasya mudgaraṃ niśitaiḥ śaraiḥ |\ntathāpi so'bhyadhāvattāṃ muṣṭimudyamya vegavān",
+      "padas": 2
+    },
+    {
+      "n": 20,
+      "nEnd": 20,
+      "label": "10.20",
+      "speaker": null,
+      "iTrans": "sa muShTiM pAtayAmAsa hR^idaye daityapu~NgavaH |\ndevyAstaM chApi sA devI talenorasyatADayat",
+      "devanagari": "स मुष्टिं पातयामास हृदये दैत्यपुङ्गवः ।\nदेव्यास्तं चापि सा देवी तलेनोरस्यताडयत्",
+      "iast": "sa muṣṭiṃ pātayāmāsa hṛdaye daityapuṅgavaḥ |\ndevyāstaṃ cāpi sā devī talenorasyatāḍayat",
+      "padas": 2
+    },
+    {
+      "n": 21,
+      "nEnd": 21,
+      "label": "10.21",
+      "speaker": null,
+      "iTrans": "talaprahArAbhihato nipapAta mahItale |\nsa daityarAjaH sahasA punareva tathotthitaH",
+      "devanagari": "तलप्रहाराभिहतो निपपात महीतले ।\nस दैत्यराजः सहसा पुनरेव तथोत्थितः",
+      "iast": "talaprahārābhihato nipapāta mahītale |\nsa daityarājaḥ sahasā punareva tathotthitaḥ",
+      "padas": 2
+    },
+    {
+      "n": 22,
+      "nEnd": 22,
+      "label": "10.22",
+      "speaker": null,
+      "iTrans": "utpatya cha pragR^ihyochchairdevIM gaganamAsthitaH |\ntatrApi sA nirAdhArA yuyudhe tena chaNDikA",
+      "devanagari": "उत्पत्य च प्रगृह्योच्चैर्देवीं गगनमास्थितः ।\nतत्रापि सा निराधारा युयुधे तेन चण्डिका",
+      "iast": "utpatya ca pragṛhyoccairdevīṃ gaganamāsthitaḥ |\ntatrāpi sā nirādhārā yuyudhe tena caṇḍikā",
+      "padas": 2
+    },
+    {
+      "n": 23,
+      "nEnd": 23,
+      "label": "10.23",
+      "speaker": null,
+      "iTrans": "niyuddhaM khe tadA daityashchaNDikA cha parasparam |\nchakratuH prathamaM siddhamunivismayakArakam",
+      "devanagari": "नियुद्धं खे तदा दैत्यश्चण्डिका च परस्परम् ।\nचक्रतुः प्रथमं सिद्धमुनिविस्मयकारकम्",
+      "iast": "niyuddhaṃ khe tadā daityaścaṇḍikā ca parasparam |\ncakratuḥ prathamaṃ siddhamunivismayakārakam",
+      "padas": 2
+    },
+    {
+      "n": 24,
+      "nEnd": 24,
+      "label": "10.24",
+      "speaker": null,
+      "iTrans": "tato niyuddhaM suchiraM kR^itvA tenAmbikA saha |\nutpATya bhrAmayAmAsa chikShepa dharaNItale",
+      "devanagari": "ततो नियुद्धं सुचिरं कृत्वा तेनाम्बिका सह ।\nउत्पाट्य भ्रामयामास चिक्षेप धरणीतले",
+      "iast": "tato niyuddhaṃ suciraṃ kṛtvā tenāmbikā saha |\nutpāṭya bhrāmayāmāsa cikṣepa dharaṇītale",
+      "padas": 2
+    },
+    {
+      "n": 25,
+      "nEnd": 25,
+      "label": "10.25",
+      "speaker": null,
+      "iTrans": "sa kShipto dharaNIM prApya muShTimudyamya vegavAn |\nabhyadhAvata duShTAtmA chaNDikAnidhanechChayA",
+      "devanagari": "स क्षिप्तो धरणीं प्राप्य मुष्टिमुद्यम्य वेगवान् ।\nअभ्यधावत दुष्टात्मा चण्डिकानिधनेच्छया",
+      "iast": "sa kṣipto dharaṇīṃ prāpya muṣṭimudyamya vegavān |\nabhyadhāvata duṣṭātmā caṇḍikānidhanecchayā",
+      "padas": 2
+    },
+    {
+      "n": 26,
+      "nEnd": 26,
+      "label": "10.26",
+      "speaker": null,
+      "iTrans": "tamAyAntaM tato devI sarvadaityajaneshvaram |\njagatyAM pAtayAmAsa bhittvA shUlena vakShasi",
+      "devanagari": "तमायान्तं ततो देवी सर्वदैत्यजनेश्वरम् ।\nजगत्यां पातयामास भित्त्वा शूलेन वक्षसि",
+      "iast": "tamāyāntaṃ tato devī sarvadaityajaneśvaram |\njagatyāṃ pātayāmāsa bhittvā śūlena vakṣasi",
+      "padas": 2
+    },
+    {
+      "n": 27,
+      "nEnd": 27,
+      "label": "10.27",
+      "speaker": null,
+      "iTrans": "sa gatAsuH papAtorvyAM devI shUlAgravikShataH |\nchAlayan sakalAM pR^ithvIM sAbdhidvIpAM saparvatAm",
+      "devanagari": "स गतासुः पपातोर्व्यां देवी शूलाग्रविक्षतः ।\nचालयन् सकलां पृथ्वीं साब्धिद्वीपां सपर्वताम्",
+      "iast": "sa gatāsuḥ papātorvyāṃ devī śūlāgravikṣataḥ |\ncālayan sakalāṃ pṛthvīṃ sābdhidvīpāṃ saparvatām",
+      "padas": 2
+    },
+    {
+      "n": 28,
+      "nEnd": 28,
+      "label": "10.28",
+      "speaker": null,
+      "iTrans": "tataH prasannamakhilaM hate tasmin durAtmani |\njagatsvAsthyamatIvApa nirmalaM chAbhavannabhaH",
+      "devanagari": "ततः प्रसन्नमखिलं हते तस्मिन् दुरात्मनि ।\nजगत्स्वास्थ्यमतीवाप निर्मलं चाभवन्नभः",
+      "iast": "tataḥ prasannamakhilaṃ hate tasmin durātmani |\njagatsvāsthyamatīvāpa nirmalaṃ cābhavannabhaḥ",
+      "padas": 2
+    },
+    {
+      "n": 29,
+      "nEnd": 29,
+      "label": "10.29",
+      "speaker": null,
+      "iTrans": "utpAtameghAH solkA ye prAgAsaMste shamaM yayuH |\nsarito mArgavAhinyastathAsaMstatra pAtite",
+      "devanagari": "उत्पातमेघाः सोल्का ये प्रागासंस्ते शमं ययुः ।\nसरितो मार्गवाहिन्यस्तथासंस्तत्र पातिते",
+      "iast": "utpātameghāḥ solkā ye prāgāsaṃste śamaṃ yayuḥ |\nsarito mārgavāhinyastathāsaṃstatra pātite",
+      "padas": 2
+    },
+    {
+      "n": 30,
+      "nEnd": 30,
+      "label": "10.30",
+      "speaker": null,
+      "iTrans": "tato devagaNAH sarve harShanirbharamAnasAH |\nbabhUvurnihate tasmin gandharvA lalitaM jaguH",
+      "devanagari": "ततो देवगणाः सर्वे हर्षनिर्भरमानसाः ।\nबभूवुर्निहते तस्मिन् गन्धर्वा ललितं जगुः",
+      "iast": "tato devagaṇāḥ sarve harṣanirbharamānasāḥ |\nbabhūvurnihate tasmin gandharvā lalitaṃ jaguḥ",
+      "padas": 2
+    },
+    {
+      "n": 31,
+      "nEnd": 31,
+      "label": "10.31",
+      "speaker": null,
+      "iTrans": "avAdayaMstathaivAnye nanR^itushchApsarogaNAH |\nvavuH puNyAstathA vAtAH suprabho.abhUddivAkaraH",
+      "devanagari": "अवादयंस्तथैवान्ये ननृतुश्चाप्सरोगणाः ।\nववुः पुण्यास्तथा वाताः सुप्रभोऽभूद्दिवाकरः",
+      "iast": "avādayaṃstathaivānye nanṛtuścāpsarogaṇāḥ |\nvavuḥ puṇyāstathā vātāḥ suprabho'bhūddivākaraḥ",
+      "padas": 2
+    },
+    {
+      "n": 32,
+      "nEnd": 32,
+      "label": "10.32",
+      "speaker": null,
+      "iTrans": "jajvalushchAgnayaH shAntAH shAntA digjanitasvanAH",
+      "devanagari": "जज्वलुश्चाग्नयः शान्ताः शान्ता दिग्जनितस्वनाः",
+      "iast": "jajvaluścāgnayaḥ śāntāḥ śāntā digjanitasvanāḥ",
+      "padas": 1
+    }
+  ]
+}

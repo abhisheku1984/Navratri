@@ -1,0 +1,51 @@
+{
+  "name": "navratri-the-divine-shakti",
+  "version": "0.1.0",
+  "private": true,
+  "description": "NAVRATRI — The Divine Shakti. A digital library and pilgrimage companion for the study of Maa Durga, the Durga Saptashati, and the Shakti Peethas.",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0 -p 3000",
+    "build": "next build",
+    "start": "next start -H 0.0.0.0 -p 3000",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "import:scripture": "python3 scripts/import_scripture.py",
+    "import:translations": "python3 scripts/import_pargiter.py",
+    "import:navadurga": "python3 scripts/import_navadurga.py",
+    "import:editorial": "python3 scripts/import_editorial_content.py",
+    "build:icons": "node scripts/build-icons.mjs",
+    "verify:scripture": "tsx scripts/verify-scripture.ts",
+    "verify": "npm run verify:scripture && npm run typecheck && npm run lint && npm run test"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "next": "15.5.27",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.7",
+    "@types/leaflet": "^1.9.20",
+    "@types/node": "^22.19.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "eslint": "^9.39.0",
+    "eslint-config-next": "15.5.27",
+    "jsdom": "^27.2.0",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.3"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}

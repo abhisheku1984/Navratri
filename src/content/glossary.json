@@ -1,0 +1,254 @@
+{
+  "collectionId": "glossary",
+  "title": "Glossary",
+  "intro": "Sanskrit and Hindi terms with plain explanations.",
+  "editorialNote": "Editorial content authored for this app. It has not been through independent scholarly review. See the Content Verification page.",
+  "terms": [
+    {
+      "id": "term-1",
+      "english": "Abhaya mudra",
+      "devanagari": "अभय मुद्रा",
+      "definition": "The gesture of the raised open palm meaning 'do not fear'."
+    },
+    {
+      "id": "term-2",
+      "english": "Ardhanarishvara",
+      "devanagari": "अर्धनारीश्वर",
+      "definition": "The half-female form of Shiva; tradition says Shiva attained it through the Goddess's grace."
+    },
+    {
+      "id": "term-3",
+      "english": "Argala",
+      "devanagari": "अर्गल",
+      "definition": "A bolt or bar; the name of the auxiliary hymn recited with the Saptashati."
+    },
+    {
+      "id": "term-4",
+      "english": "Ayanamsha",
+      "devanagari": "अयनांश",
+      "definition": "The offset between tropical and sidereal zodiacs. Traditions differ in which is used, which is why panchangs can disagree."
+    },
+    {
+      "id": "term-5",
+      "english": "Bhoga",
+      "devanagari": "भोग",
+      "definition": "Food offered to the deity and later distributed as prasad."
+    },
+    {
+      "id": "term-6",
+      "english": "Bija",
+      "devanagari": "बीज",
+      "definition": "A seed syllable in a mantra, such as aim, hrim, klim. Not lexical words."
+    },
+    {
+      "id": "term-7",
+      "english": "Chandi",
+      "devanagari": "चण्डी",
+      "definition": "The name the Devi Mahatmya uses most often for its Goddess."
+    },
+    {
+      "id": "term-8",
+      "english": "Chandi Path",
+      "devanagari": "चण्डी पाठ",
+      "definition": "Recitation of the Durga Saptashati."
+    },
+    {
+      "id": "term-9",
+      "english": "Charitra",
+      "devanagari": "चरित्र",
+      "definition": "A narrative cycle. The Saptashati has three."
+    },
+    {
+      "id": "term-10",
+      "english": "Damaru",
+      "devanagari": "डमरु",
+      "definition": "A small hourglass drum, associated with Shiva and with Mahagauri."
+    },
+    {
+      "id": "term-11",
+      "english": "Dhyana",
+      "devanagari": "ध्यान",
+      "definition": "Meditation; also the descriptive verse recited before visualising a deity."
+    },
+    {
+      "id": "term-12",
+      "english": "Garba",
+      "devanagari": "गरबा",
+      "definition": "The Gujarati circle dance performed through the Navratri nights."
+    },
+    {
+      "id": "term-13",
+      "english": "Ghatasthapana",
+      "devanagari": "घटस्थापना",
+      "definition": "The installation of the kalash that opens Navratri."
+    },
+    {
+      "id": "term-14",
+      "english": "Guna",
+      "devanagari": "गुण",
+      "definition": "One of the three qualities — sattva, rajas, tamas — that compose prakriti."
+    },
+    {
+      "id": "term-15",
+      "english": "Kalash",
+      "devanagari": "कलश",
+      "definition": "The ritual pot installed on the first day of Navratri."
+    },
+    {
+      "id": "term-16",
+      "english": "Kavacha",
+      "devanagari": "कवच",
+      "definition": "Armour; the protective hymn recited first in the Navangam sequence."
+    },
+    {
+      "id": "term-17",
+      "english": "Kilaka",
+      "devanagari": "कीलक",
+      "definition": "A pin or wedge; the auxiliary hymn recited to remove obstacles to recitation."
+    },
+    {
+      "id": "term-18",
+      "english": "Kumari puja",
+      "devanagari": "कुमारी पूजा",
+      "definition": "Worship of young girls as forms of the Goddess, on Ashtami or Navami in many traditions."
+    },
+    {
+      "id": "term-19",
+      "english": "Mahamaya",
+      "devanagari": "महामाया",
+      "definition": "The great illusion; a name of the Goddess in the Devi Mahatmya."
+    },
+    {
+      "id": "term-20",
+      "english": "Muhurat",
+      "devanagari": "मुहूर्त",
+      "definition": "An auspicious time window. Location-specific, never universal."
+    },
+    {
+      "id": "term-21",
+      "english": "Nakshatra",
+      "devanagari": "नक्षत्र",
+      "definition": "One of the 27 lunar mansions."
+    },
+    {
+      "id": "term-22",
+      "english": "Navanga",
+      "devanagari": "नवाङ्ग",
+      "definition": "The nine-part recitation sequence of the Saptashati used in many traditions."
+    },
+    {
+      "id": "term-23",
+      "english": "Navarna mantra",
+      "devanagari": "नवार्ण मन्त्र",
+      "definition": "The nine-syllable mantra of Chandika."
+    },
+    {
+      "id": "term-24",
+      "english": "Nyasa",
+      "devanagari": "न्यास",
+      "definition": "Ritual placement of mantra syllables on the body."
+    },
+    {
+      "id": "term-25",
+      "english": "Paksha",
+      "devanagari": "पक्ष",
+      "definition": "A lunar fortnight: shukla (waxing) or krishna (waning)."
+    },
+    {
+      "id": "term-26",
+      "english": "Panchang",
+      "devanagari": "पञ्चाङ्ग",
+      "definition": "The five-limb Hindu calendar: tithi, vara, nakshatra, yoga, karana."
+    },
+    {
+      "id": "term-27",
+      "english": "Parayana",
+      "devanagari": "पारायण",
+      "definition": "Continuous recitation of a text."
+    },
+    {
+      "id": "term-28",
+      "english": "Pinda",
+      "devanagari": "पिण्ड",
+      "definition": "In the Vaishno Devi cave, the natural rock formations worshipped as the Goddess."
+    },
+    {
+      "id": "term-29",
+      "english": "Prasad",
+      "devanagari": "प्रसाद",
+      "definition": "Food offered to the deity and then shared."
+    },
+    {
+      "id": "term-30",
+      "english": "Sandhi puja",
+      "devanagari": "सन्धि पूजा",
+      "definition": "The Bengali rite at the junction of Ashtami and Navami."
+    },
+    {
+      "id": "term-31",
+      "english": "Sankalpa",
+      "devanagari": "सङ्कल्प",
+      "definition": "The formal statement of intention made at the start of a rite."
+    },
+    {
+      "id": "term-32",
+      "english": "Shakti",
+      "devanagari": "शक्ति",
+      "definition": "Power, capacity, energy. In Shakta thought, the Goddess herself."
+    },
+    {
+      "id": "term-33",
+      "english": "Shakti Peetha",
+      "devanagari": "शक्तिपीठ",
+      "definition": "A sacred seat associated with a part of Sati's body. Lists differ."
+    },
+    {
+      "id": "term-34",
+      "english": "Stotra",
+      "devanagari": "स्तोत्र",
+      "definition": "A hymn of praise."
+    },
+    {
+      "id": "term-35",
+      "english": "Tithi",
+      "devanagari": "तिथि",
+      "definition": "A lunar day, one twelfth of the Sun-Moon elongation cycle."
+    },
+    {
+      "id": "term-36",
+      "english": "Trayanga",
+      "devanagari": "त्रयङ्ग",
+      "definition": "The three-part recitation method, one charitra per day."
+    },
+    {
+      "id": "term-37",
+      "english": "Trishula",
+      "devanagari": "त्रिशूल",
+      "definition": "The trident; represents the three gunas."
+    },
+    {
+      "id": "term-39",
+      "english": "Varada mudra",
+      "devanagari": "वरद मुद्रा",
+      "definition": "The gesture of the downward open palm meaning 'giving'."
+    },
+    {
+      "id": "term-40",
+      "english": "Vrat",
+      "devanagari": "व्रत",
+      "definition": "A vow, often involving fasting."
+    },
+    {
+      "id": "term-41",
+      "english": "Yantra",
+      "devanagari": "यन्त्र",
+      "definition": "A geometric diagram used in worship; Ambaji worships one aniconically."
+    },
+    {
+      "id": "term-42",
+      "english": "Yogamaya",
+      "devanagari": "योगमाया",
+      "definition": "The Goddess as the power of yoga and of illusion, named in ch. 1."
+    }
+  ]
+}

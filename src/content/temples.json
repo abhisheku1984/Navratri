@@ -1,0 +1,773 @@
+{
+  "collectionId": "temples",
+  "title": "Temple Directory and Pilgrimage Planner",
+  "intro": "Important Devi temples and pilgrimage destinations. A Shakti Peetha and a famous Devi temple are not the same thing: the `kind` field keeps them apart. No darshan timing, phone number or website has been invented — those fields are left empty until they can be filled from a current official source and stamped with a date.",
+  "editorialNote": "Editorial content authored for this app. It has not been through independent scholarly review. See the Content Verification page.",
+  "lastVerified": null,
+  "temples": [
+    {
+      "slug": "kamakhya",
+      "name": "Kamakhya Temple",
+      "city": "Guwahati",
+      "region": "Assam",
+      "country": "India",
+      "lat": 26.17,
+      "lon": -91.7,
+      "kind": "shakti-peetha",
+      "festivals": [
+        "Ambubachi Mela",
+        "Navratri"
+      ],
+      "note": "Also listed in the Shakti Peetha Explorer. Included here so the temple directory and the Peetha list cross-reference correctly.",
+      "id": "temple-kamakhya",
+      "coordinates": {
+        "lat": 26.17,
+        "lon": -91.7
+      },
+      "coordinateNote": "Approximate centroid for map placement only.",
+      "officialWebsite": null,
+      "openingHours": null,
+      "contact": null,
+      "accessibility": null,
+      "infoStatus": "unverified",
+      "infoNote": "Visitor details are intentionally empty. Fill from an official temple source and record the date; do not estimate.",
+      "sampleContent": true
+    },
+    {
+      "slug": "vaishno-devi",
+      "name": "Shri Mata Vaishno Devi",
+      "city": "Katra",
+      "region": "Jammu and Kashmir",
+      "country": "India",
+      "lat": 33.03,
+      "lon": 74.95,
+      "kind": "major-devi-shrine",
+      "festivals": [
+        "Navratri (Chaitra and Sharad)"
+      ],
+      "note": "One of the most visited Devi shrines in the world. Listed among the 51/52 Peethas by many modern lists but not by all classical enumerations.",
+      "id": "temple-vaishno-devi",
+      "coordinates": {
+        "lat": 33.03,
+        "lon": 74.95
+      },
+      "coordinateNote": "Approximate centroid for map placement only.",
+      "officialWebsite": null,
+      "openingHours": null,
+      "contact": null,
+      "accessibility": null,
+      "infoStatus": "unverified",
+      "infoNote": "Visitor details are intentionally empty. Fill from an official temple source and record the date; do not estimate.",
+      "sampleContent": true
+    },
+    {
+      "slug": "chamundeshwari",
+      "name": "Chamundeshwari Temple",
+      "city": "Mysuru",
+      "region": "Karnataka",
+      "country": "India",
+      "lat": 12.25,
+      "lon": 76.65,
+      "kind": "major-devi-shrine",
+      "festivals": [
+        "Mysuru Dasara"
+      ],
+      "note": "Hilltop temple above Mysuru; central to Dasara.",
+      "id": "temple-chamundeshwari",
+      "coordinates": {
+        "lat": 12.25,
+        "lon": 76.65
+      },
+      "coordinateNote": "Approximate centroid for map placement only.",
+      "officialWebsite": null,
+      "openingHours": null,
+      "contact": null,
+      "accessibility": null,
+      "infoStatus": "unverified",
+      "infoNote": "Visitor details are intentionally empty. Fill from an official temple source and record the date; do not estimate.",
+      "sampleContent": true
+    },
+    {
+      "slug": "meenakshi",
+      "name": "Meenakshi Sundareswarar Temple",
+      "city": "Madurai",
+      "region": "Tamil Nadu",
+      "country": "India",
+      "lat": 9.92,
+      "lon": 78.12,
+      "kind": "major-devi-shrine",
+      "festivals": [
+        "Meenakshi Thirukalyanam (Chithirai)"
+      ],
+      "note": "A great temple city where the Goddess is the primary deity.",
+      "id": "temple-meenakshi",
+      "coordinates": {
+        "lat": 9.92,
+        "lon": 78.12
+      },
+      "coordinateNote": "Approximate centroid for map placement only.",
+      "officialWebsite": null,
+      "openingHours": null,
+      "contact": null,
+      "accessibility": null,
+      "infoStatus": "unverified",
+      "infoNote": "Visitor details are intentionally empty. Fill from an official temple source and record the date; do not estimate.",
+      "sampleContent": true
+    },
+    {
+      "slug": "kolhapur-mahalaxmi",
+      "name": "Mahalaxmi Temple",
+      "city": "Kolhapur",
+      "region": "Maharashtra",
+      "country": "India",
+      "lat": 16.7,
+      "lon": 74.24,
+      "kind": "shakti-peetha",
+      "festivals": [
+        "Navratri",
+        "Kiranotsav"
+      ],
+      "note": "One of the 18 Maha Shakti Peethas in the Ashtadasha tradition.",
+      "id": "temple-kolhapur-mahalaxmi",
+      "coordinates": {
+        "lat": 16.7,
+        "lon": 74.24
+      },
+      "coordinateNote": "Approximate centroid for map placement only.",
+      "officialWebsite": null,
+      "openingHours": null,
+      "contact": null,
+      "accessibility": null,
+      "infoStatus": "unverified",
+      "infoNote": "Visitor details are intentionally empty. Fill from an official temple source and record the date; do not estimate.",
+      "sampleContent": true
+    },
+    {
+      "slug": "tulja-bhavani",
+      "name": "Tulja Bhavani Temple",
+      "city": "Tuljapur",
+      "region": "Maharashtra",
+      "country": "India",
+      "lat": 18.01,
+      "lon": 76.07,
+      "kind": "major-devi-shrine",
+      "festivals": [
+        "Chaitra and Ashwin Navratri"
+      ],
+      "note": "Kuladevi of the Bhonsale dynasty.",
+      "id": "temple-tulja-bhavani",
+      "coordinates": {
+        "lat": 18.01,
+        "lon": 76.07
+      },
+      "coordinateNote": "Approximate centroid for map placement only.",
+      "officialWebsite": null,
+      "openingHours": null,
+      "contact": null,
+      "accessibility": null,
+      "infoStatus": "unverified",
+      "infoNote": "Visitor details are intentionally empty. Fill from an official temple source and record the date; do not estimate.",
+      "sampleContent": true
+    },
+    {
+      "slug": "saptashrungi",
+      "name": "Saptashrungi Nivasini",
+      "city": "Vani, Nashik",
+      "region": "Maharashtra",
+      "country": "India",
+      "lat": 20.13,
+      "lon": 74.05,
+      "kind": "major-devi-shrine",
+      "festivals": [
+        "Navratri"
+      ],
+      "note": "Cliff-face temple with 510 steps; associated with the Mahishasura narrative.",
+      "id": "temple-saptashrungi",
+      "coordinates": {
+        "lat": 20.13,
+        "lon": 74.05
+      },
+      "coordinateNote": "Approximate centroid for map placement only.",
+      "officialWebsite": null,
+      "openingHours": null,
+      "contact": null,
+      "accessibility": null,
+      "infoStatus": "unverified",
+      "infoNote": "Visitor details are intentionally empty. Fill from an official temple source and record the date; do not estimate.",
+      "sampleContent": true
+    },
+    {
+      "slug": "ambaji",
+      "name": "Arasuri Ambaji Temple",
+      "city": "Ambaji",
+      "region": "Gujarat",
+      "country": "India",
+      "lat": 24.33,
+      "lon": 72.44,
+      "kind": "shakti-peetha",
+      "festivals": [
+        "Bhadarvi Purnima",
+        "Navratri"
+      ],
+      "note": "Aniconic yantra worship; one of Gujarat's largest pilgrimage centres.",
+      "id": "temple-ambaji",
+      "coordinates": {
+        "lat": 24.33,
+        "lon": 72.44
+      },
+      "coordinateNote": "Approximate centroid for map placement only.",
+      "officialWebsite": null,
+      "openingHours": null,
+      "contact": null,
+      "accessibility": null,
+      "infoStatus": "unverified",
+      "infoNote": "Visitor details are intentionally empty. Fill from an official temple source and record the date; do not estimate.",
+      "sampleContent": true
+    },
+    {
+      "slug": "mansa-devi",
+      "name": "Mansa Devi Temple",
+      "city": "Haridwar",
+      "region": "Uttarakhand",
+      "country": "India",
+      "lat": 29.96,
+      "lon": 78.17,
+      "kind": "shakti-peetha",
+      "festivals": [
+        "Navratri"
+      ],
+      "note": "Paired with Chandi Devi across the Ganga in Haridwar pilgrimage.",
+      "id": "temple-mansa-devi",
+      "coordinates": {
+        "lat": 29.96,
+        "lon": 78.17
+      },
+      "coordinateNote": "Approximate centroid for map placement only.",
+      "officialWebsite": null,
+      "openingHours": null,
+      "contact": null,
+      "accessibility": null,
+      "infoStatus": "unverified",
+      "infoNote": "Visitor details are intentionally empty. Fill from an official temple source and record the date; do not estimate.",
+      "sampleContent": true
+    },
+    {
+      "slug": "chandi-devi",
+      "name": "Chandi Devi Temple",
+      "city": "Haridwar",
+      "region": "Uttarakhand",
+      "country": "India",
+      "lat": 29.95,
+      "lon": 78.15,
+      "kind": "major-devi-shrine",
+      "festivals": [
+        "Navratri"
+      ],
+      "note": "On Neel Parvat, above the Ganga.",
+      "id": "temple-chandi-devi",
+      "coordinates": {
+        "lat": 29.95,
+        "lon": 78.15
+      },
+      "coordinateNote": "Approximate centroid for map placement only.",
+      "officialWebsite": null,
+      "openingHours": null,
+      "contact": null,
+      "accessibility": null,
+      "infoStatus": "unverified",
+      "infoNote": "Visitor details are intentionally empty. Fill from an official temple source and record the date; do not estimate.",
+      "sampleContent": true
+    },
+    {
+      "slug": "jwala-ji",
+      "name": "Jwala Devi Temple",
+      "city": "Jwalamukhi",
+      "region": "Himachal Pradesh",
+      "country": "India",
+      "lat": 31.87,
+      "lon": 76.32,
+      "kind": "shakti-peetha",
+      "festivals": [
+        "Navratri melas"
+      ],
+      "note": "Aniconic worship of nine natural flames.",
+      "id": "temple-jwala-ji",
+      "coordinates": {
+        "lat": 31.87,
+        "lon": 76.32
+      },
+      "coordinateNote": "Approximate centroid for map placement only.",
+      "officialWebsite": null,
+      "openingHours": null,
+      "contact": null,
+      "accessibility": null,
+      "infoStatus": "unverified",
+      "infoNote": "Visitor details are intentionally empty. Fill from an official temple source and record the date; do not estimate.",
+      "sampleContent": true
+    },
+    {
+      "slug": "chintpurni",
+      "name": "Chintpurni Temple",
+      "city": "Chintpurni",
+      "region": "Himachal Pradesh",
+      "country": "India",
+      "lat": 31.53,
+      "lon": 76.25,
+      "kind": "shakti-peetha",
+      "festivals": [
+        "Chaitra and Ashwin Navratri"
+      ],
+      "note": "One of Himachal's most visited Devi shrines.",
+      "id": "temple-chintpurni",
+      "coordinates": {
+        "lat": 31.53,
+        "lon": 76.25
+      },
+      "coordinateNote": "Approximate centroid for map placement only.",
+      "officialWebsite": null,
+      "openingHours": null,
+      "contact": null,
+      "accessibility": null,
+      "infoStatus": "unverified",
+      "infoNote": "Visitor details are intentionally empty. Fill from an official temple source and record the date; do not estimate.",
+      "sampleContent": true
+    },
+    {
+      "slug": "kalighat",
+      "name": "Kalighat Kali Temple",
+      "city": "Kolkata",
+      "region": "West Bengal",
+      "country": "India",
+      "lat": 22.52,
+      "lon": 88.34,
+      "kind": "shakti-peetha",
+      "festivals": [
+        "Kali Puja"
+      ],
+      "note": "Gave Calcutta a plausible etymology.",
+      "id": "temple-kalighat",
+      "coordinates": {
+        "lat": 22.52,
+        "lon": 88.34
+      },
+      "coordinateNote": "Approximate centroid for map placement only.",
+      "officialWebsite": null,
+      "openingHours": null,
+      "contact": null,
+      "accessibility": null,
+      "infoStatus": "unverified",
+      "infoNote": "Visitor details are intentionally empty. Fill from an official temple source and record the date; do not estimate.",
+      "sampleContent": true
+    },
+    {
+      "slug": "dakshineswar",
+      "name": "Dakshineswar Kali Temple",
+      "city": "Dakshineswar, Kolkata",
+      "region": "West Bengal",
+      "country": "India",
+      "lat": 22.65,
+      "lon": 88.36,
+      "kind": "major-devi-shrine",
+      "festivals": [
+        "Kali Puja",
+        "Phalharini Kali puja"
+      ],
+      "note": "Nineteenth-century temple associated with Ramakrishna Paramahamsa.",
+      "id": "temple-dakshineswar",
+      "coordinates": {
+        "lat": 22.65,
+        "lon": 88.36
+      },
+      "coordinateNote": "Approximate centroid for map placement only.",
+      "officialWebsite": null,
+      "openingHours": null,
+      "contact": null,
+      "accessibility": null,
+      "infoStatus": "unverified",
+      "infoNote": "Visitor details are intentionally empty. Fill from an official temple source and record the date; do not estimate.",
+      "sampleContent": true
+    },
+    {
+      "slug": "tarapith",
+      "name": "Tarapith Temple",
+      "city": "Tarapith, Birbhum",
+      "region": "West Bengal",
+      "country": "India",
+      "lat": 24.0,
+      "lon": 87.9,
+      "kind": "shakti-peetha",
+      "festivals": [
+        "Navratri"
+      ],
+      "note": "Associated with the saint Bamakhepa; adjacent to a cremation ground.",
+      "id": "temple-tarapith",
+      "coordinates": {
+        "lat": 24.0,
+        "lon": 87.9
+      },
+      "coordinateNote": "Approximate centroid for map placement only.",
+      "officialWebsite": null,
+      "openingHours": null,
+      "contact": null,
+      "accessibility": null,
+      "infoStatus": "unverified",
+      "infoNote": "Visitor details are intentionally empty. Fill from an official temple source and record the date; do not estimate.",
+      "sampleContent": true
+    },
+    {
+      "slug": "vimla-puri",
+      "name": "Vimala Temple (inside Jagannath complex)",
+      "city": "Puri",
+      "region": "Odisha",
+      "country": "India",
+      "lat": 19.8,
+      "lon": 85.82,
+      "kind": "shakti-peetha",
+      "festivals": [
+        "Navratri",
+        "Rath Yatra period"
+      ],
+      "note": "A Shakta shrine inside a Vaishnava temple complex; mahaprasad is offered to Vimala first.",
+      "id": "temple-vimla-puri",
+      "coordinates": {
+        "lat": 19.8,
+        "lon": 85.82
+      },
+      "coordinateNote": "Approximate centroid for map placement only.",
+      "officialWebsite": null,
+      "openingHours": null,
+      "contact": null,
+      "accessibility": null,
+      "infoStatus": "unverified",
+      "infoNote": "Visitor details are intentionally empty. Fill from an official temple source and record the date; do not estimate.",
+      "sampleContent": true
+    },
+    {
+      "slug": "biraja",
+      "name": "Biraja Temple",
+      "city": "Jajpur",
+      "region": "Odisha",
+      "country": "India",
+      "lat": 20.84,
+      "lon": 86.32,
+      "kind": "shakti-peetha",
+      "festivals": [
+        "Sharad Navratri"
+      ],
+      "note": "Two-armed image with distinctive Odia iconography.",
+      "id": "temple-biraja",
+      "coordinates": {
+        "lat": 20.84,
+        "lon": 86.32
+      },
+      "coordinateNote": "Approximate centroid for map placement only.",
+      "officialWebsite": null,
+      "openingHours": null,
+      "contact": null,
+      "accessibility": null,
+      "infoStatus": "unverified",
+      "infoNote": "Visitor details are intentionally empty. Fill from an official temple source and record the date; do not estimate.",
+      "sampleContent": true
+    },
+    {
+      "slug": "kanyakumari",
+      "name": "Bhagavathy Amman Temple",
+      "city": "Kanyakumari",
+      "region": "Tamil Nadu",
+      "country": "India",
+      "lat": 8.08,
+      "lon": 77.55,
+      "kind": "major-devi-shrine",
+      "festivals": [
+        "Navratri",
+        "Chaitra Purnima"
+      ],
+      "note": "At the meeting of three seas.",
+      "id": "temple-kanyakumari",
+      "coordinates": {
+        "lat": 8.08,
+        "lon": 77.55
+      },
+      "coordinateNote": "Approximate centroid for map placement only.",
+      "officialWebsite": null,
+      "openingHours": null,
+      "contact": null,
+      "accessibility": null,
+      "infoStatus": "unverified",
+      "infoNote": "Visitor details are intentionally empty. Fill from an official temple source and record the date; do not estimate.",
+      "sampleContent": true
+    },
+    {
+      "slug": "kollur",
+      "name": "Mookambika Temple",
+      "city": "Kollur",
+      "region": "Karnataka",
+      "country": "India",
+      "lat": 13.86,
+      "lon": 74.98,
+      "kind": "major-devi-shrine",
+      "festivals": [
+        "Navratri"
+      ],
+      "note": "Swayambhu linga with a golden line, worshipped as Shiva-Shakti together.",
+      "id": "temple-kollur",
+      "coordinates": {
+        "lat": 13.86,
+        "lon": 74.98
+      },
+      "coordinateNote": "Approximate centroid for map placement only.",
+      "officialWebsite": null,
+      "openingHours": null,
+      "contact": null,
+      "accessibility": null,
+      "infoStatus": "unverified",
+      "infoNote": "Visitor details are intentionally empty. Fill from an official temple source and record the date; do not estimate.",
+      "sampleContent": true
+    },
+    {
+      "slug": "horanadu",
+      "name": "Annapoorneshwari Temple",
+      "city": "Horanadu",
+      "region": "Karnataka",
+      "country": "India",
+      "lat": 13.56,
+      "lon": 75.53,
+      "kind": "major-devi-shrine",
+      "festivals": [
+        "Navratri"
+      ],
+      "note": "Known for free annaprasada to every visitor.",
+      "id": "temple-horanadu",
+      "coordinates": {
+        "lat": 13.56,
+        "lon": 75.53
+      },
+      "coordinateNote": "Approximate centroid for map placement only.",
+      "officialWebsite": null,
+      "openingHours": null,
+      "contact": null,
+      "accessibility": null,
+      "infoStatus": "unverified",
+      "infoNote": "Visitor details are intentionally empty. Fill from an official temple source and record the date; do not estimate.",
+      "sampleContent": true
+    },
+    {
+      "slug": "danteshwari",
+      "name": "Danteshwari Temple",
+      "city": "Dantewada",
+      "region": "Chhattisgarh",
+      "country": "India",
+      "lat": 18.9,
+      "lon": 81.35,
+      "kind": "shakti-peetha",
+      "festivals": [
+        "Bastar Dussehra"
+      ],
+      "note": "Bastar Dussehra is a distinctive seventy-five-day royal ritual cycle.",
+      "id": "temple-danteshwari",
+      "coordinates": {
+        "lat": 18.9,
+        "lon": 81.35
+      },
+      "coordinateNote": "Approximate centroid for map placement only.",
+      "officialWebsite": null,
+      "openingHours": null,
+      "contact": null,
+      "accessibility": null,
+      "infoStatus": "unverified",
+      "infoNote": "Visitor details are intentionally empty. Fill from an official temple source and record the date; do not estimate.",
+      "sampleContent": true
+    },
+    {
+      "slug": "guhyeshwari",
+      "name": "Guheshwari Temple",
+      "city": "Kathmandu",
+      "region": "Bagmati",
+      "country": "Nepal",
+      "lat": 27.71,
+      "lon": 85.34,
+      "kind": "shakti-peetha",
+      "festivals": [
+        "Navratri"
+      ],
+      "note": "Beside the Pashupatinath complex on the Bagmati.",
+      "id": "temple-guhyeshwari",
+      "coordinates": {
+        "lat": 27.71,
+        "lon": 85.34
+      },
+      "coordinateNote": "Approximate centroid for map placement only.",
+      "officialWebsite": null,
+      "openingHours": null,
+      "contact": null,
+      "accessibility": null,
+      "infoStatus": "unverified",
+      "infoNote": "Visitor details are intentionally empty. Fill from an official temple source and record the date; do not estimate.",
+      "sampleContent": true
+    },
+    {
+      "slug": "haleshwari-pashupati",
+      "name": "Pashupatinath (Devi shrines)",
+      "city": "Kathmandu",
+      "region": "Bagmati",
+      "country": "Nepal",
+      "lat": 27.71,
+      "lon": 85.35,
+      "kind": "major-devi-shrine",
+      "festivals": [
+        "Navratri",
+        "Shivaratri"
+      ],
+      "note": "Included for pilgrims combining the Kathmandu Devi shrines in one circuit.",
+      "id": "temple-haleshwari-pashupati",
+      "coordinates": {
+        "lat": 27.71,
+        "lon": 85.35
+      },
+      "coordinateNote": "Approximate centroid for map placement only.",
+      "officialWebsite": null,
+      "openingHours": null,
+      "contact": null,
+      "accessibility": null,
+      "infoStatus": "unverified",
+      "infoNote": "Visitor details are intentionally empty. Fill from an official temple source and record the date; do not estimate.",
+      "sampleContent": true
+    },
+    {
+      "slug": "koneswaram",
+      "name": "Koneswaram Temple",
+      "city": "Trincomalee",
+      "region": "Eastern Province",
+      "country": "Sri Lanka",
+      "lat": 8.58,
+      "lon": 81.24,
+      "kind": "shakti-peetha",
+      "festivals": [
+        "Koneswaram festival",
+        "Navratri"
+      ],
+      "note": "Named first in the Ashtadasha enumeration; largely rebuilt in the 20th century.",
+      "id": "temple-koneswaram",
+      "coordinates": {
+        "lat": 8.58,
+        "lon": 81.24
+      },
+      "coordinateNote": "Approximate centroid for map placement only.",
+      "officialWebsite": null,
+      "openingHours": null,
+      "contact": null,
+      "accessibility": null,
+      "infoStatus": "unverified",
+      "infoNote": "Visitor details are intentionally empty. Fill from an official temple source and record the date; do not estimate.",
+      "sampleContent": true
+    },
+    {
+      "slug": "hinglaj",
+      "name": "Hinglaj Mata Mandir",
+      "city": "Hingol valley",
+      "region": "Balochistan",
+      "country": "Pakistan",
+      "lat": 25.51,
+      "lon": 65.52,
+      "kind": "shakti-peetha",
+      "festivals": [
+        "Hinglaj Yatra"
+      ],
+      "note": "Cave shrine in a national park; the annual yatra is organised by Pakistan's Hindu community. Access is difficult.",
+      "id": "temple-hinglaj",
+      "coordinates": {
+        "lat": 25.51,
+        "lon": 65.52
+      },
+      "coordinateNote": "Approximate centroid for map placement only.",
+      "officialWebsite": null,
+      "openingHours": null,
+      "contact": null,
+      "accessibility": null,
+      "infoStatus": "unverified",
+      "infoNote": "Visitor details are intentionally empty. Fill from an official temple source and record the date; do not estimate.",
+      "sampleContent": true
+    },
+    {
+      "slug": "sharada-peeth",
+      "name": "Sharada Peeth (ruins)",
+      "city": "Neelum Valley",
+      "region": "Azad Kashmir",
+      "country": "Pakistan",
+      "lat": 34.78,
+      "lon": 74.2,
+      "kind": "shakti-peetha",
+      "festivals": [
+        "—"
+      ],
+      "note": "In a militarily sensitive border zone; physical access for pilgrims is restricted. Historically a major centre of Sharada script scholarship.",
+      "id": "temple-sharada-peeth",
+      "coordinates": {
+        "lat": 34.78,
+        "lon": 74.2
+      },
+      "coordinateNote": "Approximate centroid for map placement only.",
+      "officialWebsite": null,
+      "openingHours": null,
+      "contact": null,
+      "accessibility": null,
+      "infoStatus": "unverified",
+      "infoNote": "Visitor details are intentionally empty. Fill from an official temple source and record the date; do not estimate.",
+      "sampleContent": true
+    },
+    {
+      "slug": "jeshoreshwari",
+      "name": "Jeshoreshwari Kali Temple",
+      "city": "Ishwaripur, Satkhira",
+      "region": "Khulna",
+      "country": "Bangladesh",
+      "lat": 21.9,
+      "lon": 89.15,
+      "kind": "shakti-peetha",
+      "festivals": [
+        "Kali Puja"
+      ],
+      "note": "A cross-border Bengali tradition.",
+      "id": "temple-jeshoreshwari",
+      "coordinates": {
+        "lat": 21.9,
+        "lon": 89.15
+      },
+      "coordinateNote": "Approximate centroid for map placement only.",
+      "officialWebsite": null,
+      "openingHours": null,
+      "contact": null,
+      "accessibility": null,
+      "infoStatus": "unverified",
+      "infoNote": "Visitor details are intentionally empty. Fill from an official temple source and record the date; do not estimate.",
+      "sampleContent": true
+    },
+    {
+      "slug": "dhakeshwari",
+      "name": "Dhakeshwari Temple",
+      "city": "Dhaka",
+      "region": "Dhaka",
+      "country": "Bangladesh",
+      "lat": 23.72,
+      "lon": 90.39,
+      "kind": "major-devi-shrine",
+      "festivals": [
+        "Durga Puja"
+      ],
+      "note": "The national temple of Bangladesh's Hindu community.",
+      "id": "temple-dhakeshwari",
+      "coordinates": {
+        "lat": 23.72,
+        "lon": 90.39
+      },
+      "coordinateNote": "Approximate centroid for map placement only.",
+      "officialWebsite": null,
+      "openingHours": null,
+      "contact": null,
+      "accessibility": null,
+      "infoStatus": "unverified",
+      "infoNote": "Visitor details are intentionally empty. Fill from an official temple source and record the date; do not estimate.",
+      "sampleContent": true
+    }
+  ]
+}

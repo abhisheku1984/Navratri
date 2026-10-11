@@ -1,0 +1,3 @@
+# Python toolchain used ONLY by the scripture import/verification scripts.
+# The application itself requires no Python.
+indic-transliteration==2.4.97

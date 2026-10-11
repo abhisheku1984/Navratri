@@ -1,0 +1,325 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------------------
+   NAVRATRI — THE DIVINE SHAKTI · design tokens
+   Palette: deep maroon, sacred saffron, antique gold, ivory, subtle crimson.
+   Every colour used in the app must be declared here.
+--------------------------------------------------------------------------- */
+@theme {
+  --color-maroon-50: #fdf5f5;
+  --color-maroon-100: #f7e3e5;
+  --color-maroon-200: #e8c2c7;
+  --color-maroon-300: #d09099;
+  --color-maroon-400: #b05b6a;
+  --color-maroon-500: #8d3446;
+  --color-maroon-600: #6e2233;
+  --color-maroon-700: #571a29;
+  --color-maroon-800: #40121e;
+  --color-maroon-900: #2e0d16;
+  --color-maroon-950: #1a070d;
+
+  --color-saffron-50: #fff8ee;
+  --color-saffron-100: #ffedd0;
+  --color-saffron-200: #ffd89e;
+  --color-saffron-300: #f8bc63;
+  --color-saffron-400: #f0a03a;
+  --color-saffron-500: #e8892b;
+  --color-saffron-600: #cf6d1f;
+  --color-saffron-700: #ab521c;
+  --color-saffron-800: #8a421e;
+  --color-saffron-900: #70381c;
+
+  --color-gold-50: #fdf9ec;
+  --color-gold-100: #f9efca;
+  --color-gold-200: #f2dd94;
+  --color-gold-300: #e8c86a;
+  --color-gold-400: #dcb044;
+  --color-gold-500: #c9a227;
+  --color-gold-600: #ac811e;
+  --color-gold-700: #8a611c;
+  --color-gold-800: #724e1e;
+  --color-gold-900: #61411e;
+
+  --color-ivory-50: #fffefb;
+  --color-ivory-100: #fdfbf4;
+  --color-ivory-200: #fbf7ef;
+  --color-ivory-300: #f4ecdc;
+  --color-ivory-400: #e8dcc4;
+  --color-ivory-500: #d8c8a8;
+
+  --color-crimson-500: #b8233f;
+  --color-crimson-600: #9e1b32;
+  --color-crimson-700: #7f1428;
+
+  --font-display: "Cormorant Garamond", "Noto Serif Devanagari", Georgia, serif;
+  --font-sans: "Inter", "Noto Sans Devanagari", "Nirmala UI", "Kohinoor Devanagari",
+    system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-deva: "Noto Sans Devanagari", "Nirmala UI", "Kohinoor Devanagari", "Mangal",
+    "Noto Serif Devanagari", serif;
+
+  --radius-card: 1.125rem;
+
+  --shadow-relic: 0 1px 2px rgb(46 13 22 / 0.06), 0 12px 32px -12px rgb(46 13 22 / 0.18);
+  --shadow-relic-lg: 0 2px 4px rgb(46 13 22 / 0.08), 0 28px 60px -20px rgb(46 13 22 / 0.28);
+}
+
+@layer base {
+  :root {
+    --surface: #fffefb;
+    --surface-2: #fbf7ef;
+    --surface-3: #f4ecdc;
+    --ink: #2e0d16;
+    --ink-2: #571a29;
+    --muted: #7a5a60;
+    /* Decorative separators: card edges, rules, dividers. These carry no
+       information on their own, so they are allowed to stay quiet. */
+    --line: #e8dcc4;
+    /* Form control boundaries. WCAG 2.1 SC 1.4.11 needs 3:1 for the visual
+       information that identifies an interactive component, so controls get a
+       darker edge than decoration does. 3.68:1 on --surface. */
+    --line-strong: #94826a;
+    --accent: #8d3446;
+    --accent-soft: #f7e3e5;
+    /* gold-700. The brighter gold-500 measured 2.40:1 on ivory — it failed
+       WCAG as text, as a button fill and as a border. This passes all three. */
+    --gold: #8a611c;
+    --gold-soft: #f9efca;
+
+    /* Semantic aliases into the @theme scale. Components referenced these by
+       short name and they were never defined, so every one of them resolved to
+       nothing and rendered no colour at all. */
+    --maroon-300: #d09099;
+    --maroon-400: #b05b6a;
+    --maroon-500: #8d3446;
+    --maroon-950: #1a070d;
+    --ivory-100: #fdfbf4;
+    --crimson: #b8233f;
+  }
+
+  [data-theme="dark"] {
+    --surface: #14080c;
+    --surface-2: #1d0d13;
+    --surface-3: #28141b;
+    --ink: #f4ecdc;
+    --ink-2: #e8dcc4;
+    --muted: #b39aa0;
+    --line: #3a2029;
+    /* 4.37:1 on --surface in the dark theme. */
+    --line-strong: #8a7358;
+    --accent: #e8c86a;
+    --accent-soft: #2e0d16;
+    --gold: #e8c86a;
+    --gold-soft: #3a2c10;
+
+    /* Lightened against the dark surface: the light-theme values would be
+       unreadable here. */
+    --maroon-300: #d09099;
+    --maroon-400: #d99aa4;
+    --maroon-500: #e8b7bf;
+    --maroon-950: #1a070d;
+    --ivory-100: #fdfbf4;
+    --crimson: #e05a72;
+  }
+
+  [data-contrast="high"] {
+    --muted: var(--ink-2);
+    --line: var(--ink-2);
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--surface);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: calc(1rem * var(--text-scale, 1));
+    line-height: 1.65;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  [data-motion="reduced"] *,
+  [data-motion="reduced"] *::before,
+  [data-motion="reduced"] *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--gold);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  ::selection {
+    background: color-mix(in srgb, var(--gold) 35%, transparent);
+  }
+}
+
+@layer components {
+  .surface { background-color: var(--surface); }
+  .surface-2 { background-color: var(--surface-2); }
+  .surface-3 { background-color: var(--surface-3); }
+  .ink { color: var(--ink); }
+  .ink-2 { color: var(--ink-2); }
+  .muted { color: var(--muted); }
+  .hairline { border-color: var(--line); }
+
+  .card {
+    background-color: var(--surface-2);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-card);
+    box-shadow: var(--shadow-relic);
+  }
+
+  .card-raised {
+    background-color: var(--surface-2);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-card);
+    box-shadow: var(--shadow-relic-lg);
+  }
+
+  .display {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+    line-height: 1.12;
+  }
+
+  .deva { font-family: var(--font-deva); }
+
+  /* Scripture typography — deliberately calm and high contrast. */
+  .verse-deva {
+    font-family: var(--font-deva);
+    font-size: calc(1.15rem * var(--verse-scale, 1));
+    line-height: calc(2.1 * var(--verse-line, 1));
+    letter-spacing: 0.01em;
+  }
+
+  .verse-iast {
+    font-family: var(--font-display);
+    font-size: calc(1rem * var(--verse-scale, 1));
+    font-style: italic;
+    line-height: calc(1.85 * var(--verse-line, 1));
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 999px;
+    padding: 0.6rem 1.15rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: transform 160ms ease, background-color 160ms ease, border-color 160ms ease;
+    cursor: pointer;
+  }
+  .btn:active { transform: translateY(1px); }
+  .btn-primary {
+    background-color: var(--accent);
+    color: #fffefb;
+  }
+  [data-theme="dark"] .btn-primary { color: #1a070d; }
+  .btn-primary:hover { background-color: var(--maroon-600); }
+  [data-theme="dark"] .btn-primary:hover { background-color: var(--gold-300); }
+  .btn-ghost {
+    background-color: transparent;
+    border: 1px solid var(--line);
+    color: var(--ink-2);
+  }
+  .btn-ghost:hover { border-color: var(--gold); color: var(--ink); }
+
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    padding: 0.2rem 0.7rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: var(--ink-2);
+    background-color: var(--surface-3);
+  }
+
+  .link-underline {
+    text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, var(--gold) 60%, transparent);
+    text-underline-offset: 3px;
+  }
+}
+
+/* ---- Ornamental layer (pure CSS/SVG, no bitmap assets) -------------------- */
+.lotus-field {
+  background-image: radial-gradient(
+      circle at 50% 120%,
+      color-mix(in srgb, var(--gold) 14%, transparent) 0%,
+      transparent 62%
+    );
+}
+
+.ornament-rule {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    color-mix(in srgb, var(--gold) 70%, transparent) 18%,
+    color-mix(in srgb, var(--gold) 70%, transparent) 82%,
+    transparent
+  );
+}
+
+.diya-flame {
+  transform-origin: 50% 100%;
+  animation: flame 2.8s ease-in-out infinite;
+}
+@keyframes flame {
+  0%, 100% { transform: scale(1) rotate(-1.2deg); opacity: 0.92; }
+  35% { transform: scale(1.06, 0.96) rotate(1.4deg); opacity: 1; }
+  65% { transform: scale(0.97, 1.05) rotate(-0.8deg); opacity: 0.96; }
+}
+
+.mandala-spin { animation: mandala 90s linear infinite; }
+@keyframes mandala { to { transform: rotate(360deg); } }
+
+.mote {
+  animation: mote 14s ease-in-out infinite;
+}
+@keyframes mote {
+  0%, 100% { transform: translate3d(0, 0, 0); opacity: 0; }
+  12% { opacity: 0.7; }
+  88% { opacity: 0.5; }
+  100% { transform: translate3d(14px, -120px, 0); opacity: 0; }
+}
+
+.fade-up { animation: fadeUp 520ms cubic-bezier(0.22, 1, 0.36, 1) both; }
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: none; }
+}
+
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--surface-3) 25%,
+    color-mix(in srgb, var(--line) 55%, var(--surface-3)) 50%,
+    var(--surface-3) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.4s linear infinite;
+  border-radius: 0.5rem;
+}
+@keyframes shimmer { to { background-position: -200% 0; } }
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
+
+@media print {
+  .no-print { display: none !important; }
+}

@@ -1,0 +1,554 @@
+{
+  "collectionId": "maa-durga-knowledge",
+  "title": "Maa Durga — Knowledge Library",
+  "intro": "Long-form explanations of the Goddess, her narratives and her traditions. Every topic separates what the scripture says, what a regional tradition holds, and what a commentator has added.",
+  "editorialNote": "Editorial content authored for this app. It has not been through independent scholarly review. See the Content Verification page.",
+  "topics": [
+    {
+      "slug": "who-is-durga",
+      "title": "Who is Maa Durga?",
+      "titleHi": "माँ दुर्गा कौन हैं?",
+      "tagline": "The name, the word, and the many ways the Goddess is addressed.",
+      "story": "The Gods had been driven out of heaven. Mahishasura, the buffalo asura, had a boon that no man or animal could kill him, and he had used it to take everything. The Devi Mahatmya opens with the gods going from one to another and finding no answer, until their combined anger and radiance gathered into a single form. She was not summoned. She was what their refusal to give up looked like.",
+      "detail": [
+        [
+          "The word",
+          "'Durga' is usually read as dush + gha: the one who removes what is difficult to remove, or the fort that cannot be taken. Both readings are traditional and both are used."
+        ],
+        [
+          "Shakti",
+          "Shakti is capacity, energy, the power by which anything acts. In Shakta thought Shakti is not an attribute the Goddess has; she is Shakti, and the gods act through her."
+        ],
+        [
+          "Devi and Mahadevi",
+          "'Devi' is the feminine of deva and is used of many goddesses. 'Mahadevi' — the great Goddess — is used when the intention is to name the one behind all of them."
+        ],
+        [
+          "Jagadamba",
+          "'Mother of the world'. A term of endearment rather than a theological category, and used across registers from village worship to philosophy."
+        ],
+        [
+          "Chandika",
+          "The name the Devi Mahatmya itself uses most often for its heroine — fierce, and not softened by the narrative."
+        ]
+      ],
+      "significance": "The Goddess in this tradition is not a consort who stands beside a god. She is the condition of anything happening at all. That is why the Devi Mahatmya can have Vishnu asleep at the start and the gods helpless throughout: the story is about what remains when power runs out.",
+      "characters": [
+        "Mahishasura",
+        "Indra and the devas",
+        "Sage Markandeya",
+        "King Suratha",
+        "The merchant Samadhi"
+      ],
+      "places": [
+        "Markandeya's hermitage (the narrative's frame)",
+        "The battlefield of the Madhyama Charitra"
+      ],
+      "source": "Devi Mahatmya, ch. 1–3 (Markandeya Purana 81–83). Available in full in Scripture.",
+      "childVersion": "Durga means 'the one who gets you out of a really hard place'. When the gods were beaten and had nothing left, she appeared — made out of all their light put together.",
+      "reflection": [
+        "What would 'difficult to remove' mean in your own life right now?",
+        "The Devi Mahatmya has the gods helpless. Why do you think the story needs that?",
+        "What is the difference between asking for help and refusing to give up?"
+      ],
+      "related": [
+        "origin-of-adi-shakti",
+        "durga-parvati-kali",
+        "mahishasura-mardini"
+      ]
+    },
+    {
+      "slug": "origin-of-adi-shakti",
+      "title": "Adi Shakti: the origin of power",
+      "titleHi": "आदि शक्ति: शक्ति का आदि स्रोत",
+      "tagline": "Where the tradition says power itself comes from.",
+      "story": "At the end of a kalpa, Vishnu lay asleep on the causal ocean and the world was dissolved. Two asuras, Madhu and Kaitabha, rose from the wax in Vishnu's ear. Brahma was alone with a sleeping god and two demons, so he did the only thing available: he praised Yogamaya, and asked her to withdraw from Vishnu so that he would wake.",
+      "detail": [
+        [
+          "The first charitra",
+          "Devi Mahatmya ch. 1 is the Madhu-Kaitabha episode. It is short, and it does the theological work for everything that follows: the Goddess is what makes even Vishnu able to act."
+        ],
+        [
+          "Yogamaya and Mahamaya",
+          "The text names her Mahamaya — the great illusion — and says she deludes the world and, when pleased, grants understanding. Both functions are hers; the text does not choose one."
+        ],
+        [
+          "Adi Shakti",
+          "'Adi' means first, original. Adi Shakti is the formulation in which the Goddess precedes the gods rather than proceeding from them."
+        ],
+        [
+          "Three cycles",
+          "The Saptashati is organised as three charitras presided over by Mahakali, Mahalakshmi and Mahasaraswati, which later traditions read onto the three gunas."
+        ]
+      ],
+      "significance": "The structural point is that the text puts the Goddess before the gods. That is the whole reason Shakta traditions exist as a distinct orientation and not merely as goddess worship inside another system.",
+      "characters": [
+        "Vishnu (asleep)",
+        "Brahma",
+        "Madhu and Kaitabha",
+        "Yogamaya / Mahamaya"
+      ],
+      "places": [
+        "The causal ocean at the end of a kalpa"
+      ],
+      "source": "Devi Mahatmya, ch. 1 (Markandeya Purana 81). Full text in Scripture › Chapter 1.",
+      "childVersion": "Before the world began again, God was asleep and two monsters woke up. Brahma couldn't fight them, so he sang to the Goddess and asked her to wake God up. She did — which is the story's way of saying nothing works without her.",
+      "reflection": [
+        "Why might a text begin with the gods asleep?",
+        "The Goddess is called both deluding and liberating. Can one thing be both?",
+        "What does it mean that power has a source before the powerful?"
+      ],
+      "related": [
+        "who-is-durga",
+        "mahishasura-mardini",
+        "three-charitras"
+      ]
+    },
+    {
+      "slug": "durga-parvati-kali",
+      "title": "Durga, Parvati, Kali, Lakshmi, Saraswati",
+      "titleHi": "दुर्गा, पार्वती, काली, लक्ष्मी, सरस्वती",
+      "tagline": "How the tradition relates the great goddesses to one another.",
+      "story": "A child once asked whether Kali and Durga were the same person. A priest answered: they are the same fire. When it warms the house you call it one thing; when it burns the forest you call it another. The tradition has always been comfortable with several names for one reality and several realities for one name.",
+      "detail": [
+        [
+          "Parvati",
+          "Daughter of the mountain; the goddess as Shiva's consort and as the mother figure. Most of the Navadurga sequence is told through her."
+        ],
+        [
+          "Durga",
+          "The warrior aspect, and also a name of its own goddess in some regional traditions. In the Saptashati she is Chandika, who is not anyone's consort."
+        ],
+        [
+          "Kali",
+          "Time and dissolution. In the Saptashati she arises from Chandika's brow as Chamunda to kill Chanda and Munda (ch. 7)."
+        ],
+        [
+          "Lakshmi",
+          "Prosperity and fortune. The Saptashati's own hymn says she dwells in the houses of the virtuous and departs from others."
+        ],
+        [
+          "Saraswati",
+          "Speech, learning and music. She presides over the third charitra as Mahasaraswati."
+        ],
+        [
+          "How they relate",
+          "Some traditions treat these as one goddess under five names; others treat them as distinct goddesses who cooperate. Both positions have scriptural support and the app does not adjudicate between them."
+        ]
+      ],
+      "significance": "The practical consequence for a devotee is that the nine nights can be kept as nine forms of one mother, or as nine distinct devotions, and both are traditional. The choice belongs to the family and lineage, not to an app.",
+      "characters": [
+        "Parvati",
+        "Durga / Chandika",
+        "Kali / Chamunda",
+        "Lakshmi",
+        "Saraswati",
+        "Shiva"
+      ],
+      "places": [
+        "Kailash",
+        "The battlefields of the Saptashati"
+      ],
+      "source": "Devi Mahatmya ch. 1, 7, 11; the Devi Kavacham's nine-name verse (verses 3–5) gives the Navadurga list.",
+      "childVersion": "One goddess, many names — like one person who is a mother at home, a doctor at work, and a daughter at her own mother's house. Same person, different job.",
+      "reflection": [
+        "Does it matter to you whether they are one or many?",
+        "Which name do you find yourself using, and why that one?",
+        "What is gained by keeping several names instead of settling on one?"
+      ],
+      "related": [
+        "who-is-durga",
+        "navadurga-overview",
+        "three-charitras"
+      ]
+    },
+    {
+      "slug": "mahishasura-mardini",
+      "title": "Mahishasura Mardini: the slaying of the buffalo demon",
+      "titleHi": "महिषासुर मर्दिनी",
+      "tagline": "The central battle of the Devi Mahatmya, and the festival's reason for being.",
+      "story": "Mahishasura had fought for ten thousand years until Brahma granted him a boon: no man and no animal could kill him. He did not think to ask about a woman, because it did not occur to him that it could matter. He took heaven, drove out the gods, and took the shape of a buffalo when he fought, because a buffalo is hard to kill.",
+      "detail": [
+        [
+          "Chapters 2 and 3",
+          "Ch. 2 is the battle against his armies; ch. 3 is the duel with Mahishasura himself. Together they are the Madhyama Charitra's core."
+        ],
+        [
+          "The shifting shape",
+          "Mahishasura changes form — buffalo, lion, man, elephant — and the text spends real space on it. The shifting is usually read as evasion: a wrong that will not stay still long enough to be named."
+        ],
+        [
+          "The gods' powers",
+          "Each deva gives her his weapon and his radiance. She is not armed by one god; she is the combined capacity of all of them."
+        ],
+        [
+          "The killing",
+          "She pins him with her foot, and when he emerges half-transformed she takes his head with the trident. The text is unsentimental about it."
+        ],
+        [
+          "Chapter 4",
+          "Afterwards the gods praise her — the Shakradi Stuti — and she answers that she will return whenever the world is in trouble."
+        ]
+      ],
+      "significance": "Vijayadashami marks this victory. The moral reading most traditions offer is not 'the strong beat the weak' but 'a wrong that seemed unbeatable was beaten' — and the reason it seemed unbeatable was that nobody considered the obvious answer.",
+      "characters": [
+        "Mahishasura",
+        "Durga / Chandika",
+        "Indra and the devas",
+        "Chikshura and Chamara (his generals)"
+      ],
+      "places": [
+        "The Vindhya mountains (in several traditions, the site of the battle)"
+      ],
+      "source": "Devi Mahatmya ch. 2–4 (Markandeya Purana 82–84). Full text in Scripture.",
+      "childVersion": "A bully took a promise that no man or animal could beat him, so he thought he was safe forever. He forgot to think about girls. The Goddess beat him, and that is why we have a festival about winning.",
+      "reflection": [
+        "What was Mahishasura's actual mistake?",
+        "Why do you think the text makes him change shape so much?",
+        "The gods had to give up their own weapons to win. What does that cost?"
+      ],
+      "related": [
+        "three-charitras",
+        "weapons-and-symbolism",
+        "shumbha-nishumbha"
+      ]
+    },
+    {
+      "slug": "shumbha-nishumbha",
+      "title": "Shumbha and Nishumbha: the final charitra",
+      "titleHi": "शुम्भ और निशुम्भ",
+      "tagline": "The longest narrative in the Devi Mahatmya, and the one with the sharpest dialogue.",
+      "story": "Shumbha and Nishumbha were brothers who had earned the gods' defeat. Shumbha heard that a beautiful goddess lived in the mountains and sent messengers to bring her to him. She answered that she had taken a foolish vow: she would only marry whoever defeated her in battle. The messengers went back and reported this, and the conversation that follows is the most quoted passage in the text.",
+      "detail": [
+        [
+          "Chapter 5",
+          "The dialogue with the messengers. The Goddess explains that she is not arrogant, only truthful, and the messengers report her words back almost verbatim."
+        ],
+        [
+          "Chapters 6–10",
+          "Dhumralochana, then Chanda and Munda (from whom Chamunda arises), then Raktabija — whose blood spawns a duplicate for every drop that falls, solved by Kali drinking it before it lands — then Nishumbha, then Shumbha."
+        ],
+        [
+          "Chapter 11",
+          "The Narayani Stuti, the gods' hymn, and the Goddess's declarations about her own nature and return."
+        ],
+        [
+          "Chapters 12–13",
+          "The fruits of hearing the text, and the boons granted to Suratha and Samadhi, which close the frame story opened in ch. 1."
+        ],
+        [
+          "'Ya Devi Sarvabhuteshu'",
+          "The repeated hymn of chapter 5, addressed to the Goddess as present in all beings as Vishnu-maya, consciousness, intellect, sleep, hunger, shadow, power, thirst, forgiveness, kind, modesty, peace, faith, radiance, delight, mother and error. It is the most recited part of the text outside the kavacham."
+        ]
+      ],
+      "significance": "The Raktabija episode is the one most often read philosophically: a wrong that multiplies when you attack it in the ordinary way needs a different kind of response. The text offers Kali's drinking of the blood as that response without explaining it, which is why it keeps generating commentary.",
+      "characters": [
+        "Shumbha",
+        "Nishumbha",
+        "Chandika / Ambika",
+        "Kali / Chamunda",
+        "Raktabija",
+        "Dhumralochana",
+        "Chanda and Munda"
+      ],
+      "places": [
+        "The Himalaya",
+        "The battlefield of the Uttama Charitra"
+      ],
+      "source": "Devi Mahatmya ch. 5–13 (Markandeya Purana 85–93). Full text in Scripture.",
+      "childVersion": "Two brothers sent a message to the Goddess saying she had to come with them. She said no. They sent an army. She beat the army. Then they came themselves, and she beat them too. The point is that 'no' was a complete answer.",
+      "reflection": [
+        "Why does the text spend so long on the messengers' conversation?",
+        "Raktabija multiplies when struck. What in your own life behaves that way?",
+        "The Goddess says she will return when needed. What does that promise ask of you?"
+      ],
+      "related": [
+        "mahishasura-mardini",
+        "three-charitras",
+        "weapons-and-symbolism"
+      ]
+    },
+    {
+      "slug": "weapons-and-symbolism",
+      "title": "Weapons, the lion, and what they mean",
+      "titleHi": "अस्त्र-शस्त्र और सिंह का प्रतीक",
+      "tagline": "Reading the iconography: trident, discus, conch, sword, bow, lotus, lion.",
+      "story": "Look at any picture of Durga and count her hands. There are never enough. The tradition is making a point about capacity: one pair of hands can hold a child or a sword, but not both, and the work of the world needs both at the same time.",
+      "detail": [
+        [
+          "Trident (trishula)",
+          "The three gunas; also the three times. Held, not thrown — the point is balance, not destruction."
+        ],
+        [
+          "Discus (chakra)",
+          "Vishnu's weapon. Time and the returning cycle; what goes around."
+        ],
+        [
+          "Conch (shankha)",
+          "The sounded origin. Announcement before action."
+        ],
+        [
+          "Sword (khadga)",
+          "Discernment — the ability to cut one thing away from another."
+        ],
+        [
+          "Bow and arrow",
+          "Focused intention at a distance; the will that reaches."
+        ],
+        [
+          "Lotus",
+          "Detachment; also the world itself, held rather than renounced."
+        ],
+        [
+          "Mace (gada)",
+          "Weight, consequence, the fact that actions land."
+        ],
+        [
+          "Abhaya and varada mudras",
+          "Two hands almost always free for 'do not fear' and 'here is what you need'. This is the iconographic heart of the image."
+        ],
+        [
+          "Lion or tiger",
+          "Fear and appetite, mounted rather than killed. Regional images vary between lion and tiger and both are traditional."
+        ],
+        [
+          "Multiple arms",
+          "Capacity. Some traditions read specific counts as directions or as the weapons received from specific gods."
+        ]
+      ],
+      "significance": "Read this way the image is not a portrait of violence. It is a diagram: many capacities, held simultaneously, with two hands permanently reserved for reassurance and giving.",
+      "characters": [
+        "Durga / Chandika",
+        "The devas who give their weapons"
+      ],
+      "places": [
+        "Temple iconography across India; the Saptashati's battle descriptions"
+      ],
+      "source": "Devi Mahatmya ch. 2 (the gathering of the gods' powers) and the dhyana verses.",
+      "childVersion": "She has many arms so she can hold a sword in one hand and give a hug with another at the same time. The lion is fear — she rides it, which means she didn't get rid of fear, she just learned to drive.",
+      "reflection": [
+        "Which weapon in the image speaks to you most, and why?",
+        "Two hands are always free for blessing. What would that look like in practice?",
+        "Why ride the lion instead of killing it?"
+      ],
+      "related": [
+        "mahishasura-mardini",
+        "who-is-durga",
+        "navadurga-overview"
+      ]
+    },
+    {
+      "slug": "three-charitras",
+      "title": "The three charitras and how the text is organised",
+      "titleHi": "तीन चरित्र और ग्रन्थ की रचना",
+      "tagline": "Prathama, Madhyama, Uttama — and why the Saptashati is read in three parts.",
+      "story": "A reciter will tell you the Saptashati is not read straight through. It is read in three charitras, on three days, with its own opening and closing rites. The structure is not an accident of length; it is how the text is meant to be used.",
+      "detail": [
+        [
+          "Prathama Charitra (ch. 1)",
+          "Presided over by Mahakali. The Madhu-Kaitabha episode and the manifestation of Mahakali."
+        ],
+        [
+          "Madhyama Charitra (ch. 2–4)",
+          "Presided over by Mahalakshmi. The Mahishasura narrative and the gods' hymn."
+        ],
+        [
+          "Uttama Charitra (ch. 5–13)",
+          "Presided over by Mahasaraswati. The Shumbha-Nishumbha narrative, the great hymns, and the closing boons."
+        ],
+        [
+          "Guna reading",
+          "Later tradition maps the three charitras onto tamas, rajas and sattva. This is a commentary, not a statement in the text itself, and the app labels it as such."
+        ],
+        [
+          "Recitation practice",
+          "Sequences differ by lineage. Some read the whole text on one day; most read one charitra per day over three days, or one chapter a day over thirteen. The auxiliary texts (kavacham, argala, kilaka) are placed differently by different traditions."
+        ]
+      ],
+      "significance": "Understanding the charitra structure changes how the text reads. Chapter 4's hymn is not an interruption; it is the hinge of the middle charitra. Chapter 11's Narayani Stuti is not an appendix; it is the theological answer to the whole Uttama Charitra.",
+      "characters": [
+        "Mahakali",
+        "Mahalakshmi",
+        "Mahasaraswati"
+      ],
+      "places": [
+        "The text itself"
+      ],
+      "source": "Devi Mahatmya, all 13 chapters. Chapter index in Scripture.",
+      "childVersion": "The book is in three parts, like a three-day story. Each part has its own goddess watching over it.",
+      "reflection": [
+        "Why might a text be designed to be read in three sittings?",
+        "Which charitra would you start with, and why?",
+        "The guna mapping is commentary, not scripture. Does that change how you use it?"
+      ],
+      "related": [
+        "mahishasura-mardini",
+        "shumbha-nishumbha",
+        "origin-of-adi-shakti"
+      ]
+    },
+    {
+      "slug": "navadurga-overview",
+      "title": "The Navadurga: nine forms, one festival",
+      "titleHi": "नवदुर्गा: नौ रूप, एक उत्सव",
+      "tagline": "Why nine, where the list comes from, and how the days are assigned.",
+      "story": "Nine nights, nine forms. The list is old enough that it appears in the Devi Kavacham, which is recited before the Saptashati itself — so the names are not a later devotional addition but part of the recitation apparatus of the text.",
+      "detail": [
+        [
+          "The source of the list",
+          "Devi Kavacham verses 3–5 name all nine in order and state that these are the navadurga declared by Brahma. This is imported and verified in the app's scripture library."
+        ],
+        [
+          "Day assignment",
+          "Most calendars bind each form to a tithi: Pratipada to Shailaputri through Navami to Siddhidatri. When a tithi spans two sunrises the same form is kept on both days; when a tithi is skipped, one form has no day. This app computes both cases and flags them."
+        ],
+        [
+          "Colours",
+          "The nine-colour scheme (white, red, royal blue, yellow, green, grey, orange, peacock green, pink and similar) is a devotional convention that differs between regions. It is not in the scripture."
+        ],
+        [
+          "Offerings",
+          "Flowers and bhog vary widely by region and family. Records here say 'commonly offered', never 'prescribed'."
+        ],
+        [
+          "Chakra mapping",
+          "Some traditions map the nine forms onto the chakras. This is a yogic overlay, not a Puranic statement, and is labelled as such."
+        ]
+      ],
+      "significance": "The nine-day sequence is a structured progression from groundedness (Shailaputri) through discipline, courage, creativity, nurture, resolve and fearlessness to purity and fulfilment. Whether or not a devotee reads it that way, the sequence supports it.",
+      "characters": [
+        "The nine forms",
+        "Sage Markandeya (who recites the kavacham)"
+      ],
+      "places": [
+        "Household shrines and temples across India and the diaspora"
+      ],
+      "source": "Devi Kavacham verses 3–5; the Navadurga Stotram (traditional).",
+      "childVersion": "Nine nights, nine different faces of the same mother — like nine different days of a long visit, each with its own mood.",
+      "reflection": [
+        "Which of the nine feels closest to where you are this year?",
+        "The sequence moves from groundedness to fulfilment. Where are you in it?",
+        "Colours and offerings vary. How does that affect how you keep the days?"
+      ],
+      "related": [
+        "mahishasura-mardini",
+        "weapons-and-symbolism",
+        "who-is-durga"
+      ]
+    },
+    {
+      "slug": "shakta-traditions",
+      "title": "Shakta traditions and regional worship",
+      "titleHi": "शाक्त परम्पराएँ और क्षेत्रीय पूजा",
+      "tagline": "Bengal, Gujarat, the South, the Himalaya — the same Goddess, different practice.",
+      "story": "Ask a Bengali pandit and a Gujarati priest what happens on Navami and you will get two different, equally valid answers. The tradition has never required uniformity, and this app is built on that assumption rather than in spite of it.",
+      "detail": [
+        [
+          "Bengal — Durga Puja",
+          "Five days centred on Shashti to Dashami, with clay images made for the occasion and immersed at the end. The Saptashati is recited throughout. Kumari puja on Ashtami or Navami is common."
+        ],
+        [
+          "Gujarat — Garba and Dandiya",
+          "Night-long circle dance around a garbo or an image of Amba. Fasting, nine colours, and a strong community dimension. Ambaji is the principal pilgrimage."
+        ],
+        [
+          "North India — Ram lila and Dussehra",
+          "Navratri runs alongside the Rama narrative, and Vijayadashami marks both Ram's victory and Durga's."
+        ],
+        [
+          "South India — Golu / Bommala Kolu",
+          "Stepped displays of dolls in homes, with songs and visiting. Ayudha puja and Saraswati puja fall in the same days."
+        ],
+        [
+          "Maharashtra — Ghatasthapana",
+          "The kalash is central; Tulja Bhavani and Saptashrungi are the great regional seats."
+        ],
+        [
+          "Himalayan and tribal traditions",
+          "Himachal, Uttarakhand and the Bastar region have distinct Devi cults. Bastar Dussehra is a ten-day royal ritual unlike anything in the plains."
+        ],
+        [
+          "Tantric lineages",
+          "Kamakhya, Kashipur and the Sri Vidya traditions keep their own calendars and their own recitation orders. Recitation sequences differ by lineage and the app does not impose one."
+        ]
+      ],
+      "significance": "Practically, this means the app must never say 'on day six you do X'. It can say 'in this tradition, on day six, X is done'. Every festival page here is written that way.",
+      "characters": [],
+      "places": [
+        "Bengal",
+        "Gujarat",
+        "Tamil Nadu",
+        "Karnataka",
+        "Maharashtra",
+        "Himachal",
+        "Uttarakhand",
+        "Chhattisgarh (Bastar)",
+        "Assam (Kamakhya)"
+      ],
+      "source": "Regional temple traditions and modern scholarship. Recorded as tradition, not as scripture.",
+      "childVersion": "Different parts of India celebrate the same goddess in different ways — dancing in circles in Gujarat, dolls on steps in Tamil Nadu, big clay statues in Bengal. All of them are right.",
+      "reflection": [
+        "What does your own family do that this page does not mention?",
+        "Which regional practice would you like to understand better?",
+        "Why is it valuable that the tradition is not uniform?"
+      ],
+      "related": [
+        "navadurga-overview",
+        "who-is-durga",
+        "shakti-peethas-origin"
+      ]
+    },
+    {
+      "slug": "shakti-peethas-origin",
+      "title": "Sati, Shiva and the origin of the Shakti Peethas",
+      "titleHi": "सती, शिव और शक्तिपीठों की उत्पत्ति",
+      "tagline": "The Daksha yajna, the tandava, and why there are sacred seats at all.",
+      "story": "Daksha held a great sacrifice and did not invite Shiva, because he did not approve of him. Sati went anyway, and was humiliated in front of the assembly. She could not bear it, and gave up her body in the fire of the sacrifice. Shiva's grief became a dance that threatened the world, and Vishnu cut the body apart with his discus so that the dance would stop. Where the pieces fell became sacred.",
+      "detail": [
+        [
+          "The narrative",
+          "This is Puranic narrative, told in several Puranas with variations. It is not part of the Devi Mahatmya."
+        ],
+        [
+          "The lists",
+          "Different texts enumerate 18, 51, 52, 64 or 108 seats. There is no single agreed list, and the body part attributed to a given site often differs between recensions."
+        ],
+        [
+          "Historical layer",
+          "Many Peetha temples are genuinely ancient and archaeologically attested. The connection to the Sati narrative is a devotional reading, not an archaeological finding, and the app keeps those two claims separate."
+        ],
+        [
+          "Geography",
+          "Traditional lists place seats in present-day India, Pakistan, Bangladesh, Nepal, Sri Lanka and Tibet. Sacred geography does not follow modern borders, and this app does not redraw them."
+        ],
+        [
+          "Dispute",
+          "Several sites have competing claims, and some body-part attributions are contested. The explorer preserves the disagreement and labels it."
+        ]
+      ],
+      "significance": "The Peetha idea makes the land itself devotional: the Goddess is not only in the image but distributed across a geography. For a pilgrim that turns a map into a liturgy.",
+      "characters": [
+        "Sati",
+        "Shiva",
+        "Daksha",
+        "Vishnu"
+      ],
+      "places": [
+        "The Daksha yajna site (traditionally Kankhal, near Haridwar)",
+        "The Peethas themselves"
+      ],
+      "source": "Puranic narrative (Kalika Purana, Devi Bhagavata and others) and the tantric Peetha lists. Recorded as tradition; the historical layer is noted separately.",
+      "childVersion": "A queen was hurt very badly at a party her father held, and she died. Her husband was so sad he danced and the world shook. Another god cut the body into pieces so the dancing would stop, and every place a piece landed became a holy place.",
+      "reflection": [
+        "Why do you think grief is the origin story of the sacred places?",
+        "The lists disagree. Does that weaken them or make them richer?",
+        "What would it mean to treat a map as a devotional text?"
+      ],
+      "related": [
+        "navadurga-overview",
+        "shakta-traditions",
+        "who-is-durga"
+      ]
+    }
+  ]
+}

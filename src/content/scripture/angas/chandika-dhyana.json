@@ -1,0 +1,42 @@
+{
+  "id": "chandika-dhyana",
+  "slug": "chandika-dhyana",
+  "titleEnglish": "Chandika Dhyana",
+  "titleSanskrit": "श्रीचण्डिकाध्यानम्",
+  "titleItrans": "shrIchaNDikAdhyAnam",
+  "titleIast": "śrīcaṇḍikādhyānam",
+  "kind": "purvanga",
+  "order": 0,
+  "note": "Meditation verses placed at the head of the text.",
+  "verseUnitCount": 2,
+  "traditionalVerseCount": 2,
+  "viniyoga": {
+    "iTrans": null,
+    "devanagari": null
+  },
+  "dhyana": {
+    "iTrans": null,
+    "devanagari": null
+  },
+  "sourceRef": "durga700",
+  "verses": [
+    {
+      "n": 1,
+      "label": "1",
+      "speaker": null,
+      "iTrans": "OM bandhUkakusumAbhAsAM pa~nchamuNDAdhivAsinIm |\nsphurachchandrakalAratnamukuTAM muNDamAlinIm ||\ntrinetrAM raktavasanAM pInonnataghaTastanIm |\npustakaM chAkShamAlAM cha varaM chAbhayakaM kramAt ||\ndadhatIM saMsmarennityamuttarAmnAyamAnitAm |",
+      "devanagari": "ॐ बन्धूककुसुमाभासां पञ्चमुण्डाधिवासिनीम् ।\nस्फुरच्चन्द्रकलारत्नमुकुटां मुण्डमालिनीम् ॥\nत्रिनेत्रां रक्तवसनां पीनोन्नतघटस्तनीम् ।\nपुस्तकं चाक्षमालां च वरं चाभयकं क्रमात् ॥\nदधतीं संस्मरेन्नित्यमुत्तराम्नायमानिताम् ।",
+      "iast": "oṃ bandhūkakusumābhāsāṃ pañcamuṇḍādhivāsinīm |\nsphuraccandrakalāratnamukuṭāṃ muṇḍamālinīm ||\ntrinetrāṃ raktavasanāṃ pīnonnataghaṭastanīm |\npustakaṃ cākṣamālāṃ ca varaṃ cābhayakaṃ kramāt ||\ndadhatīṃ saṃsmarennityamuttarāmnāyamānitām |",
+      "padas": 5
+    },
+    {
+      "n": 2,
+      "label": "2",
+      "speaker": null,
+      "iTrans": "yA chaNDI madhukaiTabhAdidaityadalanI yA mAhiShonmUlinI\nyA dhUmrekShaNachaNDamuNDamathanI yA raktabIjAshanI |\nshaktiH shumbhanishumbhadaityadalanI yA siddhidAtrI parA\nsA devI navakoTimUrtisahitA mAM pAtu vishveshvarI ||",
+      "devanagari": "या चण्डी मधुकैटभादिदैत्यदलनी या माहिषोन्मूलिनी\nया धूम्रेक्षणचण्डमुण्डमथनी या रक्तबीजाशनी ।\nशक्तिः शुम्भनिशुम्भदैत्यदलनी या सिद्धिदात्री परा\nसा देवी नवकोटिमूर्तिसहिता मां पातु विश्वेश्वरी ॥",
+      "iast": "yā caṇḍī madhukaiṭabhādidaityadalanī yā māhiṣonmūlinī\nyā dhūmrekṣaṇacaṇḍamuṇḍamathanī yā raktabījāśanī |\nśaktiḥ śumbhaniśumbhadaityadalanī yā siddhidātrī parā\nsā devī navakoṭimūrtisahitā māṃ pātu viśveśvarī ||",
+      "padas": 4
+    }
+  ]
+}

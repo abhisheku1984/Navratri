@@ -1,0 +1,444 @@
+{
+  "id": "ch-12",
+  "number": 12,
+  "slug": "bhagavati-vakya",
+  "charitra": "uttama",
+  "charitraLabel": "Uttama Charitra",
+  "presidingDeity": "Mahasaraswati",
+  "titleSanskrit": "भगवती वाक्यं द्वादशोऽध्यायः",
+  "titleItrans": "bhagavatI vAkyaM dvAdasho.adhyAyaH",
+  "titleIast": "bhagavatī vākyaṃ dvādaśo'dhyāyaḥ",
+  "titleEnglishEditorial": "The words of the Blessed Goddess",
+  "markandeyaPuranaChapter": 92,
+  "verseUnitCount": 41,
+  "traditionalVerseCount": 41,
+  "colophonItrans": "uvAcha 2, ardhashlokau 2, shlokAH 37, evamAditaH || 671||",
+  "colophonDevanagari": "उवाच २, अर्धश्लोकौ २, श्लोकाः ३७, एवमादितः ॥ ६७१॥",
+  "svastiItrans": "|| svasti shrImArkaNDeyapurANe sAvarNike manvantare devImAhAtmye",
+  "svastiDevanagari": "॥ स्वस्ति श्रीमार्कण्डेयपुराणे सावर्णिके मन्वन्तरे देवीमाहात्म्ये",
+  "viniyoga": {
+    "iTrans": null,
+    "devanagari": null
+  },
+  "dhyana": {
+    "iTrans": "OM vidyuddhAmasamaprabhAM mRRigapatiskandhasthitAM bhIShaNAM\nkanyAbhiH karavALakheTavilasadhastAbhirAsevitAm |\nhastaishchakragadAsikheTavishikhAMshchApaM guNaM tarjanIM\nbibhrANAmanalAtmikAM shashidharAM durgAM trinetrAM bhaje ||",
+    "devanagari": "ॐ विद्युद्धामसमप्रभां मृगपतिस्कन्धस्थितां भीषणां\nकन्याभिः करवाळखेटविलसधस्ताभिरासेविताम् ।\nहस्तैश्चक्रगदासिखेटविशिखांश्चापं गुणं तर्जनीं\nबिभ्राणामनलात्मिकां शशिधरां दुर्गां त्रिनेत्रां भजे ॥"
+  },
+  "invocation": {
+    "iTrans": null,
+    "devanagari": null
+  },
+  "sourceRef": "durga700",
+  "verses": [
+    {
+      "n": 1,
+      "nEnd": 1,
+      "label": "12.1",
+      "speaker": "devyuvAcha",
+      "iTrans": "OM devyuvAcha",
+      "devanagari": "ॐ देव्युवाच",
+      "iast": "oṃ devyuvāca",
+      "padas": 1
+    },
+    {
+      "n": 2,
+      "nEnd": 2,
+      "label": "12.2",
+      "speaker": null,
+      "iTrans": "ebhiH stavaishcha mAM nityaM stoShyate yaH samAhitaH |\ntasyAhaM sakalAM bAdhAM shamayiShyAmyasaMshayam",
+      "devanagari": "एभिः स्तवैश्च मां नित्यं स्तोष्यते यः समाहितः ।\nतस्याहं सकलां बाधां शमयिष्याम्यसंशयम्",
+      "iast": "ebhiḥ stavaiśca māṃ nityaṃ stoṣyate yaḥ samāhitaḥ |\ntasyāhaṃ sakalāṃ bādhāṃ śamayiṣyāmyasaṃśayam",
+      "padas": 2
+    },
+    {
+      "n": 3,
+      "nEnd": 3,
+      "label": "12.3",
+      "speaker": null,
+      "iTrans": "madhukaiTabhanAshaM cha mahiShAsuraghAtanam |\nkIrtayiShyanti ye tadvadvadhaM shumbhanishumbhayoH",
+      "devanagari": "मधुकैटभनाशं च महिषासुरघातनम् ।\nकीर्तयिष्यन्ति ये तद्वद्वधं शुम्भनिशुम्भयोः",
+      "iast": "madhukaiṭabhanāśaṃ ca mahiṣāsuraghātanam |\nkīrtayiṣyanti ye tadvadvadhaṃ śumbhaniśumbhayoḥ",
+      "padas": 2
+    },
+    {
+      "n": 4,
+      "nEnd": 4,
+      "label": "12.4",
+      "speaker": null,
+      "iTrans": "aShTamyAM cha chaturdashyAM navamyAM chaikachetasaH |\nshroShyanti chaiva ye bhaktyA mama mAhAtmyamuttamam",
+      "devanagari": "अष्टम्यां च चतुर्दश्यां नवम्यां चैकचेतसः ।\nश्रोष्यन्ति चैव ये भक्त्या मम माहात्म्यमुत्तमम्",
+      "iast": "aṣṭamyāṃ ca caturdaśyāṃ navamyāṃ caikacetasaḥ |\nśroṣyanti caiva ye bhaktyā mama māhātmyamuttamam",
+      "padas": 2
+    },
+    {
+      "n": 5,
+      "nEnd": 5,
+      "label": "12.5",
+      "speaker": null,
+      "iTrans": "na teShAM duShkR^itaM ki~nchidduShkR^itotthA na chApadaH |\nbhaviShyati na dAridryaM na chaiveShTaviyojanam",
+      "devanagari": "न तेषां दुष्कृतं किञ्चिद्दुष्कृतोत्था न चापदः ।\nभविष्यति न दारिद्र्यं न चैवेष्टवियोजनम्",
+      "iast": "na teṣāṃ duṣkṛtaṃ kiñcidduṣkṛtotthā na cāpadaḥ |\nbhaviṣyati na dāridryaṃ na caiveṣṭaviyojanam",
+      "padas": 2
+    },
+    {
+      "n": 6,
+      "nEnd": 6,
+      "label": "12.6",
+      "speaker": null,
+      "iTrans": "shatrubhyo na bhayaM tasya dasyuto vA na rAjataH |\nna shastrAnalatoyaughAt kadAchit sambhaviShyati",
+      "devanagari": "शत्रुभ्यो न भयं तस्य दस्युतो वा न राजतः ।\nन शस्त्रानलतोयौघात् कदाचित् सम्भविष्यति",
+      "iast": "śatrubhyo na bhayaṃ tasya dasyuto vā na rājataḥ |\nna śastrānalatoyaughāt kadācit sambhaviṣyati",
+      "padas": 2
+    },
+    {
+      "n": 7,
+      "nEnd": 7,
+      "label": "12.7",
+      "speaker": null,
+      "iTrans": "tasmAnmamaitanmAhAtmyaM paThitavyaM samAhitaiH |\nshrotavyaM cha sadA bhaktyA paraM svastyayanaM mahat",
+      "devanagari": "तस्मान्ममैतन्माहात्म्यं पठितव्यं समाहितैः ।\nश्रोतव्यं च सदा भक्त्या परं स्वस्त्ययनं महत्",
+      "iast": "tasmānmamaitanmāhātmyaṃ paṭhitavyaṃ samāhitaiḥ |\nśrotavyaṃ ca sadā bhaktyā paraṃ svastyayanaṃ mahat",
+      "padas": 2
+    },
+    {
+      "n": 8,
+      "nEnd": 8,
+      "label": "12.8",
+      "speaker": null,
+      "iTrans": "upasargAnasheShAMstu mahAmArIsamudbhavAn |\ntathA trividhamutpAtaM mAhAtmyaM shamayenmama",
+      "devanagari": "उपसर्गानशेषांस्तु महामारीसमुद्भवान् ।\nतथा त्रिविधमुत्पातं माहात्म्यं शमयेन्मम",
+      "iast": "upasargānaśeṣāṃstu mahāmārīsamudbhavān |\ntathā trividhamutpātaṃ māhātmyaṃ śamayenmama",
+      "padas": 2
+    },
+    {
+      "n": 9,
+      "nEnd": 9,
+      "label": "12.9",
+      "speaker": null,
+      "iTrans": "yatraitatpaThyate samya~NnityamAyatane mama |\nsadA na tadvimokShyAmi sAnnidhyaM tatra me sthitam",
+      "devanagari": "यत्रैतत्पठ्यते सम्यङ्नित्यमायतने मम ।\nसदा न तद्विमोक्ष्यामि सान्निध्यं तत्र मे स्थितम्",
+      "iast": "yatraitatpaṭhyate samyaṅnityamāyatane mama |\nsadā na tadvimokṣyāmi sānnidhyaṃ tatra me sthitam",
+      "padas": 2
+    },
+    {
+      "n": 10,
+      "nEnd": 10,
+      "label": "12.10",
+      "speaker": null,
+      "iTrans": "balipradAne pUjAyAmagnikArye mahotsave |\nsarvaM mamaitanmAhAtmyam uchchAryaM shrAvyameva cha",
+      "devanagari": "बलिप्रदाने पूजायामग्निकार्ये महोत्सवे ।\nसर्वं ममैतन्माहात्म्यम् उच्चार्यं श्राव्यमेव च",
+      "iast": "balipradāne pūjāyāmagnikārye mahotsave |\nsarvaṃ mamaitanmāhātmyam uccāryaṃ śrāvyameva ca",
+      "padas": 2
+    },
+    {
+      "n": 11,
+      "nEnd": 11,
+      "label": "12.11",
+      "speaker": null,
+      "iTrans": "jAnatAjAnatA vApi balipUjAM yathA kR^itAm |\npratIkShiShyAmyahaM prItyA vahnihomaM tathAkR^itam",
+      "devanagari": "जानताजानता वापि बलिपूजां यथा कृताम् ।\nप्रतीक्षिष्याम्यहं प्रीत्या वह्निहोमं तथाकृतम्",
+      "iast": "jānatājānatā vāpi balipūjāṃ yathā kṛtām |\npratīkṣiṣyāmyahaṃ prītyā vahnihomaṃ tathākṛtam",
+      "padas": 2
+    },
+    {
+      "n": 12,
+      "nEnd": 12,
+      "label": "12.12",
+      "speaker": null,
+      "iTrans": "sharatkAle mahApUjA kriyate yA cha vArShikI |\ntasyAM mamaitanmAhAtmyaM shrutvA bhaktisamanvitaH",
+      "devanagari": "शरत्काले महापूजा क्रियते या च वार्षिकी ।\nतस्यां ममैतन्माहात्म्यं श्रुत्वा भक्तिसमन्वितः",
+      "iast": "śaratkāle mahāpūjā kriyate yā ca vārṣikī |\ntasyāṃ mamaitanmāhātmyaṃ śrutvā bhaktisamanvitaḥ",
+      "padas": 2
+    },
+    {
+      "n": 13,
+      "nEnd": 13,
+      "label": "12.13",
+      "speaker": null,
+      "iTrans": "sarvAbAdhAvinirmukto dhanadhAnyasamanvitaH |\nmanuShyo matprasAdena bhaviShyati na saMshayaH",
+      "devanagari": "सर्वाबाधाविनिर्मुक्तो धनधान्यसमन्वितः ।\nमनुष्यो मत्प्रसादेन भविष्यति न संशयः",
+      "iast": "sarvābādhāvinirmukto dhanadhānyasamanvitaḥ |\nmanuṣyo matprasādena bhaviṣyati na saṃśayaḥ",
+      "padas": 2
+    },
+    {
+      "n": 14,
+      "nEnd": 14,
+      "label": "12.14",
+      "speaker": null,
+      "iTrans": "shrutvA mamaitanmAhAtmyaM tathA chotpattayaH shubhAH |\nparAkramaM cha yuddheShu jAyate nirbhayaH pumAn",
+      "devanagari": "श्रुत्वा ममैतन्माहात्म्यं तथा चोत्पत्तयः शुभाः ।\nपराक्रमं च युद्धेषु जायते निर्भयः पुमान्",
+      "iast": "śrutvā mamaitanmāhātmyaṃ tathā cotpattayaḥ śubhāḥ |\nparākramaṃ ca yuddheṣu jāyate nirbhayaḥ pumān",
+      "padas": 2
+    },
+    {
+      "n": 15,
+      "nEnd": 15,
+      "label": "12.15",
+      "speaker": null,
+      "iTrans": "ripavaH sa~NkShayaM yAnti kalyANaM chopapadyate |\nnandate cha kulaM puMsAM mAhAtmyaM mama shR^iNvatAm",
+      "devanagari": "रिपवः सङ्क्षयं यान्ति कल्याणं चोपपद्यते ।\nनन्दते च कुलं पुंसां माहात्म्यं मम शृण्वताम्",
+      "iast": "ripavaḥ saṅkṣayaṃ yānti kalyāṇaṃ copapadyate |\nnandate ca kulaṃ puṃsāṃ māhātmyaṃ mama śṛṇvatām",
+      "padas": 2
+    },
+    {
+      "n": 16,
+      "nEnd": 16,
+      "label": "12.16",
+      "speaker": null,
+      "iTrans": "shAntikarmaNi sarvatra tathA duHsvapnadarshane |\ngrahapIDAsu chogrAsu mAhAtmyaM shR^iNuyAnmama",
+      "devanagari": "शान्तिकर्मणि सर्वत्र तथा दुःस्वप्नदर्शने ।\nग्रहपीडासु चोग्रासु माहात्म्यं शृणुयान्मम",
+      "iast": "śāntikarmaṇi sarvatra tathā duḥsvapnadarśane |\ngrahapīḍāsu cogrāsu māhātmyaṃ śṛṇuyānmama",
+      "padas": 2
+    },
+    {
+      "n": 17,
+      "nEnd": 17,
+      "label": "12.17",
+      "speaker": null,
+      "iTrans": "upasargAH shamaM yAnti grahapIDAshcha dAruNAH |\nduHsvapnaM cha nR^ibhirdR^iShTaM susvapnamupajAyate",
+      "devanagari": "उपसर्गाः शमं यान्ति ग्रहपीडाश्च दारुणाः ।\nदुःस्वप्नं च नृभिर्दृष्टं सुस्वप्नमुपजायते",
+      "iast": "upasargāḥ śamaṃ yānti grahapīḍāśca dāruṇāḥ |\nduḥsvapnaṃ ca nṛbhirdṛṣṭaṃ susvapnamupajāyate",
+      "padas": 2
+    },
+    {
+      "n": 18,
+      "nEnd": 18,
+      "label": "12.18",
+      "speaker": null,
+      "iTrans": "bAlagrahAbhibhUtAnAM bAlAnAM shAntikArakam |\nsa~NghAtabhede cha nR^iNAM maitrIkaraNamuttamam",
+      "devanagari": "बालग्रहाभिभूतानां बालानां शान्तिकारकम् ।\nसङ्घातभेदे च नृणां मैत्रीकरणमुत्तमम्",
+      "iast": "bālagrahābhibhūtānāṃ bālānāṃ śāntikārakam |\nsaṅghātabhede ca nṛṇāṃ maitrīkaraṇamuttamam",
+      "padas": 2
+    },
+    {
+      "n": 19,
+      "nEnd": 19,
+      "label": "12.19",
+      "speaker": null,
+      "iTrans": "durvR^ittAnAmasheShANAM balahAnikaraM param |\nrakShobhUtapishAchAnAM paThanAdeva nAshanam",
+      "devanagari": "दुर्वृत्तानामशेषाणां बलहानिकरं परम् ।\nरक्षोभूतपिशाचानां पठनादेव नाशनम्",
+      "iast": "durvṛttānāmaśeṣāṇāṃ balahānikaraṃ param |\nrakṣobhūtapiśācānāṃ paṭhanādeva nāśanam",
+      "padas": 2
+    },
+    {
+      "n": 20,
+      "nEnd": 20,
+      "label": "12.20",
+      "speaker": null,
+      "iTrans": "sarvaM mamaitanmAhAtmyaM mama sannidhikArakam |\npashupuShpArghyadhUpaishcha gandhadIpaistathottamaiH",
+      "devanagari": "सर्वं ममैतन्माहात्म्यं मम सन्निधिकारकम् ।\nपशुपुष्पार्घ्यधूपैश्च गन्धदीपैस्तथोत्तमैः",
+      "iast": "sarvaṃ mamaitanmāhātmyaṃ mama sannidhikārakam |\npaśupuṣpārghyadhūpaiśca gandhadīpaistathottamaiḥ",
+      "padas": 2
+    },
+    {
+      "n": 21,
+      "nEnd": 21,
+      "label": "12.21",
+      "speaker": null,
+      "iTrans": "viprANAM bhojanairhomaiH prokShaNIyairaharnisham |\nanyaishcha vividhairbhogaiH pradAnairvatsareNa yA",
+      "devanagari": "विप्राणां भोजनैर्होमैः प्रोक्षणीयैरहर्निशम् ।\nअन्यैश्च विविधैर्भोगैः प्रदानैर्वत्सरेण या",
+      "iast": "viprāṇāṃ bhojanairhomaiḥ prokṣaṇīyairaharniśam |\nanyaiśca vividhairbhogaiḥ pradānairvatsareṇa yā",
+      "padas": 2
+    },
+    {
+      "n": 22,
+      "nEnd": 22,
+      "label": "12.22",
+      "speaker": null,
+      "iTrans": "prItirme kriyate sAsmin sakR^iduchcharite shrute |\nshrutaM harati pApAni tathArogyaM prayachChati",
+      "devanagari": "प्रीतिर्मे क्रियते सास्मिन् सकृदुच्चरिते श्रुते ।\nश्रुतं हरति पापानि तथारोग्यं प्रयच्छति",
+      "iast": "prītirme kriyate sāsmin sakṛduccarite śrute |\nśrutaṃ harati pāpāni tathārogyaṃ prayacchati",
+      "padas": 2
+    },
+    {
+      "n": 23,
+      "nEnd": 23,
+      "label": "12.23",
+      "speaker": null,
+      "iTrans": "rakShAM karoti bhUtebhyo janmanAM kIrtanaM mama |\nyuddheShu charitaM yanme duShTadaityanibarhaNam",
+      "devanagari": "रक्षां करोति भूतेभ्यो जन्मनां कीर्तनं मम ।\nयुद्धेषु चरितं यन्मे दुष्टदैत्यनिबर्हणम्",
+      "iast": "rakṣāṃ karoti bhūtebhyo janmanāṃ kīrtanaṃ mama |\nyuddheṣu caritaṃ yanme duṣṭadaityanibarhaṇam",
+      "padas": 2
+    },
+    {
+      "n": 24,
+      "nEnd": 24,
+      "label": "12.24",
+      "speaker": null,
+      "iTrans": "tasmi~nChrute vairikR^itaM bhayaM puMsAM na jAyate |\nyuShmAbhiH stutayo yAshcha yAshcha brahmarShibhiH kR^itAH",
+      "devanagari": "तस्मिञ्छ्रुते वैरिकृतं भयं पुंसां न जायते ।\nयुष्माभिः स्तुतयो याश्च याश्च ब्रह्मर्षिभिः कृताः",
+      "iast": "tasmiñchrute vairikṛtaṃ bhayaṃ puṃsāṃ na jāyate |\nyuṣmābhiḥ stutayo yāśca yāśca brahmarṣibhiḥ kṛtāḥ",
+      "padas": 2
+    },
+    {
+      "n": 25,
+      "nEnd": 25,
+      "label": "12.25",
+      "speaker": null,
+      "iTrans": "brahmaNA cha kR^itAstAstu prayachChantu shubhAM matim |\naraNye prAntare vApi dAvAgniparivAritaH",
+      "devanagari": "ब्रह्मणा च कृतास्तास्तु प्रयच्छन्तु शुभां मतिम् ।\nअरण्ये प्रान्तरे वापि दावाग्निपरिवारितः",
+      "iast": "brahmaṇā ca kṛtāstāstu prayacchantu śubhāṃ matim |\naraṇye prāntare vāpi dāvāgniparivāritaḥ",
+      "padas": 2
+    },
+    {
+      "n": 26,
+      "nEnd": 26,
+      "label": "12.26",
+      "speaker": null,
+      "iTrans": "dasyubhirvA vR^itaH shUnye gR^ihIto vApi shatrubhiH |\nsiMhavyAghrAnuyAto vA vane vA vanahastibhiH",
+      "devanagari": "दस्युभिर्वा वृतः शून्ये गृहीतो वापि शत्रुभिः ।\nसिंहव्याघ्रानुयातो वा वने वा वनहस्तिभिः",
+      "iast": "dasyubhirvā vṛtaḥ śūnye gṛhīto vāpi śatrubhiḥ |\nsiṃhavyāghrānuyāto vā vane vā vanahastibhiḥ",
+      "padas": 2
+    },
+    {
+      "n": 27,
+      "nEnd": 27,
+      "label": "12.27",
+      "speaker": null,
+      "iTrans": "rAj~nA kruddhena chAj~napto vadhyo bandhagato.api vA |\nAghUrNito vA vAtena sthitaH pote mahArNave",
+      "devanagari": "राज्ञा क्रुद्धेन चाज्ञप्तो वध्यो बन्धगतोऽपि वा ।\nआघूर्णितो वा वातेन स्थितः पोते महार्णवे",
+      "iast": "rājñā kruddhena cājñapto vadhyo bandhagato'pi vā |\nāghūrṇito vā vātena sthitaḥ pote mahārṇave",
+      "padas": 2
+    },
+    {
+      "n": 28,
+      "nEnd": 28,
+      "label": "12.28",
+      "speaker": null,
+      "iTrans": "patatsu chApi shastreShu sa~NgrAme bhR^ishadAruNe |\nsarvAbAdhAsu ghorAsu vedanAbhyardito.api vA",
+      "devanagari": "पतत्सु चापि शस्त्रेषु सङ्ग्रामे भृशदारुणे ।\nसर्वाबाधासु घोरासु वेदनाभ्यर्दितोऽपि वा",
+      "iast": "patatsu cāpi śastreṣu saṅgrāme bhṛśadāruṇe |\nsarvābādhāsu ghorāsu vedanābhyardito'pi vā",
+      "padas": 2
+    },
+    {
+      "n": 29,
+      "nEnd": 29,
+      "label": "12.29",
+      "speaker": null,
+      "iTrans": "smaran mamaitachcharitaM naro muchyeta sa~NkaTAt |\nmama prabhAvAtsiMhAdyA dasyavo vairiNastathA",
+      "devanagari": "स्मरन् ममैतच्चरितं नरो मुच्येत सङ्कटात् ।\nमम प्रभावात्सिंहाद्या दस्यवो वैरिणस्तथा",
+      "iast": "smaran mamaitaccaritaṃ naro mucyeta saṅkaṭāt |\nmama prabhāvātsiṃhādyā dasyavo vairiṇastathā",
+      "padas": 2
+    },
+    {
+      "n": 30,
+      "nEnd": 30,
+      "label": "12.30",
+      "speaker": null,
+      "iTrans": "dUrAdeva palAyante smaratashcharitaM mama",
+      "devanagari": "दूरादेव पलायन्ते स्मरतश्चरितं मम",
+      "iast": "dūrādeva palāyante smarataścaritaṃ mama",
+      "padas": 1
+    },
+    {
+      "n": 31,
+      "nEnd": 31,
+      "label": "12.31",
+      "speaker": "R^iShiruvAcha",
+      "iTrans": "R^iShiruvAcha",
+      "devanagari": "ऋषिरुवाच",
+      "iast": "ṛṣiruvāca",
+      "padas": 1
+    },
+    {
+      "n": 32,
+      "nEnd": 32,
+      "label": "12.32",
+      "speaker": null,
+      "iTrans": "ityuktvA sA bhagavatI chaNDikA chaNDavikramA",
+      "devanagari": "इत्युक्त्वा सा भगवती चण्डिका चण्डविक्रमा",
+      "iast": "ityuktvā sā bhagavatī caṇḍikā caṇḍavikramā",
+      "padas": 1
+    },
+    {
+      "n": 33,
+      "nEnd": 33,
+      "label": "12.33",
+      "speaker": null,
+      "iTrans": "pashyatAM sarvadevAnAM tatraivAntaradhIyata |\nte.api devA nirAta~NkAH svAdhikArAnyathA purA",
+      "devanagari": "पश्यतां सर्वदेवानां तत्रैवान्तरधीयत ।\nतेऽपि देवा निरातङ्काः स्वाधिकारान्यथा पुरा",
+      "iast": "paśyatāṃ sarvadevānāṃ tatraivāntaradhīyata |\nte'pi devā nirātaṅkāḥ svādhikārānyathā purā",
+      "padas": 2
+    },
+    {
+      "n": 34,
+      "nEnd": 34,
+      "label": "12.34",
+      "speaker": null,
+      "iTrans": "yaj~nabhAgabhujaH sarve chakrurvinihatArayaH |\ndaityAshcha devyA nihate shumbhe devaripau yudhi",
+      "devanagari": "यज्ञभागभुजः सर्वे चक्रुर्विनिहतारयः ।\nदैत्याश्च देव्या निहते शुम्भे देवरिपौ युधि",
+      "iast": "yajñabhāgabhujaḥ sarve cakrurvinihatārayaḥ |\ndaityāśca devyā nihate śumbhe devaripau yudhi",
+      "padas": 2
+    },
+    {
+      "n": 35,
+      "nEnd": 35,
+      "label": "12.35",
+      "speaker": null,
+      "iTrans": "jagadvidhvaMsake tasmin mahogre.atulavikrame |\nnishumbhe cha mahAvIrye sheShAH pAtAlamAyayuH",
+      "devanagari": "जगद्विध्वंसके तस्मिन् महोग्रेऽतुलविक्रमे ।\nनिशुम्भे च महावीर्ये शेषाः पातालमाययुः",
+      "iast": "jagadvidhvaṃsake tasmin mahogre'tulavikrame |\nniśumbhe ca mahāvīrye śeṣāḥ pātālamāyayuḥ",
+      "padas": 2
+    },
+    {
+      "n": 36,
+      "nEnd": 36,
+      "label": "12.36",
+      "speaker": null,
+      "iTrans": "evaM bhagavatI devI sA nityApi punaH punaH |\nsambhUya kurute bhUpa jagataH paripAlanam",
+      "devanagari": "एवं भगवती देवी सा नित्यापि पुनः पुनः ।\nसम्भूय कुरुते भूप जगतः परिपालनम्",
+      "iast": "evaṃ bhagavatī devī sā nityāpi punaḥ punaḥ |\nsambhūya kurute bhūpa jagataḥ paripālanam",
+      "padas": 2
+    },
+    {
+      "n": 37,
+      "nEnd": 37,
+      "label": "12.37",
+      "speaker": null,
+      "iTrans": "tayaitanmohyate vishvaM saiva vishvaM prasUyate |\nsA yAchitA cha vij~nAnaM tuShTA R^iddhiM prayachChati",
+      "devanagari": "तयैतन्मोह्यते विश्वं सैव विश्वं प्रसूयते ।\nसा याचिता च विज्ञानं तुष्टा ऋद्धिं प्रयच्छति",
+      "iast": "tayaitanmohyate viśvaṃ saiva viśvaṃ prasūyate |\nsā yācitā ca vijñānaṃ tuṣṭā ṛddhiṃ prayacchati",
+      "padas": 2
+    },
+    {
+      "n": 38,
+      "nEnd": 38,
+      "label": "12.38",
+      "speaker": null,
+      "iTrans": "vyAptaM tayaitatsakalaM brahmANDaM manujeshvara |\nmahAdevyA mahAkAlI mahAmArIsvarUpayA",
+      "devanagari": "व्याप्तं तयैतत्सकलं ब्रह्माण्डं मनुजेश्वर ।\nमहादेव्या महाकाली महामारीस्वरूपया",
+      "iast": "vyāptaṃ tayaitatsakalaṃ brahmāṇḍaṃ manujeśvara |\nmahādevyā mahākālī mahāmārīsvarūpayā",
+      "padas": 2
+    },
+    {
+      "n": 39,
+      "nEnd": 39,
+      "label": "12.39",
+      "speaker": null,
+      "iTrans": "saiva kAle mahAmArI saiva sR^iShTirbhavatyajA |\nsthitiM karoti bhUtAnAM saiva kAle sanAtanI",
+      "devanagari": "सैव काले महामारी सैव सृष्टिर्भवत्यजा ।\nस्थितिं करोति भूतानां सैव काले सनातनी",
+      "iast": "saiva kāle mahāmārī saiva sṛṣṭirbhavatyajā |\nsthitiṃ karoti bhūtānāṃ saiva kāle sanātanī",
+      "padas": 2
+    },
+    {
+      "n": 40,
+      "nEnd": 40,
+      "label": "12.40",
+      "speaker": null,
+      "iTrans": "bhavakAle nR^iNAM saiva lakShmIrvR^iddhipradA gR^ihe |\nsaivAbhAve tathAlakShmIrvinAshAyopajAyate",
+      "devanagari": "भवकाले नृणां सैव लक्ष्मीर्वृद्धिप्रदा गृहे ।\nसैवाभावे तथालक्ष्मीर्विनाशायोपजायते",
+      "iast": "bhavakāle nṛṇāṃ saiva lakṣmīrvṛddhipradā gṛhe |\nsaivābhāve tathālakṣmīrvināśāyopajāyate",
+      "padas": 2
+    },
+    {
+      "n": 41,
+      "nEnd": 41,
+      "label": "12.41",
+      "speaker": null,
+      "iTrans": "stutA sampUjitA puShpairgandhadhUpAdibhistathA |\ndadAti vittaM putrAMshcha matiM dharme gatiM shubhAm",
+      "devanagari": "स्तुता सम्पूजिता पुष्पैर्गन्धधूपादिभिस्तथा ।\nददाति वित्तं पुत्रांश्च मतिं धर्मे गतिं शुभाम्",
+      "iast": "stutā sampūjitā puṣpairgandhadhūpādibhistathā |\ndadāti vittaṃ putrāṃśca matiṃ dharme gatiṃ śubhām",
+      "padas": 2
+    }
+  ]
+}

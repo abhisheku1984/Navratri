@@ -1,0 +1,799 @@
+{
+  "collectionId": "navadurga",
+  "title": "Navadurga — The Nine Forms",
+  "intro": "Nine forms of the Goddess, worshipped across the nine days of Navratri. The nine names come from the Devi Kavacham, verses 3–5, which is imported and verified in this app's scripture library. The dhyana verses come from the traditional Navadurga Stotram as printed in Parayan Grantham. Colours, offerings and iconographic detail vary between regional traditions and are flagged as such rather than presented as fixed.",
+  "forms": [
+    {
+      "id": "navadurga-shailaputri",
+      "slug": "shailaputri",
+      "day": 1,
+      "nameDevanagari": "शैलपुत्री",
+      "nameHindi": "माँ शैलपुत्री",
+      "nameTransliterated": "Śailaputrī",
+      "meaning": "Daughter of the mountain",
+      "originStory": "Tradition holds that after Sati gave up her body at Daksha's sacrifice she was born again as Parvati, daughter of Himavat, king of the mountains. As the mountain's daughter she is Shailaputri. Her worship opens the Navadurga sequence and looks backwards to the Sati narrative that also explains the origin of the Shakti Peethas.",
+      "iconography": "Two arms. She rides a bull (Nandi) and carries a trident in the right hand and a lotus in the left. A half-moon adorns her crown. She is shown calm and unhurried rather than martial.",
+      "symbolism": [
+        {
+          "attribute": "Trident (trishula)",
+          "meaning": "The three gunas — sattva, rajas, tamas — held in balance, not destroyed."
+        },
+        {
+          "attribute": "Lotus",
+          "meaning": "Detachment: rooted in mud, untouched by it."
+        },
+        {
+          "attribute": "Bull / Nandi",
+          "meaning": "Steadiness and dharma; the vehicle links her to Shiva."
+        },
+        {
+          "attribute": "Half-moon",
+          "meaning": "Cycles of waxing and waning; time held lightly."
+        }
+      ],
+      "dhyanaVerse": {
+        "devanagari": "वन्दे वाञ्छितलाभाय चन्द्रार्धकृतशेखराम् । वृषारूढां शूलधरां शैलपुत्रीं यशस्विनीम् ॥ १ ॥",
+        "status": "imported",
+        "source": "Navadurga Stotram (traditional), as printed in Parayan Grantham",
+        "sourceFile": "scripts/sources/navadurga-stotram-sangrah.md",
+        "note": "Transcribed from the cited compilation, not from a critical edition. Recitation practice and wording differ between lineages."
+      },
+      "kavachamNameVerse": {
+        "verse": 3,
+        "devanagari": "प्रथमं शैलपुत्रीति द्वितीयं ब्रह्मचारिणी ।\nतृतीयं चन्द्रघण्टेति कूष्माण्डेति चतुर्थकम्",
+        "source": "Devi Kavacham (Durga Saptashati auxiliary recitation), verse 3"
+      },
+      "navarnaMantra": {
+        "devanagari": "ॐ ऐं ह्रीं क्लीं चामुण्डायै विच्चे",
+        "transliteration": "oṃ aiṃ hrīṃ klīṃ cāmuṇḍāyai vicce",
+        "meaning": "The nine-syllable (Navarna) mantra of Chandika, used across the Shakta traditions as the seed of the Saptashati recitation.",
+        "note": "Widely attested across traditions; bīja syllables are not translated word by word because they are not lexical words."
+      },
+      "colour": "White / red (varies by region)",
+      "colourNote": "White is common in northern calendars; some Bengali and Gujarati traditions assign a different colour to day one. The colour list is a devotional convention, not a scriptural rule.",
+      "offering": {
+        "flower": "Jasmine and white lotus (commonly offered)",
+        "bhog": "Pure ghee and milk preparations (commonly offered)",
+        "note": "Offerings vary by region, family and sampradaya. These are commonly reported, not prescribed."
+      },
+      "qualities": [
+        "Groundedness",
+        "Patience",
+        "Beginnings",
+        "Rooted strength"
+      ],
+      "chakra": "Muladhara (root) — in traditions that map the nine forms onto the chakras",
+      "planet": "Moon (in traditions that assign one)",
+      "scriptureRef": "The nine names are given in the Devi Kavacham, verses 3–5, which is part of the Saptashati's auxiliary recitation. See Scripture › Angas › Devi Kavacham.",
+      "familyStory": "Long ago, a queen of the mountains was given a daughter. The girl grew up strong and steady, like the hills themselves. When the time came she chose Shiva, who had nothing but ashes and a bull for company, because she saw that his quietness was not emptiness but depth. On the first day of Navratri we remember her: strength does not have to shout.",
+      "fiveMinuteRoutine": [
+        {
+          "step": "Minute 1",
+          "text": "Sit quietly. Say the name: Shailaputri — daughter of the mountain."
+        },
+        {
+          "step": "Minute 2",
+          "text": "Recite the dhyana shloka once, slowly."
+        },
+        {
+          "step": "Minute 3",
+          "text": "Recall one thing you are grateful to be grounded in."
+        },
+        {
+          "step": "Minute 4",
+          "text": "Offer a flower or a little water if you have one."
+        },
+        {
+          "step": "Minute 5",
+          "text": "Sit still and breathe. End with 'Jai Mata Di'."
+        }
+      ],
+      "regionalVariationNote": "Colours, offerings, the vehicle shown, the number of arms and the ritual sequence all vary between regions and lineages. This profile records the most widely attested version and flags variation rather than flattening it.",
+      "sampleContent": true
+    },
+    {
+      "id": "navadurga-brahmacharini",
+      "slug": "brahmacharini",
+      "day": 2,
+      "nameDevanagari": "ब्रह्मचारिणी",
+      "nameHindi": "माँ ब्रह्मचारिणी",
+      "nameTransliterated": "Brahmacāriṇī",
+      "meaning": "She who practises austerity; the ascetic",
+      "originStory": "Parvati undertook years of severe tapasya to win Shiva, eating nothing but bilva leaves and at last nothing at all. The form that remembers that discipline is Brahmacharini — barefoot, unmarried, absorbed.",
+      "iconography": "Two arms. She walks barefoot. In her hands are a japa mala (prayer beads) and a kamandalu (water pot) — the whole equipment of a student of the spirit.",
+      "symbolism": [
+        {
+          "attribute": "Japa mala",
+          "meaning": "Repetition as a discipline of attention."
+        },
+        {
+          "attribute": "Kamandalu",
+          "meaning": "Simplicity; the minimum needed to live and learn."
+        },
+        {
+          "attribute": "Bare feet",
+          "meaning": "Directness; nothing between the seeker and the ground."
+        },
+        {
+          "attribute": "Unmarried form",
+          "meaning": "Wholeness that is not defined by relationship."
+        }
+      ],
+      "dhyanaVerse": {
+        "devanagari": "दधाना करपद्माभ्यामक्षमाला कमण्डलू । देवी प्रसीदतु मयि ब्रह्मचारिण्यनुत्तमा ॥ २ ॥",
+        "status": "imported",
+        "source": "Navadurga Stotram (traditional), as printed in Parayan Grantham",
+        "sourceFile": "scripts/sources/navadurga-stotram-sangrah.md",
+        "note": "Transcribed from the cited compilation, not from a critical edition. Recitation practice and wording differ between lineages."
+      },
+      "kavachamNameVerse": {
+        "verse": 3,
+        "devanagari": "प्रथमं शैलपुत्रीति द्वितीयं ब्रह्मचारिणी ।\nतृतीयं चन्द्रघण्टेति कूष्माण्डेति चतुर्थकम्",
+        "source": "Devi Kavacham (Durga Saptashati auxiliary recitation), verse 3"
+      },
+      "navarnaMantra": {
+        "devanagari": "ॐ ऐं ह्रीं क्लीं चामुण्डायै विच्चे",
+        "transliteration": "oṃ aiṃ hrīṃ klīṃ cāmuṇḍāyai vicce",
+        "meaning": "The nine-syllable (Navarna) mantra of Chandika, used across the Shakta traditions as the seed of the Saptashati recitation.",
+        "note": "Widely attested across traditions; bīja syllables are not translated word by word because they are not lexical words."
+      },
+      "colour": "Green (varies by region)",
+      "colourNote": "Colour assignments for the nine days differ between regional calendars.",
+      "offering": {
+        "flower": "White flowers and bilva leaves (commonly offered)",
+        "bhog": "Sugar and fruit (commonly offered)",
+        "note": "Offerings vary by region, family and sampradaya. These are commonly reported, not prescribed."
+      },
+      "qualities": [
+        "Discipline",
+        "Focus",
+        "Simplicity",
+        "Perseverance"
+      ],
+      "chakra": "Svadhisthana (sacral) — in traditions that map the nine forms onto the chakras",
+      "planet": "Mars (in traditions that assign one)",
+      "scriptureRef": "Devi Kavacham, verse 3 (name list).",
+      "familyStory": "Parvati wanted to learn. She practiced every day, even when it was hard, and even when no one was watching. She did not want a prize; she wanted to become someone who could be trusted with something great. On the second day we remember that practising a little, every day, is a kind of worship too.",
+      "fiveMinuteRoutine": [
+        {
+          "step": "Minute 1",
+          "text": "Name the form: Brahmacharini — the one who practises."
+        },
+        {
+          "step": "Minute 2",
+          "text": "Recite the dhyana shloka once."
+        },
+        {
+          "step": "Minute 3",
+          "text": "Choose one small thing to give up today (a snack, a scroll, a complaint)."
+        },
+        {
+          "step": "Minute 4",
+          "text": "Say the Navarna mantra nine times, or any mantra you know."
+        },
+        {
+          "step": "Minute 5",
+          "text": "Sit quietly. End with 'Jai Mata Di'."
+        }
+      ],
+      "regionalVariationNote": "Colours, offerings, the vehicle shown, the number of arms and the ritual sequence all vary between regions and lineages. This profile records the most widely attested version and flags variation rather than flattening it.",
+      "sampleContent": true
+    },
+    {
+      "id": "navadurga-chandraghanta",
+      "slug": "chandraghanta",
+      "day": 3,
+      "nameDevanagari": "चन्द्रघण्टा",
+      "nameHindi": "माँ चन्द्रघण्टा",
+      "nameTransliterated": "Candraghaṇṭā",
+      "meaning": "She whose bell is the half-moon",
+      "originStory": "When Parvati prepared to meet Shiva she took a fierce form to match the intensity of the meeting. On her forehead she placed a half-moon shaped like a bell — ghanta — whose sound terrifies those who would do harm and reassures those who seek shelter.",
+      "iconography": "Ten arms. She rides a lion or tiger. Weapons fill most of her hands; two are raised in blessing and protection. A crescent bell sits on her brow.",
+      "symbolism": [
+        {
+          "attribute": "Crescent bell",
+          "meaning": "Sound as a boundary: warning to harm, welcome to the seeker."
+        },
+        {
+          "attribute": "Ten arms",
+          "meaning": "Capacity — the ability to hold many things at once without dropping any."
+        },
+        {
+          "attribute": "Lion / tiger",
+          "meaning": "Fear mastered and put to work, not fear denied."
+        },
+        {
+          "attribute": "Blessing hands",
+          "meaning": "Power that ends in generosity."
+        }
+      ],
+      "dhyanaVerse": {
+        "devanagari": "पिण्डजप्रवरारूढा चण्डकोपास्त्रकैर्युता । प्रसादं तनुते मह्यं चन्द्रघण्टेति विश्रुता ॥ ३ ॥",
+        "status": "imported",
+        "source": "Navadurga Stotram (traditional), as printed in Parayan Grantham",
+        "sourceFile": "scripts/sources/navadurga-stotram-sangrah.md",
+        "note": "Transcribed from the cited compilation, not from a critical edition. Recitation practice and wording differ between lineages."
+      },
+      "kavachamNameVerse": {
+        "verse": 3,
+        "devanagari": "प्रथमं शैलपुत्रीति द्वितीयं ब्रह्मचारिणी ।\nतृतीयं चन्द्रघण्टेति कूष्माण्डेति चतुर्थकम्",
+        "source": "Devi Kavacham (Durga Saptashati auxiliary recitation), verse 3"
+      },
+      "navarnaMantra": {
+        "devanagari": "ॐ ऐं ह्रीं क्लीं चामुण्डायै विच्चे",
+        "transliteration": "oṃ aiṃ hrīṃ klīṃ cāmuṇḍāyai vicce",
+        "meaning": "The nine-syllable (Navarna) mantra of Chandika, used across the Shakta traditions as the seed of the Saptashati recitation.",
+        "note": "Widely attested across traditions; bīja syllables are not translated word by word because they are not lexical words."
+      },
+      "colour": "Grey / yellow (varies by region)",
+      "colourNote": "Colour assignments differ between regional calendars.",
+      "offering": {
+        "flower": "Yellow and orange flowers (commonly offered)",
+        "bhog": "Milk and rice kheer (commonly offered)",
+        "note": "Offerings vary by region, family and sampradaya. These are commonly reported, not prescribed."
+      },
+      "qualities": [
+        "Courage",
+        "Alertness",
+        "Readiness",
+        "Fearlessness"
+      ],
+      "chakra": "Manipura (solar plexus) — in traditions that map the nine forms onto the chakras",
+      "planet": "Venus (in traditions that assign one)",
+      "scriptureRef": "Devi Kavacham, verse 3 (name list).",
+      "familyStory": "Parvati put a little bell on her forehead. Its sound was loud enough to warn away anything that meant harm, but gentle enough that a child could sleep through it. Courage, she taught, is not the absence of fear. It is hearing the bell, staying awake, and staying kind.",
+      "fiveMinuteRoutine": [
+        {
+          "step": "Minute 1",
+          "text": "Name the form: Chandraghanta — the bell of the moon."
+        },
+        {
+          "step": "Minute 2",
+          "text": "Recite the dhyana shloka once."
+        },
+        {
+          "step": "Minute 3",
+          "text": "Name one fear out loud. Say it plainly, without shame."
+        },
+        {
+          "step": "Minute 4",
+          "text": "Say the mantra nine times."
+        },
+        {
+          "step": "Minute 5",
+          "text": "Breathe slowly and end with 'Jai Mata Di'."
+        }
+      ],
+      "regionalVariationNote": "Colours, offerings, the vehicle shown, the number of arms and the ritual sequence all vary between regions and lineages. This profile records the most widely attested version and flags variation rather than flattening it.",
+      "sampleContent": true
+    },
+    {
+      "id": "navadurga-kushmanda",
+      "slug": "kushmanda",
+      "day": 4,
+      "nameDevanagari": "कूष्माण्डा",
+      "nameHindi": "माँ कूष्माण्डा",
+      "nameTransliterated": "Kūṣmāṇḍā",
+      "meaning": "She whose warmth made the cosmic egg",
+      "originStory": "Before there was light there was darkness, and in that darkness the Goddess smiled. Tradition says that smile was the first warmth, and that from it the universe came into being. Kushmanda is that creative warmth, and she is said to live in the heart of the sun.",
+      "iconography": "Eight arms — hence the folk reading 'Ku-ushma-anda', the one of the eightfold cosmic egg. She rides a lion. She holds a kamandalu, bow, arrow, lotus, amrita vessel, discus and mace, and a rosary that grants every siddhi.",
+      "symbolism": [
+        {
+          "attribute": "Eight arms",
+          "meaning": "The directions; completeness of creative capacity."
+        },
+        {
+          "attribute": "Amrita vessel",
+          "meaning": "Life sustained, not merely created."
+        },
+        {
+          "attribute": "Rosary of siddhis",
+          "meaning": "That practice, not luck, yields ability."
+        },
+        {
+          "attribute": "Lion",
+          "meaning": "Creative energy that is not timid."
+        }
+      ],
+      "dhyanaVerse": {
+        "devanagari": "सुरासम्पूर्णकलशं रुधिराप्लुतमेव च । दधाना हस्तपद्माभ्यां कूष्माण्डा शुभदास्तु मे ॥ ४ ॥",
+        "status": "imported",
+        "source": "Navadurga Stotram (traditional), as printed in Parayan Grantham",
+        "sourceFile": "scripts/sources/navadurga-stotram-sangrah.md",
+        "note": "Transcribed from the cited compilation, not from a critical edition. Recitation practice and wording differ between lineages."
+      },
+      "kavachamNameVerse": {
+        "verse": 3,
+        "devanagari": "प्रथमं शैलपुत्रीति द्वितीयं ब्रह्मचारिणी ।\nतृतीयं चन्द्रघण्टेति कूष्माण्डेति चतुर्थकम्",
+        "source": "Devi Kavacham (Durga Saptashati auxiliary recitation), verse 3"
+      },
+      "navarnaMantra": {
+        "devanagari": "ॐ ऐं ह्रीं क्लीं चामुण्डायै विच्चे",
+        "transliteration": "oṃ aiṃ hrīṃ klīṃ cāmuṇḍāyai vicce",
+        "meaning": "The nine-syllable (Navarna) mantra of Chandika, used across the Shakta traditions as the seed of the Saptashati recitation.",
+        "note": "Widely attested across traditions; bīja syllables are not translated word by word because they are not lexical words."
+      },
+      "colour": "Orange (varies by region)",
+      "colourNote": "Colour assignments differ between regional calendars.",
+      "offering": {
+        "flower": "Malati / jasmine (commonly offered)",
+        "bhog": "Malpua (commonly offered)",
+        "note": "Offerings vary by region, family and sampradaya. These are commonly reported, not prescribed."
+      },
+      "qualities": [
+        "Creativity",
+        "Warmth",
+        "Vitality",
+        "Generosity"
+      ],
+      "chakra": "Anahata (heart) — in traditions that map the nine forms onto the chakras",
+      "planet": "Sun (in traditions that assign one)",
+      "scriptureRef": "Devi Kavacham, verse 3 (name list, given as Kushmanda).",
+      "familyStory": "Before anything existed, there was dark. Then the Goddess smiled — and the smile was warm, and the warmth became light, and the light became everything. On the fourth day we remember that the world began with warmth, and that a warm face is a small act of creation.",
+      "fiveMinuteRoutine": [
+        {
+          "step": "Minute 1",
+          "text": "Name the form: Kushmanda — the warmth that made the world."
+        },
+        {
+          "step": "Minute 2",
+          "text": "Recite the dhyana shloka once."
+        },
+        {
+          "step": "Minute 3",
+          "text": "Think of one thing you made — a meal, a drawing, a kind sentence."
+        },
+        {
+          "step": "Minute 4",
+          "text": "Say the mantra nine times."
+        },
+        {
+          "step": "Minute 5",
+          "text": "Sit in the warmth. End with 'Jai Mata Di'."
+        }
+      ],
+      "regionalVariationNote": "Colours, offerings, the vehicle shown, the number of arms and the ritual sequence all vary between regions and lineages. This profile records the most widely attested version and flags variation rather than flattening it.",
+      "sampleContent": true
+    },
+    {
+      "id": "navadurga-skandamata",
+      "slug": "skandamata",
+      "day": 5,
+      "nameDevanagari": "स्कन्दमाता",
+      "nameHindi": "माँ स्कन्दमाता",
+      "nameTransliterated": "Skandamātā",
+      "meaning": "Mother of Skanda (Kartikeya)",
+      "originStory": "The Gods needed a commander. From Shiva and Parvati was born Skanda, also called Kartikeya, who led the armies of the devas. The Goddess as his mother is Skandamata — power expressed as nurture.",
+      "iconography": "Four arms. She sits on a lotus (padmasana) and holds the infant Skanda on her lap. Two hands grant blessing; the lotus she holds is in bloom.",
+      "symbolism": [
+        {
+          "attribute": "Infant Skanda",
+          "meaning": "Strength that is carried before it is used."
+        },
+        {
+          "attribute": "Lotus seat",
+          "meaning": "Holding the world without being stained by it."
+        },
+        {
+          "attribute": "Two blessing hands",
+          "meaning": "Protection offered before it is asked for."
+        },
+        {
+          "attribute": "Mother-and-child",
+          "meaning": "The Goddess as nurturer, not only as warrior."
+        }
+      ],
+      "dhyanaVerse": {
+        "devanagari": "सिंहासनगता नित्यं पद्माश्रितकरद्वया । शुभदास्तु सदा देवी स्कन्दमाता यशस्विनी ॥ ५ ॥",
+        "status": "imported",
+        "source": "Navadurga Stotram (traditional), as printed in Parayan Grantham",
+        "sourceFile": "scripts/sources/navadurga-stotram-sangrah.md",
+        "note": "Transcribed from the cited compilation, not from a critical edition. Recitation practice and wording differ between lineages."
+      },
+      "kavachamNameVerse": {
+        "verse": 4,
+        "devanagari": "पञ्चमं स्कन्दमातेति षष्ठं कात्यायनी तथा ।\nसप्तमं कालरात्रिश्च महागौरीति चाष्टमम्",
+        "source": "Devi Kavacham (Durga Saptashati auxiliary recitation), verse 4"
+      },
+      "navarnaMantra": {
+        "devanagari": "ॐ ऐं ह्रीं क्लीं चामुण्डायै विच्चे",
+        "transliteration": "oṃ aiṃ hrīṃ klīṃ cāmuṇḍāyai vicce",
+        "meaning": "The nine-syllable (Navarna) mantra of Chandika, used across the Shakta traditions as the seed of the Saptashati recitation.",
+        "note": "Widely attested across traditions; bīja syllables are not translated word by word because they are not lexical words."
+      },
+      "colour": "White (varies by region)",
+      "colourNote": "Colour assignments differ between regional calendars.",
+      "offering": {
+        "flower": "White lotus (commonly offered)",
+        "bhog": "Bananas (commonly offered)",
+        "note": "Offerings vary by region, family and sampradaya. These are commonly reported, not prescribed."
+      },
+      "qualities": [
+        "Nurture",
+        "Protection",
+        "Tenderness",
+        "Teaching"
+      ],
+      "chakra": "Vishuddha (throat) — in traditions that map the nine forms onto the chakras",
+      "planet": "Mercury (in traditions that assign one)",
+      "scriptureRef": "Devi Kavacham, verse 4 (name list).",
+      "familyStory": "The Goddess had a son called Skanda, who grew up to lead the armies of the gods. But before he was a general he was a baby, and she held him. On the fifth day we remember that every strong person was once carried by someone, and that carrying is also a kind of strength.",
+      "fiveMinuteRoutine": [
+        {
+          "step": "Minute 1",
+          "text": "Name the form: Skandamata — mother of Skanda."
+        },
+        {
+          "step": "Minute 2",
+          "text": "Recite the dhyana shloka once."
+        },
+        {
+          "step": "Minute 3",
+          "text": "Remember someone who carried you. Say their name."
+        },
+        {
+          "step": "Minute 4",
+          "text": "Say the mantra nine times."
+        },
+        {
+          "step": "Minute 5",
+          "text": "Sit quietly. End with 'Jai Mata Di'."
+        }
+      ],
+      "regionalVariationNote": "Colours, offerings, the vehicle shown, the number of arms and the ritual sequence all vary between regions and lineages. This profile records the most widely attested version and flags variation rather than flattening it.",
+      "sampleContent": true
+    },
+    {
+      "id": "navadurga-katyayani",
+      "slug": "katyayani",
+      "day": 6,
+      "nameDevanagari": "कात्यायनी",
+      "nameHindi": "माँ कात्यायनी",
+      "nameTransliterated": "Kātyāyanī",
+      "meaning": "Daughter of the sage Katyayana",
+      "originStory": "The sage Katyayana performed long austerities asking that the Goddess be born in his house. She consented, and was born as his daughter Katyayani. The gopis of Vraja are said to have worshipped this same form to win Krishna. She is the warrior aspect closest to the Mahishasura narrative.",
+      "iconography": "Many arms, mounted on a lion. She carries weapons and raises a hand of blessing. In temple iconography she is among the most martial of the nine.",
+      "symbolism": [
+        {
+          "attribute": "Sword / weapons",
+          "meaning": "Justice; the willingness to act."
+        },
+        {
+          "attribute": "Lion mount",
+          "meaning": "Righteous anger, disciplined."
+        },
+        {
+          "attribute": "Lotus in one hand",
+          "meaning": "The purpose of the fight is peace."
+        },
+        {
+          "attribute": "Born of a sage's tapasya",
+          "meaning": "That devotion can invite the divine to appear."
+        }
+      ],
+      "dhyanaVerse": {
+        "devanagari": "चन्द्रहासोज्ज्वलकरा शार्दूलवरवाहना । कात्यायनी शुभं दद्याद्देवी दानवघातिनी ॥ ६ ॥",
+        "status": "imported",
+        "source": "Navadurga Stotram (traditional), as printed in Parayan Grantham",
+        "sourceFile": "scripts/sources/navadurga-stotram-sangrah.md",
+        "note": "Transcribed from the cited compilation, not from a critical edition. Recitation practice and wording differ between lineages."
+      },
+      "kavachamNameVerse": {
+        "verse": 4,
+        "devanagari": "पञ्चमं स्कन्दमातेति षष्ठं कात्यायनी तथा ।\nसप्तमं कालरात्रिश्च महागौरीति चाष्टमम्",
+        "source": "Devi Kavacham (Durga Saptashati auxiliary recitation), verse 4"
+      },
+      "navarnaMantra": {
+        "devanagari": "ॐ ऐं ह्रीं क्लीं चामुण्डायै विच्चे",
+        "transliteration": "oṃ aiṃ hrīṃ klīṃ cāmuṇḍāyai vicce",
+        "meaning": "The nine-syllable (Navarna) mantra of Chandika, used across the Shakta traditions as the seed of the Saptashati recitation.",
+        "note": "Widely attested across traditions; bīja syllables are not translated word by word because they are not lexical words."
+      },
+      "colour": "Red (varies by region)",
+      "colourNote": "Colour assignments differ between regional calendars.",
+      "offering": {
+        "flower": "Red hibiscus (commonly offered)",
+        "bhog": "Honey (commonly offered)",
+        "note": "Offerings vary by region, family and sampradaya. These are commonly reported, not prescribed."
+      },
+      "qualities": [
+        "Justice",
+        "Resolve",
+        "Righteous anger",
+        "Victory"
+      ],
+      "chakra": "Ajna (third eye) — in traditions that map the nine forms onto the chakras",
+      "planet": "Jupiter (in traditions that assign one)",
+      "scriptureRef": "Devi Kavacham, verse 4 (name list). See also Durga Saptashati ch. 2–3.",
+      "familyStory": "A wise old man called Katyayana prayed and prayed that the Goddess would be born in his house. She said yes. She came as a daughter, and she grew up to fight a buffalo demon who thought he could not be beaten. On the sixth day we remember that the world is changed by people who decide that something wrong will not stay wrong.",
+      "fiveMinuteRoutine": [
+        {
+          "step": "Minute 1",
+          "text": "Name the form: Katyayani — daughter of the sage Katyayana."
+        },
+        {
+          "step": "Minute 2",
+          "text": "Recite the dhyana shloka once."
+        },
+        {
+          "step": "Minute 3",
+          "text": "Name one unfair thing you have seen. Do not fix it yet; just see it."
+        },
+        {
+          "step": "Minute 4",
+          "text": "Say the mantra nine times."
+        },
+        {
+          "step": "Minute 5",
+          "text": "Sit quietly. End with 'Jai Mata Di'."
+        }
+      ],
+      "regionalVariationNote": "Colours, offerings, the vehicle shown, the number of arms and the ritual sequence all vary between regions and lineages. This profile records the most widely attested version and flags variation rather than flattening it.",
+      "sampleContent": true
+    },
+    {
+      "id": "navadurga-kalaratri",
+      "slug": "kalaratri",
+      "day": 7,
+      "nameDevanagari": "कालरात्रि",
+      "nameHindi": "माँ कालरात्रि",
+      "nameTransliterated": "Kālarātri",
+      "meaning": "The dark night; she who ends time's terror",
+      "originStory": "In the battle against the asuras the Goddess became dark and terrible, and in that form she destroyed what could not be reached by gentleness. Kalaratri is the darkest of the nine and, paradoxically, the one whose devotees are said to fear nothing.",
+      "iconography": "Dark-complexioned, one braid of hair, riding a donkey. She has a lolling tongue, a garland of lightning, and iron ornaments. Her right hands bless and dispel fear even while her left hands wield.",
+      "symbolism": [
+        {
+          "attribute": "Darkness",
+          "meaning": "Not evil but the unknown; the night that hides and also shelters."
+        },
+        {
+          "attribute": "Donkey mount",
+          "meaning": "The unglamorous vehicle; power without display."
+        },
+        {
+          "attribute": "Blessing right hands",
+          "meaning": "The terror is not the point; protection is."
+        },
+        {
+          "attribute": "Single braid",
+          "meaning": "Renunciation of adornment."
+        }
+      ],
+      "dhyanaVerse": {
+        "devanagari": "एकवेणी जपाकर्णपूर नग्ना खरास्थिता । लम्बोष्ठी कर्णिकाकर्णी तैलाभ्यक्तशरीरिणी ॥ वामपादोल्लसल्लोहलताकण्टकभूषणा । वर्धन्मूर्धध्वजा कृष्णा कालरात्रिर्भयङ्करी ॥ ७ ॥",
+        "status": "imported",
+        "source": "Navadurga Stotram (traditional), as printed in Parayan Grantham",
+        "sourceFile": "scripts/sources/navadurga-stotram-sangrah.md",
+        "note": "Transcribed from the cited compilation, not from a critical edition. Recitation practice and wording differ between lineages."
+      },
+      "kavachamNameVerse": {
+        "verse": 4,
+        "devanagari": "पञ्चमं स्कन्दमातेति षष्ठं कात्यायनी तथा ।\nसप्तमं कालरात्रिश्च महागौरीति चाष्टमम्",
+        "source": "Devi Kavacham (Durga Saptashati auxiliary recitation), verse 4"
+      },
+      "navarnaMantra": {
+        "devanagari": "ॐ ऐं ह्रीं क्लीं चामुण्डायै विच्चे",
+        "transliteration": "oṃ aiṃ hrīṃ klīṃ cāmuṇḍāyai vicce",
+        "meaning": "The nine-syllable (Navarna) mantra of Chandika, used across the Shakta traditions as the seed of the Saptashati recitation.",
+        "note": "Widely attested across traditions; bīja syllables are not translated word by word because they are not lexical words."
+      },
+      "colour": "Blue / black (varies by region)",
+      "colourNote": "Kalaratri is the form whose colour and ritual treatment vary most between traditions. Some families avoid red offerings on this day; others do not. Follow your own family practice.",
+      "offering": {
+        "flower": "Blue or violet flowers; some traditions offer night-blooming flowers",
+        "bhog": "Jaggery (gur) — commonly offered, with practice varying by family",
+        "note": "Offerings vary by region, family and sampradaya. These are commonly reported, not prescribed."
+      },
+      "qualities": [
+        "Fearlessness",
+        "Facing the dark",
+        "Transformation",
+        "Dissolution of ego"
+      ],
+      "chakra": "Sahasrara (crown) — in traditions that map the nine forms onto the chakras",
+      "planet": "Saturn (in traditions that assign one)",
+      "scriptureRef": "Devi Kavacham, verse 4 (name list). Cf. Saptashati ch. 7 (Chamunda).",
+      "familyStory": "There is a form of the Goddess who is dark, and many people are frightened of her. But look closely at her hands: two of them are always open, giving and protecting. On the seventh day we remember that the dark is not the enemy. The enemy is refusing to look.",
+      "fiveMinuteRoutine": [
+        {
+          "step": "Minute 1",
+          "text": "Name the form: Kalaratri — the dark night who protects."
+        },
+        {
+          "step": "Minute 2",
+          "text": "Recite the dhyana shloka once."
+        },
+        {
+          "step": "Minute 3",
+          "text": "Sit in the dark for a moment, or close your eyes. Breathe."
+        },
+        {
+          "step": "Minute 4",
+          "text": "Say the mantra nine times."
+        },
+        {
+          "step": "Minute 5",
+          "text": "Say 'Jai Mata Di' and open your eyes."
+        }
+      ],
+      "regionalVariationNote": "Colours, offerings, the vehicle shown, the number of arms and the ritual sequence all vary between regions and lineages. This profile records the most widely attested version and flags variation rather than flattening it.",
+      "sampleContent": true
+    },
+    {
+      "id": "navadurga-mahagauri",
+      "slug": "mahagauri",
+      "day": 8,
+      "nameDevanagari": "महागौरी",
+      "nameHindi": "माँ महागौरी",
+      "nameTransliterated": "Mahāgaurī",
+      "meaning": "The exceedingly fair one",
+      "originStory": "Parvati's tapasya left her covered in dust and ash. Shiva cleansed her in the Ganga, and she became radiant white. Mahagauri is that restoration — the form that appears after the work is done and the grime is washed away.",
+      "iconography": "Four arms, riding a bull. She holds a trident and a damaru; her other hands bless and protect. She is depicted in white, calm and luminous.",
+      "symbolism": [
+        {
+          "attribute": "White",
+          "meaning": "Purity recovered, not purity never lost."
+        },
+        {
+          "attribute": "Damaru drum",
+          "meaning": "Rhythm; the heartbeat of practice."
+        },
+        {
+          "attribute": "Bull mount",
+          "meaning": "Calm strength, domesticated without being tamed."
+        },
+        {
+          "attribute": "Trident",
+          "meaning": "Balance of the three gunas, still held."
+        }
+      ],
+      "dhyanaVerse": {
+        "devanagari": "श्वेते वृषे समारूढा श्वेताम्बरधरा शुचिः । महागौरी शुभं दद्यान्महादेवप्रमोददा ॥ ८ ॥",
+        "status": "imported",
+        "source": "Navadurga Stotram (traditional), as printed in Parayan Grantham",
+        "sourceFile": "scripts/sources/navadurga-stotram-sangrah.md",
+        "note": "Transcribed from the cited compilation, not from a critical edition. Recitation practice and wording differ between lineages."
+      },
+      "kavachamNameVerse": {
+        "verse": 4,
+        "devanagari": "पञ्चमं स्कन्दमातेति षष्ठं कात्यायनी तथा ।\nसप्तमं कालरात्रिश्च महागौरीति चाष्टमम्",
+        "source": "Devi Kavacham (Durga Saptashati auxiliary recitation), verse 4"
+      },
+      "navarnaMantra": {
+        "devanagari": "ॐ ऐं ह्रीं क्लीं चामुण्डायै विच्चे",
+        "transliteration": "oṃ aiṃ hrīṃ klīṃ cāmuṇḍāyai vicce",
+        "meaning": "The nine-syllable (Navarna) mantra of Chandika, used across the Shakta traditions as the seed of the Saptashati recitation.",
+        "note": "Widely attested across traditions; bīja syllables are not translated word by word because they are not lexical words."
+      },
+      "colour": "Pink (varies by region)",
+      "colourNote": "Colour assignments differ between regional calendars.",
+      "offering": {
+        "flower": "White and pink flowers; jasmine (commonly offered)",
+        "bhog": "Coconut (commonly offered)",
+        "note": "Offerings vary by region, family and sampradaya. These are commonly reported, not prescribed."
+      },
+      "qualities": [
+        "Purity",
+        "Calm",
+        "Renewal",
+        "Compassion"
+      ],
+      "chakra": "Varies by tradition",
+      "planet": "Varies by tradition",
+      "scriptureRef": "Devi Kavacham, verse 4–5 (name list).",
+      "familyStory": "After years of hard work in the forest, Parvati was covered in dust. Shiva bathed her in the river and she shone white and bright again. On the eighth day we remember that you can always be cleaned up. Nothing is too dirty to wash.",
+      "fiveMinuteRoutine": [
+        {
+          "step": "Minute 1",
+          "text": "Name the form: Mahagauri — the radiant one."
+        },
+        {
+          "step": "Minute 2",
+          "text": "Recite the dhyana shloka once."
+        },
+        {
+          "step": "Minute 3",
+          "text": "Wash your hands slowly. Let it be a small ritual."
+        },
+        {
+          "step": "Minute 4",
+          "text": "Say the mantra nine times."
+        },
+        {
+          "step": "Minute 5",
+          "text": "Sit quietly. End with 'Jai Mata Di'."
+        }
+      ],
+      "regionalVariationNote": "Colours, offerings, the vehicle shown, the number of arms and the ritual sequence all vary between regions and lineages. This profile records the most widely attested version and flags variation rather than flattening it.",
+      "sampleContent": true
+    },
+    {
+      "id": "navadurga-siddhidatri",
+      "slug": "siddhidatri",
+      "day": 9,
+      "nameDevanagari": "सिद्धिदात्री",
+      "nameHindi": "माँ सिद्धिदात्री",
+      "nameTransliterated": "Siddhidātrī",
+      "meaning": "Giver of accomplishments",
+      "originStory": "The last of the nine is the one who gives the fruit of the practice. Siddha, gandharva, yaksha, asura and deva alike are said to serve her. Tradition says that Shiva himself attained the form of Ardhanarishvara through her grace.",
+      "iconography": "Four arms, seated on a lotus (in some traditions riding a lion). She holds a lotus, a mace, a conch and a discus.",
+      "symbolism": [
+        {
+          "attribute": "Lotus",
+          "meaning": "Attainment that remains unstained."
+        },
+        {
+          "attribute": "Conch",
+          "meaning": "The sounded truth; announcement."
+        },
+        {
+          "attribute": "Discus and mace",
+          "meaning": "That accomplishment still requires discipline."
+        },
+        {
+          "attribute": "Seated calm",
+          "meaning": "Arrival is not frantic."
+        }
+      ],
+      "dhyanaVerse": {
+        "devanagari": "सिद्धगन्धर्वयक्षाद्यैरसुरैरमरैरपि । सेव्यमाना सदा भूयात् सिद्धिदा सिद्धिदायिनी ॥ ९ ॥",
+        "status": "imported",
+        "source": "Navadurga Stotram (traditional), as printed in Parayan Grantham",
+        "sourceFile": "scripts/sources/navadurga-stotram-sangrah.md",
+        "note": "Transcribed from the cited compilation, not from a critical edition. Recitation practice and wording differ between lineages."
+      },
+      "kavachamNameVerse": {
+        "verse": 5,
+        "devanagari": "नवमं सिद्धिदात्री च नवदुर्गाः प्रकीर्तिताः ।\nउक्तान्येतानि नामानि ब्रह्मणैव महात्मना",
+        "source": "Devi Kavacham (Durga Saptashati auxiliary recitation), verse 5"
+      },
+      "navarnaMantra": {
+        "devanagari": "ॐ ऐं ह्रीं क्लीं चामुण्डायै विच्चे",
+        "transliteration": "oṃ aiṃ hrīṃ klīṃ cāmuṇḍāyai vicce",
+        "meaning": "The nine-syllable (Navarna) mantra of Chandika, used across the Shakta traditions as the seed of the Saptashati recitation.",
+        "note": "Widely attested across traditions; bīja syllables are not translated word by word because they are not lexical words."
+      },
+      "colour": "Sky blue / purple (varies by region)",
+      "colourNote": "Colour assignments differ between regional calendars.",
+      "offering": {
+        "flower": "Blue and white flowers (commonly offered)",
+        "bhog": "Sesame seeds (til) and jaggery (commonly offered)",
+        "note": "Offerings vary by region, family and sampradaya. These are commonly reported, not prescribed."
+      },
+      "qualities": [
+        "Fulfilment",
+        "Wisdom",
+        "Grace",
+        "Completion"
+      ],
+      "chakra": "Varies by tradition",
+      "planet": "Varies by tradition",
+      "scriptureRef": "Devi Kavacham, verse 5 (name list). Cf. Saptashati ch. 12 (the Goddess's boons).",
+      "familyStory": "On the ninth day the Goddess gives what the practice was for. Not magic — ripeness. Like fruit that has had exactly enough sun. On the last day of Navratri we do not ask for more; we say thank you for what has already grown.",
+      "fiveMinuteRoutine": [
+        {
+          "step": "Minute 1",
+          "text": "Name the form: Siddhidatri — giver of the fruit."
+        },
+        {
+          "step": "Minute 2",
+          "text": "Recite the dhyana shloka once."
+        },
+        {
+          "step": "Minute 3",
+          "text": "List three things that have ripened in your life this year."
+        },
+        {
+          "step": "Minute 4",
+          "text": "Say the mantra nine times."
+        },
+        {
+          "step": "Minute 5",
+          "text": "Sit in gratitude. End with 'Jai Mata Di'."
+        }
+      ],
+      "regionalVariationNote": "Colours, offerings, the vehicle shown, the number of arms and the ritual sequence all vary between regions and lineages. This profile records the most widely attested version and flags variation rather than flattening it.",
+      "sampleContent": true
+    }
+  ]
+}

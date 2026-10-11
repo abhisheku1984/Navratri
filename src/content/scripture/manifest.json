@@ -1,0 +1,279 @@
+{
+  "textId": "durga-saptashati",
+  "titleSanskrit": "श्रीदुर्गासप्तशती / देवी माहात्म्यम्",
+  "titleIast": "Śrī Durgā Saptāśatī / Devī Māhātmyam",
+  "titleEnglish": "Durga Saptashati (Devi Mahatmya)",
+  "chapters": [
+    {
+      "id": "ch-01",
+      "number": 1,
+      "slug": "madhu-kaitabha-vadha",
+      "titleSanskrit": "मधुकैटभवधो नाम प्रथमोऽध्यायः",
+      "titleIast": "madhukaiṭabhavadho nāma prathamo'dhyāyaḥ",
+      "titleEnglish": "Slaying of Madhu and Kaitabha",
+      "charitra": "prathama",
+      "charitraLabel": "Prathama Charitra",
+      "presidingDeity": "Mahakali",
+      "verseUnitCount": 104,
+      "traditionalVerseCount": 104,
+      "markandeyaPuranaChapter": 81
+    },
+    {
+      "id": "ch-02",
+      "number": 2,
+      "slug": "mahishasura-sainya-vadha",
+      "titleSanskrit": "महिषासुरसैन्यवधो नाम द्वितीयोऽध्यायः",
+      "titleIast": "mahiṣāsurasainyavadho nāma dvitīyo'dhyāyaḥ",
+      "titleEnglish": "Slaying of Mahishasura's armies",
+      "charitra": "madhyama",
+      "charitraLabel": "Madhyama Charitra",
+      "presidingDeity": "Mahalakshmi",
+      "verseUnitCount": 69,
+      "traditionalVerseCount": 69,
+      "markandeyaPuranaChapter": 82
+    },
+    {
+      "id": "ch-03",
+      "number": 3,
+      "slug": "mahishasura-vadha",
+      "titleSanskrit": "महिषासुरवधो नाम तृतीयोऽध्यायः",
+      "titleIast": "mahiṣāsuravadho nāma tṛtīyo'dhyāyaḥ",
+      "titleEnglish": "Slaying of Mahishasura",
+      "charitra": "madhyama",
+      "charitraLabel": "Madhyama Charitra",
+      "presidingDeity": "Mahalakshmi",
+      "verseUnitCount": 44,
+      "traditionalVerseCount": 44,
+      "markandeyaPuranaChapter": 83
+    },
+    {
+      "id": "ch-04",
+      "number": 4,
+      "slug": "shakradi-stuti",
+      "titleSanskrit": "शक्रादिस्तुतिर्नाम चतुर्थोऽध्यायः",
+      "titleIast": "śakrādistutirnāma caturtho'dhyāyaḥ",
+      "titleEnglish": "The hymn of praise by Indra and the gods",
+      "charitra": "madhyama",
+      "charitraLabel": "Madhyama Charitra",
+      "presidingDeity": "Mahalakshmi",
+      "verseUnitCount": 42,
+      "traditionalVerseCount": 42,
+      "markandeyaPuranaChapter": 84
+    },
+    {
+      "id": "ch-05",
+      "number": 5,
+      "slug": "devi-duta-samvada",
+      "titleSanskrit": "देव्या दूतसंवादो नाम पञ्चमोऽध्यायः",
+      "titleIast": "devyā dūtasaṃvādo nāma pañcamo'dhyāyaḥ",
+      "titleEnglish": "The Goddess's dialogue with the messenger",
+      "charitra": "uttama",
+      "charitraLabel": "Uttama Charitra",
+      "presidingDeity": "Mahasaraswati",
+      "verseUnitCount": 85,
+      "traditionalVerseCount": 129,
+      "markandeyaPuranaChapter": 85
+    },
+    {
+      "id": "ch-06",
+      "number": 6,
+      "slug": "dhumnalochana-vadha",
+      "titleSanskrit": "शुम्भनिशुम्भसेनानीधूम्रलोचनवधो नाम षष्ठोऽध्यायः",
+      "titleIast": "śumbhaniśumbhasenānīdhūmralocanavadho nāma ṣaṣṭho'dhyāyaḥ",
+      "titleEnglish": "Slaying of Dhumralochana",
+      "charitra": "uttama",
+      "charitraLabel": "Uttama Charitra",
+      "presidingDeity": "Mahasaraswati",
+      "verseUnitCount": 24,
+      "traditionalVerseCount": 24,
+      "markandeyaPuranaChapter": 86
+    },
+    {
+      "id": "ch-07",
+      "number": 7,
+      "slug": "chanda-munda-vadha",
+      "titleSanskrit": "चण्डमुण्डवधो नाम सप्तमोऽध्यायः",
+      "titleIast": "caṇḍamuṇḍavadho nāma saptamo'dhyāyaḥ",
+      "titleEnglish": "Slaying of Chanda and Munda",
+      "charitra": "uttama",
+      "charitraLabel": "Uttama Charitra",
+      "presidingDeity": "Mahasaraswati",
+      "verseUnitCount": 27,
+      "traditionalVerseCount": 27,
+      "markandeyaPuranaChapter": 87
+    },
+    {
+      "id": "ch-08",
+      "number": 8,
+      "slug": "raktabija-vadha",
+      "titleSanskrit": "रक्तबीजवधो नामाष्टमोऽध्यायः",
+      "titleIast": "raktabījavadho nāmāṣṭamo'dhyāyaḥ",
+      "titleEnglish": "Slaying of Raktabija",
+      "charitra": "uttama",
+      "charitraLabel": "Uttama Charitra",
+      "presidingDeity": "Mahasaraswati",
+      "verseUnitCount": 63,
+      "traditionalVerseCount": 63,
+      "markandeyaPuranaChapter": 88
+    },
+    {
+      "id": "ch-09",
+      "number": 9,
+      "slug": "nishumbha-vadha",
+      "titleSanskrit": "निशुम्भवधो नाम नवमोऽध्यायः",
+      "titleIast": "niśumbhavadho nāma navamo'dhyāyaḥ",
+      "titleEnglish": "Slaying of Nishumbha",
+      "charitra": "uttama",
+      "charitraLabel": "Uttama Charitra",
+      "presidingDeity": "Mahasaraswati",
+      "verseUnitCount": 41,
+      "traditionalVerseCount": 41,
+      "markandeyaPuranaChapter": 89
+    },
+    {
+      "id": "ch-10",
+      "number": 10,
+      "slug": "shumbha-vadha",
+      "titleSanskrit": "शुम्भवधो नाम दशमोऽध्यायः",
+      "titleIast": "śumbhavadho nāma daśamo'dhyāyaḥ",
+      "titleEnglish": "Slaying of Shumbha",
+      "charitra": "uttama",
+      "charitraLabel": "Uttama Charitra",
+      "presidingDeity": "Mahasaraswati",
+      "verseUnitCount": 32,
+      "traditionalVerseCount": 32,
+      "markandeyaPuranaChapter": 90
+    },
+    {
+      "id": "ch-11",
+      "number": 11,
+      "slug": "narayani-stuti",
+      "titleSanskrit": "नारायणीस्तुतिर्नामैकादशोऽध्यायः",
+      "titleIast": "nārāyaṇīstutirnāmaikādaśo'dhyāyaḥ",
+      "titleEnglish": "The Narayani Stuti",
+      "charitra": "uttama",
+      "charitraLabel": "Uttama Charitra",
+      "presidingDeity": "Mahasaraswati",
+      "verseUnitCount": 55,
+      "traditionalVerseCount": 55,
+      "markandeyaPuranaChapter": 91
+    },
+    {
+      "id": "ch-12",
+      "number": 12,
+      "slug": "bhagavati-vakya",
+      "titleSanskrit": "भगवती वाक्यं द्वादशोऽध्यायः",
+      "titleIast": "bhagavatī vākyaṃ dvādaśo'dhyāyaḥ",
+      "titleEnglish": "The words of the Blessed Goddess",
+      "charitra": "uttama",
+      "charitraLabel": "Uttama Charitra",
+      "presidingDeity": "Mahasaraswati",
+      "verseUnitCount": 41,
+      "traditionalVerseCount": 41,
+      "markandeyaPuranaChapter": 92
+    },
+    {
+      "id": "ch-13",
+      "number": 13,
+      "slug": "suratha-vaishya-vara-pradana",
+      "titleSanskrit": "सुरथवैश्ययोर्वरप्रदानं नाम त्रयोदशोऽध्यायः",
+      "titleIast": "surathavaiśyayorvarapradānaṃ nāma trayodaśo'dhyāyaḥ",
+      "titleEnglish": "The granting of boons to Suratha and the Vaishya",
+      "charitra": "uttama",
+      "charitraLabel": "Uttama Charitra",
+      "presidingDeity": "Mahasaraswati",
+      "verseUnitCount": 29,
+      "traditionalVerseCount": 29,
+      "markandeyaPuranaChapter": 93
+    }
+  ],
+  "angas": [
+    {
+      "id": "chandika-dhyana",
+      "slug": "chandika-dhyana",
+      "titleEnglish": "Chandika Dhyana",
+      "titleSanskrit": "श्रीचण्डिकाध्यानम्",
+      "kind": "purvanga",
+      "order": 0,
+      "verseUnitCount": 2
+    },
+    {
+      "id": "devi-kavacham",
+      "slug": "devi-kavacham",
+      "titleEnglish": "Devi Kavacham",
+      "titleSanskrit": "देवी कवचम्",
+      "kind": "purvanga",
+      "order": 1,
+      "verseUnitCount": 60
+    },
+    {
+      "id": "argala-stotram",
+      "slug": "argala-stotram",
+      "titleEnglish": "Argala Stotram",
+      "titleSanskrit": "अर्गलास्तोत्रम्",
+      "kind": "purvanga",
+      "order": 2,
+      "verseUnitCount": 27
+    },
+    {
+      "id": "kilaka-stotram",
+      "slug": "kilaka-stotram",
+      "titleEnglish": "Kilaka Stotram",
+      "titleSanskrit": "कीलकस्तोत्रम्",
+      "kind": "purvanga",
+      "order": 3,
+      "verseUnitCount": 16
+    },
+    {
+      "id": "devi-suktam",
+      "slug": "devi-suktam",
+      "titleEnglish": "Devi Suktam (Rig Veda 10.125)",
+      "titleSanskrit": "देवीसूक्तम्",
+      "kind": "uttaranga",
+      "order": 97,
+      "verseUnitCount": 8
+    },
+    {
+      "id": "aparadha-kshamapana",
+      "slug": "aparadha-kshamapana",
+      "titleEnglish": "Aparadha Kshamapana Stotram",
+      "titleSanskrit": "अपराधक्षमापणस्तोत्रम्",
+      "kind": "uttaranga",
+      "order": 98,
+      "verseUnitCount": 9
+    }
+  ],
+  "preludeItrans": [
+    "|| devI mAhAtmyam ||",
+    "|| shrI ||",
+    "|| shrIchaNDikAdhyAnam ||",
+    "|| shrIdurgAyai namaH ||",
+    "|| atha shrIdurgAsaptashatI ||"
+  ],
+  "preludeDevanagari": [
+    "॥ देवी माहात्म्यम् ॥",
+    "॥ श्री ॥",
+    "॥ श्रीचण्डिकाध्यानम् ॥",
+    "॥ श्रीदुर्गायै नमः ॥",
+    "॥ अथ श्रीदुर्गासप्तशती ॥"
+  ],
+  "verseUnitTotal": 656,
+  "traditionalVerseTotal": 700,
+  "source": {
+    "id": "durga700",
+    "file": "scripts/sources/durga700.itx",
+    "provenance": "Sanskrit Documents (sanskritdocuments.org), doc_devii/durga700",
+    "transcribers": [
+      "K. Shankaran",
+      "Kirk Wortman",
+      "Dhruba Chakroborty",
+      "Ahto Jarve"
+    ],
+    "proofreaders": [
+      "Sunder Hattangadi",
+      "Kirk Wortman"
+    ],
+    "editionNote": "ITRANS source dated February 26, 2024 (per file header).",
+    "derivedRendering": "Devanagari and IAST produced mechanically from ITRANS with indic-transliteration."
+  }
+}

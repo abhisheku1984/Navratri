@@ -1,0 +1,884 @@
+{
+  "id": "ch-05",
+  "number": 5,
+  "slug": "devi-duta-samvada",
+  "charitra": "uttama",
+  "charitraLabel": "Uttama Charitra",
+  "presidingDeity": "Mahasaraswati",
+  "titleSanskrit": "देव्या दूतसंवादो नाम पञ्चमोऽध्यायः",
+  "titleItrans": "devyA dUtasaMvAdo nAma pa~nchamo.adhyAyaH",
+  "titleIast": "devyā dūtasaṃvādo nāma pañcamo'dhyāyaḥ",
+  "titleEnglishEditorial": "The Goddess's dialogue with the messenger",
+  "markandeyaPuranaChapter": 85,
+  "verseUnitCount": 85,
+  "traditionalVerseCount": 129,
+  "colophonItrans": "uvAcha 9, tripAnmantrAH 66, shlokAH 54, evamAditaH || 388||",
+  "colophonDevanagari": "उवाच ९, त्रिपान्मन्त्राः ६६, श्लोकाः ५४, एवमादितः ॥ ३८८॥",
+  "svastiItrans": "|| svasti shrImArkaNDeyapurANe sAvarNike manvantare devImAhAtmye",
+  "svastiDevanagari": "॥ स्वस्ति श्रीमार्कण्डेयपुराणे सावर्णिके मन्वन्तरे देवीमाहात्म्ये",
+  "viniyoga": {
+    "iTrans": "asya shrI uttaracharitrasya rudra R^iShiH |\nshrImahAsarasvatI devatA |\nanuShTup ChandaH | bhImA shaktiH | bhrAmarI bIjam |\nsUryastattvam |\nsAmavedaH svarUpam | shrImahAsarasvatIprItyarthe\nuttaracharitrapAThe viniyogaH |",
+    "devanagari": "अस्य श्री उत्तरचरित्रस्य रुद्र ऋषिः ।\nश्रीमहासरस्वती देवता ।\nअनुष्टुप् छन्दः । भीमा शक्तिः । भ्रामरी बीजम् ।\nसूर्यस्तत्त्वम् ।\nसामवेदः स्वरूपम् । श्रीमहासरस्वतीप्रीत्यर्थे\nउत्तरचरित्रपाठे विनियोगः ।"
+  },
+  "dhyana": {
+    "iTrans": "ghaNTAshUlahalAni sha~Nkhamusale chakraM dhanuH sAyakaM\nhastAbjairdadhatIM ghanAntavilasachChItAMshutulyaprabhAm |\ngaurIdehasamudbhavAM trijagatAmAdhArabhUtAM mahApUrvAmatra sarasvatImanubhaje shumbhAdidaityArdinIm ||",
+    "devanagari": "घण्टाशूलहलानि शङ्खमुसले चक्रं धनुः सायकं\nहस्ताब्जैर्दधतीं घनान्तविलसच्छीतांशुतुल्यप्रभाम् ।\nगौरीदेहसमुद्भवां त्रिजगतामाधारभूतां महापूर्वामत्र सरस्वतीमनुभजे शुम्भादिदैत्यार्दिनीम् ॥"
+  },
+  "invocation": {
+    "iTrans": null,
+    "devanagari": null
+  },
+  "sourceRef": "durga700",
+  "verses": [
+    {
+      "n": 1,
+      "nEnd": 1,
+      "label": "5.1",
+      "speaker": "R^iShiruvAcha",
+      "iTrans": "OM klIM R^iShiruvAcha",
+      "devanagari": "ॐ क्लीं ऋषिरुवाच",
+      "iast": "oṃ klīṃ ṛṣiruvāca",
+      "padas": 1
+    },
+    {
+      "n": 2,
+      "nEnd": 2,
+      "label": "5.2",
+      "speaker": null,
+      "iTrans": "purA shumbhanishumbhAbhyAmasurAbhyAM shachIpateH |\ntrailokyaM yaj~nabhAgAshcha hR^itA madabalAshrayAt",
+      "devanagari": "पुरा शुम्भनिशुम्भाभ्यामसुराभ्यां शचीपतेः ।\nत्रैलोक्यं यज्ञभागाश्च हृता मदबलाश्रयात्",
+      "iast": "purā śumbhaniśumbhābhyāmasurābhyāṃ śacīpateḥ |\ntrailokyaṃ yajñabhāgāśca hṛtā madabalāśrayāt",
+      "padas": 2
+    },
+    {
+      "n": 3,
+      "nEnd": 3,
+      "label": "5.3",
+      "speaker": null,
+      "iTrans": "tAveva sUryatAM tadvadadhikAraM tathaindavam |\nkauberamatha yAmyaM cha chakrAte varuNasya cha",
+      "devanagari": "तावेव सूर्यतां तद्वदधिकारं तथैन्दवम् ।\nकौबेरमथ याम्यं च चक्राते वरुणस्य च",
+      "iast": "tāveva sūryatāṃ tadvadadhikāraṃ tathaindavam |\nkauberamatha yāmyaṃ ca cakrāte varuṇasya ca",
+      "padas": 2
+    },
+    {
+      "n": 4,
+      "nEnd": 4,
+      "label": "5.4",
+      "speaker": null,
+      "iTrans": "tAveva pavanarddhiM cha chakraturvahnikarma cha |\ntato devA vinirdhUtA bhraShTarAjyAH parAjitAH",
+      "devanagari": "तावेव पवनर्द्धिं च चक्रतुर्वह्निकर्म च ।\nततो देवा विनिर्धूता भ्रष्टराज्याः पराजिताः",
+      "iast": "tāveva pavanarddhiṃ ca cakraturvahnikarma ca |\ntato devā vinirdhūtā bhraṣṭarājyāḥ parājitāḥ",
+      "padas": 2
+    },
+    {
+      "n": 5,
+      "nEnd": 5,
+      "label": "5.5",
+      "speaker": null,
+      "iTrans": "hR^itAdhikArAstridashAstAbhyAM sarve nirAkR^itAH |\nmahAsurAbhyAM tAM devIM saMsmarantyaparAjitAm",
+      "devanagari": "हृताधिकारास्त्रिदशास्ताभ्यां सर्वे निराकृताः ।\nमहासुराभ्यां तां देवीं संस्मरन्त्यपराजिताम्",
+      "iast": "hṛtādhikārāstridaśāstābhyāṃ sarve nirākṛtāḥ |\nmahāsurābhyāṃ tāṃ devīṃ saṃsmarantyaparājitām",
+      "padas": 2
+    },
+    {
+      "n": 6,
+      "nEnd": 6,
+      "label": "5.6",
+      "speaker": null,
+      "iTrans": "tayAsmAkaM varo datto yathApatsu smR^itAkhilAH |\nbhavatAM nAshayiShyAmi tatkShaNAtparamApadaH",
+      "devanagari": "तयास्माकं वरो दत्तो यथापत्सु स्मृताखिलाः ।\nभवतां नाशयिष्यामि तत्क्षणात्परमापदः",
+      "iast": "tayāsmākaṃ varo datto yathāpatsu smṛtākhilāḥ |\nbhavatāṃ nāśayiṣyāmi tatkṣaṇātparamāpadaḥ",
+      "padas": 2
+    },
+    {
+      "n": 7,
+      "nEnd": 7,
+      "label": "5.7",
+      "speaker": null,
+      "iTrans": "iti kR^itvA matiM devA himavantaM nageshvaram |\njagmustatra tato devIM viShNumAyAM pratuShTuvuH",
+      "devanagari": "इति कृत्वा मतिं देवा हिमवन्तं नगेश्वरम् ।\nजग्मुस्तत्र ततो देवीं विष्णुमायां प्रतुष्टुवुः",
+      "iast": "iti kṛtvā matiṃ devā himavantaṃ nageśvaram |\njagmustatra tato devīṃ viṣṇumāyāṃ pratuṣṭuvuḥ",
+      "padas": 2
+    },
+    {
+      "n": 8,
+      "nEnd": 8,
+      "label": "5.8",
+      "speaker": null,
+      "iTrans": "devA UchuH",
+      "devanagari": "देवा ऊचुः",
+      "iast": "devā ūcuḥ",
+      "padas": 1
+    },
+    {
+      "n": 9,
+      "nEnd": 9,
+      "label": "5.9",
+      "speaker": null,
+      "iTrans": "namo devyai mahAdevyai shivAyai satataM namaH |\nnamaH prakR^ityai bhadrAyai niyatAH praNatAH sma tAm",
+      "devanagari": "नमो देव्यै महादेव्यै शिवायै सततं नमः ।\nनमः प्रकृत्यै भद्रायै नियताः प्रणताः स्म ताम्",
+      "iast": "namo devyai mahādevyai śivāyai satataṃ namaḥ |\nnamaḥ prakṛtyai bhadrāyai niyatāḥ praṇatāḥ sma tām",
+      "padas": 2
+    },
+    {
+      "n": 10,
+      "nEnd": 10,
+      "label": "5.10",
+      "speaker": null,
+      "iTrans": "raudrAyai namo nityAyai gauryai dhAtryai namo namaH |\njyotsnAyai chendurUpiNyai sukhAyai satataM namaH",
+      "devanagari": "रौद्रायै नमो नित्यायै गौर्यै धात्र्यै नमो नमः ।\nज्योत्स्नायै चेन्दुरूपिण्यै सुखायै सततं नमः",
+      "iast": "raudrāyai namo nityāyai gauryai dhātryai namo namaḥ |\njyotsnāyai cendurūpiṇyai sukhāyai satataṃ namaḥ",
+      "padas": 2
+    },
+    {
+      "n": 11,
+      "nEnd": 11,
+      "label": "5.11",
+      "speaker": null,
+      "iTrans": "kalyANyai praNatAM vR^iddhyai siddhyai kurmo namo namaH |\nnairR^ityai bhUbhR^itAM lakShmyai sharvANyai te namo namaH",
+      "devanagari": "कल्याण्यै प्रणतां वृद्ध्यै सिद्ध्यै कुर्मो नमो नमः ।\nनैरृत्यै भूभृतां लक्ष्म्यै शर्वाण्यै ते नमो नमः",
+      "iast": "kalyāṇyai praṇatāṃ vṛddhyai siddhyai kurmo namo namaḥ |\nnairṛtyai bhūbhṛtāṃ lakṣmyai śarvāṇyai te namo namaḥ",
+      "padas": 2
+    },
+    {
+      "n": 12,
+      "nEnd": 12,
+      "label": "5.12",
+      "speaker": null,
+      "iTrans": "durgAyai durgapArAyai sArAyai sarvakAriNyai |\nkhyAtyai tathaiva kR^iShNAyai dhUmrAyai satataM namaH",
+      "devanagari": "दुर्गायै दुर्गपारायै सारायै सर्वकारिण्यै ।\nख्यात्यै तथैव कृष्णायै धूम्रायै सततं नमः",
+      "iast": "durgāyai durgapārāyai sārāyai sarvakāriṇyai |\nkhyātyai tathaiva kṛṣṇāyai dhūmrāyai satataṃ namaḥ",
+      "padas": 2
+    },
+    {
+      "n": 13,
+      "nEnd": 13,
+      "label": "5.13",
+      "speaker": null,
+      "iTrans": "atisaumyAtiraudrAyai natAstasyai namo namaH |\nnamo jagatpratiShThAyai devyai kR^ityai namo namaH",
+      "devanagari": "अतिसौम्यातिरौद्रायै नतास्तस्यै नमो नमः ।\nनमो जगत्प्रतिष्ठायै देव्यै कृत्यै नमो नमः",
+      "iast": "atisaumyātiraudrāyai natāstasyai namo namaḥ |\nnamo jagatpratiṣṭhāyai devyai kṛtyai namo namaḥ",
+      "padas": 2
+    },
+    {
+      "n": 14,
+      "nEnd": 16,
+      "label": "5.14-16",
+      "speaker": null,
+      "iTrans": "yA devI sarvabhUteShu viShNumAyeti shabditA |\nnamastasyai namastasyai namastasyai namo namaH",
+      "devanagari": "या देवी सर्वभूतेषु विष्णुमायेति शब्दिता ।\nनमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः",
+      "iast": "yā devī sarvabhūteṣu viṣṇumāyeti śabditā |\nnamastasyai namastasyai namastasyai namo namaḥ",
+      "padas": 2
+    },
+    {
+      "n": 17,
+      "nEnd": 19,
+      "label": "5.17-19",
+      "speaker": null,
+      "iTrans": "yA devI sarvabhUteShu chetanetyabhidhIyate |\nnamastasyai namastasyai namastasyai namo namaH",
+      "devanagari": "या देवी सर्वभूतेषु चेतनेत्यभिधीयते ।\nनमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः",
+      "iast": "yā devī sarvabhūteṣu cetanetyabhidhīyate |\nnamastasyai namastasyai namastasyai namo namaḥ",
+      "padas": 2
+    },
+    {
+      "n": 20,
+      "nEnd": 22,
+      "label": "5.20-22",
+      "speaker": null,
+      "iTrans": "yA devI sarvabhUteShu buddhirUpeNa saMsthitA |\nnamastasyai namastasyai namastasyai namo namaH",
+      "devanagari": "या देवी सर्वभूतेषु बुद्धिरूपेण संस्थिता ।\nनमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः",
+      "iast": "yā devī sarvabhūteṣu buddhirūpeṇa saṃsthitā |\nnamastasyai namastasyai namastasyai namo namaḥ",
+      "padas": 2
+    },
+    {
+      "n": 23,
+      "nEnd": 25,
+      "label": "5.23-25",
+      "speaker": null,
+      "iTrans": "yA devI sarvabhUteShu nidrArUpeNa saMsthitA |\nnamastasyai namastasyai namastasyai namo namaH",
+      "devanagari": "या देवी सर्वभूतेषु निद्रारूपेण संस्थिता ।\nनमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः",
+      "iast": "yā devī sarvabhūteṣu nidrārūpeṇa saṃsthitā |\nnamastasyai namastasyai namastasyai namo namaḥ",
+      "padas": 2
+    },
+    {
+      "n": 26,
+      "nEnd": 28,
+      "label": "5.26-28",
+      "speaker": null,
+      "iTrans": "yA devI sarvabhUteShu kShudhArUpeNa saMsthitA |\nnamastasyai namastasyai namastasyai namo namaH",
+      "devanagari": "या देवी सर्वभूतेषु क्षुधारूपेण संस्थिता ।\nनमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः",
+      "iast": "yā devī sarvabhūteṣu kṣudhārūpeṇa saṃsthitā |\nnamastasyai namastasyai namastasyai namo namaḥ",
+      "padas": 2
+    },
+    {
+      "n": 29,
+      "nEnd": 31,
+      "label": "5.29-31",
+      "speaker": null,
+      "iTrans": "yA devI sarvabhUteShu ChAyArUpeNa saMsthitA |\nnamastasyai namastasyai namastasyai namo namaH",
+      "devanagari": "या देवी सर्वभूतेषु छायारूपेण संस्थिता ।\nनमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः",
+      "iast": "yā devī sarvabhūteṣu chāyārūpeṇa saṃsthitā |\nnamastasyai namastasyai namastasyai namo namaḥ",
+      "padas": 2
+    },
+    {
+      "n": 32,
+      "nEnd": 34,
+      "label": "5.32-34",
+      "speaker": null,
+      "iTrans": "yA devI sarvabhUteShu shaktirUpeNa saMsthitA |\nnamastasyai namastasyai namastasyai namo namaH",
+      "devanagari": "या देवी सर्वभूतेषु शक्तिरूपेण संस्थिता ।\nनमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः",
+      "iast": "yā devī sarvabhūteṣu śaktirūpeṇa saṃsthitā |\nnamastasyai namastasyai namastasyai namo namaḥ",
+      "padas": 2
+    },
+    {
+      "n": 35,
+      "nEnd": 37,
+      "label": "5.35-37",
+      "speaker": null,
+      "iTrans": "yA devI sarvabhUteShu tR^iShNArUpeNa saMsthitA |\nnamastasyai namastasyai namastasyai namo namaH",
+      "devanagari": "या देवी सर्वभूतेषु तृष्णारूपेण संस्थिता ।\nनमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः",
+      "iast": "yā devī sarvabhūteṣu tṛṣṇārūpeṇa saṃsthitā |\nnamastasyai namastasyai namastasyai namo namaḥ",
+      "padas": 2
+    },
+    {
+      "n": 38,
+      "nEnd": 40,
+      "label": "5.38-40",
+      "speaker": null,
+      "iTrans": "yA devI sarvabhUteShu kShAntirUpeNa saMsthitA |\nnamastasyai namastasyai namastasyai namo namaH",
+      "devanagari": "या देवी सर्वभूतेषु क्षान्तिरूपेण संस्थिता ।\nनमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः",
+      "iast": "yā devī sarvabhūteṣu kṣāntirūpeṇa saṃsthitā |\nnamastasyai namastasyai namastasyai namo namaḥ",
+      "padas": 2
+    },
+    {
+      "n": 41,
+      "nEnd": 43,
+      "label": "5.41-43",
+      "speaker": null,
+      "iTrans": "yA devI sarvabhUteShu jAtirUpeNa saMsthitA |\nnamastasyai namastasyai namastasyai namo namaH",
+      "devanagari": "या देवी सर्वभूतेषु जातिरूपेण संस्थिता ।\nनमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः",
+      "iast": "yā devī sarvabhūteṣu jātirūpeṇa saṃsthitā |\nnamastasyai namastasyai namastasyai namo namaḥ",
+      "padas": 2
+    },
+    {
+      "n": 44,
+      "nEnd": 46,
+      "label": "5.44-46",
+      "speaker": null,
+      "iTrans": "yA devI sarvabhUteShu lajjArUpeNa saMsthitA |\nnamastasyai namastasyai namastasyai namo namaH",
+      "devanagari": "या देवी सर्वभूतेषु लज्जारूपेण संस्थिता ।\nनमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः",
+      "iast": "yā devī sarvabhūteṣu lajjārūpeṇa saṃsthitā |\nnamastasyai namastasyai namastasyai namo namaḥ",
+      "padas": 2
+    },
+    {
+      "n": 47,
+      "nEnd": 49,
+      "label": "5.47-49",
+      "speaker": null,
+      "iTrans": "yA devI sarvabhUteShu shAntirUpeNa saMsthitA |\nnamastasyai namastasyai namastasyai namo namaH",
+      "devanagari": "या देवी सर्वभूतेषु शान्तिरूपेण संस्थिता ।\nनमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः",
+      "iast": "yā devī sarvabhūteṣu śāntirūpeṇa saṃsthitā |\nnamastasyai namastasyai namastasyai namo namaḥ",
+      "padas": 2
+    },
+    {
+      "n": 50,
+      "nEnd": 52,
+      "label": "5.50-52",
+      "speaker": null,
+      "iTrans": "yA devI sarvabhUteShu shraddhArUpeNa saMsthitA |\nnamastasyai namastasyai namastasyai namo namaH",
+      "devanagari": "या देवी सर्वभूतेषु श्रद्धारूपेण संस्थिता ।\nनमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः",
+      "iast": "yā devī sarvabhūteṣu śraddhārūpeṇa saṃsthitā |\nnamastasyai namastasyai namastasyai namo namaḥ",
+      "padas": 2
+    },
+    {
+      "n": 53,
+      "nEnd": 55,
+      "label": "5.53-55",
+      "speaker": null,
+      "iTrans": "yA devI sarvabhUteShu kAntirUpeNa saMsthitA |\nnamastasyai namastasyai namastasyai namo namaH",
+      "devanagari": "या देवी सर्वभूतेषु कान्तिरूपेण संस्थिता ।\nनमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः",
+      "iast": "yā devī sarvabhūteṣu kāntirūpeṇa saṃsthitā |\nnamastasyai namastasyai namastasyai namo namaḥ",
+      "padas": 2
+    },
+    {
+      "n": 56,
+      "nEnd": 58,
+      "label": "5.56-58",
+      "speaker": null,
+      "iTrans": "yA devI sarvabhUteShu lakShmIrUpeNa saMsthitA |\nnamastasyai namastasyai namastasyai namo namaH",
+      "devanagari": "या देवी सर्वभूतेषु लक्ष्मीरूपेण संस्थिता ।\nनमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः",
+      "iast": "yā devī sarvabhūteṣu lakṣmīrūpeṇa saṃsthitā |\nnamastasyai namastasyai namastasyai namo namaḥ",
+      "padas": 2
+    },
+    {
+      "n": 59,
+      "nEnd": 61,
+      "label": "5.59-61",
+      "speaker": null,
+      "iTrans": "yA devI sarvabhUteShu vR^ittirUpeNa saMsthitA |\nnamastasyai namastasyai namastasyai namo namaH",
+      "devanagari": "या देवी सर्वभूतेषु वृत्तिरूपेण संस्थिता ।\nनमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः",
+      "iast": "yā devī sarvabhūteṣu vṛttirūpeṇa saṃsthitā |\nnamastasyai namastasyai namastasyai namo namaḥ",
+      "padas": 2
+    },
+    {
+      "n": 62,
+      "nEnd": 64,
+      "label": "5.62-64",
+      "speaker": null,
+      "iTrans": "yA devI sarvabhUteShu smR^itirUpeNa saMsthitA |\nnamastasyai namastasyai namastasyai namo namaH",
+      "devanagari": "या देवी सर्वभूतेषु स्मृतिरूपेण संस्थिता ।\nनमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः",
+      "iast": "yā devī sarvabhūteṣu smṛtirūpeṇa saṃsthitā |\nnamastasyai namastasyai namastasyai namo namaḥ",
+      "padas": 2
+    },
+    {
+      "n": 65,
+      "nEnd": 67,
+      "label": "5.65-67",
+      "speaker": null,
+      "iTrans": "yA devI sarvabhUteShu dayArUpeNa saMsthitA |\nnamastasyai namastasyai namastasyai namo namaH",
+      "devanagari": "या देवी सर्वभूतेषु दयारूपेण संस्थिता ।\nनमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः",
+      "iast": "yā devī sarvabhūteṣu dayārūpeṇa saṃsthitā |\nnamastasyai namastasyai namastasyai namo namaḥ",
+      "padas": 2
+    },
+    {
+      "n": 68,
+      "nEnd": 70,
+      "label": "5.68-70",
+      "speaker": null,
+      "iTrans": "yA devI sarvabhUteShu tuShTirUpeNa saMsthitA |\nnamastasyai namastasyai namastasyai namo namaH",
+      "devanagari": "या देवी सर्वभूतेषु तुष्टिरूपेण संस्थिता ।\nनमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः",
+      "iast": "yā devī sarvabhūteṣu tuṣṭirūpeṇa saṃsthitā |\nnamastasyai namastasyai namastasyai namo namaḥ",
+      "padas": 2
+    },
+    {
+      "n": 71,
+      "nEnd": 73,
+      "label": "5.71-73",
+      "speaker": null,
+      "iTrans": "yA devI sarvabhUteShu mAtR^irUpeNa saMsthitA |\nnamastasyai namastasyai namastasyai namo namaH",
+      "devanagari": "या देवी सर्वभूतेषु मातृरूपेण संस्थिता ।\nनमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः",
+      "iast": "yā devī sarvabhūteṣu mātṛrūpeṇa saṃsthitā |\nnamastasyai namastasyai namastasyai namo namaḥ",
+      "padas": 2
+    },
+    {
+      "n": 74,
+      "nEnd": 76,
+      "label": "5.74-76",
+      "speaker": null,
+      "iTrans": "yA devI sarvabhUteShu bhrAntirUpeNa saMsthitA |\nnamastasyai namastasyai namastasyai namo namaH",
+      "devanagari": "या देवी सर्वभूतेषु भ्रान्तिरूपेण संस्थिता ।\nनमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः",
+      "iast": "yā devī sarvabhūteṣu bhrāntirūpeṇa saṃsthitā |\nnamastasyai namastasyai namastasyai namo namaḥ",
+      "padas": 2
+    },
+    {
+      "n": 77,
+      "nEnd": 77,
+      "label": "5.77",
+      "speaker": null,
+      "iTrans": "indriyANAmadhiShThAtrI bhUtAnAM chAkhileShu yA |\nbhUteShu satataM tasyai vyAptyai devyai namo namaH",
+      "devanagari": "इन्द्रियाणामधिष्ठात्री भूतानां चाखिलेषु या ।\nभूतेषु सततं तस्यै व्याप्त्यै देव्यै नमो नमः",
+      "iast": "indriyāṇāmadhiṣṭhātrī bhūtānāṃ cākhileṣu yā |\nbhūteṣu satataṃ tasyai vyāptyai devyai namo namaḥ",
+      "padas": 2
+    },
+    {
+      "n": 78,
+      "nEnd": 80,
+      "label": "5.78-80",
+      "speaker": null,
+      "iTrans": "chitirUpeNa yA kR^itsnametad vyApya sthitA jagat |\nnamastasyai namastasyai namastasyai namo namaH",
+      "devanagari": "चितिरूपेण या कृत्स्नमेतद् व्याप्य स्थिता जगत् ।\nनमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः",
+      "iast": "citirūpeṇa yā kṛtsnametad vyāpya sthitā jagat |\nnamastasyai namastasyai namastasyai namo namaḥ",
+      "padas": 2
+    },
+    {
+      "n": 81,
+      "nEnd": 81,
+      "label": "5.81",
+      "speaker": null,
+      "iTrans": "stutA suraiH pUrvamabhIShTasaMshrayAttathA surendreNa dineShu sevitA |\nkarotu sA naH shubhaheturIshvarI\nshubhAni bhadrANyabhihantu chApadaH",
+      "devanagari": "स्तुता सुरैः पूर्वमभीष्टसंश्रयात्तथा सुरेन्द्रेण दिनेषु सेविता ।\nकरोतु सा नः शुभहेतुरीश्वरी\nशुभानि भद्राण्यभिहन्तु चापदः",
+      "iast": "stutā suraiḥ pūrvamabhīṣṭasaṃśrayāttathā surendreṇa dineṣu sevitā |\nkarotu sā naḥ śubhaheturīśvarī\nśubhāni bhadrāṇyabhihantu cāpadaḥ",
+      "padas": 3
+    },
+    {
+      "n": 82,
+      "nEnd": 82,
+      "label": "5.82",
+      "speaker": null,
+      "iTrans": "yA sAmprataM choddhatadaityatApitairasmAbhirIshA cha surairnamasyate |\nyA cha smR^itA tatkShaNameva hanti naH\nsarvApado bhaktivinamramUrtibhiH",
+      "devanagari": "या साम्प्रतं चोद्धतदैत्यतापितैरस्माभिरीशा च सुरैर्नमस्यते ।\nया च स्मृता तत्क्षणमेव हन्ति नः\nसर्वापदो भक्तिविनम्रमूर्तिभिः",
+      "iast": "yā sāmprataṃ coddhatadaityatāpitairasmābhirīśā ca surairnamasyate |\nyā ca smṛtā tatkṣaṇameva hanti naḥ\nsarvāpado bhaktivinamramūrtibhiḥ",
+      "padas": 3
+    },
+    {
+      "n": 83,
+      "nEnd": 83,
+      "label": "5.83",
+      "speaker": "R^iShiruvAcha",
+      "iTrans": "R^iShiruvAcha",
+      "devanagari": "ऋषिरुवाच",
+      "iast": "ṛṣiruvāca",
+      "padas": 1
+    },
+    {
+      "n": 84,
+      "nEnd": 84,
+      "label": "5.84",
+      "speaker": null,
+      "iTrans": "evaM stavAbhiyuktAnAM devAnAM tatra pArvatI |\nsnAtumabhyAyayau toye jAhnavyA nR^ipanandana",
+      "devanagari": "एवं स्तवाभियुक्तानां देवानां तत्र पार्वती ।\nस्नातुमभ्याययौ तोये जाह्नव्या नृपनन्दन",
+      "iast": "evaṃ stavābhiyuktānāṃ devānāṃ tatra pārvatī |\nsnātumabhyāyayau toye jāhnavyā nṛpanandana",
+      "padas": 2
+    },
+    {
+      "n": 85,
+      "nEnd": 85,
+      "label": "5.85",
+      "speaker": null,
+      "iTrans": "sAbravIttAn surAn subhrUrbhavadbhiH stUyate.atra kA |\nsharIrakoshatashchAsyAH samudbhUtAbravIchChivA",
+      "devanagari": "साब्रवीत्तान् सुरान् सुभ्रूर्भवद्भिः स्तूयतेऽत्र का ।\nशरीरकोशतश्चास्याः समुद्भूताब्रवीच्छिवा",
+      "iast": "sābravīttān surān subhrūrbhavadbhiḥ stūyate'tra kā |\nśarīrakośataścāsyāḥ samudbhūtābravīcchivā",
+      "padas": 2
+    },
+    {
+      "n": 86,
+      "nEnd": 86,
+      "label": "5.86",
+      "speaker": null,
+      "iTrans": "stotraM mamaitatkriyate shumbhadaityanirAkR^itaiH |\ndevaiH sametaiH samare nishumbhena parAjitaiH",
+      "devanagari": "स्तोत्रं ममैतत्क्रियते शुम्भदैत्यनिराकृतैः ।\nदेवैः समेतैः समरे निशुम्भेन पराजितैः",
+      "iast": "stotraṃ mamaitatkriyate śumbhadaityanirākṛtaiḥ |\ndevaiḥ sametaiḥ samare niśumbhena parājitaiḥ",
+      "padas": 2
+    },
+    {
+      "n": 87,
+      "nEnd": 87,
+      "label": "5.87",
+      "speaker": null,
+      "iTrans": "sharIrakoshAdyattasyAH pArvatyA niHsR^itAmbikA |\nkaushikIti samasteShu tato lokeShu gIyate",
+      "devanagari": "शरीरकोशाद्यत्तस्याः पार्वत्या निःसृताम्बिका ।\nकौशिकीति समस्तेषु ततो लोकेषु गीयते",
+      "iast": "śarīrakośādyattasyāḥ pārvatyā niḥsṛtāmbikā |\nkauśikīti samasteṣu tato lokeṣu gīyate",
+      "padas": 2
+    },
+    {
+      "n": 88,
+      "nEnd": 88,
+      "label": "5.88",
+      "speaker": null,
+      "iTrans": "tasyAM vinirgatAyAM tu kR^iShNAbhUtsApi pArvatI |\nkAliketi samAkhyAtA himAchalakR^itAshrayA",
+      "devanagari": "तस्यां विनिर्गतायां तु कृष्णाभूत्सापि पार्वती ।\nकालिकेति समाख्याता हिमाचलकृताश्रया",
+      "iast": "tasyāṃ vinirgatāyāṃ tu kṛṣṇābhūtsāpi pārvatī |\nkāliketi samākhyātā himācalakṛtāśrayā",
+      "padas": 2
+    },
+    {
+      "n": 89,
+      "nEnd": 89,
+      "label": "5.89",
+      "speaker": null,
+      "iTrans": "tato.ambikAM paraM rUpaM bibhrANAM sumanoharam |\ndadarsha chaNDo muNDashcha bhR^ityau shumbhanishumbhayoH",
+      "devanagari": "ततोऽम्बिकां परं रूपं बिभ्राणां सुमनोहरम् ।\nददर्श चण्डो मुण्डश्च भृत्यौ शुम्भनिशुम्भयोः",
+      "iast": "tato'mbikāṃ paraṃ rūpaṃ bibhrāṇāṃ sumanoharam |\ndadarśa caṇḍo muṇḍaśca bhṛtyau śumbhaniśumbhayoḥ",
+      "padas": 2
+    },
+    {
+      "n": 90,
+      "nEnd": 90,
+      "label": "5.90",
+      "speaker": null,
+      "iTrans": "tAbhyAM shumbhAya chAkhyAtA sAtIva sumanoharA |\nkApyAste strI mahArAja bhAsayantI himAchalam",
+      "devanagari": "ताभ्यां शुम्भाय चाख्याता सातीव सुमनोहरा ।\nकाप्यास्ते स्त्री महाराज भासयन्ती हिमाचलम्",
+      "iast": "tābhyāṃ śumbhāya cākhyātā sātīva sumanoharā |\nkāpyāste strī mahārāja bhāsayantī himācalam",
+      "padas": 2
+    },
+    {
+      "n": 91,
+      "nEnd": 91,
+      "label": "5.91",
+      "speaker": null,
+      "iTrans": "naiva tAdR^ik kvachidrUpaM dR^iShTaM kenachiduttamam |\nj~nAyatAM kApyasau devI gR^ihyatAM chAsureshvara",
+      "devanagari": "नैव तादृक् क्वचिद्रूपं दृष्टं केनचिदुत्तमम् ।\nज्ञायतां काप्यसौ देवी गृह्यतां चासुरेश्वर",
+      "iast": "naiva tādṛk kvacidrūpaṃ dṛṣṭaṃ kenaciduttamam |\njñāyatāṃ kāpyasau devī gṛhyatāṃ cāsureśvara",
+      "padas": 2
+    },
+    {
+      "n": 92,
+      "nEnd": 92,
+      "label": "5.92",
+      "speaker": null,
+      "iTrans": "strIratnamatichArva~NgI dyotayantI dishastviShA |\nsA tu tiShThati daityendra tAM bhavAn draShTumarhati",
+      "devanagari": "स्त्रीरत्नमतिचार्वङ्गी द्योतयन्ती दिशस्त्विषा ।\nसा तु तिष्ठति दैत्येन्द्र तां भवान् द्रष्टुमर्हति",
+      "iast": "strīratnamaticārvaṅgī dyotayantī diśastviṣā |\nsā tu tiṣṭhati daityendra tāṃ bhavān draṣṭumarhati",
+      "padas": 2
+    },
+    {
+      "n": 93,
+      "nEnd": 93,
+      "label": "5.93",
+      "speaker": null,
+      "iTrans": "yAni ratnAni maNayo gajAshvAdIni vai prabho |\ntrailokye tu samastAni sAmprataM bhAnti te gR^ihe",
+      "devanagari": "यानि रत्नानि मणयो गजाश्वादीनि वै प्रभो ।\nत्रैलोक्ये तु समस्तानि साम्प्रतं भान्ति ते गृहे",
+      "iast": "yāni ratnāni maṇayo gajāśvādīni vai prabho |\ntrailokye tu samastāni sāmprataṃ bhānti te gṛhe",
+      "padas": 2
+    },
+    {
+      "n": 94,
+      "nEnd": 94,
+      "label": "5.94",
+      "speaker": null,
+      "iTrans": "airAvataH samAnIto gajaratnaM purandarAt |\npArijAtatarushchAyaM tathaivochchaiHshravA hayaH",
+      "devanagari": "ऐरावतः समानीतो गजरत्नं पुरन्दरात् ।\nपारिजाततरुश्चायं तथैवोच्चैःश्रवा हयः",
+      "iast": "airāvataḥ samānīto gajaratnaṃ purandarāt |\npārijātataruścāyaṃ tathaivoccaiḥśravā hayaḥ",
+      "padas": 2
+    },
+    {
+      "n": 95,
+      "nEnd": 95,
+      "label": "5.95",
+      "speaker": null,
+      "iTrans": "vimAnaM haMsasaMyuktametattiShThati te.a~NgaNe |\nratnabhUtamihAnItaM yadAsIdvedhaso.adbhutam",
+      "devanagari": "विमानं हंससंयुक्तमेतत्तिष्ठति तेऽङ्गणे ।\nरत्नभूतमिहानीतं यदासीद्वेधसोऽद्भुतम्",
+      "iast": "vimānaṃ haṃsasaṃyuktametattiṣṭhati te'ṅgaṇe |\nratnabhūtamihānītaṃ yadāsīdvedhaso'dbhutam",
+      "padas": 2
+    },
+    {
+      "n": 96,
+      "nEnd": 96,
+      "label": "5.96",
+      "speaker": null,
+      "iTrans": "nidhireSha mahApadmaH samAnIto dhaneshvarAt |\nki~njalkinIM dadau chAbdhirmAlAmamlAnapa~NkajAm",
+      "devanagari": "निधिरेष महापद्मः समानीतो धनेश्वरात् ।\nकिञ्जल्किनीं ददौ चाब्धिर्मालामम्लानपङ्कजाम्",
+      "iast": "nidhireṣa mahāpadmaḥ samānīto dhaneśvarāt |\nkiñjalkinīṃ dadau cābdhirmālāmamlānapaṅkajām",
+      "padas": 2
+    },
+    {
+      "n": 97,
+      "nEnd": 97,
+      "label": "5.97",
+      "speaker": null,
+      "iTrans": "ChatraM te vAruNaM gehe kA~nchanasrAvi tiShThati |\ntathAyaM syandanavaro yaH purAsItprajApateH",
+      "devanagari": "छत्रं ते वारुणं गेहे काञ्चनस्रावि तिष्ठति ।\nतथायं स्यन्दनवरो यः पुरासीत्प्रजापतेः",
+      "iast": "chatraṃ te vāruṇaṃ gehe kāñcanasrāvi tiṣṭhati |\ntathāyaṃ syandanavaro yaḥ purāsītprajāpateḥ",
+      "padas": 2
+    },
+    {
+      "n": 98,
+      "nEnd": 98,
+      "label": "5.98",
+      "speaker": null,
+      "iTrans": "mR^ityorutkrAntidA nAma shaktirIsha tvayA hR^itA |\npAshaH salilarAjasya bhrAtustava parigrahe",
+      "devanagari": "मृत्योरुत्क्रान्तिदा नाम शक्तिरीश त्वया हृता ।\nपाशः सलिलराजस्य भ्रातुस्तव परिग्रहे",
+      "iast": "mṛtyorutkrāntidā nāma śaktirīśa tvayā hṛtā |\npāśaḥ salilarājasya bhrātustava parigrahe",
+      "padas": 2
+    },
+    {
+      "n": 99,
+      "nEnd": 99,
+      "label": "5.99",
+      "speaker": null,
+      "iTrans": "nishumbhasyAbdhijAtAshcha samastA ratnajAtayaH |\nvahnirapi dadau tubhyamagnishauche cha vAsasI",
+      "devanagari": "निशुम्भस्याब्धिजाताश्च समस्ता रत्नजातयः ।\nवह्निरपि ददौ तुभ्यमग्निशौचे च वाससी",
+      "iast": "niśumbhasyābdhijātāśca samastā ratnajātayaḥ |\nvahnirapi dadau tubhyamagniśauce ca vāsasī",
+      "padas": 2
+    },
+    {
+      "n": 100,
+      "nEnd": 100,
+      "label": "5.100",
+      "speaker": null,
+      "iTrans": "evaM daityendra ratnAni samastAnyAhR^itAni te |\nstrIratnameShA kalyANI tvayA kasmAnna gR^ihyate",
+      "devanagari": "एवं दैत्येन्द्र रत्नानि समस्तान्याहृतानि ते ।\nस्त्रीरत्नमेषा कल्याणी त्वया कस्मान्न गृह्यते",
+      "iast": "evaṃ daityendra ratnāni samastānyāhṛtāni te |\nstrīratnameṣā kalyāṇī tvayā kasmānna gṛhyate",
+      "padas": 2
+    },
+    {
+      "n": 101,
+      "nEnd": 101,
+      "label": "5.101",
+      "speaker": "R^iShiruvAcha",
+      "iTrans": "R^iShiruvAcha",
+      "devanagari": "ऋषिरुवाच",
+      "iast": "ṛṣiruvāca",
+      "padas": 1
+    },
+    {
+      "n": 102,
+      "nEnd": 102,
+      "label": "5.102",
+      "speaker": null,
+      "iTrans": "nishamyeti vachaH shumbhaH sa tadA chaNDamuNDayoH |\npreShayAmAsa sugrIvaM dUtaM devyA mahAsuram",
+      "devanagari": "निशम्येति वचः शुम्भः स तदा चण्डमुण्डयोः ।\nप्रेषयामास सुग्रीवं दूतं देव्या महासुरम्",
+      "iast": "niśamyeti vacaḥ śumbhaḥ sa tadā caṇḍamuṇḍayoḥ |\npreṣayāmāsa sugrīvaṃ dūtaṃ devyā mahāsuram",
+      "padas": 2
+    },
+    {
+      "n": 103,
+      "nEnd": 103,
+      "label": "5.103",
+      "speaker": null,
+      "iTrans": "iti cheti cha vaktavyA sA gatvA vachanAnmama |\nyathA chAbhyeti samprItyA tathA kAryaM tvayA laghu",
+      "devanagari": "इति चेति च वक्तव्या सा गत्वा वचनान्मम ।\nयथा चाभ्येति सम्प्रीत्या तथा कार्यं त्वया लघु",
+      "iast": "iti ceti ca vaktavyā sā gatvā vacanānmama |\nyathā cābhyeti samprītyā tathā kāryaṃ tvayā laghu",
+      "padas": 2
+    },
+    {
+      "n": 104,
+      "nEnd": 104,
+      "label": "5.104",
+      "speaker": null,
+      "iTrans": "sa tatra gatvA yatrAste shailoddeshe.atishobhane |\ntAM cha devIM tataH prAha shlakShNaM madhurayA girA",
+      "devanagari": "स तत्र गत्वा यत्रास्ते शैलोद्देशेऽतिशोभने ।\nतां च देवीं ततः प्राह श्लक्ष्णं मधुरया गिरा",
+      "iast": "sa tatra gatvā yatrāste śailoddeśe'tiśobhane |\ntāṃ ca devīṃ tataḥ prāha ślakṣṇaṃ madhurayā girā",
+      "padas": 2
+    },
+    {
+      "n": 105,
+      "nEnd": 105,
+      "label": "5.105",
+      "speaker": null,
+      "iTrans": "dUta uvAcha",
+      "devanagari": "दूत उवाच",
+      "iast": "dūta uvāca",
+      "padas": 1
+    },
+    {
+      "n": 106,
+      "nEnd": 106,
+      "label": "5.106",
+      "speaker": null,
+      "iTrans": "devi daityeshvaraH shumbhastrailokye parameshvaraH |\ndUto.ahaM preShitastena tvatsakAshamihAgataH",
+      "devanagari": "देवि दैत्येश्वरः शुम्भस्त्रैलोक्ये परमेश्वरः ।\nदूतोऽहं प्रेषितस्तेन त्वत्सकाशमिहागतः",
+      "iast": "devi daityeśvaraḥ śumbhastrailokye parameśvaraḥ |\ndūto'haṃ preṣitastena tvatsakāśamihāgataḥ",
+      "padas": 2
+    },
+    {
+      "n": 107,
+      "nEnd": 107,
+      "label": "5.107",
+      "speaker": null,
+      "iTrans": "avyAhatAj~naH sarvAsu yaH sadA devayoniShu |\nnirjitAkhiladaityAriH sa yadAha shR^iNuShva tat",
+      "devanagari": "अव्याहताज्ञः सर्वासु यः सदा देवयोनिषु ।\nनिर्जिताखिलदैत्यारिः स यदाह शृणुष्व तत्",
+      "iast": "avyāhatājñaḥ sarvāsu yaḥ sadā devayoniṣu |\nnirjitākhiladaityāriḥ sa yadāha śṛṇuṣva tat",
+      "padas": 2
+    },
+    {
+      "n": 108,
+      "nEnd": 108,
+      "label": "5.108",
+      "speaker": null,
+      "iTrans": "mama trailokyamakhilaM mama devA vashAnugAH |\nyaj~nabhAgAnahaM sarvAnupAshnAmi pR^ithak pR^ithak",
+      "devanagari": "मम त्रैलोक्यमखिलं मम देवा वशानुगाः ।\nयज्ञभागानहं सर्वानुपाश्नामि पृथक् पृथक्",
+      "iast": "mama trailokyamakhilaṃ mama devā vaśānugāḥ |\nyajñabhāgānahaṃ sarvānupāśnāmi pṛthak pṛthak",
+      "padas": 2
+    },
+    {
+      "n": 109,
+      "nEnd": 109,
+      "label": "5.109",
+      "speaker": null,
+      "iTrans": "trailokye vararatnAni mama vashyAnyasheShataH |\ntathaiva gajaratnaM cha hR^itaM devendravAhanam",
+      "devanagari": "त्रैलोक्ये वररत्नानि मम वश्यान्यशेषतः ।\nतथैव गजरत्नं च हृतं देवेन्द्रवाहनम्",
+      "iast": "trailokye vararatnāni mama vaśyānyaśeṣataḥ |\ntathaiva gajaratnaṃ ca hṛtaṃ devendravāhanam",
+      "padas": 2
+    },
+    {
+      "n": 110,
+      "nEnd": 110,
+      "label": "5.110",
+      "speaker": null,
+      "iTrans": "kShIrodamathanodbhUtamashvaratnaM mamAmaraiH |\nuchchaiHshravasasaMj~naM tatpraNipatya samarpitam",
+      "devanagari": "क्षीरोदमथनोद्भूतमश्वरत्नं ममामरैः ।\nउच्चैःश्रवससंज्ञं तत्प्रणिपत्य समर्पितम्",
+      "iast": "kṣīrodamathanodbhūtamaśvaratnaṃ mamāmaraiḥ |\nuccaiḥśravasasaṃjñaṃ tatpraṇipatya samarpitam",
+      "padas": 2
+    },
+    {
+      "n": 111,
+      "nEnd": 111,
+      "label": "5.111",
+      "speaker": null,
+      "iTrans": "yAni chAnyAni deveShu gandharveShUrageShu cha |\nratnabhUtAni bhUtAni tAni mayyeva shobhane",
+      "devanagari": "यानि चान्यानि देवेषु गन्धर्वेषूरगेषु च ।\nरत्नभूतानि भूतानि तानि मय्येव शोभने",
+      "iast": "yāni cānyāni deveṣu gandharveṣūrageṣu ca |\nratnabhūtāni bhūtāni tāni mayyeva śobhane",
+      "padas": 2
+    },
+    {
+      "n": 112,
+      "nEnd": 112,
+      "label": "5.112",
+      "speaker": null,
+      "iTrans": "strIratnabhUtAM tvAM devi loke manyAmahe vayam |\nsA tvamasmAnupAgachCha yato ratnabhujo vayam",
+      "devanagari": "स्त्रीरत्नभूतां त्वां देवि लोके मन्यामहे वयम् ।\nसा त्वमस्मानुपागच्छ यतो रत्नभुजो वयम्",
+      "iast": "strīratnabhūtāṃ tvāṃ devi loke manyāmahe vayam |\nsā tvamasmānupāgaccha yato ratnabhujo vayam",
+      "padas": 2
+    },
+    {
+      "n": 113,
+      "nEnd": 113,
+      "label": "5.113",
+      "speaker": null,
+      "iTrans": "mAM vA mamAnujaM vApi nishumbhamuruvikramam |\nbhaja tvaM cha~nchalApA~Ngi ratnabhUtAsi vai yataH",
+      "devanagari": "मां वा ममानुजं वापि निशुम्भमुरुविक्रमम् ।\nभज त्वं चञ्चलापाङ्गि रत्नभूतासि वै यतः",
+      "iast": "māṃ vā mamānujaṃ vāpi niśumbhamuruvikramam |\nbhaja tvaṃ cañcalāpāṅgi ratnabhūtāsi vai yataḥ",
+      "padas": 2
+    },
+    {
+      "n": 114,
+      "nEnd": 114,
+      "label": "5.114",
+      "speaker": null,
+      "iTrans": "paramaishvaryamatulaM prApsyase matparigrahAt |\netadbuddhyA samAlochya matparigrahatAM vraja",
+      "devanagari": "परमैश्वर्यमतुलं प्राप्स्यसे मत्परिग्रहात् ।\nएतद्बुद्ध्या समालोच्य मत्परिग्रहतां व्रज",
+      "iast": "paramaiśvaryamatulaṃ prāpsyase matparigrahāt |\netadbuddhyā samālocya matparigrahatāṃ vraja",
+      "padas": 2
+    },
+    {
+      "n": 115,
+      "nEnd": 115,
+      "label": "5.115",
+      "speaker": "R^iShiruvAcha",
+      "iTrans": "R^iShiruvAcha",
+      "devanagari": "ऋषिरुवाच",
+      "iast": "ṛṣiruvāca",
+      "padas": 1
+    },
+    {
+      "n": 116,
+      "nEnd": 116,
+      "label": "5.116",
+      "speaker": null,
+      "iTrans": "ityuktA sA tadA devI gambhIrAntaHsmitA jagau |\ndurgA bhagavatI bhadrA yayedaM dhAryate jagat",
+      "devanagari": "इत्युक्ता सा तदा देवी गम्भीरान्तःस्मिता जगौ ।\nदुर्गा भगवती भद्रा ययेदं धार्यते जगत्",
+      "iast": "ityuktā sā tadā devī gambhīrāntaḥsmitā jagau |\ndurgā bhagavatī bhadrā yayedaṃ dhāryate jagat",
+      "padas": 2
+    },
+    {
+      "n": 117,
+      "nEnd": 117,
+      "label": "5.117",
+      "speaker": "devyuvAcha",
+      "iTrans": "devyuvAcha",
+      "devanagari": "देव्युवाच",
+      "iast": "devyuvāca",
+      "padas": 1
+    },
+    {
+      "n": 118,
+      "nEnd": 118,
+      "label": "5.118",
+      "speaker": null,
+      "iTrans": "satyamuktaM tvayA nAtra mithyA ki~nchittvayoditam |\ntrailokyAdhipatiH shumbho nishumbhashchApi tAdR^ishaH",
+      "devanagari": "सत्यमुक्तं त्वया नात्र मिथ्या किञ्चित्त्वयोदितम् ।\nत्रैलोक्याधिपतिः शुम्भो निशुम्भश्चापि तादृशः",
+      "iast": "satyamuktaṃ tvayā nātra mithyā kiñcittvayoditam |\ntrailokyādhipatiḥ śumbho niśumbhaścāpi tādṛśaḥ",
+      "padas": 2
+    },
+    {
+      "n": 119,
+      "nEnd": 119,
+      "label": "5.119",
+      "speaker": null,
+      "iTrans": "kiM tvatra yatpratij~nAtaM mithyA tatkriyate katham |\nshrUyatAmalpabuddhitvAtpratij~nA yA kR^itA purA",
+      "devanagari": "किं त्वत्र यत्प्रतिज्ञातं मिथ्या तत्क्रियते कथम् ।\nश्रूयतामल्पबुद्धित्वात्प्रतिज्ञा या कृता पुरा",
+      "iast": "kiṃ tvatra yatpratijñātaṃ mithyā tatkriyate katham |\nśrūyatāmalpabuddhitvātpratijñā yā kṛtā purā",
+      "padas": 2
+    },
+    {
+      "n": 120,
+      "nEnd": 120,
+      "label": "5.120",
+      "speaker": null,
+      "iTrans": "yo mAM jayati sa~NgrAme yo me darpaM vyapohati |\nyo me pratibalo loke sa me bhartA bhaviShyati",
+      "devanagari": "यो मां जयति सङ्ग्रामे यो मे दर्पं व्यपोहति ।\nयो मे प्रतिबलो लोके स मे भर्ता भविष्यति",
+      "iast": "yo māṃ jayati saṅgrāme yo me darpaṃ vyapohati |\nyo me pratibalo loke sa me bhartā bhaviṣyati",
+      "padas": 2
+    },
+    {
+      "n": 121,
+      "nEnd": 121,
+      "label": "5.121",
+      "speaker": null,
+      "iTrans": "tadAgachChatu shumbho.atra nishumbho vA mahAbalaH |\nmAM jitvA kiM chireNAtra pANiM gR^ihNAtu me laghu",
+      "devanagari": "तदागच्छतु शुम्भोऽत्र निशुम्भो वा महाबलः ।\nमां जित्वा किं चिरेणात्र पाणिं गृह्णातु मे लघु",
+      "iast": "tadāgacchatu śumbho'tra niśumbho vā mahābalaḥ |\nmāṃ jitvā kiṃ cireṇātra pāṇiṃ gṛhṇātu me laghu",
+      "padas": 2
+    },
+    {
+      "n": 122,
+      "nEnd": 122,
+      "label": "5.122",
+      "speaker": null,
+      "iTrans": "dUta uvAcha",
+      "devanagari": "दूत उवाच",
+      "iast": "dūta uvāca",
+      "padas": 1
+    },
+    {
+      "n": 123,
+      "nEnd": 123,
+      "label": "5.123",
+      "speaker": null,
+      "iTrans": "avaliptAsi maivaM tvaM devi brUhi mamAgrataH |\ntrailokye kaH pumAMstiShThedagre shumbhanishumbhayoH",
+      "devanagari": "अवलिप्तासि मैवं त्वं देवि ब्रूहि ममाग्रतः ।\nत्रैलोक्ये कः पुमांस्तिष्ठेदग्रे शुम्भनिशुम्भयोः",
+      "iast": "avaliptāsi maivaṃ tvaṃ devi brūhi mamāgrataḥ |\ntrailokye kaḥ pumāṃstiṣṭhedagre śumbhaniśumbhayoḥ",
+      "padas": 2
+    },
+    {
+      "n": 124,
+      "nEnd": 124,
+      "label": "5.124",
+      "speaker": null,
+      "iTrans": "anyeShAmapi daityAnAM sarve devA na vai yudhi |\ntiShThanti sammukhe devi kiM punaH strI tvamekikA",
+      "devanagari": "अन्येषामपि दैत्यानां सर्वे देवा न वै युधि ।\nतिष्ठन्ति सम्मुखे देवि किं पुनः स्त्री त्वमेकिका",
+      "iast": "anyeṣāmapi daityānāṃ sarve devā na vai yudhi |\ntiṣṭhanti sammukhe devi kiṃ punaḥ strī tvamekikā",
+      "padas": 2
+    },
+    {
+      "n": 125,
+      "nEnd": 125,
+      "label": "5.125",
+      "speaker": null,
+      "iTrans": "indrAdyAH sakalA devAstasthuryeShAM na saMyuge |\nshumbhAdInAM kathaM teShAM strI prayAsyasi sammukham",
+      "devanagari": "इन्द्राद्याः सकला देवास्तस्थुर्येषां न संयुगे ।\nशुम्भादीनां कथं तेषां स्त्री प्रयास्यसि सम्मुखम्",
+      "iast": "indrādyāḥ sakalā devāstasthuryeṣāṃ na saṃyuge |\nśumbhādīnāṃ kathaṃ teṣāṃ strī prayāsyasi sammukham",
+      "padas": 2
+    },
+    {
+      "n": 126,
+      "nEnd": 126,
+      "label": "5.126",
+      "speaker": null,
+      "iTrans": "sA tvaM gachCha mayaivoktA pArshvaM shumbhanishumbhayoH |\nkeshAkarShaNanirdhUtagauravA mA gamiShyasi",
+      "devanagari": "सा त्वं गच्छ मयैवोक्ता पार्श्वं शुम्भनिशुम्भयोः ।\nकेशाकर्षणनिर्धूतगौरवा मा गमिष्यसि",
+      "iast": "sā tvaṃ gaccha mayaivoktā pārśvaṃ śumbhaniśumbhayoḥ |\nkeśākarṣaṇanirdhūtagauravā mā gamiṣyasi",
+      "padas": 2
+    },
+    {
+      "n": 127,
+      "nEnd": 127,
+      "label": "5.127",
+      "speaker": "devyuvAcha",
+      "iTrans": "devyuvAcha",
+      "devanagari": "देव्युवाच",
+      "iast": "devyuvāca",
+      "padas": 1
+    },
+    {
+      "n": 128,
+      "nEnd": 128,
+      "label": "5.128",
+      "speaker": null,
+      "iTrans": "evametad balI shumbho nishumbhashchApitAdR^ishaH |\nkiM karomi pratij~nA me yadanAlochitA purA",
+      "devanagari": "एवमेतद् बली शुम्भो निशुम्भश्चापितादृशः ।\nकिं करोमि प्रतिज्ञा मे यदनालोचिता पुरा",
+      "iast": "evametad balī śumbho niśumbhaścāpitādṛśaḥ |\nkiṃ karomi pratijñā me yadanālocitā purā",
+      "padas": 2
+    },
+    {
+      "n": 129,
+      "nEnd": 129,
+      "label": "5.129",
+      "speaker": null,
+      "iTrans": "sa tvaM gachCha mayoktaM te yadetatsarvamAdR^itaH |\ntadAchakShvAsurendrAya sa cha yuktaM karotu yat",
+      "devanagari": "स त्वं गच्छ मयोक्तं ते यदेतत्सर्वमादृतः ।\nतदाचक्ष्वासुरेन्द्राय स च युक्तं करोतु यत्",
+      "iast": "sa tvaṃ gaccha mayoktaṃ te yadetatsarvamādṛtaḥ |\ntadācakṣvāsurendrāya sa ca yuktaṃ karotu yat",
+      "padas": 2
+    }
+  ]
+}

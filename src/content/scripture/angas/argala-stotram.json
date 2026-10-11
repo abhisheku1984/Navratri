@@ -1,0 +1,267 @@
+{
+  "id": "argala-stotram",
+  "slug": "argala-stotram",
+  "titleEnglish": "Argala Stotram",
+  "titleSanskrit": "अर्गलास्तोत्रम्",
+  "titleItrans": "argalAstotram",
+  "titleIast": "argalāstotram",
+  "kind": "purvanga",
+  "order": 2,
+  "note": "Recited before the main path in the Navangam sequence.",
+  "verseUnitCount": 27,
+  "traditionalVerseCount": 27,
+  "viniyoga": {
+    "iTrans": null,
+    "devanagari": null
+  },
+  "dhyana": {
+    "iTrans": null,
+    "devanagari": null
+  },
+  "sourceRef": "durga700",
+  "verses": [
+    {
+      "n": 1,
+      "label": "1",
+      "speaker": null,
+      "iTrans": "OM asya shrIargalAstotramantrasya viShNurR^iShiH\nanuShTup ChandaH shrImahAlakShmIrdevatA\nshrIjagadambAprItaye saptashatipAThA~Ngatvena jape viniyogaH |\nOM namashchaNDikAyai |\nmArkaNDeya uvAcha |\nOM jaya tvaM devi chAmuNDe jaya bhUtApahAriNi |\njaya sarvagate devi kAlarAtri namo.astu te",
+      "devanagari": "ॐ अस्य श्रीअर्गलास्तोत्रमन्त्रस्य विष्णुरृषिः\nअनुष्टुप् छन्दः श्रीमहालक्ष्मीर्देवता\nश्रीजगदम्बाप्रीतये सप्तशतिपाठाङ्गत्वेन जपे विनियोगः ।\nॐ नमश्चण्डिकायै ।\nमार्कण्डेय उवाच ।\nॐ जय त्वं देवि चामुण्डे जय भूतापहारिणि ।\nजय सर्वगते देवि कालरात्रि नमोऽस्तु ते",
+      "iast": "oṃ asya śrīargalāstotramantrasya viṣṇurṛṣiḥ\nanuṣṭup chandaḥ śrīmahālakṣmīrdevatā\nśrījagadambāprītaye saptaśatipāṭhāṅgatvena jape viniyogaḥ |\noṃ namaścaṇḍikāyai |\nmārkaṇḍeya uvāca |\noṃ jaya tvaṃ devi cāmuṇḍe jaya bhūtāpahāriṇi |\njaya sarvagate devi kālarātri namo'stu te",
+      "padas": 7
+    },
+    {
+      "n": 2,
+      "label": "2",
+      "speaker": null,
+      "iTrans": "jayantI ma~NgalA kAlI bhadrakAlI kapAlinI |\ndurgA shivA kShamA dhAtrI svAhA svadhA namo.astu te",
+      "devanagari": "जयन्ती मङ्गला काली भद्रकाली कपालिनी ।\nदुर्गा शिवा क्षमा धात्री स्वाहा स्वधा नमोऽस्तु ते",
+      "iast": "jayantī maṅgalā kālī bhadrakālī kapālinī |\ndurgā śivā kṣamā dhātrī svāhā svadhā namo'stu te",
+      "padas": 2
+    },
+    {
+      "n": 3,
+      "label": "3",
+      "speaker": null,
+      "iTrans": "madhukaiTabhavidhvaMsi vidhAtR^ivarade namaH |\nrUpaM dehi jayaM dehi yasho dehi dviSho jahi",
+      "devanagari": "मधुकैटभविध्वंसि विधातृवरदे नमः ।\nरूपं देहि जयं देहि यशो देहि द्विषो जहि",
+      "iast": "madhukaiṭabhavidhvaṃsi vidhātṛvarade namaḥ |\nrūpaṃ dehi jayaṃ dehi yaśo dehi dviṣo jahi",
+      "padas": 2
+    },
+    {
+      "n": 4,
+      "label": "4",
+      "speaker": null,
+      "iTrans": "mahiShAsuranirnAshi bhaktAnAM sukhade namaH |\nrUpaM dehi jayaM dehi yasho dehi dviSho jahi",
+      "devanagari": "महिषासुरनिर्नाशि भक्तानां सुखदे नमः ।\nरूपं देहि जयं देहि यशो देहि द्विषो जहि",
+      "iast": "mahiṣāsuranirnāśi bhaktānāṃ sukhade namaḥ |\nrūpaṃ dehi jayaṃ dehi yaśo dehi dviṣo jahi",
+      "padas": 2
+    },
+    {
+      "n": 5,
+      "label": "5",
+      "speaker": null,
+      "iTrans": "dhUmranetravadhe devi dharmakAmArthadAyini |\nrUpaM dehi jayaM dehi yasho dehi dviSho jahi",
+      "devanagari": "धूम्रनेत्रवधे देवि धर्मकामार्थदायिनि ।\nरूपं देहि जयं देहि यशो देहि द्विषो जहि",
+      "iast": "dhūmranetravadhe devi dharmakāmārthadāyini |\nrūpaṃ dehi jayaṃ dehi yaśo dehi dviṣo jahi",
+      "padas": 2
+    },
+    {
+      "n": 6,
+      "label": "6",
+      "speaker": null,
+      "iTrans": "raktabIjavadhe devi chaNDamuNDavinAshini |\nrUpaM dehi jayaM dehi yasho dehi dviSho jahi",
+      "devanagari": "रक्तबीजवधे देवि चण्डमुण्डविनाशिनि ।\nरूपं देहि जयं देहि यशो देहि द्विषो जहि",
+      "iast": "raktabījavadhe devi caṇḍamuṇḍavināśini |\nrūpaṃ dehi jayaṃ dehi yaśo dehi dviṣo jahi",
+      "padas": 2
+    },
+    {
+      "n": 7,
+      "label": "7",
+      "speaker": null,
+      "iTrans": "nishumbhashumbhanirnAshi trailokyashubhade namaH |\nrUpaM dehi jayaM dehi yasho dehi dviSho jahi",
+      "devanagari": "निशुम्भशुम्भनिर्नाशि त्रैलोक्यशुभदे नमः ।\nरूपं देहि जयं देहि यशो देहि द्विषो जहि",
+      "iast": "niśumbhaśumbhanirnāśi trailokyaśubhade namaḥ |\nrūpaṃ dehi jayaṃ dehi yaśo dehi dviṣo jahi",
+      "padas": 2
+    },
+    {
+      "n": 8,
+      "label": "8",
+      "speaker": null,
+      "iTrans": "vanditA~Nghriyuge devi sarvasaubhAgyadAyini |\nrUpaM dehi jayaM dehi yasho dehi dviSho jahi",
+      "devanagari": "वन्दिताङ्घ्रियुगे देवि सर्वसौभाग्यदायिनि ।\nरूपं देहि जयं देहि यशो देहि द्विषो जहि",
+      "iast": "vanditāṅghriyuge devi sarvasaubhāgyadāyini |\nrūpaṃ dehi jayaṃ dehi yaśo dehi dviṣo jahi",
+      "padas": 2
+    },
+    {
+      "n": 9,
+      "label": "9",
+      "speaker": null,
+      "iTrans": "achintyarUpacharite sarvashatruvinAshini |\nrUpaM dehi jayaM dehi yasho dehi dviSho jahi",
+      "devanagari": "अचिन्त्यरूपचरिते सर्वशत्रुविनाशिनि ।\nरूपं देहि जयं देहि यशो देहि द्विषो जहि",
+      "iast": "acintyarūpacarite sarvaśatruvināśini |\nrūpaṃ dehi jayaṃ dehi yaśo dehi dviṣo jahi",
+      "padas": 2
+    },
+    {
+      "n": 10,
+      "label": "10",
+      "speaker": null,
+      "iTrans": "natebhyaH sarvadA bhaktyA chAparNe duritApahe |\nrUpaM dehi jayaM dehi yasho dehi dviSho jahi",
+      "devanagari": "नतेभ्यः सर्वदा भक्त्या चापर्णे दुरितापहे ।\nरूपं देहि जयं देहि यशो देहि द्विषो जहि",
+      "iast": "natebhyaḥ sarvadā bhaktyā cāparṇe duritāpahe |\nrūpaṃ dehi jayaṃ dehi yaśo dehi dviṣo jahi",
+      "padas": 2
+    },
+    {
+      "n": 11,
+      "label": "11",
+      "speaker": null,
+      "iTrans": "stuvadbhyo bhaktipUrvaM tvAM chaNDike vyAdhinAshini |\nrUpaM dehi jayaM dehi yasho dehi dviSho jahi",
+      "devanagari": "स्तुवद्भ्यो भक्तिपूर्वं त्वां चण्डिके व्याधिनाशिनि ।\nरूपं देहि जयं देहि यशो देहि द्विषो जहि",
+      "iast": "stuvadbhyo bhaktipūrvaṃ tvāṃ caṇḍike vyādhināśini |\nrūpaṃ dehi jayaṃ dehi yaśo dehi dviṣo jahi",
+      "padas": 2
+    },
+    {
+      "n": 12,
+      "label": "12",
+      "speaker": null,
+      "iTrans": "chaNDike satataM yuddhe jayanti pApanAshini |\nrUpaM dehi jayaM dehi yasho dehi dviSho jahi",
+      "devanagari": "चण्डिके सततं युद्धे जयन्ति पापनाशिनि ।\nरूपं देहि जयं देहि यशो देहि द्विषो जहि",
+      "iast": "caṇḍike satataṃ yuddhe jayanti pāpanāśini |\nrūpaṃ dehi jayaṃ dehi yaśo dehi dviṣo jahi",
+      "padas": 2
+    },
+    {
+      "n": 13,
+      "label": "13",
+      "speaker": null,
+      "iTrans": "dehi saubhAgyamArogyaM dehi devi paraM sukham |\nrUpaM dehi jayaM dehi yasho dehi dviSho jahi",
+      "devanagari": "देहि सौभाग्यमारोग्यं देहि देवि परं सुखम् ।\nरूपं देहि जयं देहि यशो देहि द्विषो जहि",
+      "iast": "dehi saubhāgyamārogyaṃ dehi devi paraṃ sukham |\nrūpaṃ dehi jayaṃ dehi yaśo dehi dviṣo jahi",
+      "padas": 2
+    },
+    {
+      "n": 14,
+      "label": "14",
+      "speaker": null,
+      "iTrans": "vidhehi devi kalyANaM vidhehi vipulAM shriyam |\nrUpaM dehi jayaM dehi yasho dehi dviSho jahi",
+      "devanagari": "विधेहि देवि कल्याणं विधेहि विपुलां श्रियम् ।\nरूपं देहि जयं देहि यशो देहि द्विषो जहि",
+      "iast": "vidhehi devi kalyāṇaṃ vidhehi vipulāṃ śriyam |\nrūpaṃ dehi jayaṃ dehi yaśo dehi dviṣo jahi",
+      "padas": 2
+    },
+    {
+      "n": 15,
+      "label": "15",
+      "speaker": null,
+      "iTrans": "vidhehi dviShatAM nAshaM vidhehi balamuchchakaiH |\nrUpaM dehi jayaM dehi yasho dehi dviSho jahi",
+      "devanagari": "विधेहि द्विषतां नाशं विधेहि बलमुच्चकैः ।\nरूपं देहि जयं देहि यशो देहि द्विषो जहि",
+      "iast": "vidhehi dviṣatāṃ nāśaṃ vidhehi balamuccakaiḥ |\nrūpaṃ dehi jayaṃ dehi yaśo dehi dviṣo jahi",
+      "padas": 2
+    },
+    {
+      "n": 16,
+      "label": "16",
+      "speaker": null,
+      "iTrans": "surAsurashiroratnanighR^iShTacharaNe.ambike |\nrUpaM dehi jayaM dehi yasho dehi dviSho jahi",
+      "devanagari": "सुरासुरशिरोरत्ननिघृष्टचरणेऽम्बिके ।\nरूपं देहि जयं देहि यशो देहि द्विषो जहि",
+      "iast": "surāsuraśiroratnanighṛṣṭacaraṇe'mbike |\nrūpaṃ dehi jayaṃ dehi yaśo dehi dviṣo jahi",
+      "padas": 2
+    },
+    {
+      "n": 17,
+      "label": "17",
+      "speaker": null,
+      "iTrans": "vidyAvantaM yashasvantaM lakShmIvanta~ncha mAM kuru |\nrUpaM dehi jayaM dehi yasho dehi dviSho jahi",
+      "devanagari": "विद्यावन्तं यशस्वन्तं लक्ष्मीवन्तञ्च मां कुरु ।\nरूपं देहि जयं देहि यशो देहि द्विषो जहि",
+      "iast": "vidyāvantaṃ yaśasvantaṃ lakṣmīvantañca māṃ kuru |\nrūpaṃ dehi jayaṃ dehi yaśo dehi dviṣo jahi",
+      "padas": 2
+    },
+    {
+      "n": 18,
+      "label": "18",
+      "speaker": null,
+      "iTrans": "devi prachaNDadordaNDadaityadarpaniShUdini |\nrUpaM dehi jayaM dehi yasho dehi dviSho jahi",
+      "devanagari": "देवि प्रचण्डदोर्दण्डदैत्यदर्पनिषूदिनि ।\nरूपं देहि जयं देहि यशो देहि द्विषो जहि",
+      "iast": "devi pracaṇḍadordaṇḍadaityadarpaniṣūdini |\nrūpaṃ dehi jayaṃ dehi yaśo dehi dviṣo jahi",
+      "padas": 2
+    },
+    {
+      "n": 19,
+      "label": "19",
+      "speaker": null,
+      "iTrans": "prachaNDadaityadarpaghne chaNDike praNatAya me |\nrUpaM dehi jayaM dehi yasho dehi dviSho jahi",
+      "devanagari": "प्रचण्डदैत्यदर्पघ्ने चण्डिके प्रणताय मे ।\nरूपं देहि जयं देहि यशो देहि द्विषो जहि",
+      "iast": "pracaṇḍadaityadarpaghne caṇḍike praṇatāya me |\nrūpaṃ dehi jayaṃ dehi yaśo dehi dviṣo jahi",
+      "padas": 2
+    },
+    {
+      "n": 20,
+      "label": "20",
+      "speaker": null,
+      "iTrans": "chaturbhuje chaturvaktrasaMstute parameshvari |\nrUpaM dehi jayaM dehi yasho dehi dviSho jahi",
+      "devanagari": "चतुर्भुजे चतुर्वक्त्रसंस्तुते परमेश्वरि ।\nरूपं देहि जयं देहि यशो देहि द्विषो जहि",
+      "iast": "caturbhuje caturvaktrasaṃstute parameśvari |\nrūpaṃ dehi jayaṃ dehi yaśo dehi dviṣo jahi",
+      "padas": 2
+    },
+    {
+      "n": 21,
+      "label": "21",
+      "speaker": null,
+      "iTrans": "kR^iShNena saMstute devi shashvadbhaktyA sadAmbike |\nrUpaM dehi jayaM dehi yasho dehi dviSho jahi",
+      "devanagari": "कृष्णेन संस्तुते देवि शश्वद्भक्त्या सदाम्बिके ।\nरूपं देहि जयं देहि यशो देहि द्विषो जहि",
+      "iast": "kṛṣṇena saṃstute devi śaśvadbhaktyā sadāmbike |\nrūpaṃ dehi jayaṃ dehi yaśo dehi dviṣo jahi",
+      "padas": 2
+    },
+    {
+      "n": 22,
+      "label": "22",
+      "speaker": null,
+      "iTrans": "himAchalasutAnAthasaMstute parameshvari |\nrUpaM dehi jayaM dehi yasho dehi dviSho jahi",
+      "devanagari": "हिमाचलसुतानाथसंस्तुते परमेश्वरि ।\nरूपं देहि जयं देहि यशो देहि द्विषो जहि",
+      "iast": "himācalasutānāthasaṃstute parameśvari |\nrūpaṃ dehi jayaṃ dehi yaśo dehi dviṣo jahi",
+      "padas": 2
+    },
+    {
+      "n": 23,
+      "label": "23",
+      "speaker": null,
+      "iTrans": "indrANIpatisadbhAvapUjite parameshvari |\nrUpaM dehi jayaM dehi yasho dehi dviSho jahi",
+      "devanagari": "इन्द्राणीपतिसद्भावपूजिते परमेश्वरि ।\nरूपं देहि जयं देहि यशो देहि द्विषो जहि",
+      "iast": "indrāṇīpatisadbhāvapūjite parameśvari |\nrūpaṃ dehi jayaṃ dehi yaśo dehi dviṣo jahi",
+      "padas": 2
+    },
+    {
+      "n": 24,
+      "label": "24",
+      "speaker": null,
+      "iTrans": "devi bhaktajanoddAmadattAnandodaye.ambike |\nrUpaM dehi jayaM dehi yasho dehi dviSho jahi",
+      "devanagari": "देवि भक्तजनोद्दामदत्तानन्दोदयेऽम्बिके ।\nरूपं देहि जयं देहि यशो देहि द्विषो जहि",
+      "iast": "devi bhaktajanoddāmadattānandodaye'mbike |\nrūpaṃ dehi jayaṃ dehi yaśo dehi dviṣo jahi",
+      "padas": 2
+    },
+    {
+      "n": 25,
+      "label": "25",
+      "speaker": null,
+      "iTrans": "bhAryAM manoramAM dehi manovR^ittAnusAriNIm |\nrUpaM dehi jayaM dehi yasho dehi dviSho jahi",
+      "devanagari": "भार्यां मनोरमां देहि मनोवृत्तानुसारिणीम् ।\nरूपं देहि जयं देहि यशो देहि द्विषो जहि",
+      "iast": "bhāryāṃ manoramāṃ dehi manovṛttānusāriṇīm |\nrūpaṃ dehi jayaṃ dehi yaśo dehi dviṣo jahi",
+      "padas": 2
+    },
+    {
+      "n": 26,
+      "label": "26",
+      "speaker": null,
+      "iTrans": "tAriNi durgasaMsArasAgarasyAchalodbhave |\nrUpaM dehi jayaM dehi yasho dehi dviSho jahi",
+      "devanagari": "तारिणि दुर्गसंसारसागरस्याचलोद्भवे ।\nरूपं देहि जयं देहि यशो देहि द्विषो जहि",
+      "iast": "tāriṇi durgasaṃsārasāgarasyācalodbhave |\nrūpaṃ dehi jayaṃ dehi yaśo dehi dviṣo jahi",
+      "padas": 2
+    },
+    {
+      "n": 27,
+      "label": "27",
+      "speaker": null,
+      "iTrans": "idaM stotraM paThitvA tu mahAstotraM paThennaraH |\nsaptashatIM samArAdhya varamApnoti durlabham",
+      "devanagari": "इदं स्तोत्रं पठित्वा तु महास्तोत्रं पठेन्नरः ।\nसप्तशतीं समाराध्य वरमाप्नोति दुर्लभम्",
+      "iast": "idaṃ stotraṃ paṭhitvā tu mahāstotraṃ paṭhennaraḥ |\nsaptaśatīṃ samārādhya varamāpnoti durlabham",
+      "padas": 2
+    }
+  ]
+}

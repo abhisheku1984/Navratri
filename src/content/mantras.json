@@ -1,0 +1,298 @@
+{
+  "collectionId": "mantra-library",
+  "title": "Mantra, Stotra, Aarti and Bhajan Library",
+  "intro": "Devotional texts with their source and their verification status. Items marked 'not included' are absent deliberately — they are either copyright-restricted or could not be sourced from a verifiable edition, and neither is a reason to transcribe from memory.",
+  "editorialNote": "Editorial content authored for this app. It has not been through independent scholarly review. See the Content Verification page.",
+  "items": [
+    {
+      "slug": "navarna-mantra",
+      "title": "Navarna Mantra (Navakshari)",
+      "deva": "ॐ ऐं ह्रीं क्लीं चामुण्डायै विच्चे",
+      "iast": "oṃ aiṃ hrīṃ klīṃ cāmuṇḍāyai vicce",
+      "category": "mantra",
+      "attribution": "Shakta tantric tradition; the seed mantra of Chandika, central to Saptashati recitation.",
+      "meaning": "The nine-syllable mantra of Chandika. The first three syllables are bīja (seed) syllables and are not lexical words, so they are not translated word by word; cāmuṇḍāyai is 'to Chamunda' in the dative, and vicce is a bīja-like termination with no ordinary lexical meaning.",
+      "wordMeaning": [
+        [
+          "ॐ oṃ",
+          "the primordial syllable"
+        ],
+        [
+          "ऐं aiṃ",
+          "bīja of Saraswati / of speech"
+        ],
+        [
+          "ह्रीं hrīṃ",
+          "bīja of the Goddess as maya"
+        ],
+        [
+          "क्लीं klīṃ",
+          "bīja of desire and of Kama"
+        ],
+        [
+          "चामुण्डायै cāmuṇḍāyai",
+          "to Chamunda (dative)"
+        ],
+        [
+          "विच्चे vicce",
+          "bīja-like termination; not a lexical word"
+        ]
+      ],
+      "pronunciation": "om AIM hreem kleem cha-mun-DAI-yay vich-cheh",
+      "textStatus": "verified-traditional",
+      "chapterRef": null,
+      "audio": null
+    },
+    {
+      "slug": "om-namash-chandikayai",
+      "title": "Namash Chandikayai",
+      "deva": "ॐ नमश्चण्डिकायै",
+      "iast": "oṃ namaścaṇḍikāyai",
+      "category": "mantra",
+      "attribution": "Devi Mahatmya; recited at the head of the text and before each chapter.",
+      "meaning": "Salutation to Chandika. It appears in our imported source at the head of the kavacham, the argala, the kilaka and chapter 1.",
+      "wordMeaning": [
+        [
+          "ॐ oṃ",
+          "the primordial syllable"
+        ],
+        [
+          "नमः namaḥ",
+          "salutation, obeisance"
+        ],
+        [
+          "चण्डिकायै caṇḍikāyai",
+          "to Chandika (dative)"
+        ]
+      ],
+      "pronunciation": "om na-mash-chan-dee-KAI-yay",
+      "textStatus": "verified",
+      "chapterRef": null,
+      "audio": null,
+      "sourceRef": "Appears verbatim in the imported durga700 source."
+    },
+    {
+      "slug": "ya-devi-sarvabhuteshu",
+      "title": "Ya Devi Sarvabhuteshu",
+      "deva": "या देवी सर्वभूतेषु …",
+      "iast": "yā devī sarvabhūteṣu …",
+      "category": "stotra",
+      "attribution": "Devi Mahatmya, chapter 5. Recited as the Devi Sukta during the path.",
+      "meaning": "The Goddess addressed as present in all beings under twenty-one aspects — as Vishnu-maya, consciousness, intellect, sleep, hunger, shadow, power, thirst, forgiveness, kind, modesty, peace, faith, radiance, delight, mother, and error. Each verse is followed by the refrain 'namastasyai namastasyai namastasyai namo namaḥ'.",
+      "wordMeaning": [
+        [
+          "या yā",
+          "who (feminine relative)"
+        ],
+        [
+          "देवी devī",
+          "the Goddess"
+        ],
+        [
+          "सर्वभूतेषु sarvabhūteṣu",
+          "in all beings (locative plural)"
+        ],
+        [
+          "नमस्तस्यै namastasyai",
+          "salutation to her"
+        ]
+      ],
+      "pronunciation": "yaa day-VEE sar-va-bhoo-TAY-shoo",
+      "textStatus": "verified",
+      "chapterRef": {
+        "chapter": 5,
+        "verses": "5.14–16 through 5.74–76",
+        "count": 21
+      },
+      "audio": null
+    },
+    {
+      "slug": "devi-kavacham",
+      "title": "Devi Kavacham",
+      "deva": "देवी कवचम्",
+      "iast": "devī kavacam",
+      "category": "anga",
+      "attribution": "Durga Saptashati auxiliary recitation; 60 verses in our imported edition.",
+      "meaning": "The 'armour' hymn. It assigns the nine forms to the limbs (nyasa), names the protecting goddesses of the directions, and is recited first in the Navangam order.",
+      "wordMeaning": [
+        [
+          "कवचम् kavacam",
+          "armour, cuirass"
+        ]
+      ],
+      "pronunciation": "day-VEE ka-va-CHAM",
+      "textStatus": "verified",
+      "chapterRef": null,
+      "fullTextRef": "/scripture/angas/devi-kavacham",
+      "audio": null
+    },
+    {
+      "slug": "argala-stotram",
+      "title": "Argala Stotram",
+      "deva": "अर्गल स्तोत्रम्",
+      "iast": "argala stotram",
+      "category": "anga",
+      "attribution": "Durga Saptashati auxiliary recitation; 27 verses in our imported edition.",
+      "meaning": "The 'bolt' hymn: a series of petitions ('give form, give victory, give fame, destroy my enemies') framed by Jaya tvam Devi Chamunde.",
+      "wordMeaning": [
+        [
+          "अर्गल argala",
+          "bolt, bar (of a door)"
+        ]
+      ],
+      "pronunciation": "ar-ga-la STOT-ram",
+      "textStatus": "verified",
+      "chapterRef": null,
+      "fullTextRef": "/scripture/angas/argala-stotram",
+      "audio": null
+    },
+    {
+      "slug": "kilaka-stotram",
+      "title": "Kilaka Stotram",
+      "deva": "कीलक स्तोत्रम्",
+      "iast": "kīlaka stotram",
+      "category": "anga",
+      "attribution": "Durga Saptashati auxiliary recitation; 16 verses in our imported edition.",
+      "meaning": "The 'pin' hymn, recited to remove obstacles to the recitation itself.",
+      "wordMeaning": [
+        [
+          "कीलक kīlaka",
+          "pin, peg, wedge"
+        ]
+      ],
+      "pronunciation": "KEE-la-ka STOT-ram",
+      "textStatus": "verified",
+      "chapterRef": null,
+      "fullTextRef": "/scripture/angas/kilaka-stotram",
+      "audio": null
+    },
+    {
+      "slug": "devi-suktam",
+      "title": "Devi Suktam (Rig Veda 10.125)",
+      "deva": "देवी सूक्तम्",
+      "iast": "devī sūktam",
+      "category": "anga",
+      "attribution": "Rig Veda 10.125, the Vak Sukta; recited in the Devi path.",
+      "meaning": "The seer Vak declares herself as the one who moves with the Rudras, the Vasus and the Adityas; who bears Soma, Pushan and Bhaga; who is queen, gatherer of wealth, and first among those worthy of sacrifice.",
+      "wordMeaning": [
+        [
+          "अहं ahaṃ",
+          "I"
+        ],
+        [
+          "रुद्रेभिः rudrebhiḥ",
+          "with the Rudras"
+        ],
+        [
+          "वसुभिः vasubhiḥ",
+          "with the Vasus"
+        ],
+        [
+          "चरामि carāmi",
+          "I move"
+        ]
+      ],
+      "pronunciation": "day-VEE SOOK-tam",
+      "textStatus": "verified",
+      "chapterRef": null,
+      "fullTextRef": "/scripture/angas/devi-suktam",
+      "audio": null
+    },
+    {
+      "slug": "aparadha-kshamapana",
+      "title": "Aparadha Kshamapana Stotram",
+      "deva": "अपराधक्षमापन स्तोत्रम्",
+      "iast": "aparādhakṣamāpana stotram",
+      "category": "anga",
+      "attribution": "Durga Saptashati auxiliary recitation; 9 verses in our imported edition.",
+      "meaning": "The closing prayer asking forgiveness for errors of pronunciation, memory and attention in the recitation. Notably it asks that whatever was mis-syllabled be made whole by the Goddess's grace rather than by the reciter's skill.",
+      "wordMeaning": [
+        [
+          "अपराध aparādha",
+          "offence, error"
+        ],
+        [
+          "क्षमापन kṣamāpana",
+          "asking forgiveness"
+        ]
+      ],
+      "pronunciation": "a-pa-raa-dha ksha-maa-PA-na STOT-ram",
+      "textStatus": "verified",
+      "chapterRef": null,
+      "fullTextRef": "/scripture/angas/aparadha-kshamapana",
+      "audio": null
+    },
+    {
+      "slug": "chandika-dhyana",
+      "title": "Chandika Dhyana",
+      "deva": "श्रीचण्डिकाध्यानम्",
+      "iast": "śrīcaṇḍikādhyānam",
+      "category": "anga",
+      "attribution": "Placed at the head of the text in our imported edition; two dhyana blocks.",
+      "meaning": "Meditation verses describing the form of Chandika, followed by the alternative (athava) dhyana that summarises the whole text in one verse: she who destroyed Madhu and Kaitabha, who uprooted Mahisha, who churned Dhumralochana, who consumed Raktabija, who destroyed Shumbha and Nishumbha, and who is the giver of siddhis.",
+      "wordMeaning": [
+        [
+          "ध्यानम् dhyānam",
+          "meditation"
+        ],
+        [
+          "अथवा athavā",
+          "alternatively"
+        ]
+      ],
+      "pronunciation": "shree chan-dee-KAA DHYAA-nam",
+      "textStatus": "verified",
+      "chapterRef": null,
+      "fullTextRef": "/scripture/angas/chandika-dhyana",
+      "audio": null
+    },
+    {
+      "slug": "mahishasura-mardini-stotram",
+      "title": "Mahishasura Mardini Stotram",
+      "deva": "महिषासुरमर्दिनी स्तोत्रम्",
+      "iast": "mahiṣāsuramardinī stotram",
+      "category": "stotra",
+      "attribution": "Traditionally attributed to Bana Bhatta; the attribution is traditional rather than established.",
+      "meaning": "A twelve-verse hymn in a fast, percussive metre addressed to the slayer of Mahishasura.",
+      "wordMeaning": [
+        [
+          "महिष mahiṣa",
+          "buffalo"
+        ],
+        [
+          "असुर asura",
+          "demon"
+        ],
+        [
+          "मर्दिनी mardinī",
+          "she who crushes"
+        ]
+      ],
+      "pronunciation": "ma-hi-shaa-su-ra-mar-dee-NEE STOT-ram",
+      "textStatus": "not-included",
+      "textStatusNote": "The full text is not reproduced here. It was not available from a source this build could verify, and it will not be transcribed from memory. Add it through the documented import process with a citable edition.",
+      "chapterRef": null,
+      "audio": null
+    },
+    {
+      "slug": "durga-chalisa",
+      "title": "Durga Chalisa",
+      "deva": "दुर्गा चालीसा",
+      "iast": "durgā calīsā",
+      "category": "bhajan",
+      "attribution": "Hindi devotional composition in the chalisa form; modern printed editions are commonly associated with Gita Press and similar publishers.",
+      "meaning": "A forty-verse Hindi devotional hymn to Durga.",
+      "wordMeaning": [
+        [
+          "चालीसा calīsā",
+          "of forty (verses)"
+        ]
+      ],
+      "pronunciation": "dur-gaa CHAA-lee-saa",
+      "textStatus": "not-included",
+      "textStatusNote": "Not reproduced. Recent printed editions are under copyright, and the app will not reproduce a copyrighted devotional text without permission. Licence it, then add it through the import process.",
+      "chapterRef": null,
+      "audio": null
+    }
+  ]
+}

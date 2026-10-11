@@ -1,0 +1,94 @@
+{
+  "collectionId": "sources",
+  "title": "Sources, Editions and Verification",
+  "intro": "Every substantive record in this app points at one of the entries below. Where a record could not be tied to a source it is marked as awaiting verification rather than being given a plausible-sounding citation.",
+  "sources": [
+    {
+      "id": "durga700",
+      "kind": "scripture",
+      "title": "Devi Mahatmyam / Durga Saptashati (ITRANS transcription)",
+      "provenance": "Sanskrit Documents (sanskritdocuments.org), doc_devii/durga700",
+      "people": {
+        "transcribers": [
+          "K. Shankaran",
+          "Kirk Wortman",
+          "Dhruba Chakroborty",
+          "Ahto Jarve"
+        ],
+        "proofreaders": [
+          "Sunder Hattangadi",
+          "Kirk Wortman"
+        ]
+      },
+      "editionNote": "ITRANS source dated 26 February 2024 per its own header.",
+      "localCopy": "scripts/sources/durga700.itx",
+      "derived": "Devanagari and IAST are produced mechanically from the ITRANS with the indic-transliteration library. No verse wording was edited.",
+      "licence": "The Sanskrit text itself is ancient and out of copyright. The transcription is volunteer work whose header asks that it not be reposted for commercial promotion without permission — see docs/CONTENT_SOURCING.md before shipping.",
+      "status": "verified",
+      "verification": "scripts/verify-scripture.ts checks all 13 chapters, verse numbering continuity, and that the verse total reconciles with the source's own colophon (700)."
+    },
+    {
+      "id": "pargiter-1904",
+      "kind": "translation",
+      "title": "The Markandeya Purana — Devi Mahatmya (English translation)",
+      "author": "F. Eden Pargiter",
+      "published": "Bibliotheca Indica, Asiatic Society of Bengal, Calcutta, 1904",
+      "licence": "public_domain",
+      "localCopy": "scripts/sources/devi_mahatmya_pargiter_1904.txt",
+      "digitalCopy": "Archive.org witness cu31924022991974 (uncorrected OCR)",
+      "caveats": [
+        "The OCR is uncorrected; spelling artefacts are preserved rather than silently fixed.",
+        "OCR verse numbers are corrupt, so no verse-level alignment is offered.",
+        "Canto XCIII is truncated in this witness; chapter 13 is incomplete."
+      ],
+      "status": "verified-with-caveats"
+    },
+    {
+      "id": "navadurga-stotram",
+      "kind": "stotra",
+      "title": "Navadurga Stotram (nine dhyana shlokas)",
+      "provenance": "Traditional; text as printed in Parayan Grantham (पारायण ग्रन्थम्)",
+      "localCopy": "scripts/sources/navadurga-stotram-sangrah.md",
+      "caveats": [
+        "Not collated against a critical edition. Wording differs between lineages."
+      ],
+      "status": "partially-verified"
+    },
+    {
+      "id": "panchang-engine",
+      "kind": "computation",
+      "title": "Tithi / nakshatra / Navratri date computation",
+      "provenance": "Jean Meeus, Astronomical Algorithms (2nd ed.), ch. 22, 25 and 47",
+      "localCopy": "src/lib/panchang/astronomy.ts",
+      "caveats": [
+        "Low-precision series: about 0.01 degrees for the Sun, 0.3 degrees for the Moon.",
+        "Tropical (nirayana) longitudes are used; no ayanamsha is applied. Traditions that use sidereal reckoning can place a tithi boundary differently.",
+        "No muhurat is hard-coded. All timings are computed for the selected location."
+      ],
+      "status": "verified",
+      "verification": "tests/panchang.test.ts checks the engine against four independently known syzygies (2000 and 2024 new and full moons)."
+    },
+    {
+      "id": "peetha-traditions",
+      "kind": "tradition",
+      "title": "Shakti Peetha enumerations",
+      "provenance": "Puranic and tantric lists (Pithanirnaya and related), plus regional temple traditions and modern reference works",
+      "caveats": [
+        "There is no single agreed list. The 18, 51, 52, 64 and 108 enumerations disagree.",
+        "Body-part attributions differ between recensions for many sites.",
+        "No official website, darshan timing or transport detail has been invented."
+      ],
+      "status": "tradition-recorded"
+    },
+    {
+      "id": "editorial",
+      "kind": "editorial",
+      "title": "Editorial explanations, stories, glossary and guides",
+      "provenance": "Authored for this application",
+      "caveats": [
+        "Editorial content authored for this app. It has not been through independent scholarly review. See the Content Verification page."
+      ],
+      "status": "awaiting-review"
+    }
+  ]
+}

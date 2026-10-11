@@ -1,0 +1,96 @@
+{
+  "id": "devi-suktam",
+  "slug": "devi-suktam",
+  "titleEnglish": "Devi Suktam (Rig Veda 10.125)",
+  "titleSanskrit": "देवीसूक्तम्",
+  "titleItrans": "devIsUktam",
+  "titleIast": "devīsūktam",
+  "kind": "uttaranga",
+  "order": 97,
+  "note": "Vak Sukta of the Rig Veda, recited in the Devi path.",
+  "verseUnitCount": 8,
+  "traditionalVerseCount": 8,
+  "viniyoga": {
+    "iTrans": null,
+    "devanagari": null
+  },
+  "dhyana": {
+    "iTrans": null,
+    "devanagari": null
+  },
+  "sourceRef": "durga700",
+  "verses": [
+    {
+      "n": 1,
+      "label": "1",
+      "speaker": null,
+      "iTrans": "OM ahaM rudrebhirvasubhishcharAmyahamAdityairuta vishvadevaiH |\nahaM mitrAvaruNobhA bibharmyahamindrAgnI ahamashvinobhA",
+      "devanagari": "ॐ अहं रुद्रेभिर्वसुभिश्चराम्यहमादित्यैरुत विश्वदेवैः ।\nअहं मित्रावरुणोभा बिभर्म्यहमिन्द्राग्नी अहमश्विनोभा",
+      "iast": "oṃ ahaṃ rudrebhirvasubhiścarāmyahamādityairuta viśvadevaiḥ |\nahaṃ mitrāvaruṇobhā bibharmyahamindrāgnī ahamaśvinobhā",
+      "padas": 2
+    },
+    {
+      "n": 2,
+      "label": "2",
+      "speaker": null,
+      "iTrans": "ahaM somamAhanasaM bibharmyahaM\ntvaShTAramuta pUShaNaM bhagam |\nahaM dadhAmi draviNaM haviShmate\nsuprAvye yajamAnAya sunvate",
+      "devanagari": "अहं सोममाहनसं बिभर्म्यहं\nत्वष्टारमुत पूषणं भगम् ।\nअहं दधामि द्रविणं हविष्मते\nसुप्राव्ये यजमानाय सुन्वते",
+      "iast": "ahaṃ somamāhanasaṃ bibharmyahaṃ\ntvaṣṭāramuta pūṣaṇaṃ bhagam |\nahaṃ dadhāmi draviṇaṃ haviṣmate\nsuprāvye yajamānāya sunvate",
+      "padas": 4
+    },
+    {
+      "n": 3,
+      "label": "3",
+      "speaker": null,
+      "iTrans": "ahaM rAShTrI sa~NgamanI vasUnAM\nchikituShI prathamA yaj~niyAnAm |\ntAM mA devA vyadadhuH purutrA\nbhUristhAtrAM bhUryAveshayantIm",
+      "devanagari": "अहं राष्ट्री सङ्गमनी वसूनां\nचिकितुषी प्रथमा यज्ञियानाम् ।\nतां मा देवा व्यदधुः पुरुत्रा\nभूरिस्थात्रां भूर्यावेशयन्तीम्",
+      "iast": "ahaṃ rāṣṭrī saṅgamanī vasūnāṃ\ncikituṣī prathamā yajñiyānām |\ntāṃ mā devā vyadadhuḥ purutrā\nbhūristhātrāṃ bhūryāveśayantīm",
+      "padas": 4
+    },
+    {
+      "n": 4,
+      "label": "4",
+      "speaker": null,
+      "iTrans": "mayA so annamatti yo vipashyati\nyaH prANiti ya IM shR^iNotyuktam |\namantavo mAM ta upakShiyanti\nshrudhi shruta shraddhivaM te vadAmi",
+      "devanagari": "मया सो अन्नमत्ति यो विपश्यति\nयः प्राणिति य ईं शृणोत्युक्तम् ।\nअमन्तवो मां त उपक्षियन्ति\nश्रुधि श्रुत श्रद्धिवं ते वदामि",
+      "iast": "mayā so annamatti yo vipaśyati\nyaḥ prāṇiti ya īṃ śṛṇotyuktam |\namantavo māṃ ta upakṣiyanti\nśrudhi śruta śraddhivaṃ te vadāmi",
+      "padas": 4
+    },
+    {
+      "n": 5,
+      "label": "5",
+      "speaker": null,
+      "iTrans": "ahameva svayamidaM vadAmi juShTaM\ndevebhiruta mAnuShebhiH |\nyaM kAmaye taM tamugraM kR^iNomi\ntaM brahmANaM tamR^iShiM taM sumedhAm",
+      "devanagari": "अहमेव स्वयमिदं वदामि जुष्टं\nदेवेभिरुत मानुषेभिः ।\nयं कामये तं तमुग्रं कृणोमि\nतं ब्रह्माणं तमृषिं तं सुमेधाम्",
+      "iast": "ahameva svayamidaṃ vadāmi juṣṭaṃ\ndevebhiruta mānuṣebhiḥ |\nyaṃ kāmaye taṃ tamugraṃ kṛṇomi\ntaṃ brahmāṇaṃ tamṛṣiṃ taṃ sumedhām",
+      "padas": 4
+    },
+    {
+      "n": 6,
+      "label": "6",
+      "speaker": null,
+      "iTrans": "ahaM rudrAya dhanurA tanomi\nbrahmadviShe sharave hantavA u |\nahaM janAya samadaM kR^iNomyahaM\ndyAvApR^ithivI A vivesha",
+      "devanagari": "अहं रुद्राय धनुरा तनोमि\nब्रह्मद्विषे शरवे हन्तवा उ ।\nअहं जनाय समदं कृणोम्यहं\nद्यावापृथिवी आ विवेश",
+      "iast": "ahaṃ rudrāya dhanurā tanomi\nbrahmadviṣe śarave hantavā u |\nahaṃ janāya samadaṃ kṛṇomyahaṃ\ndyāvāpṛthivī ā viveśa",
+      "padas": 4
+    },
+    {
+      "n": 7,
+      "label": "7",
+      "speaker": null,
+      "iTrans": "ahaM suve pitaramasya mUrdhan\nmama yonirapsvantaH samudre |\ntato vi tiShThe bhuvanAnu vishvotAmUM dyAM varShmaNopa spR^ishAmi",
+      "devanagari": "अहं सुवे पितरमस्य मूर्धन्\nमम योनिरप्स्वन्तः समुद्रे ।\nततो वि तिष्ठे भुवनानु विश्वोतामूं द्यां वर्ष्मणोप स्पृशामि",
+      "iast": "ahaṃ suve pitaramasya mūrdhan\nmama yonirapsvantaḥ samudre |\ntato vi tiṣṭhe bhuvanānu viśvotāmūṃ dyāṃ varṣmaṇopa spṛśāmi",
+      "padas": 3
+    },
+    {
+      "n": 8,
+      "label": "8",
+      "speaker": null,
+      "iTrans": "ahameva vAta iva pra vAmyArabhamANA bhuvanAni vishvA |\nparo divA para enA pR^ithivyaitAvatI mahinA saM babhUva",
+      "devanagari": "अहमेव वात इव प्र वाम्यारभमाणा भुवनानि विश्वा ।\nपरो दिवा पर एना पृथिव्यैतावती महिना सं बभूव",
+      "iast": "ahameva vāta iva pra vāmyārabhamāṇā bhuvanāni viśvā |\nparo divā para enā pṛthivyaitāvatī mahinā saṃ babhūva",
+      "padas": 2
+    }
+  ]
+}

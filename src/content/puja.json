@@ -1,0 +1,112 @@
+{
+  "collectionId": "puja",
+  "title": "Puja Guides",
+  "intro": "Practical guidance written to be usable without pretending to be authoritative. Every page states that ritual differs by family, region and sampradaya, and no muhurat is hard-coded — timings are computed for your location.",
+  "editorialNote": "Editorial content authored for this app. It has not been through independent scholarly review. See the Content Verification page.",
+  "guides": [
+    {
+      "slug": "ghatasthapana",
+      "title": "Ghatasthapana / Kalash Sthapana",
+      "summary": "The installation of the kalash that opens Navratri.",
+      "sections": [
+        {
+          "heading": "What it is",
+          "body": "Ghatasthapana is the installation of a kalash (a pot, usually copper or clay) filled with water, topped with mango or ashoka leaves and a coconut, on a bed of soil in which barley or wheat is sown. It marks the Goddess's arrival in the home and the beginning of the nine days."
+        },
+        {
+          "heading": "Why it matters",
+          "body": "The pot stands for the womb and for the cosmos; the sown grain is the promise that the worship has taken root. The sprouted grain is traditionally read at the end of the nine days, and is distributed as prasad on Vijayadashami in many families."
+        },
+        {
+          "heading": "Materials (commonly used)",
+          "body": "Copper or clay pot · clean water · mango or ashoka leaves · coconut · soil or sand · barley or wheat grain · red cloth · kalava (sacred thread) · roli, akshat, flowers · a small idol or image of the Goddess · ghee lamp. Substitutions are normal and traditional; use what your family uses."
+        },
+        {
+          "heading": "Sequence (a widely followed form)",
+          "body": "1. Choose the place — clean, stable, and not where people walk over it. A northeast corner is common.\n2. Spread a layer of soil in a shallow plate and sow the barley.\n3. Fill the kalash with water; add a betel nut, a coin and a little rice in many traditions.\n4. Arrange the leaves around the neck and set the coconut on top, wrapped in red cloth.\n5. Tie the kalava around the neck.\n6. Place the image of the Goddess beside it.\n7. Light the lamp, offer flowers and rice, and say your family's invocation or the Navarna mantra.\n8. Resolve (sankalpa) to keep the nine days.\n\nYour family's sequence may differ. Follow it."
+        },
+        {
+          "heading": "Timing",
+          "body": "Ghatasthapana is performed on Pratipada, the first tithi of the shukla paksha. This app computes that date for your selected city. Muhurat windows (such as the first third of the day, or Abhijit) differ by tradition and by the panchang you follow — use your family priest's or your local panchang's determination rather than an app's guess. This app deliberately does not print a universal muhurat."
+        },
+        {
+          "heading": "Safety",
+          "body": "A ghee or oil lamp left burning unattended is a genuine fire risk. Keep it on a non-combustible plate, away from cloth, curtains and reach of children and pets. If nobody is in the room, extinguish it — the worship does not require an unattended flame. Keep camphor and incense away from anything flammable, and ventilate the room."
+        },
+        {
+          "heading": "Links",
+          "body": "For an authoritative muhurat, consult your family priest, your local temple, or a published panchang for your city. This app's calendar shows the computed tithi and Navratri day, and states its method."
+        }
+      ]
+    },
+    {
+      "slug": "daily-puja",
+      "title": "A simple daily puja for the nine days",
+      "summary": "A short form for households that are not doing a full ritual.",
+      "sections": [
+        {
+          "heading": "A five-minute form",
+          "body": "Wash your hands. Light a lamp. Offer water and a flower. Say the Navadurga name for the day and its dhyana shloka if you know it, or simply the Navarna mantra nine times. Sit quietly for a minute. Finish with whatever your family says. That is a complete puja."
+        },
+        {
+          "heading": "A longer form",
+          "body": "Add the Devi Kavacham, or one chapter of the Saptashati per day. Add an aarti. Add a reading from the Stories section for any children present."
+        },
+        {
+          "heading": "What is actually required",
+          "body": "Attention. Everything else is traditional and valuable but not obligatory, and no one is disqualified by not having the right pot."
+        }
+      ]
+    },
+    {
+      "slug": "fasting",
+      "title": "Fasting and daily observances",
+      "summary": "General information, with an explicit health warning.",
+      "sections": [
+        {
+          "heading": "A necessary note first",
+          "body": "Fasting is a choice, not a requirement, and it is not a measure of devotion. People who are pregnant, breastfeeding, diabetic, on medication, underweight, elderly, or under eighteen, and anyone with a medical condition, should not fast without speaking to a doctor. Children should not fast. If fasting makes you unwell, stop. No tradition is served by that."
+        },
+        {
+          "heading": "Commonly observed forms",
+          "body": "Practices range from a full nirjala fast (no food or water) to eating once a day to eating normally while avoiding onion, garlic, grain and alcohol. Most people do something in the middle. Regional practice varies widely."
+        },
+        {
+          "heading": "Foods commonly used",
+          "body": "Sabudana (tapioca) · kuttu (buckwheat) · singhara (water chestnut flour) · sama rice (barnyard millet) · potatoes · rock salt instead of sea salt · milk, curd, paneer · fruits · dry fruits · makhana."
+        },
+        {
+          "heading": "Hydration",
+          "body": "If you are fasting, drink water. Dehydration causes headaches, dizziness and fainting, and none of that is a spiritual achievement. Buttermilk, coconut water and fruit help."
+        },
+        {
+          "heading": "Breaking the fast",
+          "body": "Break gently — fruit, milk, or a small cooked meal rather than a large fried one. Traditionally the fast is broken after the day's puja."
+        }
+      ]
+    },
+    {
+      "slug": "ashtami-navami",
+      "title": "Durga Ashtami, Maha Navami and Vijayadashami",
+      "summary": "The ritual peak of the nine days.",
+      "sections": [
+        {
+          "heading": "Durga Ashtami",
+          "body": "The eighth tithi. In many north Indian traditions the fast is kept strictly through this day. Kumari/Kanya puja is commonly performed on Ashtami or Navami. In Bengal the Ashtami-Navami junction is marked by sandhi puja, which recalls the moment Chamunda arose."
+        },
+        {
+          "heading": "Maha Navami",
+          "body": "The ninth tithi. Havan is performed in many families, with the Saptashati recited during it. In some traditions the havan concludes the Saptashati path begun on day one."
+        },
+        {
+          "heading": "Vijayadashami",
+          "body": "The tenth day, on shukla Dashami. It marks Durga's victory over Mahishasura and, in the Rama tradition, Rama's victory over Ravana. Ayudha puja (honouring tools, instruments and vehicles) and Vidyarambham (beginning a child's learning) are common in the south. In Bengal the images are immersed."
+        },
+        {
+          "heading": "Regional differences are not variations on a theme",
+          "body": "A Bengali, a Gujarati, a Tamil and a Marathi family will do genuinely different things on these three days, and each practice is complete in itself. This app describes several rather than declaring one correct."
+        }
+      ]
+    }
+  ]
+}

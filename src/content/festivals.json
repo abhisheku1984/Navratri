@@ -1,0 +1,127 @@
+{
+  "collectionId": "festivals",
+  "title": "Navratri and the Devi Calendar",
+  "intro": "The major Devi observances. Dates are computed for your selected location by the app's panchang engine, never hard-coded.",
+  "editorialNote": "Editorial content authored for this app. It has not been through independent scholarly review. See the Content Verification page.",
+  "observances": [
+    {
+      "slug": "sharad-navratri",
+      "name": "Sharad (Shardiya) Navratri",
+      "kind": "sharad",
+      "months": "Ashwin shukla paksha (September–October)",
+      "summary": "The principal nine-night observance, ending in Vijayadashami. The Saptashati is recited in full across the nine days in most traditions.",
+      "practices": [
+        "Ghatasthapana on day 1",
+        "Daily Navadurga worship",
+        "Saptashati path (one charitra per day, or one chapter per day)",
+        "Fasting in many regions",
+        "Kanya/Kumari puja on Ashtami or Navami",
+        "Havan on Navami in many traditions"
+      ]
+    },
+    {
+      "slug": "chaitra-navratri",
+      "name": "Chaitra Navratri",
+      "kind": "chaitra",
+      "months": "Chaitra shukla paksha (March–April)",
+      "summary": "The spring Navratri. In Maharashtra and Andhra/Telangana/Karnataka its first day is Gudi Padwa / Ugadi, the new year.",
+      "practices": [
+        "Ghatasthapana",
+        "Navadurga worship",
+        "New-year observances on day 1",
+        "Ram Navami falls on the ninth day"
+      ]
+    },
+    {
+      "slug": "gupt-navratri",
+      "name": "Gupt Navratri",
+      "kind": "gupt",
+      "months": "Magha and Ashadha shukla paksha (January–February and June–July)",
+      "summary": "The 'hidden' Navratris, observed particularly by tantric and sadhaka traditions and less publicly marked. Magha Gupt Navratri and Ashadha Gupt Navratri are reckoned separately.",
+      "practices": [
+        "Private sadhana",
+        "Mantra japa",
+        "Less public ritual"
+      ]
+    },
+    {
+      "slug": "vijayadashami",
+      "name": "Vijayadashami / Dussehra",
+      "kind": "dashami",
+      "months": "Ashwin shukla Dashami",
+      "summary": "The tenth day. Marks Durga's victory over Mahishasura and, in the Rama tradition, Rama's victory over Ravana. Ayudha puja and Vidyarambham are common in the south.",
+      "practices": [
+        "Shami puja",
+        "Ayudha puja",
+        "Vidyarambham",
+        "Ramlila conclusion",
+        "Visarjan in Bengal"
+      ]
+    },
+    {
+      "slug": "durga-puja-bengal",
+      "name": "Bengali Durga Puja",
+      "kind": "regional",
+      "months": "Ashwin; Shashti to Dashami",
+      "summary": "The largest public festival of Bengal. Clay images made for the occasion, pandal visiting, and immersion on Dashami.",
+      "practices": [
+        "Bodhon on Shashti",
+        "Pushpanjali",
+        "Kumari puja",
+        "Sandhi puja",
+        "Visarjan"
+      ]
+    },
+    {
+      "slug": "garba-dandiya",
+      "name": "Gujarat: Garba and Dandiya",
+      "kind": "regional",
+      "months": "Ashwin Navratri",
+      "summary": "Nine nights of circle dance around the garbo or the image of Amba, with fasting and the nine-colour convention.",
+      "practices": [
+        "Garba",
+        "Dandiya Raas",
+        "Fasting",
+        "Ambaji pilgrimage"
+      ]
+    },
+    {
+      "slug": "golu",
+      "name": "South India: Golu / Bommala Kolu",
+      "kind": "regional",
+      "months": "Ashwin Navratri",
+      "summary": "Stepped displays of dolls in homes, with songs, visiting and exchange of gifts. Ayudha puja and Saraswati puja fall within the same days.",
+      "practices": [
+        "Kolu display",
+        "Sundara Kanda / Devi parayana",
+        "Ayudha puja",
+        "Vidyarambham on Dashami"
+      ]
+    },
+    {
+      "slug": "kanya-puja",
+      "name": "Kanya / Kumari Puja",
+      "kind": "observance",
+      "months": "Ashtami or Navami",
+      "summary": "Young girls are worshipped as forms of the Goddess. The practice and its details vary considerably by region and family.",
+      "practices": [
+        "Washing of feet",
+        "Offering of food and gifts",
+        "Nine girls for nine forms in many traditions"
+      ]
+    },
+    {
+      "slug": "ashtami-havan",
+      "name": "Durga Ashtami and Maha Navami",
+      "kind": "observance",
+      "months": "Ashtami and Navami",
+      "summary": "The ritual peak of the nine days in most north Indian traditions. Havan is performed on Navami in many families; sandhi puja marks the Ashtami-Navami junction in Bengal.",
+      "practices": [
+        "Havan / homa",
+        "Kumari puja",
+        "Sandhi puja (Bengal)",
+        "Fasting breaking"
+      ]
+    }
+  ]
+}

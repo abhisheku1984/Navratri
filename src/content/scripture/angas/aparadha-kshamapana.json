@@ -1,0 +1,105 @@
+{
+  "id": "aparadha-kshamapana",
+  "slug": "aparadha-kshamapana",
+  "titleEnglish": "Aparadha Kshamapana Stotram",
+  "titleSanskrit": "अपराधक्षमापणस्तोत्रम्",
+  "titleItrans": "aparAdhakShamApaNastotram",
+  "titleIast": "aparādhakṣamāpaṇastotram",
+  "kind": "uttaranga",
+  "order": 98,
+  "note": "Prayer for forgiveness of errors in recitation; recited at the close.",
+  "verseUnitCount": 9,
+  "traditionalVerseCount": 9,
+  "viniyoga": {
+    "iTrans": null,
+    "devanagari": null
+  },
+  "dhyana": {
+    "iTrans": null,
+    "devanagari": null
+  },
+  "sourceRef": "durga700",
+  "verses": [
+    {
+      "n": 1,
+      "label": "1",
+      "speaker": null,
+      "iTrans": "OM aparAdhashataM kR^itvA jagadambeti chochcharet |\nyAM gatiM samavApnoti na tAM brahmAdayaH surAH",
+      "devanagari": "ॐ अपराधशतं कृत्वा जगदम्बेति चोच्चरेत् ।\nयां गतिं समवाप्नोति न तां ब्रह्मादयः सुराः",
+      "iast": "oṃ aparādhaśataṃ kṛtvā jagadambeti coccaret |\nyāṃ gatiṃ samavāpnoti na tāṃ brahmādayaḥ surāḥ",
+      "padas": 2
+    },
+    {
+      "n": 2,
+      "label": "2",
+      "speaker": null,
+      "iTrans": "sAparAdho.asmi sharaNaM prAptastvAM jagadambike |\nidAnImanukampyo.ahaM yathechChasi tathA kuru",
+      "devanagari": "सापराधोऽस्मि शरणं प्राप्तस्त्वां जगदम्बिके ।\nइदानीमनुकम्प्योऽहं यथेच्छसि तथा कुरु",
+      "iast": "sāparādho'smi śaraṇaṃ prāptastvāṃ jagadambike |\nidānīmanukampyo'haṃ yathecchasi tathā kuru",
+      "padas": 2
+    },
+    {
+      "n": 3,
+      "label": "3",
+      "speaker": null,
+      "iTrans": "aj~nAnAdvismR^iterbhrAntyA yannyUnamadhikaM kR^itam |\ntatsarvaM kShamyatAM devi prasIda parameshvari",
+      "devanagari": "अज्ञानाद्विस्मृतेर्भ्रान्त्या यन्न्यूनमधिकं कृतम् ।\nतत्सर्वं क्षम्यतां देवि प्रसीद परमेश्वरि",
+      "iast": "ajñānādvismṛterbhrāntyā yannyūnamadhikaṃ kṛtam |\ntatsarvaṃ kṣamyatāṃ devi prasīda parameśvari",
+      "padas": 2
+    },
+    {
+      "n": 4,
+      "label": "4",
+      "speaker": null,
+      "iTrans": "kAmeshvari jaganmAtaH sachchidAnandavigrahe |\ngR^ihANArchAmimAM prItyA prasIda parameshvari",
+      "devanagari": "कामेश्वरि जगन्मातः सच्चिदानन्दविग्रहे ।\nगृहाणार्चामिमां प्रीत्या प्रसीद परमेश्वरि",
+      "iast": "kāmeśvari jaganmātaḥ saccidānandavigrahe |\ngṛhāṇārcāmimāṃ prītyā prasīda parameśvari",
+      "padas": 2
+    },
+    {
+      "n": 5,
+      "label": "5",
+      "speaker": null,
+      "iTrans": "sarvarUpamayI devI sarvaM devImayaM jagat |\nato.ahaM vishvarUpAM tvAM namAmi parameshvarIm",
+      "devanagari": "सर्वरूपमयी देवी सर्वं देवीमयं जगत् ।\nअतोऽहं विश्वरूपां त्वां नमामि परमेश्वरीम्",
+      "iast": "sarvarūpamayī devī sarvaṃ devīmayaṃ jagat |\nato'haṃ viśvarūpāṃ tvāṃ namāmi parameśvarīm",
+      "padas": 2
+    },
+    {
+      "n": 6,
+      "label": "6",
+      "speaker": null,
+      "iTrans": "yadakSharaM paribhraShTaM mAtrAhIna~ncha yadbhavet |\npUrNaM bhavatu tat sarvaM tvatprasAdAnmaheshvari",
+      "devanagari": "यदक्षरं परिभ्रष्टं मात्राहीनञ्च यद्भवेत् ।\nपूर्णं भवतु तत् सर्वं त्वत्प्रसादान्महेश्वरि",
+      "iast": "yadakṣaraṃ paribhraṣṭaṃ mātrāhīnañca yadbhavet |\npūrṇaṃ bhavatu tat sarvaṃ tvatprasādānmaheśvari",
+      "padas": 2
+    },
+    {
+      "n": 7,
+      "label": "7",
+      "speaker": null,
+      "iTrans": "yadatra pAThe jagadambike mayA\nvisargabindvakSharahInamIritam |\ntadastu sampUrNatamaM prasAdataH\nsa~Nkalpasiddhishcha sadaiva jAyatAm",
+      "devanagari": "यदत्र पाठे जगदम्बिके मया\nविसर्गबिन्द्वक्षरहीनमीरितम् ।\nतदस्तु सम्पूर्णतमं प्रसादतः\nसङ्कल्पसिद्धिश्च सदैव जायताम्",
+      "iast": "yadatra pāṭhe jagadambike mayā\nvisargabindvakṣarahīnamīritam |\ntadastu sampūrṇatamaṃ prasādataḥ\nsaṅkalpasiddhiśca sadaiva jāyatām",
+      "padas": 4
+    },
+    {
+      "n": 8,
+      "label": "8",
+      "speaker": null,
+      "iTrans": "yanmAtrAbindubindudvitayapadapadadvandvavarNAdihInaM\nbhaktyAbhaktyAnupUrvaM prasabhakR^itivashAt vyaktamavyaktamamba |\nmohAdaj~nAnato vA paThitamapaThitaM sAmprataM te stave.asmin\ntat sarvaM sA~NgamAstAM bhagavati varade tvatprasAdAt prasIda",
+      "devanagari": "यन्मात्राबिन्दुबिन्दुद्वितयपदपदद्वन्द्ववर्णादिहीनं\nभक्त्याभक्त्यानुपूर्वं प्रसभकृतिवशात् व्यक्तमव्यक्तमम्ब ।\nमोहादज्ञानतो वा पठितमपठितं साम्प्रतं ते स्तवेऽस्मिन्\nतत् सर्वं साङ्गमास्तां भगवति वरदे त्वत्प्रसादात् प्रसीद",
+      "iast": "yanmātrābindubindudvitayapadapadadvandvavarṇādihīnaṃ\nbhaktyābhaktyānupūrvaṃ prasabhakṛtivaśāt vyaktamavyaktamamba |\nmohādajñānato vā paṭhitamapaṭhitaṃ sāmprataṃ te stave'smin\ntat sarvaṃ sāṅgamāstāṃ bhagavati varade tvatprasādāt prasīda",
+      "padas": 4
+    },
+    {
+      "n": 9,
+      "label": "9",
+      "speaker": null,
+      "iTrans": "prasIda bhagavatyamba prasIda bhaktavatsale |\nprasAdaM kuru me devi durge devi namo.astu te",
+      "devanagari": "प्रसीद भगवत्यम्ब प्रसीद भक्तवत्सले ।\nप्रसादं कुरु मे देवि दुर्गे देवि नमोऽस्तु ते",
+      "iast": "prasīda bhagavatyamba prasīda bhaktavatsale |\nprasādaṃ kuru me devi durge devi namo'stu te",
+      "padas": 2
+    }
+  ]
+}

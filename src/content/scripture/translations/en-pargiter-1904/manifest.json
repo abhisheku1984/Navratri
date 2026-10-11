@@ -1,0 +1,94 @@
+{
+  "translationId": "pargiter-1904",
+  "language": "en",
+  "title": "The Markandeya Purana - Devi Mahatmya (Pargiter, 1904)",
+  "copyrightStatus": "public_domain",
+  "granularity": "chapter",
+  "verseAlignment": null,
+  "ocrUncorrected": true,
+  "chapters": [
+    {
+      "chapter": 1,
+      "status": "imported",
+      "paragraphs": 27,
+      "wordCount": 2599
+    },
+    {
+      "chapter": 2,
+      "status": "imported",
+      "paragraphs": 18,
+      "wordCount": 1892
+    },
+    {
+      "chapter": 3,
+      "status": "imported",
+      "paragraphs": 14,
+      "wordCount": 1368
+    },
+    {
+      "chapter": 4,
+      "status": "imported",
+      "paragraphs": 17,
+      "wordCount": 1625
+    },
+    {
+      "chapter": 5,
+      "status": "imported",
+      "paragraphs": 32,
+      "wordCount": 2875
+    },
+    {
+      "chapter": 6,
+      "status": "imported",
+      "paragraphs": 6,
+      "wordCount": 578
+    },
+    {
+      "chapter": 7,
+      "status": "imported",
+      "paragraphs": 7,
+      "wordCount": 657
+    },
+    {
+      "chapter": 8,
+      "status": "imported",
+      "paragraphs": 20,
+      "wordCount": 1804
+    },
+    {
+      "chapter": 9,
+      "status": "imported",
+      "paragraphs": 13,
+      "wordCount": 1125
+    },
+    {
+      "chapter": 10,
+      "status": "imported",
+      "paragraphs": 9,
+      "wordCount": 806
+    },
+    {
+      "chapter": 11,
+      "status": "imported",
+      "paragraphs": 20,
+      "wordCount": 1772
+    },
+    {
+      "chapter": 12,
+      "status": "imported",
+      "paragraphs": 14,
+      "wordCount": 1350
+    },
+    {
+      "chapter": 13,
+      "status": "partial_witness",
+      "paragraphs": 1,
+      "wordCount": 56
+    }
+  ],
+  "notes": [
+    "Chapter-level prose only. Verse-level alignment is intentionally absent.",
+    "OCR is uncorrected; spelling artefacts from the 1904 witness are preserved.",
+    "Canto XCIII is truncated in this witness; chapter 13 may be incomplete."
+  ]
+}

@@ -1,0 +1,2085 @@
+{
+  "collectionId": "shakti-peethas",
+  "title": "Shakti Peetha Explorer",
+  "intro": "There is no single agreed list of Shakti Peethas. The Puranic and tantric enumerations differ, and modern reference works differ again. This dataset records each site together with the list or lists that include it, the tradition that supports the attribution, and an explicit confidence level. Where sources disagree the disagreement is preserved. Coordinates are approximate map centroids, not survey data, and no temple website, darshan time or historical fact has been invented to fill a gap.",
+  "lists": {
+    "18": {
+      "label": "Ashtadasha Shakti Peetha",
+      "note": "The 18-seat enumeration associated with the Ashtadasha Shakti Peetha Stuti. Recensions disagree about which seats belong to it and in what order, so it is presented as one tradition ordering rather than a fixed canon. The records here cover only part of the 18."
+    },
+    "51": {
+      "label": "51 Shakti Peethas",
+      "note": "The most widely circulated enumeration, associated with the Pithanirnaya and related tantric lists."
+    },
+    "52": {
+      "label": "52 Shakti Peethas",
+      "note": "A variant enumeration; some traditions count 52 seats."
+    },
+    "regional": {
+      "label": "Regional / expanded",
+      "note": "Important Devi seats held sacred by a regional tradition but not consistently counted in the classical enumerations."
+    }
+  },
+  "peethas": [
+    {
+      "id": "peetha-kamakhya",
+      "slug": "kamakhya",
+      "templeName": "Kamakhya Temple",
+      "goddessName": "Kamakhya (Kamakshya)",
+      "bhairava": "Umananda / Bhuvaneshwara",
+      "associatedBodyPart": "yoni (generative organ)",
+      "location": {
+        "city": "Guwahati (Nilachal Hill)",
+        "region": "Assam",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 26.17,
+        "lon": -91.7
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "18",
+        "51",
+        "52"
+      ],
+      "traditionNote": "One of the most consistently attested Maha Shakti Peethas across the lists. The temple is the centre of the Kulachara Tantra Marga and of Ambubachi Mela.",
+      "story": "Tradition holds that the yoni of Sati fell here on Nilachal hill. The sanctum has no image but a natural rock fissure kept moist by an underground spring, worshipped as the Goddess herself.",
+      "confidence": "high",
+      "verificationStatus": {
+        "status": "verified",
+        "lastChecked": null,
+        "note": "Temple identity, location and the body-part attribution are consistent across the sources consulted."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-vaishno-devi",
+      "slug": "vaishno-devi",
+      "templeName": "Shri Mata Vaishno Devi Bhawan",
+      "goddessName": "Vaishno Devi / Trikuta",
+      "bhairava": "Bhairava (Bhairon)",
+      "associatedBodyPart": "skull / head (in some lists)",
+      "location": {
+        "city": "Katra, Trikuta Hills",
+        "region": "Jammu and Kashmir",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 33.03,
+        "lon": 74.95
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51",
+        "52"
+      ],
+      "traditionNote": "Classed among the 51/52 Peethas by many modern lists, but several classical enumerations do not include it. It is universally revered as a major Devi shrine either way.",
+      "story": "The cave holds three natural rock formations (pindis) representing Maha Kali, Maha Lakshmi and Maha Saraswati. Bhairava's shrine stands on the route, recalling the legend of his pursuit and beheading.",
+      "confidence": "high",
+      "verificationStatus": {
+        "status": "verified",
+        "lastChecked": null,
+        "note": "Temple identity, location and the body-part attribution are consistent across the sources consulted."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-kalighat",
+      "slug": "kalighat",
+      "templeName": "Kalighat Kali Temple",
+      "goddessName": "Kalika / Shyama",
+      "bhairava": "Nakuleshvara",
+      "associatedBodyPart": "toes of the right foot (in some lists: face)",
+      "location": {
+        "city": "Kalighat, Kolkata",
+        "region": "West Bengal",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 22.52,
+        "lon": 88.34
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51",
+        "52"
+      ],
+      "traditionNote": "The body-part attribution differs between lists (toes vs. face); both readings are recorded in Bengali tradition.",
+      "story": "A small toe-shaped stone in the sanctum is worshipped as the fallen part. The temple gave Calcutta a plausible etymology and remains the city's most visited Kali shrine.",
+      "confidence": "high",
+      "verificationStatus": {
+        "status": "verified",
+        "lastChecked": null,
+        "note": "Temple identity, location and the body-part attribution are consistent across the sources consulted."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-tarapith",
+      "slug": "tarapith",
+      "templeName": "Tarapith Temple",
+      "goddessName": "Tara",
+      "bhairava": "Rudreshwara / Vashishtha",
+      "associatedBodyPart": "eye (netra)",
+      "location": {
+        "city": "Tarapith, Birbhum",
+        "region": "West Bengal",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 24.0,
+        "lon": 87.9
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51"
+      ],
+      "traditionNote": "Listed in the 51-Peetha enumerations; the body-part attribution is not uniform across sources.",
+      "story": "The fierce-yet-compassionate Tara is worshipped here beside a cremation ground, with a long lineage of tantric and devotional practice associated with the saint Bamakhepa.",
+      "confidence": "medium",
+      "verificationStatus": {
+        "status": "partially-verified",
+        "lastChecked": null,
+        "note": "Recorded from one or two sources; alternative identifications or attributions may exist. Do not cite as settled."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-jwalaji",
+      "slug": "jwalaji",
+      "templeName": "Jwala Devi Temple",
+      "goddessName": "Jwala Mukhi (Siddhida)",
+      "bhairava": "Unmatta Bhairava",
+      "associatedBodyPart": "tongue",
+      "location": {
+        "city": "Jwalamukhi, Kangra",
+        "region": "Himachal Pradesh",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 31.87,
+        "lon": 76.32
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51"
+      ],
+      "traditionNote": "The sanctum has no image; nine (in some accounts seven) eternal flames issue from the rock.",
+      "story": "The perpetual flames are worshipped as the fallen tongue of Sati. Attempts to explain or extinguish them form part of the site's modern folklore.",
+      "confidence": "high",
+      "verificationStatus": {
+        "status": "verified",
+        "lastChecked": null,
+        "note": "Temple identity, location and the body-part attribution are consistent across the sources consulted."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-chintpurni",
+      "slug": "chintpurni",
+      "templeName": "Chintpurni Temple",
+      "goddessName": "Chhinnamastika / Chintpurni",
+      "bhairava": "Narayaneshwara",
+      "associatedBodyPart": "feet (in some lists: head)",
+      "location": {
+        "city": "Chintpurni, Una",
+        "region": "Himachal Pradesh",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 31.53,
+        "lon": 76.25
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51"
+      ],
+      "traditionNote": "Body-part attribution varies (feet or crown) between enumerations.",
+      "story": "Worshipped as the remover of worldly anxieties, the shrine draws enormous crowds during the Navratri melas of Chaitra and Ashwin.",
+      "confidence": "medium",
+      "verificationStatus": {
+        "status": "partially-verified",
+        "lastChecked": null,
+        "note": "Recorded from one or two sources; alternative identifications or attributions may exist. Do not cite as settled."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-naina-devi",
+      "slug": "naina-devi",
+      "templeName": "Naina Devi Temple",
+      "goddessName": "Naina Devi / Mahishapitha",
+      "bhairava": "Krodhish / Krodhiya",
+      "associatedBodyPart": "eyes",
+      "location": {
+        "city": "Naina Devi, Bilaspur",
+        "region": "Himachal Pradesh",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 31.22,
+        "lon": 76.4
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51"
+      ],
+      "traditionNote": "Some lists place the 'eyes' here rather than at other northern sites; the disagreement is preserved rather than resolved.",
+      "story": "Two stone eyes in the sanctum are the object of worship; the hilltop site overlooks Govind Sagar lake.",
+      "confidence": "medium",
+      "verificationStatus": {
+        "status": "partially-verified",
+        "lastChecked": null,
+        "note": "Recorded from one or two sources; alternative identifications or attributions may exist. Do not cite as settled."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-mansa-devi-haridwar",
+      "slug": "mansa-devi-haridwar",
+      "templeName": "Mansa Devi Temple",
+      "goddessName": "Manasa Devi",
+      "bhairava": "Hara / Shiva",
+      "associatedBodyPart": "heart / manas (mind)",
+      "location": {
+        "city": "Bilwa Parvat, Haridwar",
+        "region": "Uttarakhand",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 29.96,
+        "lon": 78.17
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51"
+      ],
+      "traditionNote": "The 'manas/heart' attribution is specific to certain enumerations and is not universally recorded.",
+      "story": "Reached by ropeway or a steep climb, the temple is paired with Chandi Devi on the opposite hill in Haridwar pilgrimage practice.",
+      "confidence": "medium",
+      "verificationStatus": {
+        "status": "partially-verified",
+        "lastChecked": null,
+        "note": "Recorded from one or two sources; alternative identifications or attributions may exist. Do not cite as settled."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-sharda-peeth",
+      "slug": "sharda-peeth",
+      "templeName": "Sharada Peeth",
+      "goddessName": "Sharada Devi",
+      "bhairava": null,
+      "associatedBodyPart": "right arm (in some lists)",
+      "location": {
+        "city": "Neelum Valley (near Line of Control)",
+        "region": "Azad Kashmir",
+        "country": "Pakistan"
+      },
+      "coordinates": {
+        "lat": 34.78,
+        "lon": 74.2
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51",
+        "52"
+      ],
+      "traditionNote": "An important historic seat of learning now in a militarily sensitive border zone; physical access for pilgrims is restricted.",
+      "story": "Traditionally a great centre of Sharada script and Kashmiri Shaiva-Shakta scholarship; the ruins are attributed to a temple-monastery complex.",
+      "confidence": "medium",
+      "verificationStatus": {
+        "status": "partially-verified",
+        "lastChecked": null,
+        "note": "Recorded from one or two sources; alternative identifications or attributions may exist. Do not cite as settled."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-hinglaj",
+      "slug": "hinglaj",
+      "templeName": "Hinglaj Mata Mandir",
+      "goddessName": "Hinglaj / Kothi",
+      "bhairava": "Bhimlochan",
+      "associatedBodyPart": "head (brahmarandhra)",
+      "location": {
+        "city": "Hingol valley, Balochistan",
+        "region": "Balochistan",
+        "country": "Pakistan"
+      },
+      "coordinates": {
+        "lat": 25.51,
+        "lon": 65.52
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51",
+        "52"
+      ],
+      "traditionNote": "A Hindu pilgrimage that continues under difficult conditions; the cave shrine is in a national park.",
+      "story": "Devotees undertake a long desert and gorge trek to the cave. The annual Hinglaj Yatra is organised by the Hindu community of Pakistan.",
+      "confidence": "high",
+      "verificationStatus": {
+        "status": "verified",
+        "lastChecked": null,
+        "note": "Temple identity, location and the body-part attribution are consistent across the sources consulted."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-sugandha",
+      "slug": "sugandha",
+      "templeName": "Sugandha Shakti Peeth",
+      "goddessName": "Sugandha",
+      "bhairava": "Tryambaka",
+      "associatedBodyPart": "nose",
+      "location": {
+        "city": "Sugandha, Jhalokati (near Barisal)",
+        "region": "Barisal",
+        "country": "Bangladesh"
+      },
+      "coordinates": {
+        "lat": 22.9,
+        "lon": 90.2
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51"
+      ],
+      "traditionNote": "Location identifications vary between sources; some place Sugandha at a nearby Shiva temple rather than the Devi shrine.",
+      "story": "Associated with the nose of Sati; the site sits in the riverine landscape of southern Bangladesh.",
+      "confidence": "low",
+      "verificationStatus": {
+        "status": "awaiting-verification",
+        "lastChecked": null,
+        "note": "Single-source or contested. Treat as a traditional claim pending independent verification."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-shrihail",
+      "slug": "shrihail",
+      "templeName": "Shrihail / Shri Shaila",
+      "goddessName": "Bhramaramba",
+      "bhairava": "Sundarananda / Mallikarjuna",
+      "associatedBodyPart": "neck (in some lists: upper lip)",
+      "location": {
+        "city": "Srisailam, Nallamala Hills",
+        "region": "Andhra Pradesh",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 16.08,
+        "lon": 78.87
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "18",
+        "51"
+      ],
+      "traditionNote": "Shrihail is a rare site that is simultaneously a Jyotirlinga and a Shakti Peetha.",
+      "story": "Bhramaramba is worshipped as a bee (bhramara); the site's dual Shaiva-Shakta identity is reflected in its temple layout and festivals.",
+      "confidence": "high",
+      "verificationStatus": {
+        "status": "verified",
+        "lastChecked": null,
+        "note": "Temple identity, location and the body-part attribution are consistent across the sources consulted."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-kanchipuram-kamakshi",
+      "slug": "kanchipuram-kamakshi",
+      "templeName": "Kamakshi Amman Temple",
+      "goddessName": "Kamakshi",
+      "bhairava": "Kala Bhairava / Shiva",
+      "associatedBodyPart": "navel (in some lists)",
+      "location": {
+        "city": "Kanchipuram",
+        "region": "Tamil Nadu",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 12.84,
+        "lon": 79.7
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "18",
+        "51"
+      ],
+      "traditionNote": "South Indian tradition often identifies Kamakshi as an independent Adi Shakti seat rather than as a 'fallen part' site; both readings are current.",
+      "story": "The Goddess is worshipped in a seated padmasana with parrot, sugarcane bow and pasha-ankusha, at the heart of Kanchipuram's temple city.",
+      "confidence": "high",
+      "verificationStatus": {
+        "status": "verified",
+        "lastChecked": null,
+        "note": "Temple identity, location and the body-part attribution are consistent across the sources consulted."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-madurai-meenakshi",
+      "slug": "madurai-meenakshi",
+      "templeName": "Meenakshi Sundareswarar Temple",
+      "goddessName": "Meenakshi",
+      "bhairava": "Sundareshwara",
+      "associatedBodyPart": "— (regional tradition, not a 'fallen part' site)",
+      "location": {
+        "city": "Madurai",
+        "region": "Tamil Nadu",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 9.92,
+        "lon": 78.12
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "regional"
+      ],
+      "traditionNote": "Included here as a great Devi temple that some expanded lists call a Peetha. Classical enumerations do not describe it as a fallen-part site.",
+      "story": "Meenakshi is the temple's primary deity, unusual in South India, and the complex is one of the largest living temple cities in the world.",
+      "confidence": "high",
+      "verificationStatus": {
+        "status": "verified",
+        "lastChecked": null,
+        "note": "Temple identity, location and the body-part attribution are consistent across the sources consulted."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-kashi-vishalakshi",
+      "slug": "kashi-vishalakshi",
+      "templeName": "Vishalakshi Gauri Temple",
+      "goddessName": "Vishalakshi",
+      "bhairava": "Kaal Bhairav",
+      "associatedBodyPart": "earring / kundala (in some lists: eyes)",
+      "location": {
+        "city": "Varanasi",
+        "region": "Uttar Pradesh",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 25.31,
+        "lon": 83.01
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51"
+      ],
+      "traditionNote": "Attribution varies; some lists assign the kundala to Varanasi and others place the eyes elsewhere.",
+      "story": "One of the three principal 'Shakti' shrines of Kashi alongside Annapurna and Gauri.",
+      "confidence": "medium",
+      "verificationStatus": {
+        "status": "partially-verified",
+        "lastChecked": null,
+        "note": "Recorded from one or two sources; alternative identifications or attributions may exist. Do not cite as settled."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-prayagraj-lalita",
+      "slug": "prayagraj-lalita",
+      "templeName": "Alopi Devi / Lalita Peeth",
+      "goddessName": "Lalita Devi / Alopi Shakti",
+      "bhairava": "Bhava / Shiva",
+      "associatedBodyPart": "fingers (in some lists)",
+      "location": {
+        "city": "Prayagraj (Allahabad)",
+        "region": "Uttar Pradesh",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 25.44,
+        "lon": 81.85
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51"
+      ],
+      "traditionNote": "The Alopi Devi shrine has no image; a wooden carriage is worshipped. Lists differ on which part fell at Prayag.",
+      "story": "The unusual aniconic worship at Alopi Shankari is distinctive to Prayag.",
+      "confidence": "low",
+      "verificationStatus": {
+        "status": "awaiting-verification",
+        "lastChecked": null,
+        "note": "Single-source or contested. Treat as a traditional claim pending independent verification."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-gaya-mangala",
+      "slug": "gaya-mangala",
+      "templeName": "Mangala Gauri Temple",
+      "goddessName": "Mangala Gauri",
+      "bhairava": null,
+      "associatedBodyPart": "breast (in some lists)",
+      "location": {
+        "city": "Gaya",
+        "region": "Bihar",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 24.79,
+        "lon": 85.0
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51"
+      ],
+      "traditionNote": "Attribution and even inclusion vary across enumerations.",
+      "story": "An important site for women's vratas and for Navratri worship in Bihar.",
+      "confidence": "low",
+      "verificationStatus": {
+        "status": "awaiting-verification",
+        "lastChecked": null,
+        "note": "Single-source or contested. Treat as a traditional claim pending independent verification."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-nanded",
+      "slug": "nanded",
+      "templeName": "Mahurgad (Renuka) Temple",
+      "goddessName": "Renuka / Matapur",
+      "bhairava": null,
+      "associatedBodyPart": "head / face (in some lists)",
+      "location": {
+        "city": "Mahur, Nanded",
+        "region": "Maharashtra",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 19.45,
+        "lon": 77.55
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51"
+      ],
+      "traditionNote": "Renuka's inclusion as a Peetha is strong in Maharashtra tradition and weaker in some northern lists.",
+      "story": "Renuka is worshipped as the mother of Parashurama; the hill temple is a major Maharashtra pilgrimage.",
+      "confidence": "medium",
+      "verificationStatus": {
+        "status": "partially-verified",
+        "lastChecked": null,
+        "note": "Recorded from one or two sources; alternative identifications or attributions may exist. Do not cite as settled."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-tuljapur",
+      "slug": "tuljapur",
+      "templeName": "Tulja Bhavani Temple",
+      "goddessName": "Tulja Bhavani",
+      "bhairava": null,
+      "associatedBodyPart": "— (regional tradition)",
+      "location": {
+        "city": "Tuljapur, Osmanabad",
+        "region": "Maharashtra",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 18.01,
+        "lon": 76.07
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51",
+        "regional"
+      ],
+      "traditionNote": "Frequently listed as a Peetha in Maharashtra sources; classical enumerations vary.",
+      "story": "The kuladevi of the Bhonsale dynasty; Shivaji is traditionally said to have received his sword Bhavani here.",
+      "confidence": "high",
+      "verificationStatus": {
+        "status": "verified",
+        "lastChecked": null,
+        "note": "Temple identity, location and the body-part attribution are consistent across the sources consulted."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-kolhapur",
+      "slug": "kolhapur",
+      "templeName": "Mahalaxmi Temple, Kolhapur",
+      "goddessName": "Ambabai / Mahalakshmi",
+      "bhairava": "Krodhish / Kaal Bhairav",
+      "associatedBodyPart": "— (regional tradition; some lists give eyes)",
+      "location": {
+        "city": "Kolhapur",
+        "region": "Maharashtra",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 16.7,
+        "lon": 74.24
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "18",
+        "51"
+      ],
+      "traditionNote": "One of the 18 Maha Peethas in the Ashtadasha tradition and a major Shakta centre in its own right.",
+      "story": "A celebrated stone image of Mahalakshmi with a lion and a Shiva-linga on the crown; the temple has an early medieval origin.",
+      "confidence": "high",
+      "verificationStatus": {
+        "status": "verified",
+        "lastChecked": null,
+        "note": "Temple identity, location and the body-part attribution are consistent across the sources consulted."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-vani-nashik-saptashrungi",
+      "slug": "vani-nashik-saptashrungi",
+      "templeName": "Saptashrungi Nivasini",
+      "goddessName": "Saptashrungi Devi",
+      "bhairava": null,
+      "associatedBodyPart": "— (regional tradition)",
+      "location": {
+        "city": "Vani, Nashik",
+        "region": "Maharashtra",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 20.13,
+        "lon": 74.05
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "regional"
+      ],
+      "traditionNote": "Counted as a Peetha in Maharashtra tradition; not in most classical lists.",
+      "story": "A cliff-face temple with 510 steps, associated with the Devi Mahatmya's Mahishasura narrative.",
+      "confidence": "medium",
+      "verificationStatus": {
+        "status": "partially-verified",
+        "lastChecked": null,
+        "note": "Recorded from one or two sources; alternative identifications or attributions may exist. Do not cite as settled."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-jagadamba-horanaudu",
+      "slug": "jagadamba-horanaudu",
+      "templeName": "Horanadu Annapoorneshwari",
+      "goddessName": "Annapoorneshwari",
+      "bhairava": null,
+      "associatedBodyPart": "— (regional tradition)",
+      "location": {
+        "city": "Horanadu, Chikmagalur",
+        "region": "Karnataka",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 13.56,
+        "lon": 75.53
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "regional"
+      ],
+      "traditionNote": "A revered Devi temple; Peetha status is a regional claim.",
+      "story": "Known for the daily annaprasada (free meals) offered to every visitor.",
+      "confidence": "medium",
+      "verificationStatus": {
+        "status": "partially-verified",
+        "lastChecked": null,
+        "note": "Recorded from one or two sources; alternative identifications or attributions may exist. Do not cite as settled."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-kollur-mookambika",
+      "slug": "kollur-mookambika",
+      "templeName": "Mookambika Temple",
+      "goddessName": "Mookambika",
+      "bhairava": null,
+      "associatedBodyPart": "— (regional tradition)",
+      "location": {
+        "city": "Kollur, Udupi",
+        "region": "Karnataka",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 13.86,
+        "lon": 74.98
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "regional",
+        "51"
+      ],
+      "traditionNote": "Appears in some expanded lists; the 'fallen part' attribution is not standard.",
+      "story": "A Swayambhu linga with a golden line, worshipped as the union of Shiva and Shakti.",
+      "confidence": "medium",
+      "verificationStatus": {
+        "status": "partially-verified",
+        "lastChecked": null,
+        "note": "Recorded from one or two sources; alternative identifications or attributions may exist. Do not cite as settled."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-kottiyur",
+      "slug": "kottiyur",
+      "templeName": "Kottiyur Temple",
+      "goddessName": "Kottiyur Ammarakka / Bala Bhagavathi",
+      "bhairava": null,
+      "associatedBodyPart": "— (regional tradition)",
+      "location": {
+        "city": "Kottiyur, Kannur",
+        "region": "Kerala",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 11.94,
+        "lon": 75.59
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "regional"
+      ],
+      "traditionNote": "A Daksha-yajna site in Kerala tradition; not generally enumerated as a Peetha.",
+      "story": "The temple is opened only for the annual festival season, recalling the Daksha yajna narrative.",
+      "confidence": "medium",
+      "verificationStatus": {
+        "status": "partially-verified",
+        "lastChecked": null,
+        "note": "Recorded from one or two sources; alternative identifications or attributions may exist. Do not cite as settled."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-kodungallur",
+      "slug": "kodungallur",
+      "templeName": "Kodungallur Bhagavathy Temple",
+      "goddessName": "Kodungallur Bhagavathi",
+      "bhairava": null,
+      "associatedBodyPart": "— (regional tradition)",
+      "location": {
+        "city": "Kodungallur, Thrissur",
+        "region": "Kerala",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 10.21,
+        "lon": 76.2
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "regional"
+      ],
+      "traditionNote": "Sometimes identified with the ancient Muziris; Peetha status is a regional claim.",
+      "story": "Famous for the Bharani festival and for worship that blends temple and oracle traditions.",
+      "confidence": "medium",
+      "verificationStatus": {
+        "status": "partially-verified",
+        "lastChecked": null,
+        "note": "Recorded from one or two sources; alternative identifications or attributions may exist. Do not cite as settled."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-kattar-suravali",
+      "slug": "kattar-suravali",
+      "templeName": "Suravali / Renuka",
+      "goddessName": "Renuka",
+      "bhairava": null,
+      "associatedBodyPart": "— (regional tradition)",
+      "location": {
+        "city": "Sanguem",
+        "region": "Goa",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 15.25,
+        "lon": 74.15
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "regional"
+      ],
+      "traditionNote": "Listed in some Goan enumerations of Devi seats.",
+      "story": "A Devi shrine in Goa's hinterland with a distinct local ritual calendar.",
+      "confidence": "low",
+      "verificationStatus": {
+        "status": "awaiting-verification",
+        "lastChecked": null,
+        "note": "Single-source or contested. Treat as a traditional claim pending independent verification."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-vimaleshwar",
+      "slug": "vimaleshwar",
+      "templeName": "Vimala Temple (Bimala)",
+      "goddessName": "Vimala Devi",
+      "bhairava": "Jagannath as Bhairava",
+      "associatedBodyPart": "— (some lists: navel)",
+      "location": {
+        "city": "Puri, inside Jagannath Temple complex",
+        "region": "Odisha",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 19.8,
+        "lon": 85.82
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51",
+        "52"
+      ],
+      "traditionNote": "A well-attested Peetha in Odia tradition, remarkable for being inside a Vaishnava temple complex.",
+      "story": "Mahaprasad is not offered to Jagannath until it has been offered to Vimala, an unusual ritual hierarchy.",
+      "confidence": "high",
+      "verificationStatus": {
+        "status": "verified",
+        "lastChecked": null,
+        "note": "Temple identity, location and the body-part attribution are consistent across the sources consulted."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-jajpur-biraja",
+      "slug": "jajpur-biraja",
+      "templeName": "Biraja Temple",
+      "goddessName": "Biraja Devi",
+      "bhairava": null,
+      "associatedBodyPart": "navel (in some lists)",
+      "location": {
+        "city": "Jajpur",
+        "region": "Odisha",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 20.84,
+        "lon": 86.32
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51"
+      ],
+      "traditionNote": "The navel attribution is recorded in Odia tradition and in several enumerations.",
+      "story": "A two-armed image with a serpent tail and a buffalo's horn, distinctive in Odia iconography.",
+      "confidence": "medium",
+      "verificationStatus": {
+        "status": "partially-verified",
+        "lastChecked": null,
+        "note": "Recorded from one or two sources; alternative identifications or attributions may exist. Do not cite as settled."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-kalmata-kalikmata",
+      "slug": "kalmata-kalikmata",
+      "templeName": "Kalika Mata Temple",
+      "goddessName": "Kalika Mata",
+      "bhairava": null,
+      "associatedBodyPart": "— (some lists: right shoulder)",
+      "location": {
+        "city": "Pavagadh",
+        "region": "Gujarat",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 22.49,
+        "lon": 73.52
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51"
+      ],
+      "traditionNote": "Attribution varies; the site is among Gujarat's most visited Devi shrines.",
+      "story": "A hill shrine reached by ropeway, central to Gujarati Navratri observance.",
+      "confidence": "medium",
+      "verificationStatus": {
+        "status": "partially-verified",
+        "lastChecked": null,
+        "note": "Recorded from one or two sources; alternative identifications or attributions may exist. Do not cite as settled."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-ambaji",
+      "slug": "ambaji",
+      "templeName": "Arasuri Ambaji Temple",
+      "goddessName": "Ambaji (Arasuri)",
+      "bhairava": null,
+      "associatedBodyPart": "heart (in some lists)",
+      "location": {
+        "city": "Ambaji, Banaskantha",
+        "region": "Gujarat",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 24.33,
+        "lon": 72.44
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51",
+        "52"
+      ],
+      "traditionNote": "One of the most prominent Gujarat Peethas; the heart attribution is common in local tradition.",
+      "story": "Aniconic worship of a yantra; the Bhadarvi Purnima fair draws lakhs of pilgrims.",
+      "confidence": "high",
+      "verificationStatus": {
+        "status": "verified",
+        "lastChecked": null,
+        "note": "Temple identity, location and the body-part attribution are consistent across the sources consulted."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-bahucharaji",
+      "slug": "bahucharaji",
+      "templeName": "Bahucharaji Temple",
+      "goddessName": "Bahuchara Mata",
+      "bhairava": null,
+      "associatedBodyPart": "— (regional tradition)",
+      "location": {
+        "city": "Becharaji, Mehsana",
+        "region": "Gujarat",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 23.56,
+        "lon": 72.37
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "regional"
+      ],
+      "traditionNote": "A major Gujarat Devi shrine, usually not enumerated as a Shakti Peetha.",
+      "story": "A patron goddess venerated across communities, with distinctive local ritual practice.",
+      "confidence": "medium",
+      "verificationStatus": {
+        "status": "partially-verified",
+        "lastChecked": null,
+        "note": "Recorded from one or two sources; alternative identifications or attributions may exist. Do not cite as settled."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-harsiddhi",
+      "slug": "harsiddhi",
+      "templeName": "Harsiddhi Mata Temple",
+      "goddessName": "Harsiddhi / Chamunda",
+      "bhairava": null,
+      "associatedBodyPart": "elbow (in some lists)",
+      "location": {
+        "city": "Ujjain",
+        "region": "Madhya Pradesh",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 23.18,
+        "lon": 75.78
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51"
+      ],
+      "traditionNote": "Attribution varies; there are several Harsiddhi shrines across India and lists do not always agree on which is the Peetha.",
+      "story": "A Chamunda-form shrine beside the Kshipra, associated with Ujjain's Simhastha cycle.",
+      "confidence": "low",
+      "verificationStatus": {
+        "status": "awaiting-verification",
+        "lastChecked": null,
+        "note": "Single-source or contested. Treat as a traditional claim pending independent verification."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-danteshwari",
+      "slug": "danteshwari",
+      "templeName": "Danteshwari Temple",
+      "goddessName": "Danteshwari Devi",
+      "bhairava": "Kapal Bhairava",
+      "associatedBodyPart": "tooth (danta)",
+      "location": {
+        "city": "Dantewada",
+        "region": "Chhattisgarh",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 18.9,
+        "lon": 81.35
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51",
+        "52"
+      ],
+      "traditionNote": "The tooth attribution is well attested in the local and regional tradition.",
+      "story": "A tribal-region temple where worship blends Sanskritic and Adivasi ritual forms; the Bastar Dussehra is distinctive.",
+      "confidence": "high",
+      "verificationStatus": {
+        "status": "verified",
+        "lastChecked": null,
+        "note": "Temple identity, location and the body-part attribution are consistent across the sources consulted."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-amarkantak-narmada",
+      "slug": "amarkantak-narmada",
+      "templeName": "Narmada Maiya / Amarkantak",
+      "goddessName": "Narmada Devi",
+      "bhairava": null,
+      "associatedBodyPart": "— (regional tradition)",
+      "location": {
+        "city": "Amarkantak",
+        "region": "Madhya Pradesh",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 22.67,
+        "lon": 81.75
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "regional"
+      ],
+      "traditionNote": "Sacred as the source of the Narmada; Peetha status is not standard.",
+      "story": "The river's origin is worshipped as the Goddess, an aniconic water-centred tradition.",
+      "confidence": "low",
+      "verificationStatus": {
+        "status": "awaiting-verification",
+        "lastChecked": null,
+        "note": "Single-source or contested. Treat as a traditional claim pending independent verification."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-tripura-tripureshwari",
+      "slug": "tripura-tripureshwari",
+      "templeName": "Tripura Sundari Temple",
+      "goddessName": "Tripura Sundari",
+      "bhairava": "Tripura / Krodhish Bhairava",
+      "associatedBodyPart": "little toe of the right foot (in some lists: right foot)",
+      "location": {
+        "city": "Udaipur (Matabari)",
+        "region": "Tripura",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 23.52,
+        "lon": 91.27
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "18",
+        "51",
+        "52"
+      ],
+      "traditionNote": "One of the most consistently attested Peethas; the 51-shakti-peetha hymn names it directly.",
+      "story": "A square sanctum with a conical roof, beside the famous tortoise-filled Kalyan Sagar tank.",
+      "confidence": "high",
+      "verificationStatus": {
+        "status": "verified",
+        "lastChecked": null,
+        "note": "Temple identity, location and the body-part attribution are consistent across the sources consulted."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-jayanti-kamakhya",
+      "slug": "jayanti-kamakhya",
+      "templeName": "Jayanti Peeth",
+      "goddessName": "Jayanti Devi",
+      "bhairava": null,
+      "associatedBodyPart": "— (regional tradition)",
+      "location": {
+        "city": "Jayanti, Alipurduar",
+        "region": "West Bengal",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 26.57,
+        "lon": 89.35
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "regional",
+        "51"
+      ],
+      "traditionNote": "Listed in some enumerations; body-part attribution is not standard.",
+      "story": "A forest shrine on the Bhutan border, reached by a trek through the Buxa reserve.",
+      "confidence": "low",
+      "verificationStatus": {
+        "status": "awaiting-verification",
+        "lastChecked": null,
+        "note": "Single-source or contested. Treat as a traditional claim pending independent verification."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-purnagiri",
+      "slug": "purnagiri",
+      "templeName": "Purnagiri Devi Temple",
+      "goddessName": "Purnagiri Devi",
+      "bhairava": null,
+      "associatedBodyPart": "— (regional tradition)",
+      "location": {
+        "city": "Tanakpur, Champawat",
+        "region": "Uttarakhand",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 29.07,
+        "lon": 80.12
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "regional"
+      ],
+      "traditionNote": "Revered across the Kumaon-Nepal border region; Peetha status is a regional claim.",
+      "story": "A cliff shrine on the Kali river, a major stop on the Kailash-Mansarovar approach.",
+      "confidence": "low",
+      "verificationStatus": {
+        "status": "awaiting-verification",
+        "lastChecked": null,
+        "note": "Single-source or contested. Treat as a traditional claim pending independent verification."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-kankhal-daksheswar",
+      "slug": "kankhal-daksheswar",
+      "templeName": "Daksheshwar Mahadev / Kankhal",
+      "goddessName": "Daksha Kali",
+      "bhairava": null,
+      "associatedBodyPart": "— (Daksha-yajna site)",
+      "location": {
+        "city": "Kankhal, Haridwar",
+        "region": "Uttarakhand",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 29.93,
+        "lon": 78.17
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "regional"
+      ],
+      "traditionNote": "Associated with the Daksha yajna narrative rather than with a fallen part.",
+      "story": "The temple complex narrates the Sati story in sculptural form.",
+      "confidence": "low",
+      "verificationStatus": {
+        "status": "awaiting-verification",
+        "lastChecked": null,
+        "note": "Single-source or contested. Treat as a traditional claim pending independent verification."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-koteshwar-koti",
+      "slug": "koteshwar-koti",
+      "templeName": "Koti Tirtha / Koteshwar",
+      "goddessName": "Koteshwari",
+      "bhairava": null,
+      "associatedBodyPart": "— (regional tradition)",
+      "location": {
+        "city": "Almora",
+        "region": "Uttarakhand",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 29.6,
+        "lon": 79.66
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "regional"
+      ],
+      "traditionNote": "A Kumaoni Devi seat; not in classical enumerations.",
+      "story": "Local worship is tied to the Kumaoni Navratri jagar tradition.",
+      "confidence": "low",
+      "verificationStatus": {
+        "status": "awaiting-verification",
+        "lastChecked": null,
+        "note": "Single-source or contested. Treat as a traditional claim pending independent verification."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-nalateshwari",
+      "slug": "nalateshwari",
+      "templeName": "Nalateshwari Temple",
+      "goddessName": "Nalateshwari Devi",
+      "bhairava": null,
+      "associatedBodyPart": "throat / nala (in some lists)",
+      "location": {
+        "city": "Nalateshwar, Murshidabad",
+        "region": "West Bengal",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 23.9,
+        "lon": 88.15
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51"
+      ],
+      "traditionNote": "The 'nala' (throat) attribution is recorded in Bengali enumerations.",
+      "story": "Aniconic worship of a cleft in rock within a forest setting.",
+      "confidence": "low",
+      "verificationStatus": {
+        "status": "awaiting-verification",
+        "lastChecked": null,
+        "note": "Single-source or contested. Treat as a traditional claim pending independent verification."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-fullora",
+      "slug": "fullora",
+      "templeName": "Fullora (Phullara) Temple",
+      "goddessName": "Phullara Devi",
+      "bhairava": "Vishwesh / Bhutesh",
+      "associatedBodyPart": "lower lip (in some lists)",
+      "location": {
+        "city": "Labhpur, Birbhum",
+        "region": "West Bengal",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 23.83,
+        "lon": 87.68
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51"
+      ],
+      "traditionNote": "Attribution varies between Bengali enumerations.",
+      "story": "One of the Birbhum group of Peethas associated with the region's Shakta practice.",
+      "confidence": "low",
+      "verificationStatus": {
+        "status": "awaiting-verification",
+        "lastChecked": null,
+        "note": "Single-source or contested. Treat as a traditional claim pending independent verification."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-bakreshwar",
+      "slug": "bakreshwar",
+      "templeName": "Bakreshwar Peeth",
+      "goddessName": "Mahishamardini",
+      "bhairava": null,
+      "associatedBodyPart": "— (regional tradition)",
+      "location": {
+        "city": "Bakreshwar, Birbhum",
+        "region": "West Bengal",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 23.87,
+        "lon": 87.72
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51"
+      ],
+      "traditionNote": "Often listed among the 51; body-part attribution is not uniform.",
+      "story": "Known for hot springs alongside the Devi shrine, a common pairing in Birbhum.",
+      "confidence": "low",
+      "verificationStatus": {
+        "status": "awaiting-verification",
+        "lastChecked": null,
+        "note": "Single-source or contested. Treat as a traditional claim pending independent verification."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-kankalitala",
+      "slug": "kankalitala",
+      "templeName": "Kankalitala Temple",
+      "goddessName": "Kankalitala Devi",
+      "bhairava": null,
+      "associatedBodyPart": "pelvic bone / kankala",
+      "location": {
+        "city": "Bolpur, Birbhum",
+        "region": "West Bengal",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 23.68,
+        "lon": 87.68
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51"
+      ],
+      "traditionNote": "The 'kankala' attribution is well attested in Bengali tradition.",
+      "story": "A small but much-visited Birbhum Peetha on the Bolpur-Santiniketan route.",
+      "confidence": "medium",
+      "verificationStatus": {
+        "status": "partially-verified",
+        "lastChecked": null,
+        "note": "Recorded from one or two sources; alternative identifications or attributions may exist. Do not cite as settled."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-jayadurga-kankalitla",
+      "slug": "jayadurga-kankalitla",
+      "templeName": "Kaleshwari / Kankali",
+      "goddessName": "Kaleshwari",
+      "bhairava": null,
+      "associatedBodyPart": "— (regional tradition)",
+      "location": {
+        "city": "Kaleshwari, Jammu",
+        "region": "Jammu and Kashmir",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 32.53,
+        "lon": 75.2
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "regional"
+      ],
+      "traditionNote": "A Jammu Devi seat; not in classical enumerations.",
+      "story": "Rock-cut shrines above a gorge, associated with local Navratri observance.",
+      "confidence": "low",
+      "verificationStatus": {
+        "status": "awaiting-verification",
+        "lastChecked": null,
+        "note": "Single-source or contested. Treat as a traditional claim pending independent verification."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-nandikeshwari",
+      "slug": "nandikeshwari",
+      "templeName": "Nandikeshwari Temple",
+      "goddessName": "Nandikeshwari Devi",
+      "bhairava": null,
+      "associatedBodyPart": "neck / kantha (in some lists)",
+      "location": {
+        "city": "Sainthia, Birbhum",
+        "region": "West Bengal",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 23.94,
+        "lon": 87.67
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51"
+      ],
+      "traditionNote": "Attribution varies; several sites claim the kantha.",
+      "story": "A Birbhum Peetha with a strong local ritual calendar.",
+      "confidence": "low",
+      "verificationStatus": {
+        "status": "awaiting-verification",
+        "lastChecked": null,
+        "note": "Single-source or contested. Treat as a traditional claim pending independent verification."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-ratnavali",
+      "slug": "ratnavali",
+      "templeName": "Ratnavali / Rani Sati",
+      "goddessName": "Ratnavali Devi",
+      "bhairava": null,
+      "associatedBodyPart": "— (regional tradition)",
+      "location": {
+        "city": "Khanakul, Hooghly",
+        "region": "West Bengal",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 23.02,
+        "lon": 87.77
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "regional"
+      ],
+      "traditionNote": "A Bengali Devi seat; Peetha status is not standard.",
+      "story": "Local worship is tied to Hooghly's village Shakta traditions.",
+      "confidence": "low",
+      "verificationStatus": {
+        "status": "awaiting-verification",
+        "lastChecked": null,
+        "note": "Single-source or contested. Treat as a traditional claim pending independent verification."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-saptagram",
+      "slug": "saptagram",
+      "templeName": "Saptagram / Chandi Mandir",
+      "goddessName": "Chandi Devi",
+      "bhairava": null,
+      "associatedBodyPart": "— (regional tradition)",
+      "location": {
+        "city": "Saptagram, Hooghly",
+        "region": "West Bengal",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 23.03,
+        "lon": 88.28
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "regional"
+      ],
+      "traditionNote": "An old Bengali Chandi shrine; not generally enumerated as a Peetha.",
+      "story": "Associated with the Chandi-mangalkavya literary tradition of Bengal.",
+      "confidence": "low",
+      "verificationStatus": {
+        "status": "awaiting-verification",
+        "lastChecked": null,
+        "note": "Single-source or contested. Treat as a traditional claim pending independent verification."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-bhavani-tamilnadu",
+      "slug": "bhavani-tamilnadu",
+      "templeName": "Bhavani Sangameswarar Temple",
+      "goddessName": "Bhavani",
+      "bhairava": null,
+      "associatedBodyPart": "— (regional tradition)",
+      "location": {
+        "city": "Bhavani, Erode",
+        "region": "Tamil Nadu",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 11.45,
+        "lon": 77.69
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "regional"
+      ],
+      "traditionNote": "A major Kongu Nadu Devi temple; Peetha status is a regional claim.",
+      "story": "The confluence of Kaveri, Bhavani and Amudha rivers is itself the focus of worship.",
+      "confidence": "medium",
+      "verificationStatus": {
+        "status": "partially-verified",
+        "lastChecked": null,
+        "note": "Recorded from one or two sources; alternative identifications or attributions may exist. Do not cite as settled."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-kolanjiappar",
+      "slug": "kolanjiappar",
+      "templeName": "Sri Kolanjiappar / Pechiyamman",
+      "goddessName": "Pechiyamman",
+      "bhairava": null,
+      "associatedBodyPart": "— (regional tradition)",
+      "location": {
+        "city": "Viralimalai / Kolanjimalai",
+        "region": "Tamil Nadu",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 10.58,
+        "lon": 78.45
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "regional"
+      ],
+      "traditionNote": "A guardian-goddess tradition of Tamil Nadu; not a classical Peetha.",
+      "story": "Illustrates how Tamil Amman worship differs structurally from Sanskritic Peetha lists.",
+      "confidence": "low",
+      "verificationStatus": {
+        "status": "awaiting-verification",
+        "lastChecked": null,
+        "note": "Single-source or contested. Treat as a traditional claim pending independent verification."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-yogadya-khadireshwari",
+      "slug": "yogadya-khadireshwari",
+      "templeName": "Yogadya Khadireshwari (Tarapith region)",
+      "goddessName": "Yogadya",
+      "bhairava": null,
+      "associatedBodyPart": "— (regional tradition)",
+      "location": {
+        "city": "Bardhaman",
+        "region": "West Bengal",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 23.23,
+        "lon": 87.86
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51"
+      ],
+      "traditionNote": "Listed in some enumerations; attribution not uniform.",
+      "story": "Part of the dense network of Bengali Shakta seats in the Bardhaman region.",
+      "confidence": "low",
+      "verificationStatus": {
+        "status": "awaiting-verification",
+        "lastChecked": null,
+        "note": "Single-source or contested. Treat as a traditional claim pending independent verification."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-jessore-jeshoreshwari",
+      "slug": "jessore-jeshoreshwari",
+      "templeName": "Jeshoreshwari Kali Temple",
+      "goddessName": "Jeshoreshwari",
+      "bhairava": null,
+      "associatedBodyPart": "hands / palms (in some lists)",
+      "location": {
+        "city": "Ishwaripur, Satkhira",
+        "region": "Khulna",
+        "country": "Bangladesh"
+      },
+      "coordinates": {
+        "lat": 21.9,
+        "lon": 89.15
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51"
+      ],
+      "traditionNote": "A cross-border tradition; the site is in Bangladesh while much of its devotional literature circulated in Bengal.",
+      "story": "A four-handed Kali image; the temple complex includes older Hindu and adjacent Islamic heritage.",
+      "confidence": "medium",
+      "verificationStatus": {
+        "status": "partially-verified",
+        "lastChecked": null,
+        "note": "Recorded from one or two sources; alternative identifications or attributions may exist. Do not cite as settled."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-chandranath",
+      "slug": "chandranath",
+      "templeName": "Chandranath Temple",
+      "goddessName": "Bhavani / Chandranath",
+      "bhairava": null,
+      "associatedBodyPart": "right arm (in some lists)",
+      "location": {
+        "city": "Sitakunda, Chittagong",
+        "region": "Chittagong",
+        "country": "Bangladesh"
+      },
+      "coordinates": {
+        "lat": 22.36,
+        "lon": 91.7
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51"
+      ],
+      "traditionNote": "Body-part attribution is contested; some lists assign the right arm elsewhere.",
+      "story": "A hill shrine on the Chittagong coast, historically linked to Bengali pilgrimage circuits.",
+      "confidence": "low",
+      "verificationStatus": {
+        "status": "awaiting-verification",
+        "lastChecked": null,
+        "note": "Single-source or contested. Treat as a traditional claim pending independent verification."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-shrinagar-sharada",
+      "slug": "shrinagar-sharada",
+      "templeName": "Sharada Devi, Sharda Peeth (Kashmir)",
+      "goddessName": "Sharada",
+      "bhairava": null,
+      "associatedBodyPart": "— (regional tradition)",
+      "location": {
+        "city": "Sharda, Neelum",
+        "region": "Azad Kashmir",
+        "country": "Pakistan"
+      },
+      "coordinates": {
+        "lat": 34.79,
+        "lon": 74.19
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51"
+      ],
+      "traditionNote": "Distinct from the general 'Sharada Peeth' entry in some lists; identification is disputed.",
+      "story": "The ruins are read by scholars as a temple-monastery complex central to Sharada script transmission.",
+      "confidence": "low",
+      "verificationStatus": {
+        "status": "awaiting-verification",
+        "lastChecked": null,
+        "note": "Single-source or contested. Treat as a traditional claim pending independent verification."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-kanyakumari",
+      "slug": "kanyakumari",
+      "templeName": "Bhagavathy Amman Temple",
+      "goddessName": "Kanyakumari / Bhadrakali",
+      "bhairava": null,
+      "associatedBodyPart": "— (regional tradition; some lists: back part)",
+      "location": {
+        "city": "Kanyakumari",
+        "region": "Tamil Nadu",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 8.08,
+        "lon": 77.55
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51",
+        "regional"
+      ],
+      "traditionNote": "Peetha status appears in some expanded lists; classical enumerations differ.",
+      "story": "The southern tip of the subcontinent, where three seas meet, is worshipped as the Goddess herself.",
+      "confidence": "high",
+      "verificationStatus": {
+        "status": "verified",
+        "lastChecked": null,
+        "note": "Temple identity, location and the body-part attribution are consistent across the sources consulted."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-nashik-bhadrakali",
+      "slug": "nashik-bhadrakali",
+      "templeName": "Bhadrakali Temple",
+      "goddessName": "Bhadrakali",
+      "bhairava": null,
+      "associatedBodyPart": "— (regional tradition)",
+      "location": {
+        "city": "Nashik",
+        "region": "Maharashtra",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 20.01,
+        "lon": 73.8
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "regional"
+      ],
+      "traditionNote": "A Nashik Devi seat; not in classical enumerations.",
+      "story": "Part of the Godavari-bank temple cluster around Trimbakeshwar.",
+      "confidence": "medium",
+      "verificationStatus": {
+        "status": "partially-verified",
+        "lastChecked": null,
+        "note": "Recorded from one or two sources; alternative identifications or attributions may exist. Do not cite as settled."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-trincomalee",
+      "slug": "trincomalee",
+      "templeName": "Koneswaram Temple (Thirukonamalai)",
+      "goddessName": "Shankari / Koneshwari",
+      "bhairava": "Koneshwara (Shiva)",
+      "associatedBodyPart": "(Ashtadasha enumeration; no fallen part named)",
+      "location": {
+        "city": "Trincomalee",
+        "region": "Eastern Province",
+        "country": "Sri Lanka"
+      },
+      "coordinates": {
+        "lat": 8.58,
+        "lon": 81.24
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "18"
+      ],
+      "traditionNote": "Named first in the Ashtadasha enumeration. Membership of the 18-seat list varies between recensions, so this is presented as one tradition ordering rather than a fixed canon.",
+      "story": "The temple stands on Swami Rock above the harbour. Much of the historic complex was destroyed in the colonial period and the present shrine was rebuilt in the 20th century.",
+      "confidence": "medium",
+      "verificationStatus": {
+        "status": "partially-verified",
+        "lastChecked": null,
+        "note": "Recorded from one or two sources; alternative identifications or attributions may exist. Do not cite as settled."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-chamundeshwari-mysore",
+      "slug": "chamundeshwari-mysore",
+      "templeName": "Chamundeshwari Temple",
+      "goddessName": "Chamundeshwari",
+      "bhairava": "(not recorded)",
+      "associatedBodyPart": "(Ashtadasha enumeration)",
+      "location": {
+        "city": "Chamundi Hills, Mysuru",
+        "region": "Karnataka",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 12.25,
+        "lon": 76.65
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "18",
+        "regional"
+      ],
+      "traditionNote": "Counted among the 18 in some recensions; other recensions place Chamunda elsewhere.",
+      "story": "A hilltop temple above Mysuru, closely associated with the Mahishasura narrative and with the Dasara festival.",
+      "confidence": "high",
+      "verificationStatus": {
+        "status": "verified",
+        "lastChecked": null,
+        "note": "Temple identity, location and the body-part attribution are consistent across the sources consulted."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-guhyeshwari",
+      "slug": "guhyeshwari",
+      "templeName": "Guheshwari Temple",
+      "goddessName": "Guheshwari / Mahashakti",
+      "bhairava": "(not recorded)",
+      "associatedBodyPart": "both knees (in some lists)",
+      "location": {
+        "city": "Guheshwari, Kathmandu",
+        "region": "Bagmati",
+        "country": "Nepal"
+      },
+      "coordinates": {
+        "lat": 27.71,
+        "lon": 85.34
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "51",
+        "regional"
+      ],
+      "traditionNote": "A Nepalese seat included by many enumerations; the body-part attribution is not uniform.",
+      "story": "Beside the Pashupatinath complex on the Bagmati, part of the dense Shakta landscape of the Kathmandu valley.",
+      "confidence": "medium",
+      "verificationStatus": {
+        "status": "partially-verified",
+        "lastChecked": null,
+        "note": "Recorded from one or two sources; alternative identifications or attributions may exist. Do not cite as settled."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-muktinath",
+      "slug": "muktinath",
+      "templeName": "Muktinath / Jwala Mai",
+      "goddessName": "Jwala Mai (Muktinath)",
+      "bhairava": "(not recorded)",
+      "associatedBodyPart": "(regional tradition)",
+      "location": {
+        "city": "Muktinath, Mustang",
+        "region": "Gandaki",
+        "country": "Nepal"
+      },
+      "coordinates": {
+        "lat": 28.82,
+        "lon": 83.87
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "regional"
+      ],
+      "traditionNote": "A shared Hindu-Buddhist pilgrimage site; Peetha status is a regional claim.",
+      "story": "An eternal flame beside a water spring and natural gas seep, venerated in both traditions.",
+      "confidence": "medium",
+      "verificationStatus": {
+        "status": "partially-verified",
+        "lastChecked": null,
+        "note": "Recorded from one or two sources; alternative identifications or attributions may exist. Do not cite as settled."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    },
+    {
+      "id": "peetha-shrinkala-pandua",
+      "slug": "shrinkala-pandua",
+      "templeName": "Shrinkala Peeth (Pandua)",
+      "goddessName": "Shrinkala Devi",
+      "bhairava": "(not recorded)",
+      "associatedBodyPart": "(Ashtadasha enumeration)",
+      "location": {
+        "city": "Pandua, Hooghly",
+        "region": "West Bengal",
+        "country": "India"
+      },
+      "coordinates": {
+        "lat": 23.08,
+        "lon": 88.28
+      },
+      "coordinateNote": "Approximate centroid for map placement only. Not a survey measurement and not a navigation waypoint.",
+      "lists": [
+        "18"
+      ],
+      "traditionNote": "Some recensions of the Ashtadasha list name Shrinkala, others substitute a different seat, and the identification with Pandua is itself debated.",
+      "story": "Associated with the Chandi-mangalkavya tradition and with the older settlement history of the Hooghly region.",
+      "confidence": "low",
+      "verificationStatus": {
+        "status": "awaiting-verification",
+        "lastChecked": null,
+        "note": "Single-source or contested. Treat as a traditional claim pending independent verification."
+      },
+      "officialWebsite": null,
+      "darshanTimings": null,
+      "accessibility": null,
+      "visitorInfoNote": "Darshan timings, official websites and transport details are intentionally left empty rather than filled in. They must be entered only from a current official source and stamped with a last-verified date.",
+      "sampleContent": true
+    }
+  ]
+}
