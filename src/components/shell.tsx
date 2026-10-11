@@ -8,6 +8,8 @@ import { LANGUAGES, t, type LangCode } from "@/lib/i18n";
 import { Mandala, Diya, OmMark, MotesStatic } from "./ornament";
 import { OfflineStatusChip } from "./offline";
 import { CinematicBackdrop } from "./backdrop";
+import { CinematicArt } from "./art";
+import { ART } from "@/lib/art";
 import { routeTheme, themeVars } from "@/lib/theme";
 
 const BOTTOM = [
@@ -239,6 +241,12 @@ export function Shell({ children }: { children: React.ReactNode }) {
     [sectionTheme, state.settings.theme],
   );
 
+  // These routes already embed their own framed artwork (home hero, the Maa
+  // Durga index banner, and each Navadurga profile's form banner), so the
+  // Shell-level banner would duplicate them there.
+  const hasOwnArt =
+    pathname === "/" || pathname === "/maa-durga" || pathname.startsWith("/navadurga/");
+
   return (
     <div style={themeStyle as CSSProperties}>
       <CinematicBackdrop />
@@ -328,6 +336,15 @@ export function Shell({ children }: { children: React.ReactNode }) {
         </nav>
 
         <main id="main" className="min-w-0 flex-1 px-4 pb-28 pt-6 sm:pb-12 lg:pb-16">
+          {/* Pages that don't carry their own framed artwork still show the
+              created Devi imagery as a cinematic banner at the top. */}
+          {!hasOwnArt && (
+            <CinematicArt
+              src={ART.hero}
+              alt="Maa Durga, the Divine Shakti, in a cinematic devotional rendering"
+              className="mb-8"
+            />
+          )}
           {children}
           <Footer lang={lang} />
         </main>
