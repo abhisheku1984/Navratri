@@ -353,6 +353,51 @@
 }
 [data-motion="reduced"] .cinematic-img { animation: none; transform: none; }
 
+/* ---------------------------------------------------- cinematic backdrop */
+/* A fixed, faint Devi Durga layer behind every page; tinted per section via
+   --tint. Kept low-contrast so body copy stays readable over it. */
+.app-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+}
+.app-backdrop--solid {
+  background:
+    radial-gradient(120% 100% at 85% 20%,
+      color-mix(in srgb, var(--tint, #8d3446) 14%, var(--surface)) 0%,
+      var(--surface) 60%);
+}
+.app-backdrop-img {
+  position: absolute;
+  inset: -4%;
+  background-image: url("/art/backdrop-devi.jpg");
+  background-size: cover;
+  background-position: center right;
+  opacity: 0.14;
+  filter: saturate(1.05) contrast(1.04);
+  animation: backdrop-drift 30s ease-in-out infinite alternate;
+}
+/* Per-section tint + a vertical scrim for legibility of running text. */
+.app-backdrop-scrim {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(to bottom,
+      color-mix(in srgb, var(--tint, #8d3446) 10%, transparent) 0%,
+      transparent 30%,
+      color-mix(in srgb, var(--surface) 30%, transparent) 100%),
+    radial-gradient(130% 100% at 50% 0%, transparent 55%,
+      color-mix(in srgb, var(--tint, #8d3446) 18%, transparent) 100%);
+}
+@keyframes backdrop-drift {
+  from { transform: scale(1.02) translateY(0); }
+  to   { transform: scale(1.1) translateY(-1.5%); }
+}
+[data-motion="reduced"] .app-backdrop-img { animation: none; }
+@media print { .app-backdrop { display: none; } }
+
 @media print {
   .no-print { display: none !important; }
 }

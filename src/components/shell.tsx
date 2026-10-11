@@ -2,11 +2,13 @@
 
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
 import { useApplySettings, useUser } from "@/lib/user";
 import { LANGUAGES, t, type LangCode } from "@/lib/i18n";
 import { Mandala, Diya, OmMark, MotesStatic } from "./ornament";
 import { OfflineStatusChip } from "./offline";
+import { CinematicBackdrop } from "./backdrop";
+import { routeTheme, themeVars } from "@/lib/theme";
 
 const BOTTOM = [
   { href: "/", key: "nav.home", icon: "◈" },
@@ -229,8 +231,18 @@ export function Shell({ children }: { children: React.ReactNode }) {
     return map;
   }, [pathname]);
 
+  // Per-section cinematic theming: accent, soft fill, backdrop tint, display
+  // serif — resolved from the route and the user's light/dark choice.
+  const sectionTheme = useMemo(() => routeTheme(pathname), [pathname]);
+  const themeStyle = useMemo(
+    () => themeVars(sectionTheme, state.settings.theme === "dark"),
+    [sectionTheme, state.settings.theme],
+  );
+
   return (
-    <>
+    <div style={themeStyle as CSSProperties}>
+      <CinematicBackdrop />
+      <>
       {splash && <Splash onDone={() => setSplash(false)} />}
       {firstRun && !splash && (
         <FirstRun onDone={() => { setSettings({ firstRunDone: true }); setFirstRun(false); }} />
@@ -344,7 +356,8 @@ export function Shell({ children }: { children: React.ReactNode }) {
           })}
         </ul>
       </nav>
-    </>
+      </>
+    </div>
   );
 }
 
