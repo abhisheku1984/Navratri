@@ -79,10 +79,19 @@ email, no location permission. The location selector is a list of cities with
 published coordinates used for panchang computation; it is not geolocation.
 
 ### User-generated content
-Not implemented, deliberately. There is no comment, review, or upload path.
+Not implemented, deliberately. There is no comment, review, or publishing path.
 `report_error` in the schema is write-only intake; nothing a reader submits is
 published anywhere. The prerequisite — a staffed moderation workflow — does not
 exist, so the feature does not either.
+
+**The one exception is `/upload`, a browser-only preparation tool.** It reads a
+text the reader chooses (.txt, .md, .itx or pasted text) with `FileReader`, shows
+a structural analysis (script, verse markers, chapter headings), and offers a
+whitespace-normalised download. Nothing is sent to a server, nothing is stored,
+and nothing is published or merged into the corpus. The counts it shows are raw
+structural counts, not verified verse totals; `npm run verify:scripture` remains
+the authority. PDFs are not read in the browser, because text extraction and OCR
+need a server-side or offline pipeline.
 
 ### Content administration (CMS)
 **Partial — a review console, not an editor.** `/admin` aggregates all 190

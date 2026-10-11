@@ -40,6 +40,7 @@ const SIDE = [
     { href: "/learn", key: "nav.learn" },
     { href: "/devi-gyan", key: "nav.assistant" },
     { href: "/sources", key: "nav.sources" },
+    { href: "/upload", key: "nav.upload" },
   ]},
   { group: "You", items: [
     { href: "/saved", key: "nav.saved" },
