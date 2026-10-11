@@ -151,3 +151,41 @@ Still English-only by design, and said so on the page: the Pargiter (1904)
 witness translation, the Maa Durga knowledge topics, the ritual guides and the
 mantra entries. Those pages now state which languages they exist in and point at
 the Hindi material instead of leaving the reader to guess.
+
+
+## Appendix — the uploaded Gita Press PDF, and what was done with it
+
+The reader uploaded `durga-saptashati-hindi.pdf` (159 pages, 466 KB, produced
+2013 by iText 5.4.0b) to `main` and asked for the app to carry something similar.
+What the file actually is, established by reading it:
+
+- a **Gita Press, Gorakhpur** edition — the publisher's own notice ("प्रकाशकीय
+  निवेदन") says the Hindi translation is published by Gita Press;
+- Sanskrit mula with Hindi anuvada, plus shloka-sangraha, Durga Ashtottara
+  shata-nama stotra, patha-vidhi, Devi Kavacha, Argala, Kilaka, Vedo-ukta
+  Ratri Sukta, Tantrokta Ratri Sukta, Devi Atharvashirsha, Navarna-vidhi and
+  Saptashati-nyasa;
+- its text layer is a **legacy Chanakya font with no ToUnicode map**, so the
+  character codes are glyph indices. Reading it required the font-specific
+  mapping, not ordinary extraction — this is exactly the case the `/upload` page
+  now names on screen instead of guessing.
+
+**Decision.** The Sanskrit verses are public domain and the app already carries
+them (verified, 656 verse units). The **Hindi translation is Gita Press's
+copyrighted work and was not copied into the app**, in line with the project's
+own rule ("no unauthorised reproduction of copyrighted books"). What was built
+instead:
+
+1. **`/upload`** — a PDF intake page. Drop any PDF; it reports pages, text layer,
+   fonts, images, metadata, a script census, whether the file uses a legacy Hindi
+   font with no ToUnicode map, then gives a verdict per intended use (read,
+   compare, translate, publish, narrate) under the app's publishing rules, and
+   offers the report as a download or a journal entry. Nothing is uploaded; the
+   file is read on the reader's device.
+2. **Original Hindi arth** — `src/content/scripture/arth-hi/01.json`, written
+   from the Sanskrit for this app, rendered under each verse of chapter 1 with
+   the basis stated on the page. It is the app's own rendering, not a copy of any
+   published translation, and it is kept in its own file so a rendering can never
+   quietly alter a verified verse.
+
+Chapters 2–13 remain to be written the same way.

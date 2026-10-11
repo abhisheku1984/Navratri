@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getChapter, getChapters, getManifestEntry, getTranslation } from "@/lib/content";
+import {
+  getChapter, getChapterArth, getChapters, getManifestEntry, getTranslation,
+} from "@/lib/content";
 import { ChapterReading, ChapterVersesAudio } from "@/components/chapter-reading";
 import {
   Breadcrumbs, Card, Chip, DefinitionList, OrnamentRule, PageHeader, VerseBlock,
@@ -38,6 +40,7 @@ export default async function ChapterPage(
   const ch = getChapter(n);
   const entry = getManifestEntry(n);
   const translation = getTranslation(n);
+  const arth = getChapterArth(n);
   if (!ch || !entry) notFound();
 
   const prev = n > 1 ? getChapter(n - 1) : null;
@@ -105,6 +108,13 @@ export default async function ChapterPage(
           <section aria-label={`Verses of chapter ${n}`}>
             <h2 className="sr-only">Verses</h2>
 
+            {arth && (
+              <p className="muted mb-5 rounded-lg border p-3 text-xs leading-relaxed"
+                 style={{ borderColor: "var(--line)" }}>
+                <strong>{arth.title}</strong> — {arth.note}
+              </p>
+            )}
+
             <ChapterVersesAudio
               n={n}
               className="mb-6"
@@ -124,6 +134,19 @@ export default async function ChapterPage(
                         padas={v.padas}
                         speaker={v.speaker}
                       />
+                      {arth?.arth[v.label] && (
+                        <div
+                          className="mt-3 rounded-lg border-l-2 bg-[var(--surface-3)] py-2 pl-3 pr-2"
+                          style={{ borderColor: "var(--gold)" }}
+                          lang="hi"
+                        >
+                          <p className="muted mb-1 text-[0.62rem] uppercase tracking-[0.16em]">
+                            हिन्दी अर्थ · this app&rsquo;s own rendering
+                          </p>
+                          <p className="deva text-[0.98rem] leading-[1.95]">{arth.arth[v.label]}</p>
+                        </div>
+                      )}
+
                       <div className="absolute right-0 top-0 flex gap-1 opacity-0 transition-opacity focus-within:opacity-100 group-hover:opacity-100">
                         <ReadAloudButton text={v.devanagari} lang="sa" label={`verse ${v.label} in Devanagari`} />
                         <BookmarkButton kind="verse" ref_={`${ch.id}:${v.label}`}

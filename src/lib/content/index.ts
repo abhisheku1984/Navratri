@@ -46,6 +46,7 @@ import angaSuktam from "@/content/scripture/angas/devi-suktam.json";
 import angaKshamapana from "@/content/scripture/angas/aparadha-kshamapana.json";
 import angaDhyana from "@/content/scripture/angas/chandika-dhyana.json";
 
+import arthHi01 from "@/content/scripture/arth-hi/01.json";
 import trManifestJson from "@/content/scripture/translations/en-pargiter-1904/manifest.json";
 import tr01 from "@/content/scripture/translations/en-pargiter-1904/01.json";
 import tr02 from "@/content/scripture/translations/en-pargiter-1904/02.json";
@@ -106,6 +107,37 @@ export function getChapter(numberOrSlug: string | number): ScriptureChapter | nu
     return CHAPTERS.find((c) => c.number === n) ?? null;
   }
   return CHAPTERS.find((c) => c.slug === numberOrSlug) ?? null;
+}
+
+/**
+ * This app's own Hindi arth (verse-by-verse meaning), where one has been
+ * written. Deliberately its own file per chapter, separate from the verified
+ * Sanskrit corpus: the corpus is checked by `verify:scripture`, and a rendering
+ * must never be able to quietly alter a verse.
+ *
+ * The arth is written from the Sanskrit; it is not a copy of any published
+ * Hindi translation, and the reader is told that on the page.
+ */
+export interface ChapterArth {
+  chapter: number;
+  language: "hi";
+  title: string;
+  label: string;
+  note: string;
+  arth: Record<string, string>;
+}
+
+const ARTH_HI: Record<number, ChapterArth> = {
+  1: arthHi01 as unknown as ChapterArth,
+};
+
+export function getChapterArth(number: number): ChapterArth | null {
+  return ARTH_HI[number] ?? null;
+}
+
+/** How many chapters have a written Hindi arth so far. */
+export function arthHiChapters(): number[] {
+  return Object.keys(ARTH_HI).map(Number).sort((a, b) => a - b);
 }
 
 export function getChapterIndex() {

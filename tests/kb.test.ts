@@ -15,6 +15,7 @@ import {
   getAngas, getChapters, getKbDocument, getKbDocuments, getKbSections,
   getKnowledgeTopics, getLaunchQuestionMatrix, getLaunchQuestionSections,
   getMantras, getNavadurgaForms, getPujaGuides, getSources, getStories,
+  getChapter, getChapterArth, arthHiChapters,
 } from "@/lib/content";
 import { CHAPTER_STORY_EN, CHAPTER_STORY_HI } from "@/lib/hindi";
 
@@ -246,5 +247,42 @@ describe("language coverage of the reading experience", () => {
       .filter((s) => !(s.shortHi && s.longHi))
       .map((s) => s.slug);
     expect(withoutHi).toEqual([]);
+  });
+});
+
+describe("Hindi arth (verse-by-verse meaning)", () => {
+  it("covers exactly the verse units of the chapter it belongs to", () => {
+    for (const n of arthHiChapters()) {
+      const chapter = getChapter(n);
+      expect(chapter, `chapter ${n}`).toBeTruthy();
+      const arth = getChapterArth(n)!;
+      const labels = chapter!.verses.map((v) => v.label);
+      expect(Object.keys(arth.arth).sort()).toEqual([...labels].sort());
+    }
+  });
+
+  it("writes a real sentence for every verse unit, never a placeholder", () => {
+    for (const n of arthHiChapters()) {
+      const arth = getChapterArth(n)!;
+      for (const [label, text] of Object.entries(arth.arth)) {
+        expect(text.length, `chapter ${n} verse ${label}`).toBeGreaterThan(8);
+        // Verse units here can split a sentence across two units, so a comma
+        // or a dash (meaning "this runs on into the next unit") is legitimate —
+        // a bare unfinished fragment is not.
+        expect(/[।?!”),—]$/.test(text.trim()), `${label} closes`).toBe(true);
+        expect(/[\u0900-\u097F]/.test(text), `${label} is Devanagari`).toBe(true);
+      }
+      // the basis is stated on the page, so it must exist
+      expect(arth.note.length, `chapter ${n} note`).toBeGreaterThan(60);
+      expect(arth.label.length).toBeGreaterThan(1);
+    }
+  });
+
+  it("labels the arth as this app's own rendering, not a published translation", () => {
+    for (const n of arthHiChapters()) {
+      const note = getChapterArth(n)!.note;
+      expect(note).toMatch(/इस ऐप/);
+      expect(note).toMatch(/प्रकाशित|अनुवाद/);
+    }
   });
 });
